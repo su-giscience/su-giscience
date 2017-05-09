@@ -9,6 +9,7 @@ output:
 
 ## Google Calendar -- Upcoming events
 
+<!-- http://stackoverflow.com/questions/11122249/scale-iframe-css-width-100-like-an-image -->
 <div class="h_iframe">
 <!-- a transparent image is preferable -->
 <img class="ratio" src="http://placehold.it/16x9"/>

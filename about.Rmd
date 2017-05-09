@@ -1,7 +1,13 @@
 ---
-title: "About me"
+title: "About our community"
 ---
 
-## Header
+## Where are we?
 
-Say more about you here.
+```{r, echo=FALSE}
+suppressWarnings(library(leaflet))
+library(magrittr)
+
+m <- leaflet(width = "100%") %>% setView(lng = 5.767249, lat = 45.190590, zoom = 12)
+m %>% addTiles() 
+```
