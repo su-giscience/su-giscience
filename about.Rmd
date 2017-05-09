@@ -9,5 +9,5 @@ suppressWarnings(library(leaflet))
 library(magrittr)
 
 m <- leaflet(width = "100%") %>% setView(lng = 5.767249, lat = 45.190590, zoom = 12)
-m %>% addTiles() 
+m %>% addTiles() %>% addMarkers(lng = 5.767249, lat = 45.190590, popup = "Meetup location") %>% addMarkers(lat = 45.198496, lng = 5.748917, popup = "This is me!")
 ```
