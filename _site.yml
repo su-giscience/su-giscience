@@ -1,8 +1,7 @@
-name: "YOURNAME"                                  # CHANGE HERE 
+name: "R & Python in Grenoble"                                  # CHANGE HERE 
 output_dir: "."
 navbar:
-  title: "YOURNAME"                               # CHANGE HERE 
-  type: inverse
+  title: "R & Python in Grenoble"    
   left:
     - text: "Home"
       icon: fa-home
@@ -10,12 +9,9 @@ navbar:
     - text: "About"
       icon: fa-user 
       href: about.html
-    - text: "CV"
-      icon: fa-file-pdf-o
-      href: cv.html
     - text: "Blog"
       icon: fa-rss
-      href: https://YOURGITHUB.github.io/blog/    # CHANGE HERE 
+      href: https://r-python-grenoble.github.io/blog/    # CHANGE HERE 
   right:
     - text: "Contact me"
       icon: fa-envelope-o

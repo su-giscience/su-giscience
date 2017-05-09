@@ -1,5 +1,10 @@
 ---
-title: "Welcome to my website!"
+title: "Welcome to Grenoble!"
+output:
+  html_document:
+    includes:
+      in_header: cover.html
 ---
 
-You're up and running!
+
+
