@@ -6,8 +6,16 @@ title: "About our community"
 
 ```{r, echo=FALSE}
 suppressWarnings(library(leaflet))
-library(magrittr)
 
 m <- leaflet(width = "100%") %>% setView(lng = 5.767249, lat = 45.190590, zoom = 12)
-m %>% addTiles() %>% addMarkers(lng = 5.767249, lat = 45.190590, popup = "Meeting location") %>% addMarkers(lat = 45.198496, lng = 5.748917, popup = "This is me!")
+m %>% 
+  addTiles() %>% 
+  addMeasure(position = "topright", primaryLengthUnit = "kilometers") %>%
+  addMarkers(lng = 5.767249, lat = 45.190590, popup = "Meeting location") %>%
+  addMarkers(lat = 45.198496, lng = 5.748917, popup = "This is me!") 
 ```
+<br>
+
+### Where are you?
+
+Use the topright button, then click any location. It will give you the latitude and the logitude of the clicked point.
