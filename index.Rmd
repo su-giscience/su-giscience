@@ -2,6 +2,7 @@
 title: "Welcome to Grenoble!"
 output:
   html_document:
+    css: styles.css
     includes:
       in_header: cover.html
 ---
@@ -9,4 +10,11 @@ output:
 ## Google Calendar -- Upcoming events
 
 <iframe src="https://calendar.google.com/calendar/embed?src=2ttvq1sfpibbugl2cnqotm7c40%40group.calendar.google.com&ctz=Europe/Paris" style="border: 0" width="0" height="0" frameborder="0" scrolling="no"></iframe>
-<iframe src="https://calendar.google.com/calendar/embed?src=2ttvq1sfpibbugl2cnqotm7c40%40group.calendar.google.com&ctz=Europe/Paris" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?src=2ttvq1sfpibbugl2cnqotm7c40%40group.calendar.google.com&ctz=Europe/Paris" style="border: 0" width="100%" height="auto" frameborder="0" scrolling="no"></iframe>
+
+<div class="wrapper">
+    <div class="h_iframe">
+        <iframe height="2" width="2" src="http://www.youtube.com/embed/WsFWhL4Y84Y" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <p>Please scale the "result" window to notice the effect.</p>
+</div>
