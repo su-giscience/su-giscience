@@ -6,5 +6,10 @@ output:
       in_header: cover.html
 ---
 
+## Google Calendar -- Upcoming events
 
+<iframe src="https://calendar.google.com/calendar/embed?src=2ttvq1sfpibbugl2cnqotm7c40%40group.calendar.google.com&ctz=Europe/Paris" style="border: 0" width="1" height="1" frameborder="0" scrolling="no"></iframe>
 
+<iframe src="https://calendar.google.com/calendar/embed?src=2ttvq1sfpibbugl2cnqotm7c40%40group.calendar.google.com&ctz=Europe/Paris" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+<iframe src="https://calendar.google.com/calendar/embed?src=mycalendar%gmail.com&ctz=America/Edmonton" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
