@@ -1,10 +1,3 @@
----
-title: "About our community"
----
-
-## Where are we?
-
-```{r, echo=FALSE}
 members <- readxl::read_excel("members.xlsx")
 
 library(foreach)
@@ -25,9 +18,3 @@ m %>%
   addMarkers(lng = members$Longitude, 
              lat = members$Latitude, 
              popup = asHTMLtext(subset(members, select = -c(Longitude, Latitude))))
-```
-<br>
-
-### Where are you?
-
-Use the topright button, then click any location. It will give you the latitude and the logitude of the clicked point.
