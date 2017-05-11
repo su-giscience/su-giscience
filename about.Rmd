@@ -8,7 +8,7 @@ title: "About our community"
 members <- readxl::read_excel("members.xlsx")
 ind.admin <- which(members$Status == "admin")
 
-library(foreach)
+library(foreach, quietly = TRUE)
 asHTMLtext <- function(df) {
   paste.br <- function(lhs, rhs) paste(lhs, rhs, sep = "<br>")
   foreach(ic = seq_along(df), .combine = "paste.br") %do% {
