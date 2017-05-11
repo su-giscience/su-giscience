@@ -5,14 +5,42 @@ title: "About our community"
 ## Where are we?
 
 ```{r, echo=FALSE}
+members <- readxl::read_excel("members.xlsx")
+ind.admin <- which(members$Status == "admin")
+
+library(foreach)
+asHTMLtext <- function(df) {
+  paste.br <- function(lhs, rhs) paste(lhs, rhs, sep = "<br>")
+  foreach(ic = seq_along(df), .combine = "paste.br") %do% {
+    paste(names(df)[ic], df[[ic]], sep = ": ")
+  }
+}
+members_infos <- asHTMLtext(
+  subset(members, select = -c(Longitude, Latitude, Status)))
+
 suppressWarnings(library(leaflet))
 
-m <- leaflet(width = "100%") %>% setView(lng = 5.767249, lat = 45.190590, zoom = 12)
-m %>% 
+icon.meetup <- makeAwesomeIcon("android-locate", library = "ion", 
+                               markerColor = "red")
+icon.admin <- makeAwesomeIcon("person", library = "ion", 
+                              markerColor = "darkblue")
+icon.member <- makeAwesomeIcon("person", library = "ion")
+
+
+leaflet(width = "100%") %>% 
+  setView(lng = 5.767249, lat = 45.190590, zoom = 12) %>% 
   addTiles() %>% 
   addMeasure(position = "topright", primaryLengthUnit = "kilometers") %>%
-  addMarkers(lng = 5.767249, lat = 45.190590, popup = "Meeting location") %>%
-  addMarkers(lat = 45.198496, lng = 5.748917, popup = "This is me!") 
+  addAwesomeMarkers(lng = 5.767249, lat = 45.190590, popup = "Meeting location",
+                    icon = icon.meetup) %>%
+  addAwesomeMarkers(lng = members$Longitude[ind.admin], 
+                    lat = members$Latitude[ind.admin], 
+                    popup = members_infos[ind.admin],
+                    icon = icon.admin) %>%
+  addAwesomeMarkers(lng = members$Longitude[-ind.admin], 
+                    lat = members$Latitude[-ind.admin], 
+                    popup = members_infos[-ind.admin],
+                    icon = icon.member)
 ```
 <br>
 
