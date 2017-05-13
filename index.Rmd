@@ -7,7 +7,7 @@ output:
       in_header: cover.html
 ---
 
-## Google Calendar -- Upcoming events
+## Upcoming events
 
 <!-- http://stackoverflow.com/questions/11122249/scale-iframe-css-width-100-like-an-image -->
 <div class="h_iframe">
