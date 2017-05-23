@@ -5,7 +5,12 @@ title: "About our community"
 ## Where are we?
 
 ```{r, echo=FALSE}
-members <- readxl::read_excel("members.xlsx")
+suppressMessages(
+  members <- googlesheets::gs_read(googlesheets::gs_key(
+    "1WyfmLfoAQUP2iRogqcOfYA9Hum7DT0BcVyTtei_6Xjw", 
+    lookup = TRUE, visibility = "private",
+  ))
+)
 ind.admin <- which(members$Status == "admin")
 
 library(foreach, quietly = TRUE)
