@@ -20,8 +20,8 @@ asHTMLtext <- function(df) {
     paste(names(df)[ic], df[[ic]], sep = ": ")
   }
 }
-members_infos <- asHTMLtext(
-  subset(members, select = -c(Longitude, Latitude, Status)))
+members2 <- subset(members, select = -c(Longitude, Latitude, Status))
+members_infos <- asHTMLtext(members2)
 
 suppressWarnings(library(leaflet))
 
@@ -47,6 +47,11 @@ leaflet(width = "100%") %>%
                     popup = members_infos[-ind.admin],
                     icon = icon.member)
 ```
+
+```{r, echo=FALSE}
+DT::datatable(members2)
+```
+
 <br>
 
 ### Where are you?
