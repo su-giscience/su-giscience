@@ -205,4 +205,6 @@ We are open to have a **website** and a **newsletter** in common for both commun
 
 ## MaiMoSiNE 
 
-To be determined
+To be determined 
+
+[Presentation](R-MaiMoSiNE.pdf)
