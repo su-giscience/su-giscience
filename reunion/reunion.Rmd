@@ -105,7 +105,7 @@ class: inverse, center, middle
 
 - Learned a lot from [R-bloggers](https://www.r-bloggers.com/). Now, I [blog](https://privefl.github.io/blog/) to share my knowledge in return.
 
-- Development of [lots of community around R](https://jumpingrivers.github.io/meetingsR/). Already 9 in France, but none in Grenoble.
+- Development of [lots of communities around R](https://jumpingrivers.github.io/meetingsR/). Already 9 in France, but none in Grenoble.
 
 - Many people want/need to improve their skills in R.
 
@@ -191,7 +191,7 @@ class: center
 
 ## The Grenoble Alpes Data Institute 
 
-is willing to pay for the food/drinks.
+is willing to pay for food/drinks.
 
 --- 
 
@@ -203,7 +203,7 @@ We are open to have a **website** and a **newsletter** in common for both commun
 
 --- 
 
-## MaiMoSiNE 
+## MaiMoSiNE - Education
 
 To be determined 
 
