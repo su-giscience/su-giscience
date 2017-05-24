@@ -9,9 +9,9 @@ navbar:
     - text: "Calendar"
       icon: fa-calendar
       href: calendar.html
-    - text: "About"
+    - text: "Members"
       icon: fa-user 
-      href: about.html
+      href: members.html
     - text: "Blog"
       icon: fa-rss
       href: https://r-in-grenoble.github.io/blog/    # CHANGE HERE 
