@@ -11,7 +11,6 @@ members <- googlesheets::gs_read(
     lookup = TRUE, visibility = "private"
   )
 )
-ind.admin <- which(members$Status == "admin")
 
 library(foreach)
 asHTMLtext <- function(df) {
@@ -20,15 +19,13 @@ asHTMLtext <- function(df) {
     paste(names(df)[ic], df[[ic]], sep = ": ")
   }
 }
-members2 <- subset(members, select = -c(Longitude, Latitude, Status))
+members2 <- subset(members, select = -c(Longitude, Latitude))
 members_infos <- asHTMLtext(members2)
 
-suppressWarnings(library(leaflet))
+library(leaflet)
 
 icon.meetup <- makeAwesomeIcon("android-locate", library = "ion", 
                                markerColor = "red")
-icon.admin <- makeAwesomeIcon("person", library = "ion", 
-                              markerColor = "darkblue")
 icon.member <- makeAwesomeIcon("person", library = "ion")
 ```
 
@@ -39,13 +36,9 @@ leaflet(width = "100%") %>%
   addMeasure(position = "topright", primaryLengthUnit = "kilometers") %>%
   addAwesomeMarkers(lng = 5.767249, lat = 45.190590, popup = "Meeting location",
                     icon = icon.meetup) %>%
-  addAwesomeMarkers(lng = members$Longitude[ind.admin], 
-                    lat = members$Latitude[ind.admin], 
-                    popup = members_infos[ind.admin],
-                    icon = icon.admin) %>%
-  addAwesomeMarkers(lng = members$Longitude[-ind.admin], 
-                    lat = members$Latitude[-ind.admin], 
-                    popup = members_infos[-ind.admin],
+  addAwesomeMarkers(lng = members$Longitude, 
+                    lat = members$Latitude, 
+                    popup = members_infos,
                     icon = icon.member)
 ```
 
