@@ -8,11 +8,11 @@ Some ideas are taken from the organization of the [Davis R Users' Group](https:/
 
 ### Working sessions
 
-The main events we want to organize are working sessions of 2 hours (16h-18h probably). 
+The main events we want to organize are monthly working sessions of 2 hours (16h-18h probably). 
 
-- We could host presentations/tutorials on some R topics that can be useful to many people (e.g. optimization of code, the tidyverse, Rcpp, imputation, predictive models, image/text analysis, etc.) during 30-60 min.
+- We will host presentations/tutorials on some R topics that can be useful to many people (e.g. optimization of code, the tidyverse, Rcpp, imputation, predictive models, image/text analysis, etc.) during 30-60 min.
 
-- During the second part of the session, people could ask and answer some questions about specific problems they encounter when coding in R. During this time, beers and sodas could be offered by the [Grenoble Alpes Data Institute](https://data-institute.univ-grenoble-alpes.fr/).
+- During the second part of the session, people could ask and answer some questions about specific problems they encounter when coding in R. During this time, beers and sodas will be offered by the [Grenoble Alpes Data Institute](https://data-institute.univ-grenoble-alpes.fr/).
 
 **The first goal of this R group is that people meet and learn from each other.**
 
@@ -38,11 +38,11 @@ The blog will be relayed at [R-bloggers](https://www.r-bloggers.com/) which is r
 
 - During working sessions, you will probably be refered to some online content in order to learn more about R.
 
-- MaiMoSiNE proposes to announce our working sessions and maybe some experience users could participate in their training courses as teachers. They think our working sessions and their training courses could complement one another.
+- MaiMoSiNE proposes to announce our working sessions and maybe some experience users could participate in their training courses as teachers. They think our working sessions and their training courses will complement one another.
 
 ### Get some help
 
-- A [map and table with members](members.html) of the R group is available. One could contact people with some specific skills (referenced in the table).
+- A [map and table with members](members.html) of the R group is available. One could contact people with some specific skills (referenced in the table). Don't hesitate to register by following the quick guidelines!
 
-- A gitter is available to help people discuss with each other.
+- A [gitter](https://gitter.im/R-in-Grenoble) is available to help people discuss with each other.
 
