@@ -46,7 +46,20 @@ suppressWarnings(
     addAwesomeMarkers(lng = members$Longitude, 
                     lat = members$Latitude, 
                     popup = members_infos,
-                    icon = icon.member)
+                    icon = icon.member) %>%
+    addEasyButton(easyButton(
+      icon = "fa-crosshairs", title = "Locate Me",
+      onClick=JS("function(btn, map){ map.locate({setView: true}); }"))) %>%
+    htmlwidgets::onRender('
+    function(el, x) {
+      var myMap = this;
+      myMap..on("click", function(e) {
+        alert("Lat, Lon : " + e.latlng.lat + ", " + e.latlng.lng)
+      })
+    }')
+
+
+#   map;
 )
 ```
 
