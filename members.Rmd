@@ -61,10 +61,6 @@ DT::datatable(members2,# class = 'cell-border stripe',
 
 <br>
 
-### Where are you?
-
-Use the topright button, then click any location. It will give you the latitude and the logitude of the clicked point.
-
 ### How to be added?
 
 Please fill the [google doc](https://docs.google.com/spreadsheets/d/1qdG7PPlRCAU8L6Hhq1D2zT0q9LWDUzBfq7mIzz_6Dm8/edit?usp=sharing) (**follow the guidelines!!**) and wait for an admin to upload your data to the actual list of members.
