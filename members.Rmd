@@ -38,12 +38,12 @@ icon.member <- makeAwesomeIcon("person", library = "ion")
 ```{r, echo=FALSE}
 suppressWarnings(
   leaflet(width = "100%") %>% 
-  setView(lng = 5.767249, lat = 45.190590, zoom = 12) %>% 
-  addTiles() %>% 
-  addMeasure(position = "topright", primaryLengthUnit = "kilometers") %>%
-  addAwesomeMarkers(lng = 5.767249, lat = 45.190590, popup = "Meeting location",
-                    icon = icon.meetup) %>%
-  addAwesomeMarkers(lng = members$Longitude, 
+    setView(lng = 5.767249, lat = 45.190590, zoom = 12) %>% 
+    addTiles(options = providerTileOptions(minZoom = 2, maxZoom = 20)) %>%
+    addMeasure(position = "topright", primaryLengthUnit = "kilometers") %>%
+    addAwesomeMarkers(lng = 5.767249, lat = 45.190590, popup = "Meeting location",
+                      icon = icon.meetup) %>%
+    addAwesomeMarkers(lng = members$Longitude, 
                     lat = members$Latitude, 
                     popup = members_infos,
                     icon = icon.member)
