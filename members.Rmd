@@ -30,7 +30,8 @@ members_infos <- with(members2, {
 })
 
 icon.meetup <- makeAwesomeIcon("android-locate", library = "ion", 
-                               markerColor = "red")
+                               markerColor = "red", 
+                               extraClasses = "iconWidth: 1000")
 icon.member <- makeAwesomeIcon("person", library = "ion")
 ```
 
