@@ -19,7 +19,7 @@ members <- googlesheets::gs_read(
   tidyr::unite_(col = "Name", from = c("First name", "Last name"),
                 sep = " ", remove = TRUE) %>%
   mutate(Name = if_else(is.na(Website), Name, 
-                        paste0("<a href='", Website, "'>", Name, "</a>")))
+                        paste0("<a href='", Website, "' target='_blank'>", Name, "</a>")))
 
 
 members2 <- subset(members, select = -c(Longitude, Latitude, Website))
