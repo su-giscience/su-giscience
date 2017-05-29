@@ -25,7 +25,9 @@ members <- googlesheets::gs_read(
 members2 <- subset(members, select = -c(Longitude, Latitude, Website))
 members_infos <- with(members2, {
   paste0(Name, "<br>",
-         if_else(is.na(Institution), "", paste0("at ", Institution, "<br>")),
+         if_else(is.na(Institution), "", 
+                 paste0("at ", Institution, "<br>",
+                        "in ", Field, "<br>")),
          "knows ", Keywords)
 })
 
