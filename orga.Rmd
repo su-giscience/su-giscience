@@ -46,3 +46,6 @@ The blog will be relayed at [R-bloggers](https://www.r-bloggers.com/) which is r
 
 - A [gitter](https://gitter.im/R-in-Grenoble) is available to help people discuss with each other.
 
+### Communication
+
+[Subscribe  to the r-in-grenoble newsletter](https://listes.univ-grenoble-alpes.fr/sympa/subscribe/r-in-grenoble?previous_action=info)
