@@ -54,12 +54,12 @@ suppressWarnings(
                     popup = members_infos[-ind.member],
                     icon = icon.referent) %>%
     htmlwidgets::onRender('
-    function(el, x) {
-      var myMap = this;
-      myMap.on("click", function(e) {
-        alert("Latitude: " + e.latlng.lat + "\\nLongitude: " + e.latlng.lng)
-      })
-    }')
+      function(el, x) {
+        var myMap = this;
+        myMap.on("click", function(e) {
+          alert("Latitude: " + e.latlng.lat + "\\nLongitude: " + e.latlng.lng)
+        })
+      }')
 )
 ```
 
