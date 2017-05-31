@@ -21,6 +21,8 @@ members <- googlesheets::gs_read(
   mutate(Name = if_else(is.na(Website), Name, 
                         paste0("<a href='", Website, "' target='_blank'>", Name, "</a>")))
 
+stopifnot(all(members$Status %in% c("member", "referent", "admin")))
+ind.member <- which(members$Status == "member")
 
 members2 <- subset(members, select = -c(Longitude, Latitude, Website))
 members_infos <- with(members2, {
@@ -31,6 +33,7 @@ members_infos <- with(members2, {
 
 icon.meetup <- makeAwesomeIcon("android-locate", library = "ion", markerColor = "red")
 icon.member <- makeAwesomeIcon("person", library = "ion")
+icon.referent <- makeAwesomeIcon("person", library = "ion", markerColor = "darkblue")
 ```
 
 ```{r, echo=FALSE}
@@ -40,10 +43,14 @@ suppressWarnings(
     addTiles(options = providerTileOptions(minZoom = 2, maxZoom = 20)) %>%
     addAwesomeMarkers(lng = 5.767249, lat = 45.190590, popup = "Meeting location",
                       icon = icon.meetup) %>%
-    addAwesomeMarkers(lng = members$Longitude, 
-                    lat = members$Latitude, 
-                    popup = members_infos,
+    addAwesomeMarkers(lng = members$Longitude[ind.member], 
+                    lat = members$Latitude[ind.member], 
+                    popup = members_infos[ind.member],
                     icon = icon.member) %>%
+    addAwesomeMarkers(lng = members$Longitude[-ind.member], 
+                    lat = members$Latitude[-ind.member], 
+                    popup = members_infos[-ind.member],
+                    icon = icon.referent) %>%
     htmlwidgets::onRender('
     function(el, x) {
       var myMap = this;
