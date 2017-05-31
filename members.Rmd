@@ -68,6 +68,13 @@ DT::datatable(members2,# class = 'cell-border stripe',
 	rownames = FALSE, escape = FALSE)
 ```
 
+
+**Status:**
+
+- 'admin' refers to administrators of the website and the mailing list,
+- 'referent' refers to dedicated contact persons within institutions,
+- 'member' refers to all other members of the community.
+
 <br>
 
 ### How to be added?
