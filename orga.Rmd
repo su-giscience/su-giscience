@@ -26,9 +26,7 @@ The main events we want to organize are monthly working sessions of 2 hours (16h
 
 - During the second part of the session, people could ask and answer some questions about specific problems they encounter when coding in R. During this time, beers and sodas will be offered by the [Grenoble Alpes Data Institute](https://data-institute.univ-grenoble-alpes.fr/).
 
-- If you wish to share your R experience (on a specific topic) during a working session, please contact:
-
-*magali.richard at univ-grenoble-alpes.fr* 
+- If you wish to share your R experience (on a specific topic) during a working session, please <A HREF="mailto:florian.prive@univ-grenoble-alpes.fr,magali.richard@univ-grenoble-alpes.fr"> contact us</A>.
 
 ### Attend scientific seminars
 
@@ -40,9 +38,7 @@ The main events we want to organize are monthly working sessions of 2 hours (16h
 
 - Every presentation could be completed with a blog post hosted on the [blog of the R group](blog/).
 
-- We could also host some blog post without having to make a presentation. If you want to share a post, please contact:
-
-*florian.prive at univ-grenoble-alpes.fr*
+- We could also host some blog post without having to make a presentation. If you want to share a post, please <A HREF="mailto:florian.prive@univ-grenoble-alpes.fr,magali.richard@univ-grenoble-alpes.fr"> contact us</A>. 
 
 The blog will be relayed at [R-bloggers](https://www.r-bloggers.com/) which is read by dozens of thousands of people.
 
