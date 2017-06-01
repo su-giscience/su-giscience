@@ -12,6 +12,11 @@ navbar:
     - text: "Members"
       icon: fa-user 
       href: members.html
+    - text: "Chat rooms"
+      icon: fa-comments
+      menu:
+        - text: "Lobby"
+          href: gitter-lobby.html
     - text: "Blog"
       icon: fa-rss
       href: https://r-in-grenoble.github.io/blog/    # CHANGE HERE 
