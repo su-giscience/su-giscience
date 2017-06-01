@@ -52,6 +52,6 @@ The blog will be relayed at [R-bloggers](https://www.r-bloggers.com/) which is r
 
 - A [map and table with members](members.html) of the R group is available. One could contact people with some specific skills (referenced in the table). Don't hesitate to register by following the quick guidelines!
 
-- A [gitter](https://gitter.im/R-in-Grenoble) is available to help people discuss with each other.
+- A [gitter](https://gitter.im/R-in-Grenoble) is available to help people discuss with each other. You can see directly the chat rooms on this website.
 
 
