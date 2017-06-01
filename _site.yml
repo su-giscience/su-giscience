@@ -3,9 +3,6 @@ output_dir: "."
 navbar:
   title: "R in Grenoble"    
   left:
-    - text: "Home"
-      icon: fa-home
-      href: index.html
     - text: "Calendar"
       icon: fa-calendar
       href: calendar.html
