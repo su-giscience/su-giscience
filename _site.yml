@@ -21,8 +21,7 @@ navbar:
       icon: fa-rss
       href: https://r-in-grenoble.github.io/blog/    # CHANGE HERE 
   right:
-    - text: "Contact admins"
-      icon: fa-envelope-o
+    - icon: fa-envelope-o
       href: mailto:florian.prive@univ-grenoble-alpes.fr,magali.richard@univ-grenoble-alpes.fr                      # CHANGE HERE 
     - icon: fa-twitter
       href: https://twitter.com/hashtag/rusersgrenoble?src=hash
