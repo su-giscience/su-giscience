@@ -27,10 +27,9 @@ ind.member <- which(members$Status == "member")
 members2 <- subset(members, select = -c(Longitude, Latitude, Website))
 members_infos <- with(members2, {
   paste0(Name, "<br>",
-         if_else(is.na(Institution), "", 
-                 paste0("at ", Institution, "<br>",
-                        "in ", Field, "<br>")),
-         "knows ", Keywords)
+         if_else(is.na(Institution), "", paste0("at ", Institution, "<br>")),
+         if_else(is.na(Field), "", paste0("in ", Field, "<br>")),
+         if_else(is.na(Keywords), "", paste0("knows ", Keywords)))
 })
 
 icon.meetup <- makeAwesomeIcon("android-locate", library = "ion", markerColor = "red")
