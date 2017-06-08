@@ -23,7 +23,7 @@ members <- googlesheets::gs_read(
 
 members$Status[is.na(members$Status)] <- "member"
 stopifnot(all(members$Status %in% c("member", "referent", "admin")))
-ind.member <- which(is.na(members$Status))
+ind.member <- which(members$Status == "member")
 
 members2 <- subset(members, select = -c(Longitude, Latitude, Website))
 members_infos <- with(members2, {
