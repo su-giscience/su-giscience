@@ -21,8 +21,9 @@ members <- googlesheets::gs_read(
   mutate(Name = if_else(is.na(Website), Name, 
                         paste0("<a href='", Website, "' target='_blank'>", Name, "</a>")))
 
+members$Status[is.na(members$Status)] <- "member"
 stopifnot(all(members$Status %in% c("member", "referent", "admin")))
-ind.member <- which(members$Status == "member")
+ind.member <- which(is.na(members$Status))
 
 members2 <- subset(members, select = -c(Longitude, Latitude, Website))
 members_infos <- with(members2, {
