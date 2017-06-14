@@ -1,3 +1,21 @@
+---
+title: "Untitled"
+author: "Florian Privé"
+date: "15 juin 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
 library(dplyr)
 library(leaflet)
 
@@ -37,14 +55,15 @@ suppressWarnings(
     addTiles(options = providerTileOptions(minZoom = 2, maxZoom = 20)) %>%
     addAwesomeMarkers(lng = 5.767249, lat = 45.190590, popup = "Meeting location",
                       icon = icon.meetup) %>%
-    addAwesomeMarkers(lng = members2$data()$Longitude[ind.member],
-                      lat = members2$data()$Latitude[ind.member],
-                      popup = members2$data()$infos[ind.member],
-                      icon = icon.member) %>%
-    addAwesomeMarkers(lng = members2$data()$Longitude[-ind.member],
-                      lat = members2$data()$Latitude[-ind.member],
-                      popup = members2$data()$infos[-ind.member],
-                      icon = icon.referent) %>%
+    addMarkers() %>%
+    # addAwesomeMarkers(lng = members2$data()$Longitude[ind.member],
+    #                   lat = members2$data()$Latitude[ind.member],
+    #                   popup = members2$data()$infos[ind.member],
+    #                   icon = icon.member) %>%
+    # addAwesomeMarkers(lng = members2$data()$Longitude[-ind.member],
+    #                   lat = members2$data()$Latitude[-ind.member],
+    #                   popup = members2$data()$infos[-ind.member],
+    #                   icon = icon.referent) %>%
     htmlwidgets::onRender('
       function(el, x) {
         var myMap = this;
@@ -54,6 +73,18 @@ suppressWarnings(
       }')
 )
 
-DT::datatable(select(members2$data(), -c(Latitude, Longitude, infos)),
+DT::datatable(data = select(members2$data(), -c(Latitude, Longitude, infos)),
               rownames = FALSE, escape = FALSE)
 
+
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

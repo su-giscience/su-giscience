@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+<meta name="author" content="Florian Privé" />
+
+
+<title>Untitled</title>
+
+<script src="site_libs/jquery-1.12.4/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<script src="site_libs/htmlwidgets-0.8/htmlwidgets.js"></script>
+<link href="site_libs/leaflet-0.7.7/leaflet.css" rel="stylesheet" />
+<script src="site_libs/leaflet-0.7.7/leaflet.js"></script>
+<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
+<link href="site_libs/leaflet-label-0.2.2/leaflet.label.css" rel="stylesheet" />
+<script src="site_libs/leaflet-label-0.2.2/leaflet.label.js"></script>
+<script src="site_libs/Proj4Leaflet-0.7.2/proj4-compressed.js"></script>
+<script src="site_libs/Proj4Leaflet-0.7.2/proj4leaflet.js"></script>
+<script src="site_libs/leaflet-binding-1.1.0/leaflet.js"></script>
+<link href="site_libs/leaflet-easybutton-1.3.1/easy-button.css" rel="stylesheet" />
+<script src="site_libs/leaflet-easybutton-1.3.1/easy-button.js"></script>
+<script src="site_libs/leaflet-easybutton-1.3.1/EasyButton-binding.js"></script>
+<link href="site_libs/leaflet-locationfilter2-0.1.0/locationfilter.css" rel="stylesheet" />
+<script src="site_libs/leaflet-locationfilter2-0.1.0/locationfilter.js"></script>
+<script src="site_libs/leaflet-locationfilter2-0.1.0/locationfilter-bindings.js"></script>
+<link href="site_libs/ionicons-2.0.1/ionicons.min.css" rel="stylesheet" />
+<link href="site_libs/crosstalk-1.0.0/css/crosstalk.css" rel="stylesheet" />
+<script src="site_libs/crosstalk-1.0.0/js/crosstalk.min.js"></script>
+<link href="site_libs/leaflet-awesomemarkers-2.0.3/leaflet.awesome-markers.css" rel="stylesheet" />
+<script src="site_libs/leaflet-awesomemarkers-2.0.3/leaflet.awesome-markers.min.js"></script>
+<script src="site_libs/datatables-binding-0.2/datatables.js"></script>
+<link href="site_libs/dt-core-1.10.12/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="site_libs/dt-core-1.10.12/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="site_libs/dt-core-1.10.12/js/jquery.dataTables.min.js"></script>
+<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">R in Grenoble</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="orga.html">
+    <span class="fa fa-sitemap"></span>
+     
+    Orga
+  </a>
+</li>
+<li>
+  <a href="calendar.html">
+    <span class="fa fa-calendar"></span>
+     
+    Calendar
+  </a>
+</li>
+<li>
+  <a href="members.html">
+    <span class="fa fa-user"></span>
+     
+    Members
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-comments"></span>
+     
+    Chat
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="gitter-lobby.html">Lobby</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="https://r-in-grenoble.github.io/blog/">
+    <span class="fa fa-rss"></span>
+     
+    Blog
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="mailto:florian.prive@univ-grenoble-alpes.fr,magali.richard@univ-grenoble-alpes.fr">
+    <span class="fa fa-envelope-o"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/hashtag/rusersgrenoble?src=hash">
+    <span class="fa fa-twitter"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/r-in-grenoble/r-in-grenoble.github.io">
+    <span class="fa fa-github"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Untitled</h1>
+<h4 class="author"><em>Florian Privé</em></h4>
+<h4 class="date"><em>15 juin 2017</em></h4>
+
+</div>
+
+
+<div id="r-markdown" class="section level2">
+<h2>R Markdown</h2>
+<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
+<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
+<pre class="r"><code>library(dplyr)</code></pre>
+<pre><code>## 
+## Attaching package: &#39;dplyr&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     filter, lag</code></pre>
+<pre><code>## The following objects are masked from &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union</code></pre>
+<pre class="r"><code>library(leaflet)
+
+members &lt;- googlesheets::gs_read(
+  googlesheets::gs_key(
+    &quot;1WyfmLfoAQUP2iRogqcOfYA9Hum7DT0BcVyTtei_6Xjw&quot;, 
+    lookup = TRUE, visibility = &quot;private&quot;
+  )
+) %&gt;% 
+  tidyr::unite_(col = &quot;Name&quot;, from = c(&quot;First name&quot;, &quot;Last name&quot;),
+                sep = &quot; &quot;, remove = TRUE) %&gt;%
+  mutate(Name = if_else(is.na(Website), Name, 
+                        paste0(&quot;&lt;a href=&#39;&quot;, Website, &quot;&#39; target=&#39;_blank&#39;&gt;&quot;, Name, &quot;&lt;/a&gt;&quot;)))</code></pre>
+<pre><code>## Sheet successfully identified: &quot;Members group R in Grenoble&quot;</code></pre>
+<pre><code>## Accessing worksheet titled &#39;Feuille 1&#39;.</code></pre>
+<pre><code>## Parsed with column specification:
+## cols(
+##   `First name` = col_character(),
+##   `Last name` = col_character(),
+##   Latitude = col_double(),
+##   Longitude = col_double(),
+##   Institution = col_character(),
+##   Field = col_character(),
+##   Website = col_character(),
+##   Keywords = col_character(),
+##   Status = col_character()
+## )</code></pre>
+<pre class="r"><code>members$Status[is.na(members$Status)] &lt;- &quot;member&quot;
+stopifnot(all(members$Status %in% c(&quot;member&quot;, &quot;referent&quot;, &quot;admin&quot;)))
+ind.member &lt;- which(members$Status == &quot;member&quot;)
+
+members2 &lt;- subset(members, select = -Website) %&gt;% 
+  mutate(infos = paste0(
+    Name, &quot;&lt;br&gt;&quot;,
+    if_else(is.na(Institution), &quot;&quot;, paste0(&quot;at &quot;, Institution, &quot;&lt;br&gt;&quot;)),
+    if_else(is.na(Field), &quot;&quot;, paste0(&quot;in &quot;, Field, &quot;&lt;br&gt;&quot;)),
+    if_else(is.na(Keywords), &quot;&quot;, paste0(&quot;knows &quot;, Keywords)))
+  )
+
+
+icon.meetup &lt;- makeAwesomeIcon(&quot;android-locate&quot;, library = &quot;ion&quot;, markerColor = &quot;red&quot;)
+icon.member &lt;- makeAwesomeIcon(&quot;person&quot;, library = &quot;ion&quot;)
+icon.referent &lt;- makeAwesomeIcon(&quot;person&quot;, library = &quot;ion&quot;, markerColor = &quot;darkblue&quot;)
+
+members2 &lt;- crosstalk::SharedData$new(members2)
+
+suppressWarnings(
+  leaflet(members2, width = &quot;100%&quot;) %&gt;% 
+    setView(lng = 5.767249, lat = 45.190590, zoom = 12) %&gt;% 
+    addTiles(options = providerTileOptions(minZoom = 2, maxZoom = 20)) %&gt;%
+    addAwesomeMarkers(lng = 5.767249, lat = 45.190590, popup = &quot;Meeting location&quot;,
+                      icon = icon.meetup) %&gt;%
+    addMarkers() %&gt;%
+    # addAwesomeMarkers(lng = members2$data()$Longitude[ind.member],
+    #                   lat = members2$data()$Latitude[ind.member],
+    #                   popup = members2$data()$infos[ind.member],
+    #                   icon = icon.member) %&gt;%
+    # addAwesomeMarkers(lng = members2$data()$Longitude[-ind.member],
+    #                   lat = members2$data()$Latitude[-ind.member],
+    #                   popup = members2$data()$infos[-ind.member],
+    #                   icon = icon.referent) %&gt;%
+    htmlwidgets::onRender(&#39;
+      function(el, x) {
+        var myMap = this;
+        myMap.on(&quot;click&quot;, function(e) {
+          alert(&quot;Latitude: &quot; + e.latlng.lat + &quot;\\nLongitude: &quot; + e.latlng.lng)
+        })
+      }&#39;)
+)</code></pre>
+<pre><code>## Assuming &#39;Longitude&#39; and &#39;Latitude&#39; are longitude and latitude, respectively</code></pre>
+<div id="htmlwidget-3ac0e77780b4bb89dbd2" style="width:100%;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-3ac0e77780b4bb89dbd2">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addSelect","args":["SharedDatae05ea58c"]},{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"errorTileUrl":"","noWrap":false,"zIndex":null,"unloadInvisibleTiles":null,"updateWhenIdle":null,"detectRetina":false,"reuseTiles":false,"minZoom":2,"maxZoom":20,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addAwesomeMarkers","args":[45.19059,5.767249,{"icon":"android-locate","markerColor":"red","iconColor":"white","spin":false,"squareMarker":false,"iconRotate":0,"font":"monospace","prefix":"ion"},null,null,{"clickable":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"Meeting location",null,null,null,null,null,{"ctKey":["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15"],"ctGroup":"SharedDatae05ea58c"}]},{"method":"addMarkers","args":[[45.19844086,45.198543,45.198502,45.198505,45.198541,45.198276,45.218,45.19348046,45.14692943,45.193154,null,null,null,null,45.198543],[5.748881847,5.74894,5.748881,5.748909,5.74899,5.747928,5.807,5.777319968,5.730035305,5.766739,null,null,null,null,5.748882],null,null,null,{"clickable":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,null,null,{"ctKey":["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15"],"ctGroup":"SharedDatae05ea58c"}]}],"setView":[[45.19059,5.767249],12,[]],"limits":{"lat":[45.14692943,45.218],"lng":[5.730035305,5.807]}},"evals":[],"jsHooks":{"render":[{"code":"function(el, x, data) {\n  return (\n      function(el, x) {\n        var myMap = this;\n        myMap.on(\"click\", function(e) {\n          alert(\"Latitude: \" + e.latlng.lat + \"\\nLongitude: \" + e.latlng.lng)\n        })\n      }).call(this.getMap(), el, x, data);\n}","data":null}]}}</script>
+<pre class="r"><code>DT::datatable(data = select(members2$data(), -c(Latitude, Longitude, infos)),
+              rownames = FALSE, escape = FALSE)</code></pre>
+<div id="htmlwidget-81a94ecf306129997b87" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-81a94ecf306129997b87">{"x":{"filter":"none","data":[["<a href='https://privefl.github.io/' target='_blank'>Florian Privé<\/a>","<a href='https://magrichard.github.io/' target='_blank'>Magali Richard<\/a>","<a href='https://cayek.github.io/' target='_blank'>Kevin Caye<\/a>","<a href='https://keurcien.github.io/' target='_blank'>Keurcien Luu<\/a>","<a href='http://membres-timc.imag.fr/Michael.Blum/' target='_blank'>Michael Blum<\/a>","<a href='http://graal.ens-lyon.fr/~fchuffart/' target='_blank'>Florent Chuffart<\/a>","<a href='http://www.julyanarbel.com/' target='_blank'>Julyan Arbel<\/a>","Frédéric Boyer","Maïa Dolgopoloff","<a href='http://www.gipsa-lab.grenoble-inp.fr/page_pro.php?vid=1255' target='_blank'>Guillaume Becq<\/a>","<a href='http://mistis.inrialpes.fr' target='_blank'>Florence Forbes<\/a>","Estelle PLOYON","Lydiane Agier","<a href='http://www.gipsa-lab.grenoble-inp.fr/~sophie.achard/\n' target='_blank'>Sophie Achard<\/a>","<a href='https://github.com/BioShock38' target='_blank'>Olivier François<\/a>"],["TIMC-IMAG","TIMC-IMAG","TIMC-IMAG","TIMC-IMAG","TIMC-IMAG","IAB","Inria","LECA","EKCHUGA","GIPSA-lab","INRIA-MISTIS","PACTE-CNRS-UGA","INSERM","GIPSA-lab","Grenoble INP"],["Human genetics","Cancer epigenetics","Population genetics","Population genetics","Data Science/Pop Gen","multi-omics analysis","Bayesian statistics","NGS/Biodiversity","Biostats/kiné","Biomedical Engineering","statistics","Geomatic, GIS","Statistics/Epidemiology","Graph signal processing","statistics/genetics"],["global, rcpp, r-bigmemory","global, clustering, data visualisation, ggplot2","global, ggplot2, dataframe, emacs, orgmode","shiny, rcpp, ggplot2","global","global, statistics, distributed-computing, rmarkdown, Shiny","global, markdown, knitr, RStudio",null,"global, ggplot2",null,null,null,"mice, DSA, enet, parallel computation","global, igraph, waveslim, brainwaver","abc, LEA, tess3r"],["admin","admin","member","member","referent","referent","member","referent","member","referent","member","member","member","member","member"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Name<\/th>\n      <th>Institution<\/th>\n      <th>Field<\/th>\n      <th>Keywords<\/th>\n      <th>Status<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"order":[],"autoWidth":false,"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row"}},"evals":[],"jsHooks":[]}</script>
+</div>
+<div id="including-plots" class="section level2">
+<h2>Including Plots</h2>
+<p>You can also embed plots, for example:</p>
+<p><img src="test_files/figure-html/pressure-1.png" width="672" /></p>
+<p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
