@@ -39,7 +39,7 @@ members2 <- subset(members, select = -Website) %>%
 suppressWarnings(
   leaflet(members2, width = "100%") %>% 
     setView(lng = 5.767249, lat = 45.190590, zoom = 12) %>% 
-    addTiles(options = providerTileOptions(minZoom = 2, maxZoom = 20)) %>%
+    addTiles(options = providerTileOptions(minZoom = 2, maxZoom = 19)) %>%
     addAwesomeMarkers(lng = 5.767249, lat = 45.190590, 
                       popup = "Meeting location",
                       label = "Meeting location",
