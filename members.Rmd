@@ -44,8 +44,9 @@ suppressWarnings(
                       popup = "Meeting location",
                       label = "Meeting location",
                       icon = makeAwesomeIcon("android-locate", library = "ion", markerColor = "red")) %>%
-    addAwesomeMarkers(                popup = ~infos,
+    addAwesomeMarkers(popup = ~infos,
                       label = ~lapply(infos, htmltools::HTML),
+                      clusterOptions = markerClusterOptions(),
                       icon = makeAwesomeIcon("person", library = "ion", markerColor = ~if_else(Status == "member", "blue", "darkblue"))) %>%
     htmlwidgets::onRender('
       function(el, x) {
