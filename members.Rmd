@@ -23,36 +23,30 @@ members <- googlesheets::gs_read(
 
 members$Status[is.na(members$Status)] <- "member"
 stopifnot(all(members$Status %in% c("member", "referent", "admin")))
-ind.member <- which(members$Status == "member")
 
-members2 <- subset(members, select = -c(Longitude, Latitude, Website))
-members_infos <- with(members2, {
-  paste0(Name, "<br>",
-         if_else(is.na(Institution), "", paste0("at ", Institution, "<br>")),
-         if_else(is.na(Field), "", paste0("in ", Field, "<br>")),
-         if_else(is.na(Keywords), "", paste0("knows ", Keywords)))
-})
-
-icon.meetup <- makeAwesomeIcon("android-locate", library = "ion", markerColor = "red")
-icon.member <- makeAwesomeIcon("person", library = "ion")
-icon.referent <- makeAwesomeIcon("person", library = "ion", markerColor = "darkblue")
+members2 <- subset(members, select = -Website) %>% 
+  mutate(
+    infos = paste0(
+      Name, "<br>",
+      if_else(is.na(Institution), "", paste0("at ", Institution, "<br>")),
+      if_else(is.na(Field), "", paste0("in ", Field, "<br>")),
+      if_else(is.na(Keywords), "", paste0("knows ", Keywords))
+    )
+  )
 ```
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, message=FALSE}
 suppressWarnings(
-  leaflet(width = "100%") %>% 
+  leaflet(members2, width = "100%") %>% 
     setView(lng = 5.767249, lat = 45.190590, zoom = 12) %>% 
     addTiles(options = providerTileOptions(minZoom = 2, maxZoom = 20)) %>%
-    addAwesomeMarkers(lng = 5.767249, lat = 45.190590, popup = "Meeting location",
-                      icon = icon.meetup) %>%
-    addAwesomeMarkers(lng = members$Longitude[ind.member], 
-                    lat = members$Latitude[ind.member], 
-                    popup = members_infos[ind.member],
-                    icon = icon.member) %>%
-    addAwesomeMarkers(lng = members$Longitude[-ind.member], 
-                    lat = members$Latitude[-ind.member], 
-                    popup = members_infos[-ind.member],
-                    icon = icon.referent) %>%
+    addAwesomeMarkers(lng = 5.767249, lat = 45.190590, 
+                      popup = "Meeting location",
+                      label = "Meeting location",
+                      icon = makeAwesomeIcon("android-locate", library = "ion", markerColor = "red")) %>%
+    addAwesomeMarkers(                popup = ~infos,
+                      label = ~lapply(infos, htmltools::HTML),
+                      icon = makeAwesomeIcon("person", library = "ion", markerColor = ~if_else(Status == "member", "blue", "darkblue"))) %>%
     htmlwidgets::onRender('
       function(el, x) {
         var myMap = this;
@@ -64,8 +58,8 @@ suppressWarnings(
 ```
 
 ```{r, echo=FALSE}
-DT::datatable(members2,# class = 'cell-border stripe',
-	rownames = FALSE, escape = FALSE)
+DT::datatable(select(members2, -c(Latitude, Longitude, infos)), 
+              rownames = FALSE, escape = FALSE)
 ```
 
 
