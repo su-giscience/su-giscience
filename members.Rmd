@@ -46,7 +46,15 @@ suppressWarnings(
                       icon = makeAwesomeIcon("android-locate", library = "ion", markerColor = "red")) %>%
     addAwesomeMarkers(popup = ~infos,
                       label = ~lapply(infos, htmltools::HTML),
-                      clusterOptions = markerClusterOptions(),
+                      clusterOptions = markerClusterOptions(iconCreateFunction=JS("function (cluster) {    
+    var childCount = cluster.getChildCount();  
+    if (childCount < 5) {  
+      c = 'rgba(100,149,237, 1);'   
+    } else { 
+      c = 'rgba(65,105,225, 1);'  
+    }    
+    return new L.DivIcon({ html: '<div style=\"background-color:'+c+'\"><span>' + childCount + '</span></div>', className: 'marker-cluster', iconSize: new L.Point(40, 40) });
+  }")),
                       icon = makeAwesomeIcon("person", library = "ion", markerColor = ~if_else(Status == "member", "blue", "darkblue"))) %>%
     htmlwidgets::onRender('
       function(el, x) {
