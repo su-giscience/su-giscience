@@ -5,27 +5,22 @@ title: "About our community"
 ## Where are we?
 
 ```{r, include=FALSE}
+library(googlesheets)
 library(dplyr)
 library(leaflet)
 ```
 
 ```{r, include=FALSE}
-members <- googlesheets::gs_read(
-  googlesheets::gs_key(
-    "1WyfmLfoAQUP2iRogqcOfYA9Hum7DT0BcVyTtei_6Xjw", 
-    lookup = TRUE, visibility = "private"
-  )
-) %>% 
+members <- googlesheets::gs_key("1WyfmLfoAQUP2iRogqcOfYA9Hum7DT0BcVyTtei_6Xjw", 
+                                lookup = TRUE, visibility = "private") %>%
+  googlesheets::gs_read() %>% 
   tidyr::unite_(col = "Name", from = c("First name", "Last name"),
                 sep = " ", remove = TRUE) %>%
-  mutate(Name = if_else(is.na(Website), Name, 
-                        paste0("<a href='", Website, "' target='_blank'>", Name, "</a>")))
-
-members$Status[is.na(members$Status)] <- "member"
-stopifnot(all(members$Status %in% c("member", "referent", "admin")))
-
-members2 <- subset(members, select = -Website) %>% 
   mutate(
+    Name = if_else(is.na(Website), Name, 
+                   paste0("<a href='", Website, "' target='_blank'>", Name, "</a>")),
+    Website = NULL,
+    Status = if_else(is.na(Status), "member", Status),
     infos = paste0(
       Name, "<br>",
       if_else(is.na(Institution), "", paste0("at ", Institution, "<br>")),
@@ -33,11 +28,17 @@ members2 <- subset(members, select = -Website) %>%
       if_else(is.na(Keywords), "", paste0("knows ", Keywords))
     )
   )
+
+# check wrong entries for status
+stopifnot(all(members$Status %in% c("member", "referent", "admin")))
+# check for duplicates
+stopifnot(nrow(members %>% group_by(Name) %>% filter(n() > 1)) == 0)
 ```
 
 ```{r, echo=FALSE, message=FALSE}
+# display map
 suppressWarnings(
-  leaflet(members2, width = "100%") %>% 
+  leaflet(members, width = "100%") %>% 
     setView(lng = 5.767249, lat = 45.190590, zoom = 12) %>% 
     addTiles(options = providerTileOptions(minZoom = 2, maxZoom = 19)) %>%
     addAwesomeMarkers(lng = 5.767249, lat = 45.190590, 
@@ -67,7 +68,8 @@ suppressWarnings(
 ```
 
 ```{r, echo=FALSE}
-DT::datatable(select(members2, -c(Latitude, Longitude, infos)), 
+# display table
+DT::datatable(select(members, -c(Latitude, Longitude, infos)), 
               rownames = FALSE, escape = FALSE)
 ```
 
