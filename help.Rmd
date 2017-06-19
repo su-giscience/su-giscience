@@ -1,0 +1,24 @@
+---
+title: "Get Help & Give Help!"
+---
+
+```{r, include=FALSE}
+library(tidyverse)
+
+links <- googlesheets::gs_key("1WyfmLfoAQUP2iRogqcOfYA9Hum7DT0BcVyTtei_6Xjw", 
+                                lookup = TRUE, visibility = "private") %>%
+  googlesheets::gs_read() %>% 
+  drop_na(SO_ID) %>%
+  pull(SO_ID) %>%
+  stackr::stack_users("questions") %>%
+  select(tags, is_answered, link, title) %>%
+  mutate(tags = strsplit(tags, split = ",", fixed = TRUE)) %>%
+  filter(map_lgl(tags, ~is.element("r", .x)), !is_answered) %>%
+  transmute(paste0("<a href='", link, "' target='_blank'>", title, "</a>")) %>%
+  pull()
+```
+
+```{r, echo=FALSE, results='asis'}
+for (link in sample(links)) cat("-", link, "\n\n")
+```
+

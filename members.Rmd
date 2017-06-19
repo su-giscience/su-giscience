@@ -11,9 +11,9 @@ library(leaflet)
 ```
 
 ```{r, include=FALSE}
-members <- googlesheets::gs_key("1WyfmLfoAQUP2iRogqcOfYA9Hum7DT0BcVyTtei_6Xjw", 
-                                lookup = TRUE, visibility = "private") %>%
-  googlesheets::gs_read() %>% 
+members <- gs_key("1WyfmLfoAQUP2iRogqcOfYA9Hum7DT0BcVyTtei_6Xjw", 
+                  lookup = TRUE, visibility = "private") %>%
+  gs_read() %>% 
   tidyr::unite_(col = "Name", from = c("First name", "Last name"),
                 sep = " ", remove = TRUE) %>%
   mutate(
@@ -69,7 +69,7 @@ suppressWarnings(
 
 ```{r, echo=FALSE}
 # display table
-DT::datatable(select(members, -c(Latitude, Longitude, infos)), 
+DT::datatable(select(members, c(Name, Institution, Field, Keywords, Status)), 
               rownames = FALSE, escape = FALSE)
 ```
 
