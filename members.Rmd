@@ -47,6 +47,7 @@ suppressWarnings(
                       icon = makeAwesomeIcon("android-locate", library = "ion", markerColor = "red")) %>%
     addAwesomeMarkers(popup = ~infos,
                       label = ~lapply(infos, htmltools::HTML),
+                      options = markerOptions(riseOnHover = TRUE),
                       clusterOptions = markerClusterOptions(iconCreateFunction=JS("function (cluster) {    
     var childCount = cluster.getChildCount();  
     if (childCount < 5) {  
