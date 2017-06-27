@@ -5,6 +5,8 @@ title: "About our community"
 ## Where are we?
 
 ```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
 library(googlesheets)
 library(dplyr)
 library(leaflet)
@@ -35,7 +37,7 @@ stopifnot(all(members$Status %in% c("member", "referent", "admin")))
 stopifnot(nrow(members %>% group_by(Name) %>% filter(n() > 1)) == 0)
 ```
 
-```{r, echo=FALSE, message=FALSE}
+```{r, message=FALSE}
 # display map
 suppressWarnings(
   leaflet(members, width = "100%") %>% 
@@ -68,7 +70,7 @@ suppressWarnings(
 )
 ```
 
-```{r, echo=FALSE}
+```{r}
 # display table
 DT::datatable(select(members, c(Name, Institution, Field, Keywords, Status)), 
               rownames = FALSE, escape = FALSE)

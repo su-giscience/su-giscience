@@ -1,0 +1,27 @@
+---
+title: "Working sessions"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+library(lubridate)
+Sys.setlocale("LC_TIME", "English")
+```
+
+```{r}
+program <- tribble(
+  ~Date, ~Title, ~Description,
+  "29/06/2017", "ggplot2", "ggplot2 is so nice" 
+) %>%
+  mutate(Date = dmy(Date))
+
+stopifnot(all(wday(program$Date) == 5)) # Thursdays (begin with Sundays)
+
+program %>% 
+  mutate(Date = format(Date,  format = "%B %d, %Y"))
+
+print(program)
+```
+<div title="text">hover me</div>
+<span title="hoverin' words">hover me</span>
