@@ -7,21 +7,87 @@ knitr::opts_chunk$set(echo = FALSE)
 library(tidyverse)
 library(lubridate)
 Sys.setlocale("LC_TIME", "English")
+library(htmltools)
+library(magrittr)
 ```
 
 ```{r}
 program <- tribble(
-  ~Date, ~Title, ~Description,
-  "29/06/2017", "ggplot2", "ggplot2 is so nice" 
+  ~Date, ~Title, ~Description, ~Authors,
+  "29/06/2017", "ggplot2", "ggplot2 is so nice", "FP",
+  "06/07/2017", "Rcpp", "Rcpp is also nice", "FP"
 ) %>%
-  mutate(Date = dmy(Date))
+  mutate(Date = dmy(Date)) 
 
 stopifnot(all(wday(program$Date) == 5)) # Thursdays (begin with Sundays)
-
-program %>% 
-  mutate(Date = format(Date,  format = "%B %d, %Y"))
-
-print(program)
+          
+program <- program %>%
+  arrange(Date) %>%
+  mutate(Date = format(Date, format = "%B %d, %Y"))
 ```
-<div title="text">hover me</div>
-<span title="hoverin' words">hover me</span>
+
+
+```{css}
+.schedule {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.limit {
+  width: 100%;
+  padding: 5px 0 5px 0;
+}
+
+.workshops-button {
+  padding: 0.75em 1.25em;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  width: auto;
+  color: black;
+}
+
+.workshops {
+  margin: 1em 0;
+}
+
+.active {
+  background-color: #333333;
+  color: whitesmoke;
+}
+```
+
+```{js}
+function main() {
+  $('.schedule').hide();
+  $('.schedule').fadeIn(2000);
+  $('.workshops').hide();
+  $('.workshops-button').on('click', function() {
+    $(this).next().slideToggle(400);
+    $(this).toggleClass('active');
+  });
+}
+ 
+$(document).ready(main);
+```
+
+
+## Schedule
+
+```{r}
+div(
+  class = "schedule",
+  apply(program, 1, function(event) {
+    div(
+      class = "limit",
+      div(class = "workshops-button", 
+          "On", event[['Date']],
+          tags$i(event[['Title']]),
+          "by", event[['Authors']]),
+      tags$ul(class = "workshops",
+              event[["Description"]])
+    )
+  })
+) 
+```
+

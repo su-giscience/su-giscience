@@ -252,18 +252,73 @@ $(document).ready(function () {
 </div>
 
 
-<pre><code>## # A tibble: 1 x 3
-##            Date   Title        Description
-##           &lt;chr&gt;   &lt;chr&gt;              &lt;chr&gt;
-## 1 June 29, 2017 ggplot2 ggplot2 is so nice</code></pre>
-<pre><code>## # A tibble: 1 x 3
-##         Date   Title        Description
-##       &lt;date&gt;   &lt;chr&gt;              &lt;chr&gt;
-## 1 2017-06-29 ggplot2 ggplot2 is so nice</code></pre>
-<div title="text">
-hover me
+<style type="text/css">
+.schedule {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.limit {
+  width: 100%;
+  padding: 5px 0 5px 0;
+}
+
+.workshops-button {
+  padding: 0.75em 1.25em;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  width: auto;
+  color: black;
+}
+
+.workshops {
+  margin: 1em 0;
+}
+
+.active {
+  background-color: #333333;
+  color: whitesmoke;
+}
+</style>
+<script type="text/javascript">
+function main() {
+  $('.schedule').hide();
+  $('.schedule').fadeIn(2000);
+  $('.workshops').hide();
+  $('.workshops-button').on('click', function() {
+    $(this).next().slideToggle(400);
+    $(this).toggleClass('active');
+  });
+}
+ 
+$(document).ready(main);
+</script>
+<div id="schedule" class="section level2">
+<h2>Schedule</h2>
+<div class="schedule">
+<div class="limit">
+<div class="workshops-button">
+On
+June 29, 2017
+<i>ggplot2</i>
+by
+FP
 </div>
-<p><span title="hoverin&#39; words">hover me</span></p>
+<ul class="workshops">ggplot2 is so nice</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+On
+July 06, 2017
+<i>Rcpp</i>
+by
+FP
+</div>
+<ul class="workshops">Rcpp is also nice</ul>
+</div>
+</div>
+</div>
 
 
 
