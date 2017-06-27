@@ -270,6 +270,26 @@ $(document).ready(function () {
   opacity: 0.9;
   width: auto;
   color: black;
+  text-align: center;
+  overflow: auto;
+}
+
+.left-date {
+  width: 15%;
+  float: left;
+  text-align: left;
+}
+
+.center-title {
+  width: 60%;
+  float: left;
+  text-align: center;
+}
+
+.right-authors {
+  width: 25%;
+  float: right;
+  text-align: right;
 }
 
 .workshops {
@@ -299,21 +319,21 @@ $(document).ready(main);
 <div class="schedule">
 <div class="limit">
 <div class="workshops-button">
-On
-June 29, 2017
+<div class="left-date">June 29, 2017</div>
+<div class="center-title">
 <i>ggplot2</i>
-by
-FP
+</div>
+<div class="right-authors">F. Privé</div>
 </div>
 <ul class="workshops">ggplot2 is so nice</ul>
 </div>
 <div class="limit">
 <div class="workshops-button">
-On
-July 06, 2017
+<div class="left-date">July 06, 2017</div>
+<div class="center-title">
 <i>Rcpp</i>
-by
-FP
+</div>
+<div class="right-authors">F. Privé</div>
 </div>
 <ul class="workshops">Rcpp is also nice</ul>
 </div>

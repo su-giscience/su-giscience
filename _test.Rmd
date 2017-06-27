@@ -14,8 +14,8 @@ library(magrittr)
 ```{r}
 program <- tribble(
   ~Date, ~Title, ~Description, ~Authors,
-  "29/06/2017", "ggplot2", "ggplot2 is so nice", "FP",
-  "06/07/2017", "Rcpp", "Rcpp is also nice", "FP"
+  "29/06/2017", "ggplot2", "ggplot2 is so nice", "F. Privé",
+  "06/07/2017", "Rcpp", "Rcpp is also nice", "F. Privé"
 ) %>%
   mutate(Date = dmy(Date)) 
 
@@ -45,6 +45,26 @@ program <- program %>%
   opacity: 0.9;
   width: auto;
   color: black;
+  text-align: center;
+  overflow: auto;
+}
+
+.left-date {
+  width: 15%;
+  float: left;
+  text-align: left;
+}
+
+.center-title {
+  width: 60%;
+  float: left;
+  text-align: center;
+}
+
+.right-authors {
+  width: 25%;
+  float: right;
+  text-align: right;
 }
 
 .workshops {
@@ -81,9 +101,12 @@ div(
     div(
       class = "limit",
       div(class = "workshops-button", 
-          "On", event[['Date']],
-          tags$i(event[['Title']]),
-          "by", event[['Authors']]),
+          div(class = "left-date", 
+              event[['Date']]),
+          div(class = "center-title", 
+              tags$i(event[['Title']])),
+          div(class = "right-authors",
+              event[['Authors']])),
       tags$ul(class = "workshops",
               event[["Description"]])
     )
