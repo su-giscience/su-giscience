@@ -1,0 +1,116 @@
+---
+title: "Working sessions"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+library(lubridate)
+Sys.setlocale("LC_TIME", "English")
+library(htmltools)
+library(magrittr)
+```
+
+```{r}
+program <- tribble(
+  ~Date, ~Title, ~Description, ~Authors,
+  "29/06/2017", "ggplot2", "ggplot2 is so nice", "F. Privé",
+  "06/07/2017", "Rcpp", "Rcpp is also nice", "F. Privé"
+) %>%
+  mutate(Date = dmy(Date)) 
+
+stopifnot(all(wday(program$Date) == 5)) # Thursdays (begin with Sundays)
+          
+program <- program %>%
+  arrange(Date) %>%
+  mutate(Date = format(Date, format = "%B %d, %Y"))
+```
+
+
+```{css}
+.schedule {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.limit {
+  width: 100%;
+  padding: 5px 0 5px 0;
+}
+
+.workshops-button {
+  padding: 0.75em 1.25em;
+  background-color: #cccccc;
+  opacity: 0.9;
+  width: auto;
+  color: black;
+  text-align: center;
+  overflow: auto;
+}
+
+.left-date {
+  width: 15%;
+  float: left;
+  text-align: left;
+}
+
+.center-title {
+  width: 60%;
+  float: left;
+  text-align: center;
+}
+
+.right-authors {
+  width: 25%;
+  float: right;
+  text-align: right;
+}
+
+.workshops {
+  margin: 1em 0;
+}
+
+.active {
+  background-color: #333333;
+  color: whitesmoke;
+}
+```
+
+```{js}
+function main() {
+  $('.schedule').hide();
+  $('.schedule').fadeIn(2000);
+  $('.workshops').hide();
+  $('.workshops-button').on('click', function() {
+    $(this).next().slideToggle(400);
+    $(this).toggleClass('active');
+  });
+}
+ 
+$(document).ready(main);
+```
+
+
+## Schedule
+
+```{r}
+div(
+  class = "schedule",
+  apply(program, 1, function(event) {
+    div(
+      class = "limit",
+      div(class = "workshops-button", 
+          div(class = "left-date", 
+              event[['Date']]),
+          div(class = "center-title", 
+              tags$i(event[['Title']])),
+          div(class = "right-authors",
+              event[['Authors']])),
+      tags$ul(class = "workshops",
+              event[["Description"]])
+    )
+  })
+) 
+```
+

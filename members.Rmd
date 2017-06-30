@@ -5,61 +5,83 @@ title: "About our community"
 ## Where are we?
 
 ```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+library(googlesheets)
 library(dplyr)
 library(leaflet)
 ```
 
 ```{r, include=FALSE}
-members <- googlesheets::gs_read(
-  googlesheets::gs_key(
-    "1WyfmLfoAQUP2iRogqcOfYA9Hum7DT0BcVyTtei_6Xjw", 
-    lookup = TRUE, visibility = "private"
-  )
-) %>% 
+members <- gs_key("1WyfmLfoAQUP2iRogqcOfYA9Hum7DT0BcVyTtei_6Xjw", 
+                  lookup = TRUE, visibility = "private") %>%
+  gs_read() %>% 
   tidyr::unite_(col = "Name", from = c("First name", "Last name"),
                 sep = " ", remove = TRUE) %>%
-  mutate(Name = if_else(is.na(Website), Name, 
-                        paste0("<a href='", Website, "' target='_blank'>", Name, "</a>")))
+  mutate(
+    Name = if_else(is.na(Website), Name, 
+                   paste0("<a href='", Website, "' target='_blank'>", Name, "</a>")),
+    Website = NULL,
+    Status = if_else(is.na(Status), "member", Status),
+    infos = paste0(
+      Name, "<br>",
+      if_else(is.na(Institution), "", paste0("at ", Institution, "<br>")),
+      if_else(is.na(Field), "", paste0("in ", Field, "<br>")),
+      if_else(is.na(Keywords), "", paste0("knows ", Keywords))
+    )
+  )
 
-
-members2 <- subset(members, select = -c(Longitude, Latitude, Website))
-members_infos <- with(members2, {
-  paste0(Name, "<br>",
-         if_else(is.na(Institution), "", 
-                 paste0("at ", Institution, "<br>",
-                        "in ", Field, "<br>")),
-         "knows ", Keywords)
-})
-
-icon.meetup <- makeAwesomeIcon("android-locate", library = "ion", markerColor = "red")
-icon.member <- makeAwesomeIcon("person", library = "ion")
+# check wrong entries for status
+stopifnot(all(members$Status %in% c("member", "referent", "admin")))
+# check for duplicates
+stopifnot(nrow(members %>% group_by(Name) %>% filter(n() > 1)) == 0)
 ```
 
-```{r, echo=FALSE}
+```{r, message=FALSE}
+# display map
 suppressWarnings(
-  leaflet(width = "100%") %>% 
+  leaflet(members, width = "100%") %>% 
     setView(lng = 5.767249, lat = 45.190590, zoom = 12) %>% 
-    addTiles(options = providerTileOptions(minZoom = 2, maxZoom = 20)) %>%
-    addAwesomeMarkers(lng = 5.767249, lat = 45.190590, popup = "Meeting location",
-                      icon = icon.meetup) %>%
-    addAwesomeMarkers(lng = members$Longitude, 
-                    lat = members$Latitude, 
-                    popup = members_infos,
-                    icon = icon.member) %>%
+    addTiles(options = providerTileOptions(minZoom = 2, maxZoom = 19)) %>%
+    addAwesomeMarkers(lng = 5.767249, lat = 45.190590, 
+                      popup = "Meeting location",
+                      label = "Meeting location",
+                      icon = makeAwesomeIcon("android-locate", library = "ion", markerColor = "red")) %>%
+    addAwesomeMarkers(popup = ~infos,
+                      label = ~lapply(infos, htmltools::HTML),
+                      options = markerOptions(riseOnHover = TRUE),
+                      clusterOptions = markerClusterOptions(iconCreateFunction=JS("function (cluster) {    
+    var childCount = cluster.getChildCount();  
+    if (childCount < 5) {  
+      c = 'rgba(100,149,237, 1);'   
+    } else { 
+      c = 'rgba(65,105,225, 1);'  
+    }    
+    return new L.DivIcon({ html: '<div style=\"background-color:'+c+'\"><span>' + childCount + '</span></div>', className: 'marker-cluster', iconSize: new L.Point(40, 40) });
+  }")),
+                      icon = makeAwesomeIcon("person", library = "ion", markerColor = ~if_else(Status == "member", "blue", "darkblue"))) %>%
     htmlwidgets::onRender('
-    function(el, x) {
-      var myMap = this;
-      myMap.on("click", function(e) {
-        alert("Latitude: " + e.latlng.lat + "\\nLongitude: " + e.latlng.lng)
-      })
-    }')
+      function(el, x) {
+        var myMap = this;
+        myMap.on("click", function(e) {
+          alert("Latitude: " + e.latlng.lat + "\\nLongitude: " + e.latlng.lng)
+        })
+      }')
 )
 ```
 
-```{r, echo=FALSE}
-DT::datatable(members2,# class = 'cell-border stripe',
-	rownames = FALSE, escape = FALSE)
+```{r}
+# display table
+DT::datatable(select(members, c(Name, Institution, Field, Keywords, Status)), 
+              rownames = FALSE, escape = FALSE)
 ```
+
+
+**Status:**
+
+- 'admin' refers to administrators of the website and the mailing list,
+- 'referent' refers to dedicated contact persons within institutions,
+- 'member' refers to all other members of the community.
 
 <br>
 

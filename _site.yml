@@ -3,24 +3,29 @@ output_dir: "."
 navbar:
   title: "R in Grenoble"    
   left:
-    - text: "Home"
-      icon: fa-home
-      href: index.html
+    - text: "Orga"
+      icon: fa-sitemap
+      href: orga.html
     - text: "Calendar"
       icon: fa-calendar
       href: calendar.html
     - text: "Members"
       icon: fa-user 
       href: members.html
+    - text: "Chat"
+      icon: fa-comments
+      menu:
+        - text: "Lobby"
+          href: gitter-lobby.html
     - text: "Blog"
       icon: fa-rss
       href: https://r-in-grenoble.github.io/blog/    # CHANGE HERE 
   right:
-    - text: "Contact us"
-      icon: fa-envelope-o
+    - icon: fa-envelope-o
       href: mailto:florian.prive@univ-grenoble-alpes.fr,magali.richard@univ-grenoble-alpes.fr                      # CHANGE HERE 
-    - text: "GitHub"
-      icon: fa-github
+    - icon: fa-twitter
+      href: https://twitter.com/hashtag/rusersgrenoble?src=hash
+    - icon: fa-github
       href: https://github.com/r-in-grenoble/r-in-grenoble.github.io         # CHANGE HERE 
 output:
   html_document:
