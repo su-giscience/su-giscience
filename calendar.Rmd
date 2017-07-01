@@ -13,3 +13,9 @@ output:
 </div>
 
 You can add this calendar to your own by clicking the button at the bottom-right of this calendar.
+
+If you don't use Google Calendar, copy this link:
+
+> https://calendar.google.com/calendar/ical/2ttvq1sfpibbugl2cnqotm7c40%40group.calendar.google.com/public/basic.ics
+
+and for example, in Framagenda, use the "New Subscription" button and paste the previous link.
