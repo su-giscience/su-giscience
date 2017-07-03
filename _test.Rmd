@@ -26,7 +26,7 @@ Please find the guidelines for these sessions:
 knitr::opts_chunk$set(echo = FALSE)
 library(tidyverse)
 library(lubridate)
-Sys.setlocale("LC_TIME", "English")
+Sys.setlocale("LC_TIME", "C")
 library(htmltools)
 library(magrittr)
 ```
