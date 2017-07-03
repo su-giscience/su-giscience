@@ -42,7 +42,7 @@ program <- tribble(
   "15/03/2018", "7/10", "Rcpp", "Your code isn't fast enough? We will see how to make simple Rcpp code to accelerate your code. We will see that Rcpp is useful for loops, for avoiding copies, etc. We will also see that Rcpp isn't always faster than an optimized R code. Finally, we will see how to integrate some Rcpp code to your packages and notebooks.", "F. Privé & A. Arnaud",
   "26/04/2018", "8/10", "Parallel computing", "wait for it...", "F. Chuffart & L. Viry",
   "24/05/2018", "9/10", "Big Memory", "In this session, we will talk about the two packages bigmemory and bigstatsr. The package bigmemory provides a special class of matrix than can be used to store some data in a matrix-like format on your disk but to access it almost as if it were in memory. It is particularly useful is you have a large matrix to analyze but not enough RAM on your computer. We will then see the statistical and helper functions that are provided by the package bigstatsr for this kind of matrices.", "F. Privé & ...",
-  "14/06/2018", "10/10", "Make your personal weboage with R", "You know nothing about web development? Me neither (at least when I came up with this solution). In this session, you will learn how to make your personal website with only R code in only a few minutes. For example, the site of our group is made with this R solution.", "F. Privé & M. Richard"
+  "14/06/2018", "10/10", "Make your personal webpage with R", "You know nothing about web development? Me neither (at least when I came up with this solution). In this session, you will learn how to make your personal website with only R code in only a few minutes. For example, the site of our group is made with this R solution.", "F. Privé & M. Richard"
 ) %>%
   mutate(Date = dmy(Date)) 
 
@@ -86,6 +86,7 @@ program <- program %>%
   width: 60%;
   float: left;
   text-align: center;
+  font-size: 120%;
 }
 
 .right-authors {
