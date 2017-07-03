@@ -9,6 +9,9 @@ navbar:
     - text: "Calendar"
       icon: fa-calendar
       href: calendar.html
+    - text: "Sessions"
+      icon: fa-calendar
+      href: sessions.html  
     - text: "Members"
       icon: fa-user 
       href: members.html
