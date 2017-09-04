@@ -1,3 +1,4 @@
+# devtools::install_github("privefl/googlesheets")
 library(googlesheets)
 library(dplyr)
 
