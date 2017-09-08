@@ -2,6 +2,10 @@
 title: "Working sessions"
 ---
 
+### Help us communicate
+
+Please talk about our R group with your colleagues. You can also print [this poster](poster.pdf) and put it up somewhere at work.
+
 ### Join our R working sessions in Grenoble
 
 Each month, we will organize one working session of 2 hours (on thursdays, from 16h-18h, at the [IMAG building](https://r-in-grenoble.github.io/members.html)). 
