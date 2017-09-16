@@ -2,6 +2,8 @@
 title: "Working sessions"
 ---
 
+**The inscription for the first session is open [there](https://attending.io/events/introduction-to-r). Attendance is totally free but registration is mandatory and is on a first come first serve basis.**
+
 ### Help us communicate
 
 Please talk about our R group with your colleagues. You can also print [this poster](poster.pdf) and put it up somewhere at work.
