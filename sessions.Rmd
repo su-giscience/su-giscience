@@ -2,7 +2,9 @@
 title: "Working sessions"
 ---
 
-[Questionnaire for people attending the working sessions](questionnaire.html)
+You can register to the second session "Visualisation with ggplot2" [there](http://attending.io/events/visualisation-with-ggplot2-bd6c3093-c2d7-4934-ab27-f77bf4be4014).
+
+Attendance is totally free but registration is mandatory and is on a first come first serve basis.
 
 ### Help us communicate
 
