@@ -4,15 +4,15 @@ title: "Organization"
 
 **The first goal of this R group is that people meet and learn from each other.**
 
-In this page, we will detail how we will organize the R group and events. This organization has been approved during the first formal meeting but can change with time (any good idea is welcomed!).
+In this page, we will detail how we will organize the R group and events. This organization has been approved during the first formal meeting but can change with time (any good idea is welcome!).
 
 Some ideas are taken from the organization of the [Davis R Users' Group](https://d-rug.github.io/).
 
-**Who can attend?** any R users, students, engineers, researchers, people from the Industry, non-french speakers are all welcomed.
+**Who can attend?** any R users, students, engineers, researchers, people from the Industry, non-french speakers are all welcome.
 
 ### Communicate
 
-- Subscribe  to the [r-in-grenoble newsletter](https://listes.univ-grenoble-alpes.fr/sympa/subscribe/r-in-grenoble?previous_action=info)
+- Subscribe to the [r-in-grenoble newsletter](https://listes.univ-grenoble-alpes.fr/sympa/subscribe/r-in-grenoble?previous_action=info)
 
 - Subscribe to the [calendar](https://r-in-grenoble.github.io/calendar.html) of the community
 
@@ -20,19 +20,21 @@ Some ideas are taken from the organization of the [Davis R Users' Group](https:/
 
 ### Join working sessions 
 
-The main events we want to organize are monthly working sessions of 2 hours (16h-18h probably). 
+The main events we want to organize are monthly working sessions of 2 hours (16h-18h). 
 
-- We will host presentations/tutorials on some R topics that can be useful to many people (e.g. optimization of code, the tidyverse, Rcpp, imputation, predictive models, image/text analysis, etc.) during 30-60 min.
+- We will host presentations/tutorials on some R topics that can be useful to many people (e.g. optimization of code, the tidyverse, Rcpp, imputation, predictive models, image/text analysis, etc.) during 45-60 min.
 
-- During the second part of the session, people could ask and answer some questions about specific problems they encounter when coding in R. During this time, beers and sodas will be offered by the [Grenoble Alpes Data Institute](https://data-institute.univ-grenoble-alpes.fr/).
+- During the second part of the session, people could ask and answer some questions about specific problems they encounter when coding in R. During this time, ~~beers,~~ cocktails and snacks will be offered by the [Grenoble Alpes Data Institute](https://data-institute.univ-grenoble-alpes.fr/).
 
 - If you wish to share your R experience (on a specific topic) during a working session, please [contact us](mailto:florian.prive@univ-grenoble-alpes.fr,magali.richard@univ-grenoble-alpes.fr).
+
+- If you wish to share your work with R in a lightning talk of 5 min (just after the main presentation), please contact us. 
 
 ### Attend scientific seminars
 
 - Specific research topics that use R would take place in Lab seminars. We propose to announce these presentations with our newsletter and calendar so that people can go to the corresponding lab if they are interested.
 
-- If we manage to invite some well-known speakers, we could host some special seminars.
+- If we manage to invite some well-known speakers, we could host some special seminars. Normally, [Romain François](https://romain.rbind.io/) will come give a talk about [Shiny](https://shiny.rstudio.com/) in the second semester.
 
 ### Blog and share your experience
 
@@ -40,7 +42,7 @@ The main events we want to organize are monthly working sessions of 2 hours (16h
 
 - We could also host some blog post without having to make a presentation. If you want to share a post, please [contact us](mailto:florian.prive@univ-grenoble-alpes.fr,magali.richard@univ-grenoble-alpes.fr). 
 
-The blog will be relayed at [R-bloggers](https://www.r-bloggers.com/) which is read by dozens of thousands of people.
+The blog will be relayed by [R-bloggers](https://www.r-bloggers.com/), which is read by thousands of people.
 
 ### Train
 
@@ -48,10 +50,12 @@ The blog will be relayed at [R-bloggers](https://www.r-bloggers.com/) which is r
 
 - According to R-users needs, we can organize and propose specific training sessions that can be integrated into MaiMoSiNE training calendar. 
 
+- [Advanced R training course](https://www.adum.fr/phd/formation/catalogue.pl?mod=156596) for PhD students (in French).
+
 ### Get some help
 
 - A [map and table with members](members.html) of the R group is available. One could contact people with some specific skills (referenced in the table). Don't hesitate to register by following the quick guidelines!
 
-- A [gitter](https://gitter.im/R-in-Grenoble) is available to help people discuss with each other. You can see directly the chat rooms on this website.
+- A [gitter](https://gitter.im/R-in-Grenoble) is available to help people discuss with each other. You can see directly the chat rooms on this website. What about making a slack team to communicate?
 
 
