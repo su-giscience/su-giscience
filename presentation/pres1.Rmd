@@ -1,8 +1,8 @@
 ---
-title: "Working session n°1"
+title: "Working session n°2"
 subtitle: "Grenoble RUG"
 # author: "Florian Privé"
-date: "September 28, 2017"
+date: "October 19, 2017"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -18,29 +18,71 @@ knitr::opts_chunk$set(fig.align = "center", dev = "svg",
                       fig.asp = 0.7, out.width = "80%", echo = FALSE)
 ```
 
-## Thanks for being here
+## Next times
 
-### We weren't expecting so many people
+</br>
 
-```{r}
-knitr::include_graphics("http://www.brunstad.org/getattachment/no/Aktuelt/Bildegalleri/Photo-Gallery-Summer-Conference-July-2013/d.jpg?maxsidesize=940")
-```
+- *Package **igraph*** by S. Achard (November 16)
+
+- *Geographical Information Systems* by F. Boyer (December 14)
+
+</br>
+
+- Next sessions will probably be in French (based on answers from questionnaires)
+
+- Slides and website will remain in English (to share our work with the rest of the world)
+
+</br>
+
+- **Advanced R course** of Grenoble doctoral school (in French) -> ADUM
 
 ---
 
-## Today
+## Idea 1: Lightning talks
 
-**Introduction to R** by
+### Idea from R-ladies Barcelona
 
-- Florent Chuffart (IAB)
+</br>
 
-- Frédéric Boyer (LECA)
+```{r, out.width="85%"}
+knitr::include_graphics("lightning-talk.png")
+```
 
-<br>
+.footnote[5 min just after the main presentation (at the beginning of the second part)]
 
-### Next time (October 19)
+---
 
-**Visualisation with ggplot2**
+## Idea 2: find a way to communicate
+
+### Somewhere to chat within this group
+
+</br>
+
+- A Slack team?
+
+- WhatsApp?
+
+- Nothing?
+
+- Any other idea?
+
+---
+
+## Reminder: make sure to register
+
+</br>
+
+```{r, out.width="85%"}
+knitr::include_graphics("register.png")
+```
+
+</br>
+
+- size of the room
+
+- order food and drinks
+
+- instructions (e.g. install some packages)
 
 ---
 
@@ -54,53 +96,28 @@ knitr::include_graphics("http://www.brunstad.org/getattachment/no/Aktuelt/Bildeg
 
 - Give some help
 
-
-
 ---
 
-## Gifts for you
+## Gifts for you + food and drinks 
 
-```{r, out.width="20%"}
+```{r, out.width="15%"}
 knitr::include_graphics("sticker.png")
 ```
 
-```{r, out.width="30%"}
+```{r, out.width="18%"}
 knitr::include_graphics("ecocup.jpg")
 ```
 
----
+<center>offered by
 
-## + Food and Drinks 
-### after the presentation, offered by
-
-<br>
-
-<br>
-
-```{r}
+```{r, out.width="65%"}
 knitr::include_graphics("https://www.pacte-grenoble.fr/sites/pacte/files/logo-data-institute-original-1500x375px.jpg")
 ```
 
 ---
 
-## What I ask of you (1/2)
-
-### Become a member of the group
-
-```{r, out.width="70%"}
-knitr::include_graphics("members.png")
-```
-
----
-
-## What I ask of you (1/2)
-
-### Fill a questionnaire (30 seconds)
-
-### https://r-in-grenoble.github.io/questionnaire.html
-
----
-
 class: center, middle, inverse
 
-# Have a good session!
+# Please ask me (and others)
+# if you want some help 
+# or just come talking!
