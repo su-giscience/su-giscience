@@ -15,14 +15,11 @@ navbar:
     - text: "Members"
       icon: fa-user 
       href: members.html
-    - text: "Chat"
-      icon: fa-comments
-      menu:
-        - text: "Lobby"
-          href: gitter-lobby.html
     - text: "Blog"
       icon: fa-rss
       href: https://r-in-grenoble.github.io/blog/    # CHANGE HERE 
+    - text: "Lost & found"
+      href: lost-found.html
   right:
     - icon: fa-envelope-o
       href: mailto:florian.prive@univ-grenoble-alpes.fr,magali.richard@univ-grenoble-alpes.fr                      # CHANGE HERE 
