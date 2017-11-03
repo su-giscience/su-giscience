@@ -2,9 +2,9 @@
 title: "Working sessions"
 ---
 
-You can register to the 3rd session "Package igraph" [there](https://www.eventbrite.fr/e/billets-grenoble-rug-working-session-n3-package-igraph-39257748984).
+<!-- You can register to the 3rd session "Package igraph" [there](https://www.eventbrite.fr/e/billets-grenoble-rug-working-session-n3-package-igraph-39257748984). -->
 
-Attendance is totally free but registration is mandatory and is on a first come first serve basis.
+<!-- Attendance is totally free but registration is mandatory and is on a first come first serve basis. -->
 
 ### Help us communicate
 
