@@ -2,9 +2,9 @@
 title: "Working sessions"
 ---
 
-<!-- You can register to the 3rd session "Package igraph" [there](https://www.eventbrite.fr/e/billets-grenoble-rug-working-session-n3-package-igraph-39257748984). (**!!DATE CHANGED!! Now on November 23**) -->
+You can register to the session 4 about Geographical Information Systems [there](https://www.eventbrite.fr/e/billets-grenoble-rug-working-session-n4-geographical-information-systems-40834996574). 
 
-<!-- Attendance is totally free but registration is mandatory and is on a first come first serve basis. -->
+Attendance is totally free but registration is mandatory and is on a first come first serve basis.
 
 ### Help us communicate
 
@@ -20,9 +20,11 @@ Please find the guidelines for these sessions:
 
 - Presentations/tutorials will last 30 to 60 min, on some R topics that can be useful to many people, with practical examples.
 
+- We want to have a lightning talk (5 min) after the main session so that people can quickly present how they use R in their work (or a specific package, etc.).
+
 - During the second part of the session, people could ask and answer some questions about specific problems they encounter when coding in R.
 
-- During this time, beers and sodas will be offered by [the Grenoble Alpes Data Institute](https://data-institute.univ-grenoble-alpes.fr/).
+- During this time, food and sodas will be offered by [the Grenoble Alpes Data Institute](https://data-institute.univ-grenoble-alpes.fr/).
 
 - If you wish to share your R experience during a working session and/or to co-animate a working session, please [contact us](mailto:florian.prive@univ-grenoble-alpes.fr,magali.richard@univ-grenoble-alpes.fr).
 
@@ -47,7 +49,7 @@ The main purpose of this session is to offer a not only simple but also powerful
 This introduction gives you the keys to perform large scale statistical data analysis.", "F. Chuffart & F. Boyer",
   "19/10/2017", "2/10","ggplot2", "You all know the package ggplot2 from Hadley Wickham. It is reputed to make nice plots that could be used in publications, for example. It is also reputed to be hard to begin with or to customize. We will explain the reasoning behind ggplot2 and the use of tidy data which is important to understand in order to master ggplot2. We will also show the common problems an R user could face when using ggplot2 (and their solutions). There will be a lot of nice plots :-)", "F. Privé",
   "23/11/2017", "3/10", "igraph", "Package igraph by Gábor Csárdi is a well known package to handle networks (or graphs) analysis. We will discover first how to simulate and encode networks. Some basics knowledge about graph metrics will be introduced. Nice graphical outputs will be display to illustrate the session. I will use the tutorial available here: http://www.gipsa-lab.grenoble-inp.fr/~sophie.achard/Tutorial_brainwaver/tutorial_practice_graph_html.html. This package is also available in Python!", "S. Achard",
-  "14/12/2017", "4/10", "Geographical Information Systems", "wait for it...", "F. Boyer & ...",
+  "14/12/2017", "4/10", "Geographical Information Systems", "The aim of this session is to give a basic overview on how to work with spatial data with R. The session will briefly cover spatial data types, main packages for spatial data handling, basic computations on spatial data and plotting spatial data with R. Then, we will shortly illustrate these points working on data from the Grenoble area.", "F. Boyer",
   "18/01/2018", "5/10", "RStudio and git", "RStudio is an integrated development environment (IDE) that facilitate the life of R users. We will show some of the tools that are provided by the RStudio IDE that could help you save some precious time and effort. Two of these tools are the integration of Git and the R projects. We will see in particular how these two tools are integrated in RStudio and how much is it important to work with them. Make sure you have the latest version of RStudio and git installed (https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN).", "F. Privé & M. Richard",
   "08/02/2018", "6/10", "Best coding practices", "wait for it...", "A. Arnaud & J. Arbel",
   "15/03/2018", "7/10", "Rcpp", "Your code isn't fast enough? We will see how to make simple Rcpp code to accelerate your code. We will see that Rcpp is useful for loops, for avoiding copies, etc. We will also see that Rcpp isn't always faster than an optimized R code. Finally, we will see how to integrate some Rcpp code to your packages and notebooks.", "F. Privé & A. Arnaud",
