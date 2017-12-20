@@ -20,8 +20,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
@@ -31,10 +31,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -248,8 +250,8 @@ $(document).ready(function () {
 </div>
 
 
-<p>You can register to the session 4 about Geographical Information Systems <a href="https://www.eventbrite.fr/e/billets-grenoble-rug-working-session-n4-geographical-information-systems-40834996574">there</a>.</p>
-<p>Attendance is totally free but registration is mandatory and is on a first come first serve basis.</p>
+<!-- You can register to the session 4 about Geographical Information Systems [there](https://www.eventbrite.fr/e/billets-grenoble-rug-working-session-n4-geographical-information-systems-40834996574).  -->
+<!-- Attendance is totally free but registration is mandatory and is on a first come first serve basis. -->
 <div id="help-us-communicate" class="section level3">
 <h3>Help us communicate</h3>
 <p>Please talk about our R group with your colleagues. You can also print <a href="poster.pdf">this poster</a> and put it up somewhere at work.</p>
