@@ -4,7 +4,7 @@ title: "Working sessions"
 
 Make sure to subscribe to the [r-in-grenoble newsletter](https://listes.univ-grenoble-alpes.fr/sympa/subscribe/r-in-grenoble?previous_action=info) to know when you can register to the next session.
 
-You can register to the session 5 about RStudio and Git [there](https://www.eventbrite.fr/e/billets-grenoble-rug-working-session-n5-rstudio-and-git-41954458916).
+You can register to the session 6 about best coding practices [there](https://www.eventbrite.fr/e/billets-grenoble-rug-working-session-n6-best-coding-practices-42495577416).
 
 Attendance is totally free but registration is mandatory and is on a first come first serve basis.
 
