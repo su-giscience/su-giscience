@@ -4,7 +4,7 @@ title: "Working sessions"
 
 Make sure to subscribe to the [r-in-grenoble newsletter](https://listes.univ-grenoble-alpes.fr/sympa/subscribe/r-in-grenoble?previous_action=info) to know when you can register to the next session.
 
-You can register to the session 6 about best coding practices [there](https://www.eventbrite.fr/e/billets-grenoble-rug-working-session-n6-best-coding-practices-42495577416).
+You can register to the session 7 about Rcpp [there](https://www.eventbrite.fr/e/billets-grenoble-rug-working-session-n7-rcpp-43607037824).
 
 Attendance is totally free but registration is mandatory and is on a first come first serve basis.
 
@@ -58,7 +58,7 @@ In this session, we will review good practices to write 1) R code and 2) R packa
 In a first part, we will present some ideas of the tidyverse style guide (following http://style.tidyverse.org/) including the styler package (interactively restyle selected text) and the lintr package (automated style checks).
 The second part will be devoted to writing R packages, which is at the basis of reproducibility. We will learn how to use the Roxygen package to (quite automatically) turn personal code into reusable code (following http://r-pkgs.had.co.nz/).
 Make sure you have the latest versions of RStudio, styler, lintr, and Roxygen packages installed.", "A. Arnaud & J. Arbel",
-  "15/03/2018", "7/10", "Rcpp", "Your code isn't fast enough? We will see how to make simple Rcpp code to accelerate your code. We will see that Rcpp is useful for loops, for avoiding copies, etc. We will also see that Rcpp isn't always faster than an optimized R code. Finally, we will see how to integrate some Rcpp code to your packages and notebooks.", "F. Privé & A. Arnaud",
+  "15/03/2018", "7/10", "Rcpp", "Your code isn't fast enough? We will see how to make simple Rcpp code to accelerate your code. We will see that Rcpp is useful for loops, for avoiding copies, etc. We will also see that Rcpp isn't always faster than an optimized R code. Finally, we will see how to integrate some Rcpp code to your packages and notebooks.", "F. Privé",
   "26/04/2018", "8/10", "Parallel computing", "wait for it...", "F. Chuffart & L. Viry",
   "24/05/2018", "9/10", "Out of memory matrices", "In this session, we will talk about the package bigstatsr. The package bigstatsr provides a special class of matrix than can be used to store some data in a matrix-like format on your disk but to access it almost as if it were in memory. It is particularly useful is you have a large matrix to analyze but not enough RAM on your computer. We will then see the statistical and helper functions that are provided by the package bigstatsr for this kind of matrices.", "F. Privé & ...",
   "14/06/2018", "10/10", "Make your personal webpage with R", "You know nothing about web development? Me neither (at least when I came up with this solution). In this session, you will learn how to make your personal website with only R code in only a few minutes. For example, the site of our group is made with this R solution.", "F. Privé & M. Richard"
@@ -159,3 +159,16 @@ div(
 ) 
 ```
 
+### Materials from previous sessions
+
+- [Best coding practices](https://jarbel.github.io/Rgoodpractice/rpresentation.html)
+
+- [RStudio and Git](https://privefl.github.io/R-presentation/rstudio-git.html)
+
+- [Geographical Information Systems](http://www-leca.ujf-grenoble.fr/pageperso/boyerfr/ESPACE-PERSO/TP.zip)
+
+- [Network analysis with **igraph**](http://www.gipsa-lab.grenoble-inp.fr/~sophie.achard/Tutorial_brainwaver/tutorial_practice_graph_html.html)
+
+- [Visualization with **ggplot2**](https://privefl.github.io/R-presentation/ggplot2.html)
+
+- [An introduction to R](https://github.com/fchuffar/intro_r)
