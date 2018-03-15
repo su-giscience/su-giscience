@@ -2,11 +2,13 @@
 title: "Working sessions"
 ---
 
+The slides for the Rcpp session are available [there](https://privefl.github.io/R-presentation/Rcpp.html).
+
 Make sure to subscribe to the [r-in-grenoble newsletter](https://listes.univ-grenoble-alpes.fr/sympa/subscribe/r-in-grenoble?previous_action=info) to know when you can register to the next session.
 
-You can register to the session 7 about Rcpp [there](https://www.eventbrite.fr/e/billets-grenoble-rug-working-session-n7-rcpp-43607037824).
+<!-- You can register to the session 7 about Rcpp [there](https://www.eventbrite.fr/e/billets-grenoble-rug-working-session-n7-rcpp-43607037824). -->
 
-Attendance is totally free but registration is mandatory and is on a first come first serve basis.
+<!-- Attendance is totally free but registration is mandatory and is on a first come first serve basis. -->
 
 ### Help us communicate
 
