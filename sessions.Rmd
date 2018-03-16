@@ -161,7 +161,7 @@ div(
 
 ### Materials from previous sessions
 
-- [Package {Rcpp}](https://privefl.github.io/R-presentation/Rcpp.html).
+- [{Rcpp}](https://privefl.github.io/R-presentation/Rcpp.html).
 
 - [Best coding practices](https://jarbel.github.io/Rgoodpractice/rpresentation.html)
 
