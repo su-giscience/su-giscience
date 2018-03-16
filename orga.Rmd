@@ -34,7 +34,7 @@ The main events we want to organize are monthly working sessions of 2 hours (16h
 
 - Specific research topics that use R would take place in Lab seminars. We propose to announce these presentations with our newsletter and calendar so that people can go to the corresponding lab if they are interested.
 
-- If we manage to invite some well-known speakers, we could host some special seminars. Normally, [Romain François](https://romain.rbind.io/) will come give a talk about [Shiny](https://shiny.rstudio.com/) in the second semester.
+- If we manage to invite some well-known speakers, we could host some special seminars.
 
 ### Blog and share your experience
 

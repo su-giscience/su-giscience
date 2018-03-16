@@ -20,8 +20,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
@@ -31,10 +31,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -261,9 +263,9 @@ $(document).ready(function () {
 <h3>Unanswered [r] questions of Grenoble useRs</h3>
 <ul>
 <li><p><a href='https://stackoverflow.com/questions/45834808/gitignore-man-directory-of-an-r-package' target='_blank'>Gitignore man directory of an R package?</a></p></li>
-<li><p><a href='https://stackoverflow.com/questions/45932318/r-travis-osx-clang-error-unsupported-option-fopenmp' target='_blank'>R Travis OSX - clang: error: unsupported option ‘-fopenmp’</a></p></li>
 <li><p><a href='https://stackoverflow.com/questions/45715786/call-active-field-of-inherited-parent-reference-class' target='_blank'>Call active field of inherited parent reference class</a></p></li>
 <li><p><a href='https://stackoverflow.com/questions/46401154/embed-htmlwidget-of-external-webpage-in-r-markdown-html-document' target='_blank'>Embed htmlwidget of external webpage in R markdown HTML document</a></p></li>
+<li><p><a href='https://stackoverflow.com/questions/45932318/r-travis-osx-clang-error-unsupported-option-fopenmp' target='_blank'>R Travis OSX - clang: error: unsupported option ‘-fopenmp’</a></p></li>
 </ul>
 </div>
 

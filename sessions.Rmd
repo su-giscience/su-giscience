@@ -2,8 +2,6 @@
 title: "Working sessions"
 ---
 
-The slides for the Rcpp session are available [there](https://privefl.github.io/R-presentation/Rcpp.html).
-
 Make sure to subscribe to the [r-in-grenoble newsletter](https://listes.univ-grenoble-alpes.fr/sympa/subscribe/r-in-grenoble?previous_action=info) to know when you can register to the next session.
 
 <!-- You can register to the session 7 about Rcpp [there](https://www.eventbrite.fr/e/billets-grenoble-rug-working-session-n7-rcpp-43607037824). -->
@@ -163,14 +161,16 @@ div(
 
 ### Materials from previous sessions
 
+- [Package {Rcpp}](https://privefl.github.io/R-presentation/Rcpp.html).
+
 - [Best coding practices](https://jarbel.github.io/Rgoodpractice/rpresentation.html)
 
 - [RStudio and Git](https://privefl.github.io/R-presentation/rstudio-git.html)
 
 - [Geographical Information Systems](http://www-leca.ujf-grenoble.fr/pageperso/boyerfr/ESPACE-PERSO/TP.zip)
 
-- [Network analysis with **igraph**](http://www.gipsa-lab.grenoble-inp.fr/~sophie.achard/Tutorial_brainwaver/tutorial_practice_graph_html.html)
+- [Network analysis with {igraph}](http://www.gipsa-lab.grenoble-inp.fr/~sophie.achard/Tutorial_brainwaver/tutorial_practice_graph_html.html)
 
-- [Visualization with **ggplot2**](https://privefl.github.io/R-presentation/ggplot2.html)
+- [Visualization with {ggplot2}](https://privefl.github.io/R-presentation/ggplot2.html)
 
 - [An introduction to R](https://github.com/fchuffar/intro_r)
