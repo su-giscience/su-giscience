@@ -18,8 +18,6 @@ navbar:
     - text: "Blog"
       icon: fa-rss
       href: https://r-in-grenoble.github.io/blog/    # CHANGE HERE 
-    - text: "Lost & found"
-      href: lost-found.html
   right:
     - icon: fa-envelope-o
       href: mailto:florian.prive@univ-grenoble-alpes.fr,magali.richard@univ-grenoble-alpes.fr                      # CHANGE HERE 
