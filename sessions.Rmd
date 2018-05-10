@@ -161,7 +161,9 @@ div(
 
 ### Materials from previous sessions
 
-- [{Rcpp}](https://privefl.github.io/R-presentation/Rcpp.html).
+- [Parallel computing](session-parallel.zip)
+
+- [{Rcpp}](https://privefl.github.io/R-presentation/Rcpp.html)
 
 - [Best coding practices](https://jarbel.github.io/Rgoodpractice/rpresentation.html)
 
