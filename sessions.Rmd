@@ -4,7 +4,7 @@ title: "Working sessions"
 
 Make sure to subscribe to the [r-in-grenoble newsletter](https://listes.univ-grenoble-alpes.fr/sympa/subscribe/r-in-grenoble?previous_action=info) to know when you can register to the next session.
 
-You can register to the session 9 about out-of-memory matrices [there](https://www.eventbrite.fr/e/billets-grenoble-rug-working-session-n9-out-of-memory-matrices-45965144986).
+You can register to session 10 about how to make your personal webpage with R [there](https://www.eventbrite.fr/e/billets-grenoble-rug-working-session-n10-make-your-personal-webpage-with-r-46708386040).
 
 Attendance is totally free but registration is mandatory and is on a first come first serve basis.
 
@@ -160,6 +160,8 @@ div(
 ```
 
 ### Materials from previous sessions
+
+- [Out-of-memory matrices](https://privefl.github.io/R-presentation/bigstatsr.html)
 
 - [Parallel computing](session-parallel.zip)
 
