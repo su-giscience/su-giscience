@@ -4,7 +4,9 @@ title: "Working sessions"
 
 Make sure to subscribe to the [r-in-grenoble newsletter](https://listes.univ-grenoble-alpes.fr/sympa/subscribe/r-in-grenoble?previous_action=info) to know when you can register to the next session.
 
-You can register to session 10 about how to make your personal webpage with R [there](https://www.eventbrite.fr/e/billets-grenoble-rug-working-session-n10-make-your-personal-webpage-with-r-46708386040).
+**10 sessions are planned next year, starting in September. We will update the website during the summer. Stay tuned.**
+
+<!-- You can register to session 10 about how to make your personal webpage with R [there](https://www.eventbrite.fr/e/billets-grenoble-rug-working-session-n10-make-your-personal-webpage-with-r-46708386040). -->
 
 Attendance is totally free but registration is mandatory and is on a first come first serve basis.
 
@@ -160,6 +162,8 @@ div(
 ```
 
 ### Materials from previous sessions
+
+- [Make your personal webpage with R](https://privefl.github.io/R-presentation/rmarkdown-websites.html)
 
 - [Out-of-memory matrices](https://privefl.github.io/R-presentation/bigstatsr.html)
 
