@@ -12,7 +12,8 @@ Attendance is totally free but registration is mandatory and is on a first come 
 
 ### Help us communicate
 
-Please talk about our R group with your colleagues. You can also print [this poster](poster.pdf) and put it up somewhere at work.
+Please talk about our R group with your colleagues. 
+<!-- You can also print [this poster](poster.pdf) and put it up somewhere at work. -->
 
 ### Join our R working sessions in Grenoble
 
@@ -32,7 +33,7 @@ Please find the guidelines for these sessions:
 
 - If you wish to share your R experience during a working session and/or to co-animate a working session, please [contact us](mailto:florian.prive@univ-grenoble-alpes.fr,magali.richard@univ-grenoble-alpes.fr).
 
-### Schedule
+### Schedule of 2018-2019
 
 *Click on the title to see the session description*
 
@@ -46,24 +47,29 @@ library(htmltools)
 
 ```{r, warning=FALSE}
 program <- tribble(
+  
   ~Date, ~Session, ~Title, ~Description, ~Authors,
-  "28/09/2017", "1/10", "Introduction to R", "This first R working session will be an introduction to your favourite statistical programming language: R.
-After a brief introduction to basics (user interface paradigms, free software and GNU), we will go deeply into the details of data structures, data indexing and data visualisation.
-The main purpose of this session is to offer a not only simple but also powerful alternative to your classical spreadsheet software.
-This introduction gives you the keys to perform large scale statistical data analysis.", "F. Chuffart & F. Boyer",
-  "19/10/2017", "2/10","ggplot2", "You all know the package ggplot2 from Hadley Wickham. It is reputed to make nice plots that could be used in publications, for example. It is also reputed to be hard to begin with or to customize. We will explain the reasoning behind ggplot2 and the use of tidy data which is important to understand in order to master ggplot2. We will also show the common problems an R user could face when using ggplot2 (and their solutions). There will be a lot of nice plots :-)", "F. Privé",
-  "23/11/2017", "3/10", "igraph", "Package igraph by Gábor Csárdi is a well known package to handle networks (or graphs) analysis. We will discover first how to simulate and encode networks. Some basics knowledge about graph metrics will be introduced. Nice graphical outputs will be display to illustrate the session. I will use the tutorial available here: http://www.gipsa-lab.grenoble-inp.fr/~sophie.achard/Tutorial_brainwaver/tutorial_practice_graph_html.html. This package is also available in Python!", "S. Achard",
-  "14/12/2017", "4/10", "Geographical Information Systems", "The aim of this session is to give a basic overview on how to work with spatial data with R. The session will briefly cover spatial data types, main packages for spatial data handling, basic computations on spatial data and plotting spatial data with R. Then, we will shortly illustrate these points working on data from the Grenoble area.", "F. Boyer",
-  "18/01/2018", "5/10", "RStudio and git", "RStudio is an integrated development environment (IDE) that facilitate the life of R users. We will show some of the tools that are provided by the RStudio IDE that could help you save some precious time and effort. Two of these tools are the integration of Git and the R projects. We will see in particular how these two tools are integrated in RStudio and how much is it important to work with them. Make sure you have the latest version of RStudio and git installed (https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN).", "F. Privé & M. Richard",
-  "08/02/2018", "6/10", "Best coding practices", "As nicely written by Hadley Wickham R guru, \"Good coding style is like correct punctuation: you can manage without it, butitsuremakesthingseasiertoread.\" 
-In this session, we will review good practices to write 1) R code and 2) R packages. 
-In a first part, we will present some ideas of the tidyverse style guide (following http://style.tidyverse.org/) including the styler package (interactively restyle selected text) and the lintr package (automated style checks).
-The second part will be devoted to writing R packages, which is at the basis of reproducibility. We will learn how to use the Roxygen package to (quite automatically) turn personal code into reusable code (following http://r-pkgs.had.co.nz/).
-Make sure you have the latest versions of RStudio, styler, lintr, and Roxygen packages installed.", "A. Arnaud & J. Arbel",
-  "15/03/2018", "7/10", "Rcpp", "Your code isn't fast enough? We will see how to make simple Rcpp code to accelerate your code. We will see that Rcpp is useful for loops, for avoiding copies, etc. We will also see that Rcpp isn't always faster than an optimized R code. Finally, we will see how to integrate some Rcpp code to your packages and notebooks.", "F. Privé",
-  "26/04/2018", "8/10", "Parallel computing", "'Compute as you sew' is a short presentation that demystifies parallelism. It defines simple parallel programming paradigms based on an understandable model of the computer. It shows concrete examples of collaborative tasks quoted from sewing domain. A short R implementation is offered and limits of the approach are discussed. 'Compute as you sew' will definitely changes your point of view on parallelism (and on sewing). It will make your code greater, more efficient, more easy to read or to transpose on modern computers and on HPC infrastructures. It will for sure make your (R) life better. It could also change the world but it cannot do that without you.", "F. Chuffart & L. Viry",
-  "24/05/2018", "9/10", "Out-of-memory matrices", "In this session, I will present R package bigstatsr. R package bigstatsr provides a special class of matrix whose data is stored on the disk instead of the RAM, but you can still access the data almost as if it were in memory. It is particularly useful is you have a large matrix to analyze but not enough RAM on your computer. It can still be useful for matrices that fit in your RAM because package bigstatsr provides very efficient and parallelized algorithms (have you ever found `cor` or `svd` slow?). I will present the statistical and helper functions that are provided by package bigstatsr for this kind of matrices.", "F. Privé",
-  "14/06/2018", "10/10", "Make your personal webpage with R", "You know nothing about web development? Me neither (at least when I came up with this solution). In this session, you will learn how to make your personal website with only R code in only a few minutes. For example, the site of our group is made with this R solution.", "F. Privé & M. Richard"
+  
+  "13/09/2018", "1/10", "What R can do for you?", "TODO", "F. Privé & team",
+  
+  "11/10/2018", "2/10", "Package {imager}", "TODO", "S. Barthelmé",
+  
+  "15/11/2018", "3/10", "lm & glm", "TODO", "M. Blum & ?",
+  
+  "06/12/2018", "4/10", "Package {drake}", "TODO", "X. Laviron & ?",
+  
+  "31/01/2019", "5/10", "Deep Learning", "TODO", "O. François & ?",
+  
+  "14/02/2019", "6/10", "Machine Learning with package {caret}", "TODO", "? & ?",
+
+  "14/03/2019", "7/10", "Best coding practices", "TODO", "M. Richard & ?",
+  
+  "11/04/2019", "8/10", "R Markdown", "TODO", "M. Crispino & J. Arbel",
+
+  "16/05/2019", "9/10", "Package {dplyr}", "TODO", "M. Blum & ?",
+
+  "13/06/2019", "10/10", "Package {ggplot2}", "TODO", "? & F. Privé"
+
 ) %>%
   mutate(Date = dmy(Date)) 
 
@@ -160,6 +166,8 @@ div(
   })
 ) 
 ```
+
+<br>
 
 ### Materials from previous sessions
 

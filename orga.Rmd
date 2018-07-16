@@ -54,8 +54,9 @@ The blog will be relayed by [R-bloggers](https://www.r-bloggers.com/), which is 
 
 ### Get some help
 
+- [Join the (french-speaking) slack of R users](https://join.slack.com/t/r-grrr/shared_invite/enQtMzI4MzgwNTc4OTAxLWZlOGZiZTBiMWU0NDQ3OTYzOGE1YThiODgwZWNhNWEyYjI4ZDJiNmNhY2YyYWI5YzFiOTFkNDYxYzkwODUwNWM).
+
 - A [map and table with members](members.html) of the R group is available. One could contact people with some specific skills (referenced in the table). Don't hesitate to register by following the quick guidelines!
 
-- A [gitter](https://gitter.im/R-in-Grenoble) is available to help people discuss with each other. You can see directly the chat rooms on this website. What about making a slack team to communicate?
-
+- [Some resources](https://privefl.github.io/advr38book/good-practices.html#getting-help)
 
