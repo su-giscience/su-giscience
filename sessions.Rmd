@@ -58,7 +58,7 @@ program <- tribble(
   
   "06/12/2018", "4/10", "Package {drake}", "TODO", "X. Laviron & ?",
   
-  "31/01/2019", "5/10", "Deep Learning", "TODO", "O. François & ?",
+  "31/01/2019", "5/10", "Deep Learning with package {tensorflow}", "TODO", "O. François & ?",
   
   "14/02/2019", "6/10", "Machine Learning with package {caret}", "TODO", "? & ?",
 

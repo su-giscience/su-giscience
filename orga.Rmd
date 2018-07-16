@@ -58,5 +58,5 @@ The blog will be relayed by [R-bloggers](https://www.r-bloggers.com/), which is 
 
 - A [map and table with members](members.html) of the R group is available. One could contact people with some specific skills (referenced in the table). Don't hesitate to register by following the quick guidelines!
 
-- [Some resources](https://privefl.github.io/advr38book/good-practices.html#getting-help)
+- [Some resources](https://privefl.github.io/advr38book/good-practices.html#getting-help).
 
