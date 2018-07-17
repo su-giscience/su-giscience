@@ -54,7 +54,7 @@ program <- tribble(
   
   "11/10/2018", "2/10", "Image processing with package {imager}", "TODO", "S. Barthelmé",
   
-  "15/11/2018", "3/10", "lm & glm (statistics)", "TODO", "M. Blum & ?",
+  "15/11/2018", "3/10", "Linear models in R", "TODO", "M. Blum & ?",
   
   "06/12/2018", "4/10", "Manage your workflow with package {drake}", "TODO", "X. Laviron & ?",
   
