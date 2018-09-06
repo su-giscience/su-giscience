@@ -7,9 +7,12 @@ title: "About our community"
 ```{r, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 
-library(googlesheets)
 library(dplyr)
+# devtools::install_github("privefl/googlesheets")
+library(googlesheets)
+# install.packages(c("leaflet", "DT"))
 library(leaflet)
+library(DT)
 ```
 
 ```{r, include=FALSE}
@@ -72,7 +75,7 @@ suppressWarnings(
 
 ```{r}
 # display table
-DT::datatable(select(members, c(Name, Institution, Field, Keywords, Status)), 
+datatable(select(members, c(Name, Institution, Field, Keywords, Status)), 
               rownames = FALSE, escape = FALSE)
 ```
 

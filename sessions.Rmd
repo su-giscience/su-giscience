@@ -50,7 +50,9 @@ program <- tribble(
   
   ~Date, ~Session, ~Title, ~Description, ~Authors,
   
-  "13/09/2018", "1/10", "What R can do for you?", "TODO", "F. Privé & team",
+  "13/09/2018", "1/10", "What R can do for you?", 
+  "In this presentation, we will see the potential amazing applications of R. Then, we will compile links to where you can learn R (from scratch or to become more advanced). Finally, we will announce the coming sessions for this academic year.", 
+  "F. Privé & team",
   
   "18/10/2018", "2/10", "Image processing with package {imager}", 
   "imager is an R package for image processing. It is meant to be fast, flexible and to integrate well with standard R functions and data structures. imager is based on CImg, a C++ library for image processing with a clean and easy-to-use API.", 
