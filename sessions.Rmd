@@ -2,7 +2,7 @@
 title: "Working sessions"
 ---
 
-Make sure to subscribe to the [r-in-grenoble newsletter](https://listes.univ-grenoble-alpes.fr/sympa/subscribe/r-in-grenoble?previous_action=info) to know when you can register to the next session.
+Make sure to subscribe to the [r-in-grenoble newsletter](https://listes.univ-grenoble-alpes.fr/sympa/subscribe/r-in-grenoble?previous_action=info) to know when you can register to the next session. 
 
 <!-- You can register to session 11 about what R can do for you [there](https://www.eventbrite.fr/e/billets-grenoble-rug-working-session-n11-what-r-can-do-for-you-49931251718). -->
 
