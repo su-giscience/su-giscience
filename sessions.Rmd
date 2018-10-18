@@ -4,9 +4,9 @@ title: "Working sessions"
 
 Make sure to subscribe to the [r-in-grenoble newsletter](https://listes.univ-grenoble-alpes.fr/sympa/subscribe/r-in-grenoble?previous_action=info) to know when you can register to the next session. 
 
-You can register to session 12 about image processing with R package {imager} [there](https://www.eventbrite.fr/e/billets-grenoble-rug-working-session-n12-image-processing-with-imager-50849757995).
+<!-- You can register to session 12 about image processing with R package {imager} [there](https://www.eventbrite.fr/e/billets-grenoble-rug-working-session-n12-image-processing-with-imager-50849757995). -->
 
-<!-- Slides of the presentation are available at http://bit.ly/RUGgre11. -->
+Slides of the presentation are available at dahtah.github.io/imager/intro_slides.
 
 Attendance is totally free but registration is mandatory and is on a first come first serve basis.
 
