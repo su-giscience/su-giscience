@@ -4,9 +4,9 @@ title: "Working sessions"
 
 Make sure to subscribe to the [r-in-grenoble newsletter](https://listes.univ-grenoble-alpes.fr/sympa/subscribe/r-in-grenoble?previous_action=info) to know when you can register to the next session. 
 
-<!-- You can register to session 12 about image processing with R package {imager} [there](https://www.eventbrite.fr/e/billets-grenoble-rug-working-session-n12-image-processing-with-imager-50849757995). -->
+You can register to session 13 about linear models in R [there](https://www.eventbrite.fr/e/billets-grenoble-rug-working-session-n13-linear-models-in-r-52205529143).
 
-Slides of the presentation are available at http://bit.ly/RUGgre12.
+<!-- Slides of the presentation are available at http://bit.ly/RUGgre12. -->
 
 Attendance is totally free but registration is mandatory and is on a first come first serve basis.
 
@@ -179,6 +179,8 @@ div(
 ### Materials from previous sessions
 
 #### 2018 - 2019
+
+- [Image processing with package {imager}](http://bit.ly/RUGgre12)
 
 - [What R can do for you](http://bit.ly/RUGgre11)
 
