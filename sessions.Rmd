@@ -61,9 +61,9 @@ program <- tribble(
   
   "15/11/2018", "13/20", "Linear models in R", 
   "During this presentation I will present the lm and glm functions for handling linear models with R. I will show how to make analysis with linear models using an original dataset containing the result of the French presidential 2017 election as well as socio-economic variables.",
-  "M. Blum & ?",
+  "M. Blum",
   
-  "06/12/2018", "14/20", "Manage your workflow with package {drake}", "TODO", "X. Laviron & ?",
+  "06/12/2018", "14/20", "Manage your workflow with package {drake}", "TODO", "X. Laviron",
   
   "31/01/2019", "15/20", "Deep Learning with package {tensorflow}", "TODO", "O. François & ?",
   
@@ -71,11 +71,11 @@ program <- tribble(
 
   "14/03/2019", "17/20", "Best coding practices", "TODO", "M. Richard & ?",
   
-  "11/04/2019", "18/20", "R Markdown", "TODO", "M. Crispino & J. Arbel",
+  "11/04/2019", "18/20", "R Markdown", "TODO", "J. Arbel & F. Privé",
 
-  "16/05/2019", "19/20", "Data manipulation with package {dplyr}", "TODO", "M. Blum & ?",
+  "16/05/2019", "19/20", "Data manipulation with package {dplyr}", "TODO", "M. Blum & M. Rolland",
 
-  "13/06/2019", "20/20", "Data vizualisation with package {ggplot2}", "TODO", "? & F. Privé"
+  "13/06/2019", "20/20", "Data vizualisation with package {ggplot2}", "TODO", "M. Rolland & F. Privé"
 
 ) %>%
   mutate(Date = dmy(Date)) 
