@@ -4,11 +4,11 @@ title: "Working sessions"
 
 Make sure to subscribe to the [r-in-grenoble newsletter](https://listes.univ-grenoble-alpes.fr/sympa/subscribe/r-in-grenoble?previous_action=info) to know when you can register to the next session. 
 
-You can register to session 14 about package {drake} [there](https://www.eventbrite.fr/e/billets-grenoble-rug-working-session-n14-manage-your-workflow-with-package-drake-53004382535).
+<!-- You can register to session 14 about package {drake} [there](https://www.eventbrite.fr/e/billets-grenoble-rug-working-session-n14-manage-your-workflow-with-package-drake-53004382535). -->
 
-<!-- Materials of the presentation are available at https://t.co/7Wq3MfH6B9. -->
+<!-- Attendance is totally free but registration is mandatory and is on a first come first serve basis. -->
 
-Attendance is totally free but registration is mandatory and is on a first come first serve basis.
+Materials of the presentation are available [here](presentation/drake.pdf).
 
 ### Help us communicate
 
