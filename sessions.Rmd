@@ -8,7 +8,7 @@ Make sure to subscribe to the [r-in-grenoble newsletter](https://listes.univ-gre
 
 <!-- Attendance is totally free but registration is mandatory and is on a first come first serve basis. -->
 
-Materials of the presentation are available [here](presentation/keras.html).
+<!-- Materials of the presentation are available [here](presentation/keras.html). -->
 
 ### Help us communicate
 
@@ -71,7 +71,7 @@ program <- tribble(
   "This session will introduce the package {keras}, a neural network API allowing R users to build and experiment deep learning models within their preferred environment.  The presentation will be illustrated with a brief tutorial on image classification based on the classical handwritten digits dataset.", 
   "O. François",
   
-  "14/02/2019", "16/20", "Machine Learning with package {caret}", "TODO", "? & ?",
+  "14/02/2019", "16/20", "CANCELED? Machine Learning with package {caret}", "TODO", "? & ?",
 
   "14/03/2019", "17/20", "Best coding practices", "TODO", "M. Richard & ?",
   
@@ -183,6 +183,8 @@ div(
 ### Materials from previous sessions
 
 #### 2018 - 2019
+
+- Deep Learning with package {keras}: [presentation](presentation/R_in_Grenoble_RPres.zip) and [exercise](presentation/keras.html) ([.Rmd](presentation/keras.Rmd))
 
 - [Manage your workflow with package {drake}](presentation/drake.pdf)
 
