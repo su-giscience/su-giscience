@@ -1,5 +1,7 @@
 ---
 title: "About our community"
+editor_options: 
+  chunk_output_type: console
 ---
 
 ## Where are we?
