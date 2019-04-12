@@ -4,9 +4,9 @@ title: "Working sessions"
 
 Make sure to subscribe to the [r-in-grenoble newsletter](https://listes.univ-grenoble-alpes.fr/sympa/subscribe/r-in-grenoble?previous_action=info) to know when you can register to the next session. 
 
-You can register to session 18 about R Markdown [there](https://www.eventbrite.fr/e/billets-grenoble-rug-working-session-n18-r-markdown-59569890145).
+<!-- You can register to session 18 about R Markdown [there](https://www.eventbrite.fr/e/billets-grenoble-rug-working-session-n18-r-markdown-59569890145). -->
 
-Attendance is totally free but registration is mandatory and is on a first come first serve basis.
+<!-- Attendance is totally free but registration is mandatory and is on a first come first serve basis. -->
 
 <!-- Materials of the presentation are available [here](presentation/keras.html). -->
 
@@ -32,7 +32,7 @@ Please find the guidelines for these sessions:
 
 - During this time, food and sodas will be offered by [the Grenoble Alpes Data Institute](https://data-institute.univ-grenoble-alpes.fr/).
 
-- If you wish to share your R experience during a working session and/or to co-animate a working session, please [contact us](mailto:florian.prive@univ-grenoble-alpes.fr,magali.richard@univ-grenoble-alpes.fr).
+- If you wish to share your R experience during a working session and/or to co-animate a working session, please [contact us](mailto:matthieu.rolland@univ-grenoble-alpes.fr).
 
 ### Schedule of 2018-2019
 
@@ -83,7 +83,7 @@ program <- tribble(
 
   "16/05/2019", "19/20", "Data manipulation with package {dplyr}", "TODO", "M. Blum & M. Rolland",
 
-  "13/06/2019", "20/20", "Data vizualisation with package {ggplot2}", "TODO", "M. Rolland & F. Privé"
+  "13/06/2019", "20/20", "Data vizualisation with package {ggplot2}", "TODO", "M. Rolland"
 
 ) %>%
   mutate(Date = dmy(Date)) 
@@ -187,6 +187,8 @@ div(
 ### Materials from previous sessions
 
 #### 2018 - 2019
+
+- [R Markdown](http://privefl.github.io/R-presentation/rmarkdown.html)
 
 - [Good practice for writing R code and R packages](https://magrichard.github.io/good_coding_practices/rpresentation.html)
 

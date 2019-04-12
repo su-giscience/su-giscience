@@ -20,7 +20,7 @@ navbar:
       href: https://r-in-grenoble.github.io/blog/    # CHANGE HERE 
   right:
     - icon: fa-envelope-o
-      href: mailto:florian.prive@univ-grenoble-alpes.fr,magali.richard@univ-grenoble-alpes.fr                      # CHANGE HERE 
+      href: mailto:matthieu.rolland@univ-grenoble-alpes.fr                      # CHANGE HERE 
     - icon: fa-twitter
       href: https://twitter.com/hashtag/rusersgrenoble?src=hash
     - icon: fa-github

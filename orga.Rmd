@@ -26,7 +26,7 @@ The main events we want to organize are monthly working sessions of 2 hours (16h
 
 - The second part of the session is about socializing and helping/getting helped. Everyone is free to do whatever they want. You could ask and answer some questions about specific problems you encounter when coding in R (come with your problems!). During this time, ~~beers,~~ cocktails and snacks will be offered by the [Grenoble Alpes Data Institute](https://data-institute.univ-grenoble-alpes.fr/) outside the room. So, it's also a good time to socialize with people.
 
-- If you wish to share your R experience (on a specific topic) during a working session, please [contact us](mailto:florian.prive@univ-grenoble-alpes.fr,magali.richard@univ-grenoble-alpes.fr).
+- If you wish to share your R experience (on a specific topic) during a working session, please [contact us](mailto:matthieu.rolland@univ-grenoble-alpes.fr).
 
 - If you wish to share your work with R in a lightning talk of 5 min (just after the main presentation), please contact us. 
 
@@ -40,7 +40,7 @@ The main events we want to organize are monthly working sessions of 2 hours (16h
 
 - Every presentation could be completed with a blog post hosted on the [blog of the R group](blog/).
 
-- We could also host some blog post without having to make a presentation. If you want to share a post, please [contact us](mailto:florian.prive@univ-grenoble-alpes.fr,magali.richard@univ-grenoble-alpes.fr). 
+- We could also host some blog post without having to make a presentation. If you want to share a post, please [contact us](mailto:matthieu.rolland@univ-grenoble-alpes.fr). 
 
 The blog will be relayed by [R-bloggers](https://www.r-bloggers.com/), which is read by thousands of people.
 
