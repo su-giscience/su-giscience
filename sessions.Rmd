@@ -81,7 +81,7 @@ program <- tribble(
   "Learn about what is R Markdown and how to use this format. We will also present the many possibilities of R Markdown: 1/ Compile a single R Markdown document to a report in different formats, such as PDF, HTML, or Word. 2/ Create notebooks in which you can directly run code chunks interactively. 3/ Make slides for presentations (HTML5, LaTeX Beamer, or PowerPoint). 4/ Produce dashboards with flexible, interactive, and attractive layouts. 5/ Build interactive applications based on Shiny. 6/ Write journal articles. 7/ Author books of multiple chapters. 8/ Generate websites and blogs.", 
   "J. Arbel & F. Privé",
 
-  "16/05/2019", "19/20", "Data manipulation with package {dplyr}", "TODO", "M. Blum & M. Rolland",
+  "16/05/2019", "19/20", "Data manipulation with package {dplyr}", "Data manipulation is an essential step in any data analysis. Core package of the tidyverse environment, **{dplyr}** allows data manipulation in R using a consistent and easy to use set of verbs. In this tutorial we will learn how to pick observations by their values (`filter()`), reorder the rows (`arrange()`), pick variables by their name (`select()`), create new variables with functions of existing variables (`mutate()`), collapse many values down to a single summary (`summarise()`) and combine all these operations using the `%>%` (pipe) operator. This will help you solve the most common data manipulation challenges.", "M. Rolland",
 
   "13/06/2019", "20/20", "Data vizualisation with package {ggplot2}", "TODO", "M. Rolland"
 
