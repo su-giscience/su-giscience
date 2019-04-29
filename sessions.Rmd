@@ -4,9 +4,9 @@ title: "Working sessions"
 
 Make sure to subscribe to the [r-in-grenoble newsletter](https://listes.univ-grenoble-alpes.fr/sympa/subscribe/r-in-grenoble?previous_action=info) to know when you can register to the next session. 
 
-<!-- You can register to session 18 about R Markdown [there](https://www.eventbrite.fr/e/billets-grenoble-rug-working-session-n18-r-markdown-59569890145). -->
+You can register to session 19 about **data management with {dplyr}** [here](https://www.eventbrite.fr/e/billets-r-in-grenoble-tutorials-session-n19-data-managmenet-with-dplyr-61025319373?utm_campaign=new_event_email&utm_medium=email&utm_source=eb_email&utm_term=viewmyevent_button).
 
-<!-- Attendance is totally free but registration is mandatory and is on a first come first serve basis. -->
+Attendance is totally free but registration is mandatory and is on a first come first serve basis.
 
 <!-- Materials of the presentation are available [here](presentation/keras.html). -->
 
