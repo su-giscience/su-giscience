@@ -3,7 +3,7 @@ title: "Welcome to Grenoble!"
 output:
   html_document:
     includes:
-      in_header: cover.html
+      in_header: cover_with_logo.html
 ---
 
 ## This is the website of our R community
