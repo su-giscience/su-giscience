@@ -188,6 +188,8 @@ div(
 
 #### 2018 - 2019
 
+- [Data manipulation with {dplyr}](presentation/dplyr.html)
+
 - [R Markdown](http://privefl.github.io/R-presentation/rmarkdown.html)
 
 - [Good practice for writing R code and R packages](https://magrichard.github.io/good_coding_practices/rpresentation.html)
