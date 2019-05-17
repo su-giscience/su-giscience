@@ -7,6 +7,7 @@ output:
   xaringan::moon_reader:
     css: [default, metropolis_mr, metropolis-fonts_mr]
     lib_dir: libs
+    self_contained: true
     nature:
       highlightStyle: rainbow
       highlightLines: true
@@ -18,7 +19,7 @@ class: inverse, middle
 # the tidyverse
 
 ---
-background-image: url("images/tidyverse.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/tidyverse.png")
 background-size: 950px
 background-position: 0% 0%
 
@@ -55,7 +56,7 @@ class: inverse, middle
 # **tidy data** =  one line per observation and one column per variable
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
