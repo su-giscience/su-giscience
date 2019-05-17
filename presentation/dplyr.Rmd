@@ -18,7 +18,7 @@ class: inverse, middle
 # the tidyverse
 
 ---
-background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/tidyverse.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/tidyverse.PNG")
 background-size: 950px
 background-position: 0% 0%
 
@@ -55,7 +55,7 @@ class: inverse, middle
 # **tidy data** =  one line per observation and one column per variable
 
 ---
-background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -83,7 +83,7 @@ tidy <- tidyr::gather(not_tidy,
 ```
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -107,7 +107,7 @@ print(tidy)
 ]
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -131,7 +131,7 @@ print(tidy)
 ]
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -154,7 +154,7 @@ print(tidy)
 ]
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -178,7 +178,7 @@ print(tidy)
 
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -200,7 +200,7 @@ class: inverse, middle
 # tibbles
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -224,7 +224,7 @@ background-position: 90% 8%
   
 ---
 class: clear
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -242,7 +242,7 @@ class: inverse, middle
 
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -269,7 +269,7 @@ background-position: 90% 8%
 * Combine tables with `left_join()`, `right_join()`, `inner_join()`, `full_join()`, `bind_rows()`
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -307,7 +307,7 @@ class: inverse
 ]
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -326,7 +326,7 @@ background-position: 90% 8%
 * Do not mistake `=` and `==` !
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -347,7 +347,7 @@ new_data
 ```
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -391,7 +391,7 @@ class: inverse
 ]
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -418,7 +418,7 @@ new_data
 ```
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -439,7 +439,7 @@ new_data
 ```
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -472,7 +472,7 @@ class: inverse
 ]
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -499,7 +499,7 @@ new_data
 ```
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -520,7 +520,7 @@ new_data
 ```
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -541,7 +541,7 @@ new_data
 ```
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -562,7 +562,7 @@ new_data
 ```
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -583,7 +583,7 @@ new_data
 ```
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -604,7 +604,7 @@ new_data
 ```
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -629,7 +629,7 @@ class: inverse
 ]
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -650,7 +650,7 @@ new_data
 ```
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -668,7 +668,7 @@ new_data
 ```
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -692,7 +692,7 @@ new_data
 ```
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -711,7 +711,7 @@ background-position: 90% 8%
 * Any R or custom function that returns a **vector** with the same length as the number of rows
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -752,7 +752,7 @@ class: inverse
 ]
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -786,7 +786,7 @@ new_summary
 * any base R or custom function that returns **one summary value**
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -807,7 +807,7 @@ starwars
 ```
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -824,7 +824,7 @@ starwars
 ```
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -843,7 +843,7 @@ new_summary
 ```
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -863,7 +863,7 @@ mean_BMI <- function(mass, height){
 ```
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -878,7 +878,7 @@ summarise(starwars,
 ```
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -893,7 +893,7 @@ summarise(starwars,
 ```
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -909,7 +909,7 @@ summarise(starwars,
 
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -929,14 +929,14 @@ class: inverse, middle
 # the pipe operator %>%
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
 # the pipe operator %>%
 
 ---
-background-image: url("hex-magrittr.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-magrittr.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -972,7 +972,7 @@ Details + history of the pipe: http://adolfoalvarez.cl/plumbers-chains-and-famou
 ]
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -1007,7 +1007,7 @@ BMI_data <- starwars %>%
 ```
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -1046,7 +1046,7 @@ class: inverse, middle
 ##   * complex structure (pipes are linear)
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -1079,7 +1079,7 @@ BMI_data <- BMI_data[order(desc(BMI_data$BMI)), ] # arrange
 ```
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -1093,7 +1093,7 @@ background-position: 90% 8%
 ]
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -1113,7 +1113,7 @@ starwars %>%
 ```
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -1129,7 +1129,7 @@ background-position: 90% 8%
 ]
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -1146,7 +1146,7 @@ starwars %>%
 ```
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -1161,7 +1161,7 @@ starwars %>%
 ```
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -1179,7 +1179,7 @@ background-position: 90% 8%
 ]
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -1197,7 +1197,7 @@ starwars %>%
 ```
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
@@ -1214,7 +1214,7 @@ starwars %>%
 ```
 
 ---
-background-image: url("hex-dplyr_transparent.png")
+background-image: url("https://raw.githubusercontent.com/r-in-grenoble/r-in-grenoble.github.io/master/images/hex-dplyr_transparent.png")
 background-size: 150px
 background-position: 90% 8%
 
