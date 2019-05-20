@@ -85,7 +85,7 @@ program <- tribble(
 
   "16/05/2019", "19/20", "Data manipulation with package {dplyr}", "Data manipulation is an essential step in any data analysis project. Core package of the tidyverse environment, {dplyr} provides a data manipulation framework that uses an intuitive syntax defined by a small set of verbs. In this tutorial we will learn how to pick observations by their values (filter()), reorder the rows (arrange()), pick variables by their name (select()), create new variables with functions of existing variables (mutate()), collapse many values down to a single summary (summarise()) and combine all these operations using the '%>%' (pipe) operator. This will help you solve the most common data manipulation challenges.", "M. Rolland",
 
-  "13/06/2019", "20/20", "Data vizualisation with package {ggplot2}", "TODO", "M. Rolland"
+  "13/06/2019", "20/20", "Data visualisation with package {ggplot2}", "'The simple graph has brought more information to the data analyst’s mind than any other device.' --- John Tukey. {ggplot2} is one of today's most powerful data visualisation suite. In this tutorial we will learn the underlying philosophy behind {ggplot2}: the Grammar of Graphics. We will see how all types of graphs such as histograms, scatterplots, boxplots, probability densities etc. can be specified by a small set of shared parameters, and how understanding what these parameters are and how to use them will allow you to seamlessly produce powerful and complex graphs to better understand your data.", "M. Rolland"
 
 ) %>%
   mutate(Date = dmy(Date)) 
@@ -190,7 +190,7 @@ div(
 
 #### 2018 - 2019
 
-- [Data manipulation with {dplyr}](presentation/dplyr.html)
+- [Data manipulation with package {dplyr}](presentation/dplyr.html)
 
 - [R Markdown](http://privefl.github.io/R-presentation/rmarkdown.html)
 
