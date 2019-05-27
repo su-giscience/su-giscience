@@ -2,15 +2,15 @@
 title: "Working sessions"
 ---
 
-Nest session: data visualisation with **{ggplot2}** on June 13th from 16:00 to 18:00 @IMAG. Room and inscription available soon.
+Nest session: data visualisation with **{ggplot2}** on June 13th from 16:00 to 18:00 @IMAG. Registration to the event [here](https://www.eventbrite.com/e/r-in-grenoble-tutorials-session-n20-data-visualisation-with-ggplot2-tickets-62424945693).
 
-Make sure to subscribe to the [r-in-grenoble newsletter](https://listes.univ-grenoble-alpes.fr/sympa/subscribe/r-in-grenoble?previous_action=info) to know when you can register to the next session.
+Attendance is totally free but registration is mandatory and is on a first come first serve basis.
 
-<!-- You can register to session 19 about **data management with {dplyr}** [here](https://www.eventbrite.fr/e/billets-r-in-grenoble-tutorials-session-n19-data-managmenet-with-dplyr-61025319373?utm_campaign=new_event_email&utm_medium=email&utm_source=eb_email&utm_term=viewmyevent_button). -->
+Materials of the presentation are available [here](https://privefl.github.io/R-presentation/ggplot2.html).
 
-<!-- Attendance is totally free but registration is mandatory and is on a first come first serve basis. -->
+Don't forget to subscribe to the [r-in-grenoble newsletter](https://listes.univ-grenoble-alpes.fr/sympa/subscribe/r-in-grenoble?previous_action=info).
 
-<!-- Materials of the presentation are available [here](presentation/keras.html). -->
+<!-- blabla -->
 
 ### Help us communicate
 
@@ -189,6 +189,8 @@ div(
 ### Materials from previous sessions
 
 #### 2018 - 2019
+
+- [Data visualization with {ggplot2}](https://privefl.github.io/R-presentation/ggplot2.html)
 
 - [Data manipulation with package {dplyr}](presentation/dplyr.html)
 
