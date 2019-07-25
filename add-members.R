@@ -4,6 +4,7 @@ library(dplyr)
 
 stopifnot("missingAsBlank" %in% formalArgs("gs_add_row"))
 
+# gs_auth()
 membersToAdd.gs <- gs_key(
   "1qdG7PPlRCAU8L6Hhq1D2zT0q9LWDUzBfq7mIzz_6Dm8", 
   lookup = TRUE, visibility = "private"
