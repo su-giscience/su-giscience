@@ -2,11 +2,13 @@
 title: "Working sessions"
 ---
 
-Nest session: data visualisation with **{ggplot2}** on June 13th from 16:00 to 18:00 @IMAG. Registration to the event [here](https://www.eventbrite.com/e/r-in-grenoble-tutorials-session-n20-data-visualisation-with-ggplot2-tickets-62424945693).
+We are currently preparing the 2019/2020 sessions program and will release it in the first half of September. We plan to talk about reproducible science in R, do a joint presentation with the Python group and much more! So stay tuned :)
+
+<!-- Nest session: data visualisation with **{ggplot2}** on June 13th from 16:00 to 18:00 @IMAG. Registration to the event [here](https://www.eventbrite.com/e/r-in-grenoble-tutorials-session-n20-data-visualisation-with-ggplot2-tickets-62424945693).
 
 Attendance is totally free but registration is mandatory and is on a first come first serve basis.
 
-Materials of the presentation are available [here](https://privefl.github.io/R-presentation/ggplot2.html).
+Materials of the presentation are available [here](https://privefl.github.io/R-presentation/ggplot2.html). -->
 
 Don't forget to subscribe to the [r-in-grenoble newsletter](https://listes.univ-grenoble-alpes.fr/sympa/subscribe/r-in-grenoble?previous_action=info).
 
@@ -16,7 +18,7 @@ Don't forget to subscribe to the [r-in-grenoble newsletter](https://listes.univ-
 
 Please talk about our R group with your colleagues. 
 
-You can also print [this poster](poster.pdf) and put it up somewhere at work.
+You can also print [**program poster coming soon**] <!-- [this poster](poster.pdf) --> and put it up somewhere at work.
 
 ### Join our R working sessions in Grenoble
 
@@ -35,6 +37,10 @@ Please find the guidelines for these sessions:
 - During this time, food and sodas will be offered by [the Grenoble Alpes Data Institute](https://data-institute.univ-grenoble-alpes.fr/).
 
 - If you wish to share your R experience during a working session and/or to co-animate a working session, please [contact us](mailto:matthieu.rolland@univ-grenoble-alpes.fr).
+
+### Schedule of 2019-2020
+
+**PROGRAM COMING SOON**
 
 ### Schedule of 2018-2019
 

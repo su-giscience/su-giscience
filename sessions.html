@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -85,7 +86,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -246,18 +246,6 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
@@ -354,15 +342,18 @@ $(document).ready(function () {
 </div>
 
 
-<p>Nest session: data visualisation with <strong>{ggplot2}</strong> on June 13th from 16:00 to 18:00 <span class="citation">@IMAG</span>. Registration to the event <a href="https://www.eventbrite.com/e/r-in-grenoble-tutorials-session-n20-data-visualisation-with-ggplot2-tickets-62424945693">here</a>.</p>
-<p>Attendance is totally free but registration is mandatory and is on a first come first serve basis.</p>
-<p>Materials of the presentation are available <a href="https://privefl.github.io/R-presentation/ggplot2.html">here</a>.</p>
+<p>We are currently preparing the 2019/2020 sessions program and will release it in the first half of September. We plan to talk about reproducible science in R, do a joint presentation with the Python group and much more! So stay tuned :)</p>
+<!-- Nest session: data visualisation with **{ggplot2}** on June 13th from 16:00 to 18:00 @IMAG. Registration to the event [here](https://www.eventbrite.com/e/r-in-grenoble-tutorials-session-n20-data-visualisation-with-ggplot2-tickets-62424945693).
+
+Attendance is totally free but registration is mandatory and is on a first come first serve basis.
+
+Materials of the presentation are available [here](https://privefl.github.io/R-presentation/ggplot2.html). -->
 <p>Don’t forget to subscribe to the <a href="https://listes.univ-grenoble-alpes.fr/sympa/subscribe/r-in-grenoble?previous_action=info">r-in-grenoble newsletter</a>.</p>
 <!-- blabla -->
 <div id="help-us-communicate" class="section level3">
 <h3>Help us communicate</h3>
 <p>Please talk about our R group with your colleagues.</p>
-<p>You can also print <a href="poster.pdf">this poster</a> and put it up somewhere at work.</p>
+<p>You can also print [<strong>program poster coming soon</strong>] <!-- [this poster](poster.pdf) --> and put it up somewhere at work.</p>
 </div>
 <div id="join-our-r-working-sessions-in-grenoble" class="section level3">
 <h3>Join our R working sessions in Grenoble</h3>
@@ -376,6 +367,10 @@ $(document).ready(function () {
 <li><p>During this time, food and sodas will be offered by <a href="https://data-institute.univ-grenoble-alpes.fr/">the Grenoble Alpes Data Institute</a>.</p></li>
 <li><p>If you wish to share your R experience during a working session and/or to co-animate a working session, please <a href="mailto:matthieu.rolland@univ-grenoble-alpes.fr">contact us</a>.</p></li>
 </ul>
+</div>
+<div id="schedule-of-2019-2020" class="section level3">
+<h3>Schedule of 2019-2020</h3>
+<p><strong>PROGRAM COMING SOON</strong></p>
 </div>
 <div id="schedule-of-2018-2019" class="section level3">
 <h3>Schedule of 2018-2019</h3>
@@ -597,6 +592,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
