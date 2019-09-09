@@ -40,10 +40,6 @@ Please find the guidelines for these sessions:
 
 ### Schedule of 2019-2020
 
-**PROGRAM COMING SOON**
-
-### Schedule of 2018-2019
-
 *Click on the title to see the session description*
 
 ```{r setup, include=FALSE, warning=FALSE}
@@ -59,39 +55,41 @@ program <- tribble(
   
   ~Date, ~Session, ~Title, ~Description, ~Authors,
   
-  "13/09/2018", "11/20", "What R can do for you", 
-  "In this presentation, we will see the potential amazing applications of R. Then, we will compile links to where you can learn R (from scratch or to become more advanced). Finally, we will announce the coming sessions for this academic year.", 
-  "F. Privé",
+  "26/09/2019", "21/30", "Reproducible research in R", 
+  "abstract coming", 
+  "P. Jedynak & M. Rolland",
   
-  "18/10/2018", "12/20", "Image processing with package {imager}", 
-  "imager is an R package for image processing. It is meant to be fast, flexible and to integrate well with standard R functions and data structures. imager is based on CImg, a C++ library for image processing with a clean and easy-to-use API.", 
-  "S. Barthelmé",
+  "17/10/2019", "22/30", "Spatial data", 
+  "abstract coming", 
+  "I. Hough",
   
-  "15/11/2018", "13/20", "Linear models in R", 
-  "During this presentation I will present the lm and glm functions for handling linear models with R. I will show how to make analysis with linear models using an original dataset containing the result of the French presidential 2017 election as well as socio-economic variables.",
-  "M. Blum",
+  "28/11/2019", "23/30", "Bayesian statistics with package {bmrs}", 
+  "abstract coming",
+  "L. Nalborczyk",
   
-  "06/12/2018", "14/20", "Manage your workflow with package {drake}", 
-  "Drake is a general-purpose workflow manager for data-driven tasks. It rebuilds intermediate data objects when their dependencies change, and it skips work when the results are already up to date. Not every runthrough starts from scratch, and completed workflows have tangible evidence of reproducibility. Package drake also supports scalability, parallel computing, and a smooth user experience when it comes to setting up, deploying, and maintaining data science projects.", 
-  "X. Laviron",
+  "19/12/2019", "24/30", "Organizing a data challenge in R", 
+  "abstract coming", 
+  "M. Richard & F. Chuffart",
   
-  "31/01/2019", "15/20", "Deep Learning with package {keras}", 
-  "This session will introduce the package {keras}, a neural network API allowing R users to build and experiment deep learning models within their preferred environment.  The presentation will be illustrated with a brief tutorial on image classification based on the classical handwritten digits dataset.", 
-  "O. François",
+  "30/01/2020", "25/30", "Getting the most out of Rstudio", 
+  "", 
+  "M. Rolland",
   
-  "14/02/2019", "16/20", "Machine Learning with package {caret}", "CANCELED", "CANCELED",
+  "20/02/2020", "26/30", "Using Git and GitHub with R", 
+  "abstract coming", 
+  "M. Richard & A. Arnaud",
 
-  "28/03/2019", "17/20", "Best coding practices",
-  "As nicely written by Hadley Wickham R guru, \"Good coding style is like correct punctuation: you can manage without it, butitsuremakesthingseasiertoread.\" In this session, we will review good practices to write 1) R code and 2) R packages. In a first part, we will present some ideas of the tidyverse style guide (following http://style.tidyverse.org/) including the styler package (interactively restyle selected text) and the lintr package (automated style checks). The second part will be devoted to writing R packages, which is at the basis of reproducibility. We will learn how to use the Roxygen package to (quite automatically) turn personal code into reusable code (following http://r-pkgs.had.co.nz/). Make sure you have the latest versions of RStudio, styler, lintr, and Roxygen packages installed.", 
-  "M. Richard",
+  "26/03/2020", "27/30", "Joint presentation with the Python user group - more details soon",
+  "abstract coming", 
+  "M. Rolland & ?",
   
-  "11/04/2019", "18/20", "R Markdown",
+  "16/04/2020", "28/30", "R Markdown",
   "Learn about what is R Markdown and how to use this format. We will also present the many possibilities of R Markdown: 1/ Compile a single R Markdown document to a report in different formats, such as PDF, HTML, or Word. 2/ Create notebooks in which you can directly run code chunks interactively. 3/ Make slides for presentations (HTML5, LaTeX Beamer, or PowerPoint). 4/ Produce dashboards with flexible, interactive, and attractive layouts. 5/ Build interactive applications based on Shiny. 6/ Write journal articles. 7/ Author books of multiple chapters. 8/ Generate websites and blogs.", 
-  "J. Arbel & F. Privé",
+  "P. Jedynak & M. Rolland",
 
-  "16/05/2019", "19/20", "Data manipulation with package {dplyr}", "Data manipulation is an essential step in any data analysis project. Core package of the tidyverse environment, {dplyr} provides a data manipulation framework that uses an intuitive syntax defined by a small set of verbs. In this tutorial we will learn how to pick observations by their values (filter()), reorder the rows (arrange()), pick variables by their name (select()), create new variables with functions of existing variables (mutate()), collapse many values down to a single summary (summarise()) and combine all these operations using the '%>%' (pipe) operator. This will help you solve the most common data manipulation challenges.", "M. Rolland",
+  "28/05/2020", "29/30", "Data manipulation with packages {dplyr} and {data.table}", "Data manipulation is an essential step in any data analysis project. Core package of the tidyverse environment, {dplyr} provides a data manipulation framework that uses an intuitive syntax defined by a small set of verbs. In this tutorial we will learn how to pick observations by their values (filter()), reorder the rows (arrange()), pick variables by their name (select()), create new variables with functions of existing variables (mutate()), collapse many values down to a single summary (summarise()) and combine all these operations using the '%>%' (pipe) operator. This will help you solve the most common data manipulation challenges. **ADD data.table**", "P. Jedynak & I. Hough",
 
-  "13/06/2019", "20/20", "Data visualisation with package {ggplot2}", "'The simple graph has brought more information to the data analyst’s mind than any other device.' --- John Tukey. {ggplot2} is one of today's most powerful data visualisation suite. In this tutorial we will learn the underlying philosophy behind {ggplot2}: the Grammar of Graphics. We will see how all types of graphs such as histograms, scatterplots, boxplots, probability densities etc. can be specified by a small set of shared parameters, and how understanding what these parameters are and how to use them will allow you to seamlessly produce powerful and complex graphs to better understand your data.", "M. Rolland"
+  "25/06/2020", "30/30", "Data visualisation with package {ggplot2}", "'The simple graph has brought more information to the data analyst’s mind than any other device.' --- John Tukey. {ggplot2} is one of today's most powerful data visualisation suite. In this tutorial we will learn the underlying philosophy behind {ggplot2}: the Grammar of Graphics. We will see how all types of graphs such as histograms, scatterplots, boxplots, probability densities etc. can be specified by a small set of shared parameters, and how understanding what these parameters are and how to use them will allow you to seamlessly produce powerful and complex graphs to better understand your data.", "S. Cadiou & M. Rolland"
 
 ) %>%
   mutate(Date = dmy(Date)) 
