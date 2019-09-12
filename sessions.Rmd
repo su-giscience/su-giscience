@@ -2,13 +2,13 @@
 title: "Working sessions"
 ---
 
-We are currently preparing the 2019/2020 sessions program and will release it in the first half of September. We plan to talk about reproducible science in R, do a joint presentation with the Python group, bayesian stats, spatial data and much more! So stay tuned :)
+Next session: Reproducible research with R, on September 26th from 16:00 to 18:00 @IMAG. Registration to the event open soon.
 
-<!-- Nest session: data visualisation with **{ggplot2}** on June 13th from 16:00 to 18:00 @IMAG. Registration to the event [here](https://www.eventbrite.com/e/r-in-grenoble-tutorials-session-n20-data-visualisation-with-ggplot2-tickets-62424945693).
+<!-- [here](https://www.eventbrite.com/e/r-in-grenoble-tutorials-session-n20-data-visualisation-with-ggplot2-tickets-62424945693). -->
 
 Attendance is totally free but registration is mandatory and is on a first come first serve basis.
 
-Materials of the presentation are available [here](https://privefl.github.io/R-presentation/ggplot2.html). -->
+Materials of the presentation are available [here](https://annakrystalli.me/talks/r-in-repro-research.html#1).
 
 Don't forget to subscribe to the [r-in-grenoble newsletter](https://listes.univ-grenoble-alpes.fr/sympa/subscribe/r-in-grenoble?previous_action=info).
 
@@ -59,11 +59,11 @@ program <- tribble(
   "abstract coming", 
   "P. Jedynak & M. Rolland",
   
-  "17/10/2019", "22/30", "Spatial data", 
+  "17/10/2019", "22/30", "Spatial data with packages {sf} and {raster}", 
   "abstract coming", 
   "I. Hough",
   
-  "28/11/2019", "23/30", "Bayesian statistics with package {bmrs}", 
+  "28/11/2019", "23/30", "An introduction to Bayesian multilevel models using R, brms, and Stan", 
   "abstract coming",
   "L. Nalborczyk",
   
@@ -191,6 +191,10 @@ div(
 <br>
 
 ### Materials from previous sessions
+
+#### 2019 - 2020
+
+- [Reproducible research in R](https://annakrystalli.me/talks/r-in-repro-research.html)
 
 #### 2018 - 2019
 
