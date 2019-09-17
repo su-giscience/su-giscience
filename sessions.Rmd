@@ -2,7 +2,7 @@
 title: "Working sessions"
 ---
 
-Next session: Reproducible research with R, on September 26th from 16:00 to 18:00 @IMAG. You can register to the event [here](https://www.eventbrite.fr/e/billets-r-user-group-session-21-reproducible-research-in-r-73099756339).
+Next session: **Reproducible research with R**, on **September 26th from 16:00 to 18:00 @IMAG**. You can register to the event [here](https://www.eventbrite.fr/e/billets-r-user-group-session-21-reproducible-research-in-r-73099756339).
 
 Attendance is totally free but registration is mandatory and is on a first come first serve basis.
 
