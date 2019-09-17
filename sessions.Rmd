@@ -2,9 +2,7 @@
 title: "Working sessions"
 ---
 
-Next session: Reproducible research with R, on September 26th from 16:00 to 18:00 @IMAG. Registration to the event open soon.
-
-<!-- [here](https://www.eventbrite.com/e/r-in-grenoble-tutorials-session-n20-data-visualisation-with-ggplot2-tickets-62424945693). -->
+Next session: Reproducible research with R, on September 26th from 16:00 to 18:00 @IMAG. You can register to the event [here](https://www.eventbrite.fr/e/billets-r-user-group-session-21-reproducible-research-in-r-73099756339).
 
 Attendance is totally free but registration is mandatory and is on a first come first serve basis.
 
@@ -56,7 +54,7 @@ program <- tribble(
   ~Date, ~Session, ~Title, ~Description, ~Authors,
   
   "26/09/2019", "21/30", "Reproducible research in R", 
-  "abstract coming", 
+  "Reproducibility is a hot topic in modern science. Interest in reproducibility was triggered by the “reproducibility crisis” undergone by many fields in the past decades. A reproducible analysis is an analysis that can be re-run from raw data to final result identically by anybody (including “future you”!) on any computer and at any point in time. In this presentation we will give attendants an overview of many tools implemented in R that help make your work more reproducible and how these are integrated in Rstudio: project management structure, workflow management with {drake}, version control with Git and GitHub, literate programming with Rmarkdown, work compendia and package development and much more.", 
   "P. Jedynak & M. Rolland",
   
   "17/10/2019", "22/30", "Spatial data with packages {sf} and {raster}", 
