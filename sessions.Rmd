@@ -2,7 +2,7 @@
 title: "Working sessions"
 ---
 
-Next session: **Spatial data with packages {sf} and {raster}**, on **October 17th from 16:00 to 18:00 @IMAG**. You can register to the event [here](https://www.eventbrite.fr/e/billets-r-in-grenoble-spatial-data-with-packages-sf-and-raster-76135450181).
+Next session: **An introduction to Bayesian multilevel models using R, brms, and Stan**, on **November 28th from 16:00 to 18:00 @IMAG**. Registration to the event will be open soon.
 
 Attendance is totally free but registration is mandatory and is on a first come first serve basis.
 
