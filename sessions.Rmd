@@ -61,7 +61,7 @@ program <- tribble(
   "I. Hough",
   
   "28/11/2019", "23/30", "An introduction to Bayesian multilevel models using R, brms, and Stan", 
-  "abstract coming",
+  "Bayesian multilevel models are increasingly used to overcome the limitations of frequentist approaches in the analysis of complex structured data. During this session, I will briefly introduce the logic of Bayesian inference and motivate the use of multilevel modelling. I will then show how Bayesian multilevel models can be fitted using the probabilistic programming language Stan and the R package brms (Bürkner, 2016). The brms package allows fitting complex nonlinear multilevel (aka 'mixed-effects') models using an understandable high-level formula syntax. I will demonstrate the use of brms with some general examples and discuss model comparison tools available within the package. Prior experience with data manipulation and linear models in R will be helpful.",
   "L. Nalborczyk",
   
   "19/12/2019", "24/30", "Organizing a data challenge in R", 
