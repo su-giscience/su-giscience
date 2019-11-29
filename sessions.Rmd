@@ -2,7 +2,7 @@
 title: "Working sessions"
 ---
 
-Next session: **An introduction to Bayesian multilevel models using R, brms, and Stan**, on **November 28th from 16:00 to 18:00 @IMAG**. Registration to the event will be open soon.
+Next session: **Organizing a data challenge in R**, on **December 19th from 16:00 to 18:00 @IMAG**. Registration to the event will be open soon.
 
 Attendance is totally free but registration is mandatory and is on a first come first serve basis.
 
@@ -190,6 +190,8 @@ div(
 ### Materials from previous sessions
 
 #### 2019 - 2020
+
+- [An introduction to Bayesian multilevel models using R, brms, and Stan](https://www.barelysignificant.com/slides/RGUG2019)
 
 - Spatial data with packages {sf} and {raster}: [Presentation](https://ihough.github.io/talk_2019-10_geospatial/talk_2019-10_geospatial.html#1); [R script](https://github.com/ihough/talk_2019-10_geospatial/blob/master/mapping_demo.R)
 
