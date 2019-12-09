@@ -2,7 +2,7 @@
 title: "Working sessions"
 ---
 
-Next session: **An introduction to Bayesian multilevel models using R, brms, and Stan**, on **November 28th from 16:00 to 18:00 @IMAG**. Registration to the event will be open soon.
+Next session: **Organizing a data challenge in R**, on **January 30th from 16:00 to 18:00 @IMAG, salle séminaire 2**. Registration to the event will be open the second week of January
 
 Attendance is totally free but registration is mandatory and is on a first come first serve basis.
 
@@ -65,11 +65,11 @@ program <- tribble(
   "L. Nalborczyk",
   
   "19/12/2019", "24/30", "Organizing a data challenge in R", 
-  "abstract coming", 
+  "MOVED TO 30/01/20", 
   "M. Richard & F. Chuffart",
   
   "30/01/2020", "25/30", "Getting the most out of Rstudio", 
-  "", 
+  "abstract coming", 
   "M. Rolland",
   
   "20/02/2020", "26/30", "Using Git and GitHub with R", 
