@@ -8,6 +8,8 @@ Attendance is totally free but registration is mandatory and is on a first come 
 
 Registration to the event [here](https://www.eventbrite.com/e/r-in-grenoble-organizing-a-data-challenge-in-r-tickets-90788993323).
 
+**[Link to the event's codalab data challenge](https://competitions.codalab.org/competitions/21950?secret_key=865fa76d-fd94-4851-89af-3743f0cf2e4d)**
+
 Don't forget to subscribe to the [r-in-grenoble newsletter](https://listes.univ-grenoble-alpes.fr/sympa/subscribe/r-in-grenoble?previous_action=info).
 
 
