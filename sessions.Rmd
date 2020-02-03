@@ -2,13 +2,11 @@
 title: "Working sessions"
 ---
 
-Next session: **Organizing a data challenge in R**, on **January 30th from 16:00 to 18:00 @IMAG, salle séminaire 2**.
+Next session: **Using Git and GitHub with R**, on **February 20th from 16:00 to 18:00 @IMAG, auditorium**.
 
 Attendance is totally free but registration is mandatory and is on a first come first serve basis.
 
-Registration to the event [here](https://www.eventbrite.com/e/r-in-grenoble-organizing-a-data-challenge-in-r-tickets-90788993323).
-
-**[Link to the event's codalab data challenge](https://competitions.codalab.org/competitions/21950?secret_key=865fa76d-fd94-4851-89af-3743f0cf2e4d)**
+<!-- Registration to the event [here](https://www.eventbrite.com/e/r-in-grenoble-organizing-a-data-challenge-in-r-tickets-90788993323). -->
 
 Don't forget to subscribe to the [r-in-grenoble newsletter](https://listes.univ-grenoble-alpes.fr/sympa/subscribe/r-in-grenoble?previous_action=info).
 
@@ -192,6 +190,8 @@ div(
 ### Materials from previous sessions
 
 #### 2019 - 2020
+
+- [Organising a data challenge in R](presentation/20200130_r_meeting_codalab.pdf)
 
 - [An introduction to Bayesian multilevel models using R, brms, and Stan](https://www.barelysignificant.com/slides/RGUG2019)
 
