@@ -6,7 +6,7 @@ Next session: **Using Git and GitHub with R**, on **February 20th from 16:00 to 
 
 Attendance is totally free but registration is mandatory and is on a first come first serve basis.
 
-<!-- Registration to the event [here](https://www.eventbrite.com/e/r-in-grenoble-organizing-a-data-challenge-in-r-tickets-90788993323). -->
+Registration to the event [here](https://www.eventbrite.fr/e/billets-using-git-and-github-with-r-94817169707?utm_term=eventname_text).
 
 Don't forget to subscribe to the [r-in-grenoble newsletter](https://listes.univ-grenoble-alpes.fr/sympa/subscribe/r-in-grenoble?previous_action=info).
 
