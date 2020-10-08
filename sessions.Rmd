@@ -2,13 +2,13 @@
 title: "Working sessions"
 ---
 
-Next session: **Using Git and GitHub with R**, on **February 20th from 16:00 to 18:00 @IMAG, auditorium**.
+Next session: **Organising exams in R**, on **October 22nd, 2020 at 5PM on Zoom**. Zoom link will be circulated through the group's emailing list and pasted here.
 
-Attendance is totally free but registration is mandatory and is on a first come first serve basis.
+<!-- Attendance is totally free but registration is mandatory and is on a first come first serve basis. 
 
-Registration to the event [here](https://www.eventbrite.fr/e/billets-using-git-and-github-with-r-94817169707?utm_term=eventname_text).
+Registration to the event [here](https://www.eventbrite.fr/e/billets-using-git-and-github-with-r-94817169707?utm_term=eventname_text). -->
 
-Don't forget to subscribe to the [r-in-grenoble newsletter](https://listes.univ-grenoble-alpes.fr/sympa/subscribe/r-in-grenoble?previous_action=info).
+You can subscribe to our emailing list on the following link: [r-in-grenoble emailing list](https://listes.univ-grenoble-alpes.fr/sympa/subscribe/r-in-grenoble?previous_action=info).
 
 
 ### Help us communicate
@@ -19,7 +19,7 @@ You can also print [this poster](Poster 2019-2020.pdf) and put it up somewhere a
 
 ### Join our R working sessions in Grenoble
 
-Each month, we will organize one working session of 2 hours (on thursdays, from 16h-18h, at the [IMAG building](https://r-in-grenoble.github.io/members.html)). 
+We organise monthly working sessions on thursdays at 5PM, at the [IMAG building](https://r-in-grenoble.github.io/members.html)). **Due to COVID-19 restrictions all sessions to come will be held by ZOOM**.
 
 Please find the guidelines for these sessions:
     
@@ -31,11 +31,9 @@ Please find the guidelines for these sessions:
 
 - During the second part of the session, people could ask and answer some questions about specific problems they encounter when coding in R.
 
-- During this time, food and sodas will be offered by [the Grenoble Alpes Data Institute](https://data-institute.univ-grenoble-alpes.fr/).
-
 - If you wish to share your R experience during a working session and/or to co-animate a working session, please [contact us](mailto:matthieu.rolland@univ-grenoble-alpes.fr).
 
-### Schedule of 2019-2020
+### Schedule of 2020-2021
 
 *Click on the title to see the session description*
 
@@ -50,50 +48,47 @@ library(htmltools)
 ```{r, warning=FALSE}
 program <- tribble(
   
-  ~Date, ~Session, ~Title, ~Description, ~Authors,
+  ~Date, ~Title, ~Description, ~Authors,
   
-  "26/09/2019", "21/30", "Reproducible research in R", 
-  "Reproducibility is a hot topic in modern science. Interest in reproducibility was triggered by the “reproducibility crisis” undergone by many fields in the past decades. A reproducible analysis is an analysis that can be re-run from raw data to final result identically by anybody (including “future you”!) on any computer and at any point in time. In this presentation we will give attendants an overview of many tools implemented in R that help make your work more reproducible and how these are integrated in Rstudio: project management structure, workflow management with {drake}, version control with Git and GitHub, literate programming with Rmarkdown, work compendia and package development and much more.", 
-  "P. Jedynak & M. Rolland",
+  "22/10/2020", "Organising exams in R", 
+  "Le paquet exams est un paquet qui permet de réaliser des examens en intégrant des sorties logicielles, des graphiques, etc de façon automatique et dynamique. Les examens peuvent être obtenus sous un grand nombre de formats possibles comme html, pdf, nops et ce qui m'intéresse le plus sous format xml. Ce format est le format type des questions générées par moodle. Ainsi, si on cherche à créer un examen en ligne sous moodle, plutôt que de créer la question à l'intérieur de moodle (fastidieux, pénible et non reproductible de mon point de vue), on peut générer les énoncés à l'extérieur. Importer le fichier xml dans sa banque de question permet alors de récupérer l'ensemble des questions et de construire son examen dans moodle. Évidemment, la force de générer les questions à l'extérieur sous R est de pouvoir générer des questions aléatoires et ainsi pouvoir rapidement générer un très grand nombre d'examens différents.", 
+  "PJ-F. Coeurjolly",
   
-  "17/10/2019", "22/30", "Spatial data with packages {sf} and {raster}", 
-  "R is a powerful tool for geospatial data processing, analysis, and visualization. This workshop will provide an introduction to manipulating geospatial data with a few core packages. {sf} provides classes and methods for vector data and is designed to work well with the [tidyverse](http://tidyverse.org/). {raster} provides classes and methods for raster data. We will also see how to create static, animated, and interactive maps with {tmap}, {rasterviz}, and {mapview}.", 
-  "I. Hough",
+  "26/11/2020", "Contribute to the response to COVID-19 + Collect and use open access World Bank data to know your country", 
+  "Abstract to come", 
+  "M. Rolland, B. Thiago Tomio",
   
-  "28/11/2019", "23/30", "An introduction to Bayesian multilevel models using R, brms, and Stan", 
-  "Bayesian multilevel models are increasingly used to overcome the limitations of frequentist approaches in the analysis of complex structured data. During this session, I will briefly introduce the logic of Bayesian inference and motivate the use of multilevel modelling. I will then show how Bayesian multilevel models can be fitted using the probabilistic programming language Stan and the R package brms (Bürkner, 2016). The brms package allows fitting complex nonlinear multilevel (aka 'mixed-effects') models using an understandable high-level formula syntax. I will demonstrate the use of brms with some general examples and discuss model comparison tools available within the package. Prior experience with data manipulation and linear models in R will be helpful.",
-  "L. Nalborczyk",
+  "17/12/2020", "Alternatives to Rstudio", 
+  "Abstract to come",
+  "N. Gusarov",
   
-  "19/12/2019", "24/30", "Organizing a data challenge in R - moved to 30/01", 
-  "MOVED TO 30/01/20", 
-  "",
+  "14/01/2021", "Using UGA’s Ciment servers", 
+  "Abstract to come", 
+  "M. Gueguen, P-A. Bouttier",
   
-  "30/01/2020", "25/30", "Organizing a data challenge in R", 
-  "Data challenges are original tools to explore computational methods trough active learning and competition approaches. It can be used both (i) to improve pedagogic practices in education and (ii) to address scientific questions, such as benchmarking of computational methods. First, we will present you examples of R data challenges that we have run on the open-source challenge platform codalab (challenges in master classes, remote challenges during scientific conferences or  winter-school-like scientific data challenges). Then, we will give a tutorial to teach you how to easily set up your own data challenge.", 
-  "M. Richard & F. Chuffart",
+  "28/01/2021", "Version control and git", 
+  "Abstract to come", 
+  "P. Jedynak, M. Rolland",
   
-  "20/02/2020", "26/30", "Using Git and GitHub with R", 
-  "As nicely written by Hadley Wickham R guru, 'Good coding style is like correct punctuation: you can manage without it, butitsuremakesthingseasiertoread.' In this session, we will review good practices to write R code : 1) style advises, 2) versioning with git. In a first part, we will present some ideas of the tidyverse style guide (following http://style.tidyverse.org/) , the second part will bedevoted to handle the integration between R and Git inside Rstudio. Asan exercise, we will provide you a Rmarkdown file to create a R packagein order to put in practice the previous recommendations and turnpersonal code into reusable code (following http://r-pkgs.had.co.nz).
-  
-Make sure that the following packages are installed on your computer : git, R, RStudio, Rmarkdown, and Roxygen.", 
-  "A. Arnaud",
+  "25/02/2021", "Machine learning", 
+  "Abstract to come", 
+  "O. François",
 
-  "26/03/2020", "27/30", "Joint presentation with the Python user group - more details soon",
-  "abstract coming", 
-  "M. Rolland & ?",
+  "25/03/2021", "Data visualisation with {ggplot2}", "'The simple graph has brought more information to the data analyst’s mind than any other device.' --- John Tukey. {ggplot2} is one of today's most powerful data visualisation suite. In this tutorial we will learn the underlying philosophy behind {ggplot2}: the Grammar of Graphics. We will see how all types of graphs such as histograms, scatterplots, boxplots, probability densities etc. can be specified by a small set of shared parameters, and how understanding what these parameters are and how to use them will allow you to seamlessly produce powerful and complex graphs to better understand your data.", 
+  "M. Rolland",
   
-  "16/04/2020", "28/30", "R Markdown",
-  "Learn about what is R Markdown and how to use this format. We will also present the many possibilities of R Markdown: 1/ Compile a single R Markdown document to a report in different formats, such as PDF, HTML, or Word. 2/ Create notebooks in which you can directly run code chunks interactively. 3/ Make slides for presentations (HTML5, LaTeX Beamer, or PowerPoint). 4/ Produce dashboards with flexible, interactive, and attractive layouts. 5/ Build interactive applications based on Shiny. 6/ Write journal articles. 7/ Author books of multiple chapters. 8/ Generate websites and blogs.", 
+  "29/04/2021", "Data manipulation with packages {dplyr} and {data.table}",
+  "Data manipulation is an essential step in any data analysis project. Core package of the tidyverse environment, {dplyr} provides a data manipulation framework that uses an intuitive syntax defined by a small set of verbs. In this tutorial we will learn how to pick observations by their values (filter()), reorder the rows (arrange()), pick variables by their name (select()), create new variables with functions of existing variables (mutate()), collapse many values down to a single summary (summarise()) and combine all these operations using the '%>%' (pipe) operator. This will help you solve the most common data manipulation challenges. **ADD data.table**", 
   "P. Jedynak & M. Rolland",
 
-  "28/05/2020", "29/30", "Data manipulation with packages {dplyr} and {data.table}", "Data manipulation is an essential step in any data analysis project. Core package of the tidyverse environment, {dplyr} provides a data manipulation framework that uses an intuitive syntax defined by a small set of verbs. In this tutorial we will learn how to pick observations by their values (filter()), reorder the rows (arrange()), pick variables by their name (select()), create new variables with functions of existing variables (mutate()), collapse many values down to a single summary (summarise()) and combine all these operations using the '%>%' (pipe) operator. This will help you solve the most common data manipulation challenges. **ADD data.table**", "P. Jedynak & I. Hough",
+  "27/05/2021", "Reproducible projects", "Abstract to come", "M. Rolland",
 
-  "25/06/2020", "30/30", "Data visualisation with package {ggplot2}", "'The simple graph has brought more information to the data analyst’s mind than any other device.' --- John Tukey. {ggplot2} is one of today's most powerful data visualisation suite. In this tutorial we will learn the underlying philosophy behind {ggplot2}: the Grammar of Graphics. We will see how all types of graphs such as histograms, scatterplots, boxplots, probability densities etc. can be specified by a small set of shared parameters, and how understanding what these parameters are and how to use them will allow you to seamlessly produce powerful and complex graphs to better understand your data.", "S. Cadiou & M. Rolland"
+  "24/06/2021", "Time series", "Abstract to come", "A. Zaher"
 
 ) %>%
   mutate(Date = dmy(Date)) 
 
-stopifnot(all(wday(program$Date) == 5)) # Thursdays (begin with Sundays)
+#stopifnot(all(wday(program$Date) == 5)) # Thursdays (begin with Sundays)
           
 program <- program %>%
   arrange(Date) %>%
@@ -190,6 +185,8 @@ div(
 <br>
 
 ### Materials from previous sessions
+
+#### 2020 - 2021
 
 #### 2019 - 2020
 
