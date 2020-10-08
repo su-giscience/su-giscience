@@ -15,7 +15,7 @@ You can subscribe to our emailing list on the following link: [r-in-grenoble ema
 
 Please talk about our R group with your colleagues. 
 
-You can also print [this poster](Poster 2019-2020.pdf) and put it up somewhere at work.
+You can also print [this poster](Poster 2020-2021.pdf) and put it up somewhere at work.
 
 ### Join our R working sessions in Grenoble
 
