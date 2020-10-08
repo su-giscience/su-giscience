@@ -19,7 +19,7 @@ You can also print [this poster](Poster 2020-2021.pdf) and put it up somewhere a
 
 ### Join our R working sessions in Grenoble
 
-We organise monthly working sessions on thursdays at 5PM, at the [IMAG building](https://r-in-grenoble.github.io/members.html)). **Due to COVID-19 restrictions all sessions to come will be held by ZOOM**.
+We organise monthly working sessions on thursdays at 5PM, at the [IMAG building](https://r-in-grenoble.github.io/members.html)). **Due to COVID-19 restrictions all sessions to come and until further notice will be held by ZOOM**.
 
 Please find the guidelines for these sessions:
     
