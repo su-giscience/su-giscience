@@ -51,7 +51,7 @@ program <- tribble(
   ~Date, ~Title, ~Description, ~Authors,
   
   "22/10/2020", "Organising exams in R", 
-  "Le paquet exams est un paquet qui permet de réaliser des examens en intégrant des sorties logicielles, des graphiques, etc de façon automatique et dynamique. Les examens peuvent être obtenus sous un grand nombre de formats possibles comme html, pdf, nops et ce qui m'intéresse le plus sous format xml. Ce format est le format type des questions générées par moodle. Ainsi, si on cherche à créer un examen en ligne sous moodle, plutôt que de créer la question à l'intérieur de moodle (fastidieux, pénible et non reproductible de mon point de vue), on peut générer les énoncés à l'extérieur. Importer le fichier xml dans sa banque de question permet alors de récupérer l'ensemble des questions et de construire son examen dans moodle. Évidemment, la force de générer les questions à l'extérieur sous R est de pouvoir générer des questions aléatoires et ainsi pouvoir rapidement générer un très grand nombre d'examens différents.", 
+  "Package {exams} enables creating questionnaires that combine program output, graphs, etc in an automatised and dynamic fashion. They may be exported in many different formats: html, pdf, nops and most intresting xml. Xml is compatible with moodle which allows to reproducibly generate random questions in R and create a great number of different exams and make them an online moodle exam.", 
   "PJ-F. Coeurjolly",
   
   "26/11/2020", "Contribute to the response to COVID-19 + Collect and use open access World Bank data to know your country", 
