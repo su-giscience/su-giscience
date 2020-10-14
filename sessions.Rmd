@@ -2,11 +2,13 @@
 title: "Working sessions"
 ---
 
-Next session: **Organising exams in R**, on **October 22nd, 2020 at 5PM on Zoom**. Zoom link will be circulated through the group's emailing list and pasted here.
+Next session: **Organising exams in R**, on **October 22nd, 2020 at 5PM on Zoom**. 
 
-<!-- Attendance is totally free but registration is mandatory and is on a first come first serve basis. 
+Registration to the event [here](https://www.eventbrite.com/e/organising-exams-in-r-tickets-125308530187).
 
-Registration to the event [here](https://www.eventbrite.fr/e/billets-using-git-and-github-with-r-94817169707?utm_term=eventname_text). -->
+Link to Zoom [here](https://us04web.zoom.us/j/76885441433?pwd=bUhvejdUb2sxa29saEk5M3NlMldBdz09).
+
+<!-- Attendance is totally free but registration is mandatory and is on a first come first serve basis.  -->
 
 You can subscribe to our emailing list on the following link: [r-in-grenoble emailing list](https://listes.univ-grenoble-alpes.fr/sympa/subscribe/r-in-grenoble?previous_action=info).
 
