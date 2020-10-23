@@ -192,7 +192,7 @@ div(
 
 #### 2020 - 2021
 
-- Organising exams in R: material to come
+- [Organising exams in R](presentation/rexam2slides.pdf)
 
 #### 2019 - 2020
 
