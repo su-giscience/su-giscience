@@ -2,13 +2,15 @@
 title: "Working sessions"
 ---
 
-Next session: **Organising exams in R**, on **October 22nd, 2020 at 5PM on Zoom**. 
+Next session: **Contribute to the response to COVID-19** and **Collect and use open access World Bank data to know your country**, on **November 26th, 2020 at 5PM on Zoom**. 
 
-Registration to the event [here](https://www.eventbrite.com/e/organising-exams-in-r-tickets-125308530187).
+Registration link and ZOOM link will be posted here before November 15th.
+
+<!-- Registration to the event [here](https://www.eventbrite.com/e/organising-exams-in-r-tickets-125308530187).
 
 Link to Zoom [here](https://us04web.zoom.us/j/76885441433?pwd=bUhvejdUb2sxa29saEk5M3NlMldBdz09).
 
-<!-- Attendance is totally free but registration is mandatory and is on a first come first serve basis.  -->
+Attendance is totally free but registration is mandatory and is on a first come first serve basis.  -->
 
 You can subscribe to our emailing list on the following link: [r-in-grenoble emailing list](https://listes.univ-grenoble-alpes.fr/sympa/subscribe/r-in-grenoble?previous_action=info).
 
@@ -189,6 +191,8 @@ div(
 ### Materials from previous sessions
 
 #### 2020 - 2021
+
+- Organising exams in R: material to come
 
 #### 2019 - 2020
 
