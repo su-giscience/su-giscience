@@ -13,6 +13,7 @@
 
 <title>Working sessions</title>
 
+<script src="site_libs/header-attrs-2.5/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -22,6 +23,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
@@ -32,7 +35,7 @@
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-      </style>
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -351,13 +354,11 @@ $(document).ready(function () {
 </div>
 
 
-<p>Next session: <strong>Contribute to the response to COVID-19</strong> and <strong>Collect and use open access World Bank data to know your country</strong>, on <strong>November 26th, 2020 at 5PM on Zoom</strong>.</p>
-<p>Registration link and ZOOM link will be posted here before November 15th.</p>
-<!-- Registration to the event [here](https://www.eventbrite.com/e/organising-exams-in-r-tickets-125308530187).
-
-Link to Zoom [here](https://us04web.zoom.us/j/76885441433?pwd=bUhvejdUb2sxa29saEk5M3NlMldBdz09).
-
-Attendance is totally free but registration is mandatory and is on a first come first serve basis.  -->
+<p>Next session: <strong>Collect and use open access World Bank data to know your country + Flash talk: Contribute to the response to COVID-19, November 26th, 2020 at 5PM on Zoom</strong>.</p>
+<!--Registration link and ZOOM link will be posted here before November 15th.-->
+<p>Registration to the event <a href="https://www.eventbrite.com/e/r-in-grenoble-collect-and-use-open-access-world-bank-data-tickets-129266398277">here</a>.</p>
+<p>Link to Zoom <a href="https://univ-grenoble-alpes-fr.zoom.us/j/99806191846?pwd=dUFsMGUvaytiZmZ6QlJCek5oV3VKdz09">here</a>.</p>
+<p>Attendance is totally free but registration is mandatory and is on a first come first serve basis.</p>
 <p>You can subscribe to our emailing list on the following link: <a href="https://listes.univ-grenoble-alpes.fr/sympa/subscribe/r-in-grenoble?previous_action=info">r-in-grenoble emailing list</a>.</p>
 <div id="help-us-communicate" class="section level3">
 <h3>Help us communicate</h3>
@@ -457,11 +458,11 @@ $(document).ready(main);
 <div class="workshops-button">
 <div class="left-date">November 26, 2020</div>
 <div class="center-title">
-<i>Contribute to the response to COVID-19 + Collect and use open access World Bank data to know your country</i>
+<i>Collect and use open access World Bank data to know your country + Flash talk: Contribute to the response to COVID-19</i>
 </div>
 <div class="right-authors">M. Rolland, B. Thiago Tomio</div>
 </div>
-<ul class="workshops">Abstract to come</ul>
+<ul class="workshops">Package {WDI} enables exploring 40 different datasets hosted by the World Bank. The database World Development Indicators (‘WDI’) contains 1,600 time series indicators for 217 economies and more than 40 country groups. For many series, data goes back more than 50 years. The package is very useful to explore the development of the countries. We will download and plot data together during this session.</ul>
 </div>
 <div class="limit">
 <div class="workshops-button">
@@ -603,7 +604,7 @@ $(document).ready(main);
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

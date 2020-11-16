@@ -2,15 +2,15 @@
 title: "Working sessions"
 ---
 
-Next session: **Contribute to the response to COVID-19** and **Collect and use open access World Bank data to know your country**, on **November 26th, 2020 at 5PM on Zoom**. 
+Next session: **Collect and use open access World Bank data to know your country + Flash talk: Contribute to the response to COVID-19, November 26th, 2020 at 5PM on Zoom**. 
 
-Registration link and ZOOM link will be posted here before November 15th.
+<!--Registration link and ZOOM link will be posted here before November 15th.-->
 
-<!-- Registration to the event [here](https://www.eventbrite.com/e/organising-exams-in-r-tickets-125308530187).
+Registration to the event [here](https://www.eventbrite.com/e/r-in-grenoble-collect-and-use-open-access-world-bank-data-tickets-129266398277).
 
-Link to Zoom [here](https://us04web.zoom.us/j/76885441433?pwd=bUhvejdUb2sxa29saEk5M3NlMldBdz09).
+Link to Zoom [here](https://univ-grenoble-alpes-fr.zoom.us/j/99806191846?pwd=dUFsMGUvaytiZmZ6QlJCek5oV3VKdz09).
 
-Attendance is totally free but registration is mandatory and is on a first come first serve basis.  -->
+Attendance is totally free but registration is mandatory and is on a first come first serve basis.
 
 You can subscribe to our emailing list on the following link: [r-in-grenoble emailing list](https://listes.univ-grenoble-alpes.fr/sympa/subscribe/r-in-grenoble?previous_action=info).
 
@@ -58,8 +58,8 @@ program <- tribble(
   "Package {exams} enables creating questionnaires that combine program output, graphs, etc in an automatised and dynamic fashion. They may be exported in many different formats: html, pdf, nops and most intresting xml. Xml is compatible with moodle which allows to reproducibly generate random questions in R and create a great number of different exams and make them an online moodle exam.", 
   "PJ-F. Coeurjolly",
   
-  "26/11/2020", "Contribute to the response to COVID-19 + Collect and use open access World Bank data to know your country", 
-  "Abstract to come", 
+  "26/11/2020", "Collect and use open access World Bank data to know your country + Flash talk: Contribute to the response to COVID-19", 
+  "Package {WDI} enables exploring 40 different datasets hosted by the World Bank. The database World Development Indicators (‘WDI’) contains 1,600 time series indicators for 217 economies and more than 40 country groups. For many series, data goes back more than 50 years. The package is very useful to explore the development of the countries. We will download and plot data together during this session.", 
   "M. Rolland, B. Thiago Tomio",
   
   "17/12/2020", "Alternatives to Rstudio", 
