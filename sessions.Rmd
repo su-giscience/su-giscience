@@ -193,7 +193,7 @@ div(
 
 #### 2020 - 2021
 
-- Collect and use open access World Bank data to know your country: [slides](), [video](https://www.youtube.com/watch?v=vDfZ_Vxzgeo)
+- Collect and use open access World Bank data to know your country: [slides](https://bttomio.github.io/slides/WDI/Slides.html), [video](https://www.youtube.com/watch?v=vDfZ_Vxzgeo)
 
 - [Organising exams in R](presentation/rexam2slides.pdf)
 
