@@ -2,18 +2,19 @@
 title: "Working sessions"
 ---
 
-Next session: **Collect and use open access World Bank data to know your country + Flash talk: Contribute to the response to COVID-19, November 26th, 2020 at 5PM on Zoom**. 
+Next session: **Alternatives to Rstudio + Flash talk: Contribute to the response to COVID-19, December 17th, 2020 at 5PM on Zoom**. 
 
-<!--Registration link and ZOOM link will be posted here before November 15th.-->
+Registration link and ZOOM link will be posted here before December 5th.
 
-Registration to the event [here](https://www.eventbrite.com/e/r-in-grenoble-collect-and-use-open-access-world-bank-data-tickets-129266398277).
+<!-- Registration to the event [here](https://www.eventbrite.com/e/r-in-grenoble-collect-and-use-open-access-world-bank-data-tickets-129266398277).
 
-Link to Zoom [here](https://univ-grenoble-alpes-fr.zoom.us/j/99806191846?pwd=dUFsMGUvaytiZmZ6QlJCek5oV3VKdz09).
+Link to Zoom [here](https://univ-grenoble-alpes-fr.zoom.us/j/99806191846?pwd=dUFsMGUvaytiZmZ6QlJCek5oV3VKdz09). -->
 
 Attendance is totally free but registration is mandatory and is on a first come first serve basis.
 
 You can subscribe to our emailing list on the following link: [r-in-grenoble emailing list](https://listes.univ-grenoble-alpes.fr/sympa/subscribe/r-in-grenoble?previous_action=info).
 
+You can checkout our YouTube channel [here](https://www.youtube.com/channel/UCA2w7SQxsYH0NKGS8vmAqbg).
 
 ### Help us communicate
 
@@ -191,6 +192,8 @@ div(
 ### Materials from previous sessions
 
 #### 2020 - 2021
+
+- Collect and use open access World Bank data to know your country: [slides](), [video](https://www.youtube.com/watch?v=vDfZ_Vxzgeo)
 
 - [Organising exams in R](presentation/rexam2slides.pdf)
 

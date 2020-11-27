@@ -25,6 +25,8 @@ navbar:
       href: https://twitter.com/hashtag/rusersgrenoble?src=hash
     - icon: fa-github
       href: https://github.com/r-in-grenoble/r-in-grenoble.github.io         # CHANGE HERE 
+    - icon: fa-youtube
+      href: https://www.youtube.com/channel/UCA2w7SQxsYH0NKGS8vmAqbg
 output:
   html_document:
     theme: cosmo
