@@ -4,11 +4,11 @@ title: "Working sessions"
 
 Next session: **Alternatives to Rstudio + Flash talk: Contribute to the response to COVID-19, December 17th, 2020 at 5PM on Zoom**. 
 
-Registration link and ZOOM link will be posted here before December 5th.
+<!-- Registration link and ZOOM link will be posted here before December 5th. -->
 
-<!-- Registration to the event [here](https://www.eventbrite.com/e/r-in-grenoble-collect-and-use-open-access-world-bank-data-tickets-129266398277).
+Registration to the event [here](https://www.eventbrite.com/e/r-in-grenoble-alternatives-to-rstudio-tickets-132208133085).
 
-Link to Zoom [here](https://univ-grenoble-alpes-fr.zoom.us/j/99806191846?pwd=dUFsMGUvaytiZmZ6QlJCek5oV3VKdz09). -->
+Link to Zoom [here](https://univ-grenoble-alpes-fr.zoom.us/j/99858934316?pwd=TkN1TTRvQXJSYnljYU9lc1hXajdRQT09).
 
 Attendance is totally free but registration is mandatory and is on a first come first serve basis.
 
@@ -64,7 +64,7 @@ program <- tribble(
   "M. Rolland, B. Thiago Tomio",
   
   "17/12/2020", "Alternatives to Rstudio", 
-  "Abstract to come",
+  "RStudio is the most widely used IDE designed to optimize the workflow with R language. However, there exists many alternatives designed for more specific use cases. Among the most popular, there are VS-Code, Jupyter, Atom and many others. What are the advantages they offer? Can they be more useful than RStudio?",
   "N. Gusarov",
   
   "14/01/2021", "Using UGA’s Ciment servers", 
