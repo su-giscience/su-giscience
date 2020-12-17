@@ -193,7 +193,7 @@ div(
 
 #### 2020 - 2021
 
-- Alternatives to Rstudio: [slides](presentation/rstudio_alternatives.pdf), [video](https://youtu.be/YyQjXt_Vfjc)
+- Alternatives to Rstudio: [slides](presentation/rstudio_alternatives.pdf), [video](https://youtu.be/UzjCy6cyRiI)
 
 - Collect and use open access World Bank data to know your country: [slides](https://bttomio.github.io/slides/WDI/Slides.html), [video](https://www.youtube.com/watch?v=vDfZ_Vxzgeo)
 
