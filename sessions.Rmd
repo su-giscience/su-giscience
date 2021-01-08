@@ -2,13 +2,13 @@
 title: "Working sessions"
 ---
 
-Next session: **Alternatives to Rstudio + Flash talk: Contribute to the response to COVID-19, December 17th, 2020 at 5PM on Zoom**. 
+Next session: **Using UGA’s Ciment servers, January 14th, 2021 at 5PM on Zoom**. 
 
 <!-- Registration link and ZOOM link will be posted here before December 5th. -->
 
-Registration to the event [here](https://www.eventbrite.com/e/r-in-grenoble-alternatives-to-rstudio-tickets-132208133085).
+Registration to the event [here](https://www.eventbrite.com/e/using-grenoble-university-computing-servers-with-r-tickets-135986361869).
 
-Link to Zoom [here](https://univ-grenoble-alpes-fr.zoom.us/j/99858934316?pwd=TkN1TTRvQXJSYnljYU9lc1hXajdRQT09).
+Link to Zoom [here](https://univ-grenoble-alpes-fr.zoom.us/j/94572905155?pwd=L0FNM3lyOVR2bzVCRW1jQlo5WWFtdz09).
 
 Attendance is totally free but registration is mandatory and is on a first come first serve basis.
 
@@ -24,7 +24,7 @@ You can also print [this poster](Poster 2020-2021.pdf) and put it up somewhere a
 
 ### Join our R working sessions in Grenoble
 
-We organise monthly working sessions on thursdays at 5PM, at the [IMAG building](https://r-in-grenoble.github.io/members.html)). **Due to COVID-19 restrictions all sessions to come and until further notice will be held by ZOOM**.
+We organise monthly working sessions on thursdays at 5PM, at the [IMAG building](https://r-in-grenoble.github.io/members.html). **Due to COVID-19 restrictions all sessions to come and until further notice will be held by ZOOM**.
 
 Please find the guidelines for these sessions:
     
@@ -67,9 +67,11 @@ program <- tribble(
   "RStudio is the most widely used IDE designed to optimize the workflow with R language. However, there exists many alternatives designed for more specific use cases. Among the most popular, there are VS-Code, Jupyter, Atom and many others. What are the advantages they offer? Can they be more useful than RStudio?",
   "N. Gusarov",
   
-  "14/01/2021", "Using UGA’s Ciment servers", 
-  "Abstract to come", 
-  "M. Gueguen, P-A. Bouttier",
+  "14/01/2021", "Using UGA’s Ciment servers with R", 
+  "In this session we will start with a general overview of UGA (University of Grenoble) severs by P-A. Bouttier from GRICAD (Grenoble’s infrastructure for intensive computing). He will present what these servers are, what they can be used for (scientific computing, data management, etc) and the different services provided by GRICAD to the Grenoble scientific community. 
+
+Then in the main part of the presentation, M. Gueguen will present in which situations you may want to use such servers and how to do so in R. The presentation will be illustrated by several examples.", 
+"M. Gueguen, P-A. Bouttier",
   
   "28/01/2021", "Version control and git", 
   "Abstract to come", 
