@@ -13,6 +13,8 @@ library(dplyr)
 library(sp)
 library(leaflet)
 library(DT)
+library(gt)
+library(tidyverse)
 ```
 
 
@@ -40,10 +42,11 @@ suppressWarnings(
 # create a table
 
 members <- data.frame(
-  NameJ = c("堤田 成政"),
-  NameE = c("Narumasa Tsutsumida"),
+  `名前` = c("堤田 成政"),
+  Name = c("Narumasa Tsutsumida"),
   Grade = c("Assoc. Prof."),
-  Keywords = c("地理情報科学(GISci), 地理情報システム(GIS), リモートセンシング(Remote Sensing), 空間モデリング(Spatial modeling), ジオデータサイエンス(Geo Data Science)")
+  Keywords = c("地理情報科学(GISci), 地理情報システム(GIS), リモートセンシング(Remote Sensing), 空間モデリング(Spatial modeling), ジオデータサイエンス(Geo Data Science)"),
+  link = c("https://narutstsmd.wordpress.com")
 )
 
 ```
@@ -51,10 +54,21 @@ members <- data.frame(
 <br>
 
 ### メンバー (Members)
-```{r display name list}
+```{r gt name list datatable, eval=F}
 # display table
-datatable(select(members, c(NameJ, NameE, Grade, Keywords)), colnames = c("名前", "Name", "Grade", "Keywords"),
+datatable(select(members, c(名前, NameE, Grade, Keywords, link)), colnames = c("名前", "Name", "Grade", "Keywords","link"),
               rownames = FALSE, escape = FALSE)
+```
+
+<br>
+
+```{r display name list datatable}
+# display table
+members %>% 
+    mutate(
+        link = map(link, ~ htmltools::a(href = .x, "website")),
+        link = map(link, ~ gt::html(as.character(.x)))) %>%
+    gt(.,rowname_col = "Grade")
 ```
 
 <br>
