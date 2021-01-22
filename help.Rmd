@@ -15,7 +15,7 @@ We also propose to reference all the unanswered [r] questions of our members so 
 
 ### Unanswered [r] questions of Grenoble useRs
 
-```{r, include=FALSE}
+```{r, include=FALSE,eval =FALSE}
 # devtools::install_github("dgrtwo/stackr")
 library(tidyverse)
 
@@ -32,7 +32,7 @@ links <- googlesheets::gs_key("1WyfmLfoAQUP2iRogqcOfYA9Hum7DT0BcVyTtei_6Xjw",
   pull()
 ```
 
-```{r, echo=FALSE, results='asis'}
+```{r, echo=FALSE, results='asis',eval =FALSE}
 for (link in sample(links)) cat("-", link, "\n\n")
 ```
 

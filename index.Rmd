@@ -1,9 +1,9 @@
 ---
-title: "Welcome to Grenoble!"
+title: "SU GIS Lab!"
 output:
   html_document:
     includes:
       in_header: cover_with_logo.html
 ---
 
-## This is the website of our R community
+## This is the website of Geographic Information Science Lab at Saitama University
