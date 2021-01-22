@@ -1,70 +1,31 @@
 ---
-title: "About our community"
-editor_options: 
+title: "About our team"
+editor_options:
   chunk_output_type: console
 ---
 
 ## Where are we?
 
-```{r, include=FALSE}
+```{r package, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 
 library(dplyr)
-# devtools::install_github("privefl/googlesheets")
-library(googlesheets)
-# install.packages(c("leaflet", "DT"))
+library(sp)
 library(leaflet)
 library(DT)
 ```
 
-```{r, include=FALSE}
-members <- gs_key("1WyfmLfoAQUP2iRogqcOfYA9Hum7DT0BcVyTtei_6Xjw", 
-                  lookup = TRUE, visibility = "private") %>%
-  gs_read() %>% 
-  tidyr::unite_(col = "Name", from = c("First name", "Last name"),
-                sep = " ", remove = TRUE) %>%
-  mutate(
-    Name = if_else(is.na(Website), Name, 
-                   paste0("<a href='", Website, "' target='_blank'>", Name, "</a>")),
-    Website = NULL,
-    Status = if_else(is.na(Status), "member", Status),
-    infos = paste0(
-      Name, "<br>",
-      if_else(is.na(Institution), "", paste0("at ", Institution, "<br>")),
-      if_else(is.na(Field), "", paste0("in ", Field, "<br>")),
-      if_else(is.na(Keywords), "", paste0("knows ", Keywords))
-    )
-  )
 
-# check wrong entries for status
-stopifnot(all(members$Status %in% c("member", "referent", "admin")))
-# check for duplicates
-stopifnot(nrow(members %>% group_by(Name) %>% filter(n() > 1)) == 0)
-```
-
-```{r, message=FALSE}
+```{r leaflet map, message=FALSE}
 # display map
 suppressWarnings(
-  leaflet(members, width = "100%") %>% 
-    setView(lng = 5.767249, lat = 45.190590, zoom = 12) %>% 
+  leaflet(sp::SpatialPoints(matrix(c(139.60755, 35.86289),nrow = 1)) , width = "100%") %>% 
+    setView(lng = 139.60755, lat = 35.86289, zoom = 15) %>% 
     addTiles(options = providerTileOptions(minZoom = 2, maxZoom = 19)) %>%
-    addAwesomeMarkers(lng = 5.767249, lat = 45.190590, 
-                      popup = "Meeting location",
-                      label = "Meeting location",
-                      icon = makeAwesomeIcon("android-locate", library = "ion", markerColor = "red")) %>%
-    addAwesomeMarkers(popup = ~infos,
-                      label = ~lapply(infos, htmltools::HTML),
-                      options = markerOptions(riseOnHover = TRUE),
-                      clusterOptions = markerClusterOptions(iconCreateFunction=JS("function (cluster) {    
-    var childCount = cluster.getChildCount();  
-    if (childCount < 5) {  
-      c = 'rgba(100,149,237, 1);'   
-    } else { 
-      c = 'rgba(65,105,225, 1);'  
-    }    
-    return new L.DivIcon({ html: '<div style=\"background-color:'+c+'\"><span>' + childCount + '</span></div>', className: 'marker-cluster', iconSize: new L.Point(40, 40) });
-  }")),
-                      icon = makeAwesomeIcon("person", library = "ion", markerColor = ~if_else(Status == "member", "blue", "darkblue"))) %>%
+    addAwesomeMarkers(lng = 139.60755, lat = 35.86289, 
+                      popup = "VJ74+3X",
+                      label = "VJ74+3X",
+                      icon = makeAwesomeIcon("android-locate", library = "ion", markerColor = "red"))  %>%
     htmlwidgets::onRender('
       function(el, x) {
         var myMap = this;
@@ -75,22 +36,42 @@ suppressWarnings(
 )
 ```
 
-```{r}
-# display table
-datatable(select(members, c(Name, Institution, Field, Keywords, Status)), 
-              rownames = FALSE, escape = FALSE)
+```{r input members}
+# create a table
+
+members <- data.frame(
+  NameJ = c("堤田 成政"),
+  NameE = c("Narumasa Tsutsumida"),
+  Grade = c("Assoc. Prof."),
+  Keywords = c("地理情報科学(GISci), 地理情報システム(GIS), リモートセンシング(Remote Sensing), 空間モデリング(Spatial modeling), ジオデータサイエンス(Geo Data Science)")
+)
+
 ```
-
-
-**Status:**
-
-- 'admin' refers to administrators of the website and the mailing list,
-- 'referent' refers to dedicated contact persons within institutions,
-- 'member' refers to all other members of the community.
 
 <br>
 
-### How to be added?
+### メンバー (Members)
+```{r display name list}
+# display table
+datatable(select(members, c(NameJ, NameE, Grade, Keywords)), colnames = c("名前", "Name", "Grade", "Keywords"),
+              rownames = FALSE, escape = FALSE)
+```
 
+<br>
+
+### 所属 (Affiliation)
+
+- [埼玉大学大学院理工学研究科数理電子情報部門情報領域](http://www.ics.saitama-u.ac.jp)
+- [Department of Information and Computer Sciences, Graduate School of Science and Engineering, Saitama University, Japan](http://www.ics.saitama-u.ac.jp/en/)
+
+
+<br>
+
+<!---
 Please fill the [google doc](https://docs.google.com/spreadsheets/d/1qdG7PPlRCAU8L6Hhq1D2zT0q9LWDUzBfq7mIzz_6Dm8/edit?usp=sharing) (**follow the guidelines!!**) and wait for an admin to upload your data to the actual list of members.
+--->
 
+### 住所(Address)
+
+- 〒338-8570 さいたま市桜区下大久保255 埼玉大学　理工学研究科 総合研究棟1号館
+- 255 Shimo-Okubo, Sakura ward, Saitama city, Saitama, Room 707, Research Building No.1, Department of Information and Computer sciences, Graduate school of Science & Engineering, Saitama University,  Japan, 338-8570

@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
 <title>About our community</title>
 
+<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="site_libs/jquery-1.12.4/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -22,31 +23,35 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<script src="site_libs/htmlwidgets-1.2/htmlwidgets.js"></script>
+<script src="site_libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
 <link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
 <script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
 <link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
-<script src="site_libs/Proj4Leaflet-1.0.1/proj4-compressed.js"></script>
+<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
 <script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
 <link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
-<script src="site_libs/leaflet-binding-2.0.2/leaflet.js"></script>
+<script src="site_libs/leaflet-binding-2.0.4.1/leaflet.js"></script>
 <link href="site_libs/leaflet-awesomemarkers-2.0.3/leaflet.awesome-markers.css" rel="stylesheet" />
 <script src="site_libs/leaflet-awesomemarkers-2.0.3/leaflet.awesome-markers.min.js"></script>
 <link href="site_libs/ionicons-2.0.1/ionicons.min.css" rel="stylesheet" />
-<link href="site_libs/leaflet-markercluster-1.0.5/MarkerCluster.css" rel="stylesheet" />
-<link href="site_libs/leaflet-markercluster-1.0.5/MarkerCluster.Default.css" rel="stylesheet" />
-<script src="site_libs/leaflet-markercluster-1.0.5/leaflet.markercluster.js"></script>
-<script src="site_libs/leaflet-markercluster-1.0.5/leaflet.markercluster.freezable.js"></script>
-<script src="site_libs/leaflet-markercluster-1.0.5/leaflet.markercluster.layersupport.js"></script>
 <link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
-<script src="site_libs/datatables-binding-0.4/datatables.js"></script>
-<link href="site_libs/dt-core-1.10.16/css/jquery.dataTables.min.css" rel="stylesheet" />
-<link href="site_libs/dt-core-1.10.16/css/jquery.dataTables.extra.css" rel="stylesheet" />
-<script src="site_libs/dt-core-1.10.16/js/jquery.dataTables.min.js"></script>
-<link href="site_libs/crosstalk-1.0.0/css/crosstalk.css" rel="stylesheet" />
-<script src="site_libs/crosstalk-1.0.0/js/crosstalk.min.js"></script>
+<script src="site_libs/datatables-binding-0.17/datatables.js"></script>
+<link href="site_libs/dt-core-1.10.20/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="site_libs/dt-core-1.10.20/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="site_libs/dt-core-1.10.20/js/jquery.dataTables.min.js"></script>
+<link href="site_libs/crosstalk-1.1.0.1/css/crosstalk.css" rel="stylesheet" />
+<script src="site_libs/crosstalk-1.1.0.1/js/crosstalk.min.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -94,9 +99,8 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
+
 
 <style type = "text/css">
 .main-container {
@@ -110,7 +114,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -215,8 +218,6 @@ $(document).ready(function () {
 });
 </script>
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
 
 <style type="text/css">
@@ -261,6 +262,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -273,20 +275,17 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -305,35 +304,35 @@ $(document).ready(function () {
       <ul class="nav navbar-nav">
         <li>
   <a href="orga.html">
-    <span class="fa fa-sitemap"></span>
+    <span class="fas fa-sitemap"></span>
      
     Orga
   </a>
 </li>
 <li>
   <a href="calendar.html">
-    <span class="fa fa-calendar"></span>
+    <span class="fas fa-calendar"></span>
      
     Calendar
   </a>
 </li>
 <li>
   <a href="sessions.html">
-    <span class="fa fa-calendar"></span>
+    <span class="fas fa-calendar"></span>
      
     Sessions
   </a>
 </li>
 <li>
   <a href="members.html">
-    <span class="fa fa-user"></span>
+    <span class="fas fa-user"></span>
      
     Members
   </a>
 </li>
 <li>
   <a href="https://r-in-grenoble.github.io/blog/">
-    <span class="fa fa-rss"></span>
+    <span class="fas fa-rss"></span>
      
     Blog
   </a>
@@ -342,19 +341,25 @@ $(document).ready(function () {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="mailto:matthieu.rolland@univ-grenoble-alpes.fr">
-    <span class="fa fa-envelope-o"></span>
+    <span class="fas fa-envelope-o"></span>
      
   </a>
 </li>
 <li>
   <a href="https://twitter.com/hashtag/rusersgrenoble?src=hash">
-    <span class="fa fa-twitter"></span>
+    <span class="fas fa-twitter"></span>
      
   </a>
 </li>
 <li>
   <a href="https://github.com/r-in-grenoble/r-in-grenoble.github.io">
-    <span class="fa fa-github"></span>
+    <span class="fas fa-github"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.youtube.com/channel/UCA2w7SQxsYH0NKGS8vmAqbg">
+    <span class="fas fa-youtube"></span>
      
   </a>
 </li>
@@ -374,20 +379,31 @@ $(document).ready(function () {
 
 <div id="where-are-we" class="section level2">
 <h2>Where are we?</h2>
-<div id="htmlwidget-6ac38533366386ac2e7d" style="width:100%;height:480px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-6ac38533366386ac2e7d">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"setView":[[45.19059,5.767249],12,[]],"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false,"minZoom":2,"maxZoom":19,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addAwesomeMarkers","args":[45.19059,5.767249,{"icon":"android-locate","markerColor":"red","iconColor":"white","spin":false,"squareMarker":false,"iconRotate":0,"font":"monospace","prefix":"ion"},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"Meeting location",null,null,null,"Meeting location",{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addAwesomeMarkers","args":[[45.19844086,45.198543,45.198502,45.198505,45.198541,45.198276,45.218,45.19348046,45.14692943,45.193154,null,null,null,null,45.198543,null,45.192877,45.19,45.21803,45.19,null,null,null,45.19292,45.19368,null,null,45.20099,null,null,null,45.20194,null,45.19341,null,45.1934,null,45.1982,45.1905,null,45.19817,null,null,45.19319,45.20195,45.19975,null,45.21842591,null,null,null,null,45.1885,45.1935,null,45.19821,45.19286],[5.748881847,5.74894,5.748881,5.748909,5.74899,5.747928,5.807,5.777319968,5.730035305,5.766739,null,null,null,null,5.748882,null,5.773036,5.7,5.80725,5.7,null,null,null,5.773038,5.777069,null,null,5.700158,null,null,null,5.744455,null,5.776741,null,5.776685,null,5.748093,5.767307,null,5.748239,null,null,5.768584,5.744905,5.772599,null,5.807308406,null,null,null,null,5.7245,5.768053,null,5.748131,5.73719],{"icon":"person","markerColor":["darkblue","darkblue","blue","blue","darkblue","darkblue","blue","darkblue","blue","darkblue","blue","blue","blue","blue","blue","blue","blue","blue","darkblue","blue","blue","blue","blue","blue","darkblue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue"],"iconColor":"white","spin":false,"squareMarker":false,"iconRotate":0,"font":"monospace","prefix":"ion"},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":true,"riseOffset":250},["<a href='https://privefl.github.io/' target='_blank'>Florian Privé<\/a><br>at TIMC-IMAG<br>in Human genetics<br>knows global, rcpp, r-bigmemory","<a href='https://magrichard.github.io/' target='_blank'>Magali Richard<\/a><br>at TIMC-IMAG<br>in Cancer epigenetics<br>knows global, clustering, data visualisation, ggplot2","<a href='https://cayek.github.io/' target='_blank'>Kevin Caye<\/a><br>at TIMC-IMAG<br>in Population genetics<br>knows global, ggplot2, dataframe, emacs, orgmode","<a href='https://keurcien.github.io/' target='_blank'>Keurcien Luu<\/a><br>at TIMC-IMAG<br>in Population genetics<br>knows shiny, rcpp, ggplot2","<a href='http://membres-timc.imag.fr/Michael.Blum/' target='_blank'>Michael Blum<\/a><br>at TIMC-IMAG<br>in Data Science/Pop Gen<br>knows global","<a href='http://graal.ens-lyon.fr/~fchuffart/' target='_blank'>Florent Chuffart<\/a><br>at IAB<br>in multi-omics analysis<br>knows global, statistics, distributed-computing, rmarkdown, Shiny","<a href='http://www.julyanarbel.com/' target='_blank'>Julyan Arbel<\/a><br>at Inria<br>in Bayesian statistics<br>knows global, markdown, knitr, RStudio","Frédéric Boyer<br>at LECA<br>in NGS/Biodiversity<br>","Maïa Dolgopoloff<br>at EKCHUGA<br>in Biostats/kiné<br>knows global, ggplot2","<a href='http://www.gipsa-lab.grenoble-inp.fr/page_pro.php?vid=1255' target='_blank'>Guillaume Becq<\/a><br>at GIPSA-lab<br>in Biomedical Engineering<br>","<a href='http://mistis.inrialpes.fr' target='_blank'>Florence Forbes<\/a><br>at INRIA-MISTIS<br>in statistics<br>","Estelle PLOYON<br>at PACTE-CNRS-UGA<br>in Geomatic, GIS<br>","Lydiane Agier<br>at INSERM<br>in Statistics/Epidemiology<br>knows mice, DSA, enet, parallel computation","<a href='http://www.gipsa-lab.grenoble-inp.fr/~sophie.achard/\n' target='_blank'>Sophie Achard<\/a><br>at GIPSA-lab<br>in Graph signal processing<br>knows global, igraph, waveslim, brainwaver","<a href='https://github.com/BioShock38' target='_blank'>Olivier François<\/a><br>at Grenoble INP<br>in statistics/genetics<br>knows abc, LEA, tess3r","<a href='http://www.gipsa-lab.grenoble-inp.fr/~nathalie.henrich/' target='_blank'>Nathalie Henrich Bernardoni<\/a><br>at GIPSA-lab<br>in Voice<br>","<a href='https://sites.google.com/site/alanchauvin/accueil' target='_blank'>Alan Chauvin<\/a><br>at LPNC<br>in Behavioral Neurosciences<br>knows Shiny","Samuel Wieczorek<br>at CEA<br>knows global, shiny, bioconductor","<a href='http://mistis.inrialpes.fr/people/arnaud/pages/presentation.html' target='_blank'>Alexis Arnaud<\/a><br>at LJK-INRIA<br>in Mixture models<br>knows global, rcpp, visualization, shiny, iteration","Florence Combes<br>at CEA<br>in Bioanalysys<br>knows bioconductor, global","<a href='http://adeline.e-samson.org/en/' target='_blank'>Adeline Leclercq-Samson<\/a><br>at LJK<br>in Statistics<br>knows global, statistics, markdown","Johanna Lepeule<br>at INSERM<br>in Environmental epidemiology<br>","Remy Drouilhet<br>at LJK<br>in Statistics<br>knows global, rcpp","<a href='http://lpnc.univ-grenoble-alpes.fr/Rafael-Laboissiere?lang=fr' target='_blank'>Rafael Laboissière<\/a><br>at LPNC<br>in Behavioral Neurosciences<br>knows global, lme4","Maya Guéguen<br>at LECA<br>in Biodiversity<br>knows global","<a href='https://www-ljk.imag.fr/membres/Laurence.Viry/' target='_blank'>Laurence Viry<\/a><br>at LJK/AIRSEA<br>in Sensibility Analysis, HPC<br>knows global, rcpp, parallel","Franck Corset<br>at LJK - UGA<br>in Statistics & Prob.<br>","<a href='https://www.linkedin.com/in/sentausa/' target='_blank'>Erwin Sentausa<\/a><br>at CEA/BIG<br>in Bacterial genomics<br>knows global, bioinformatics, pca, ggplot2, bioconductor","Annette Casagrande<br>at Pacte<br>in Social Sciences<br>knows data analysis","Alan Parker<br>in Physical chemistry<br>","Sandeep Shaw<br>in Financial Analytics<br>","Charlotte Maugard<br>at TIMC-IMAG<br>in Data mining on health<br>knows global","<a href='https://sites.google.com/site/simonbarthelme/' target='_blank'>Simon Barthelmé<\/a><br>at GIPSA-lab<br>in Statistics<br>knows global, rcpp, image processing, bayes","<a href='xavier.science' target='_blank'>Xavier Laviron<\/a><br>at LECA<br>in Ecology<br>knows global,ggplot2,vim,markdown","Sophie Kuegler<br>at Pacte<br>in Big Data<br>","Louise O'Connor<br>at LECA<br>in Ecology<br>","Laurence Viry<br>at LJK<br>knows global, parallel","Emie Seyve<br>at INSERM<br>in Statistics<br>","<a href='http://mistis.inrialpes.fr/people/jbdurand/' target='_blank'>Jean-Baptiste Durand<\/a><br>at LJK<br>in Computational statistics<br>knows global, notebook, object-oriented programming","Fatima Fofana<br>at Inria<br>in Data Science<br>","Nathan Lemonnier<br>at IAB - PH<br>in Data Science<br>knows global, clustering, network-analysis, machine-learning, data-visualization","Karina Ashurbekova<br>at Inria-Gipsa<br>in Statistic<br>","Onelda Bardho<br>in Data Science<br>","Vasilii Feofanov<br>at UGA<br>in Statistical Learning<br>knows global, ggplot2","Oriane Moyne<br>at TIMC-IMAG<br>in Metabolomics, clinic<br>knows multivariate, multiblock, MixOmics, xcms LC-MS data (pre)processing","<a href='https://iboulangeat.github.io/' target='_blank'>Isabelle Boulangeat<\/a><br>at IRSTEA<br>in Ecology<br>knows gis, ecology, bayesian","Matthieu Rolland<br>at IAB<br>in Longitudinal cohort data<br>knows global, lme4, tidyr, ggplot2","<a href='https://diraclhl.github.io/' target='_blank'>Hongliang Lü<\/a><br>at LJK-INRIA<br>in Statistical learning<br>","<a href='https://github.com/Kersauson' target='_blank'>Colin Kerouanton<\/a><br>at LECA<br>in Human mobility<br>knows dbscan, spatial analysis","Johannes Menzel<br>at Schneider Electric<br>in Energy, Power<br>","Adel El-Ouali<br>at Schneider Electric<br>in Energy, Power<br>","<a href='https://github.com/aushaff/' target='_blank'>Austin Haffenden<\/a><br>at Schneider Electric<br>in Energy, Power<br>","<a href='https://www.barelysignificant.com' target='_blank'>Ladislas Nalborczyk<\/a><br>at LPNC-CNRS<br>in Experimental Psychology<br>","Romain Guibert<br>at Ensimag<br>in Data Science<br>knows global, caret, XGBoost","Isabelle Joncour<br>at IPAG<br>in Astronomy<br>","Ian Hough<br>at IAB<br>in Geography/Environmental epidemiology<br>knows global, data.table, geospatial, parallel","<a href='-' target='_blank'>Marios Barlas<\/a><br>at STMicroelectronics<br>in CMOS Image Sensors<br>knows global,ggplot2,imager,spdep, big data, distributed computing, spark, parallel, officer"],null,{"showCoverageOnHover":true,"zoomToBoundsOnClick":true,"spiderfyOnMaxZoom":true,"removeOutsideVisibleBounds":true,"spiderLegPolylineOptions":{"weight":1.5,"color":"#222","opacity":0.5},"freezeAtZoom":false,"iconCreateFunction":"function (cluster) {    \n    var childCount = cluster.getChildCount();  \n    if (childCount < 5) {  \n      c = 'rgba(100,149,237, 1);'   \n    } else { \n      c = 'rgba(65,105,225, 1);'  \n    }    \n    return new L.DivIcon({ html: '<div style=\"background-color:'+c+'\"><span>' + childCount + '<\/span><\/div>', className: 'marker-cluster', iconSize: new L.Point(40, 40) });\n  }"},null,["<a href='https://privefl.github.io/' target='_blank'>Florian Privé<\/a><br>at TIMC-IMAG<br>in Human genetics<br>knows global, rcpp, r-bigmemory","<a href='https://magrichard.github.io/' target='_blank'>Magali Richard<\/a><br>at TIMC-IMAG<br>in Cancer epigenetics<br>knows global, clustering, data visualisation, ggplot2","<a href='https://cayek.github.io/' target='_blank'>Kevin Caye<\/a><br>at TIMC-IMAG<br>in Population genetics<br>knows global, ggplot2, dataframe, emacs, orgmode","<a href='https://keurcien.github.io/' target='_blank'>Keurcien Luu<\/a><br>at TIMC-IMAG<br>in Population genetics<br>knows shiny, rcpp, ggplot2","<a href='http://membres-timc.imag.fr/Michael.Blum/' target='_blank'>Michael Blum<\/a><br>at TIMC-IMAG<br>in Data Science/Pop Gen<br>knows global","<a href='http://graal.ens-lyon.fr/~fchuffart/' target='_blank'>Florent Chuffart<\/a><br>at IAB<br>in multi-omics analysis<br>knows global, statistics, distributed-computing, rmarkdown, Shiny","<a href='http://www.julyanarbel.com/' target='_blank'>Julyan Arbel<\/a><br>at Inria<br>in Bayesian statistics<br>knows global, markdown, knitr, RStudio","Frédéric Boyer<br>at LECA<br>in NGS/Biodiversity<br>","Maïa Dolgopoloff<br>at EKCHUGA<br>in Biostats/kiné<br>knows global, ggplot2","<a href='http://www.gipsa-lab.grenoble-inp.fr/page_pro.php?vid=1255' target='_blank'>Guillaume Becq<\/a><br>at GIPSA-lab<br>in Biomedical Engineering<br>","<a href='http://mistis.inrialpes.fr' target='_blank'>Florence Forbes<\/a><br>at INRIA-MISTIS<br>in statistics<br>","Estelle PLOYON<br>at PACTE-CNRS-UGA<br>in Geomatic, GIS<br>","Lydiane Agier<br>at INSERM<br>in Statistics/Epidemiology<br>knows mice, DSA, enet, parallel computation","<a href='http://www.gipsa-lab.grenoble-inp.fr/~sophie.achard/\n' target='_blank'>Sophie Achard<\/a><br>at GIPSA-lab<br>in Graph signal processing<br>knows global, igraph, waveslim, brainwaver","<a href='https://github.com/BioShock38' target='_blank'>Olivier François<\/a><br>at Grenoble INP<br>in statistics/genetics<br>knows abc, LEA, tess3r","<a href='http://www.gipsa-lab.grenoble-inp.fr/~nathalie.henrich/' target='_blank'>Nathalie Henrich Bernardoni<\/a><br>at GIPSA-lab<br>in Voice<br>","<a href='https://sites.google.com/site/alanchauvin/accueil' target='_blank'>Alan Chauvin<\/a><br>at LPNC<br>in Behavioral Neurosciences<br>knows Shiny","Samuel Wieczorek<br>at CEA<br>knows global, shiny, bioconductor","<a href='http://mistis.inrialpes.fr/people/arnaud/pages/presentation.html' target='_blank'>Alexis Arnaud<\/a><br>at LJK-INRIA<br>in Mixture models<br>knows global, rcpp, visualization, shiny, iteration","Florence Combes<br>at CEA<br>in Bioanalysys<br>knows bioconductor, global","<a href='http://adeline.e-samson.org/en/' target='_blank'>Adeline Leclercq-Samson<\/a><br>at LJK<br>in Statistics<br>knows global, statistics, markdown","Johanna Lepeule<br>at INSERM<br>in Environmental epidemiology<br>","Remy Drouilhet<br>at LJK<br>in Statistics<br>knows global, rcpp","<a href='http://lpnc.univ-grenoble-alpes.fr/Rafael-Laboissiere?lang=fr' target='_blank'>Rafael Laboissière<\/a><br>at LPNC<br>in Behavioral Neurosciences<br>knows global, lme4","Maya Guéguen<br>at LECA<br>in Biodiversity<br>knows global","<a href='https://www-ljk.imag.fr/membres/Laurence.Viry/' target='_blank'>Laurence Viry<\/a><br>at LJK/AIRSEA<br>in Sensibility Analysis, HPC<br>knows global, rcpp, parallel","Franck Corset<br>at LJK - UGA<br>in Statistics & Prob.<br>","<a href='https://www.linkedin.com/in/sentausa/' target='_blank'>Erwin Sentausa<\/a><br>at CEA/BIG<br>in Bacterial genomics<br>knows global, bioinformatics, pca, ggplot2, bioconductor","Annette Casagrande<br>at Pacte<br>in Social Sciences<br>knows data analysis","Alan Parker<br>in Physical chemistry<br>","Sandeep Shaw<br>in Financial Analytics<br>","Charlotte Maugard<br>at TIMC-IMAG<br>in Data mining on health<br>knows global","<a href='https://sites.google.com/site/simonbarthelme/' target='_blank'>Simon Barthelmé<\/a><br>at GIPSA-lab<br>in Statistics<br>knows global, rcpp, image processing, bayes","<a href='xavier.science' target='_blank'>Xavier Laviron<\/a><br>at LECA<br>in Ecology<br>knows global,ggplot2,vim,markdown","Sophie Kuegler<br>at Pacte<br>in Big Data<br>","Louise O'Connor<br>at LECA<br>in Ecology<br>","Laurence Viry<br>at LJK<br>knows global, parallel","Emie Seyve<br>at INSERM<br>in Statistics<br>","<a href='http://mistis.inrialpes.fr/people/jbdurand/' target='_blank'>Jean-Baptiste Durand<\/a><br>at LJK<br>in Computational statistics<br>knows global, notebook, object-oriented programming","Fatima Fofana<br>at Inria<br>in Data Science<br>","Nathan Lemonnier<br>at IAB - PH<br>in Data Science<br>knows global, clustering, network-analysis, machine-learning, data-visualization","Karina Ashurbekova<br>at Inria-Gipsa<br>in Statistic<br>","Onelda Bardho<br>in Data Science<br>","Vasilii Feofanov<br>at UGA<br>in Statistical Learning<br>knows global, ggplot2","Oriane Moyne<br>at TIMC-IMAG<br>in Metabolomics, clinic<br>knows multivariate, multiblock, MixOmics, xcms LC-MS data (pre)processing","<a href='https://iboulangeat.github.io/' target='_blank'>Isabelle Boulangeat<\/a><br>at IRSTEA<br>in Ecology<br>knows gis, ecology, bayesian","Matthieu Rolland<br>at IAB<br>in Longitudinal cohort data<br>knows global, lme4, tidyr, ggplot2","<a href='https://diraclhl.github.io/' target='_blank'>Hongliang Lü<\/a><br>at LJK-INRIA<br>in Statistical learning<br>","<a href='https://github.com/Kersauson' target='_blank'>Colin Kerouanton<\/a><br>at LECA<br>in Human mobility<br>knows dbscan, spatial analysis","Johannes Menzel<br>at Schneider Electric<br>in Energy, Power<br>","Adel El-Ouali<br>at Schneider Electric<br>in Energy, Power<br>","<a href='https://github.com/aushaff/' target='_blank'>Austin Haffenden<\/a><br>at Schneider Electric<br>in Energy, Power<br>","<a href='https://www.barelysignificant.com' target='_blank'>Ladislas Nalborczyk<\/a><br>at LPNC-CNRS<br>in Experimental Psychology<br>","Romain Guibert<br>at Ensimag<br>in Data Science<br>knows global, caret, XGBoost","Isabelle Joncour<br>at IPAG<br>in Astronomy<br>","Ian Hough<br>at IAB<br>in Geography/Environmental epidemiology<br>knows global, data.table, geospatial, parallel","<a href='-' target='_blank'>Marios Barlas<\/a><br>at STMicroelectronics<br>in CMOS Image Sensors<br>knows global,ggplot2,imager,spdep, big data, distributed computing, spark, parallel, officer"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[45.14692943,45.21842591],"lng":[5.7,5.807308406]}},"evals":["calls.2.args.8.iconCreateFunction"],"jsHooks":{"render":[{"code":"function(el, x, data) {\n  return (\n      function(el, x) {\n        var myMap = this;\n        myMap.on(\"click\", function(e) {\n          alert(\"Latitude: \" + e.latlng.lat + \"\\nLongitude: \" + e.latlng.lng)\n        })\n      }).call(this.getMap(), el, x, data);\n}","data":null}]}}</script>
-<div id="htmlwidget-343b72d1120f4e2e376b" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-343b72d1120f4e2e376b">{"x":{"filter":"none","data":[["<a href='https://privefl.github.io/' target='_blank'>Florian Privé<\/a>","<a href='https://magrichard.github.io/' target='_blank'>Magali Richard<\/a>","<a href='https://cayek.github.io/' target='_blank'>Kevin Caye<\/a>","<a href='https://keurcien.github.io/' target='_blank'>Keurcien Luu<\/a>","<a href='http://membres-timc.imag.fr/Michael.Blum/' target='_blank'>Michael Blum<\/a>","<a href='http://graal.ens-lyon.fr/~fchuffart/' target='_blank'>Florent Chuffart<\/a>","<a href='http://www.julyanarbel.com/' target='_blank'>Julyan Arbel<\/a>","Frédéric Boyer","Maïa Dolgopoloff","<a href='http://www.gipsa-lab.grenoble-inp.fr/page_pro.php?vid=1255' target='_blank'>Guillaume Becq<\/a>","<a href='http://mistis.inrialpes.fr' target='_blank'>Florence Forbes<\/a>","Estelle PLOYON","Lydiane Agier","<a href='http://www.gipsa-lab.grenoble-inp.fr/~sophie.achard/\n' target='_blank'>Sophie Achard<\/a>","<a href='https://github.com/BioShock38' target='_blank'>Olivier François<\/a>","<a href='http://www.gipsa-lab.grenoble-inp.fr/~nathalie.henrich/' target='_blank'>Nathalie Henrich Bernardoni<\/a>","<a href='https://sites.google.com/site/alanchauvin/accueil' target='_blank'>Alan Chauvin<\/a>","Samuel Wieczorek","<a href='http://mistis.inrialpes.fr/people/arnaud/pages/presentation.html' target='_blank'>Alexis Arnaud<\/a>","Florence Combes","<a href='http://adeline.e-samson.org/en/' target='_blank'>Adeline Leclercq-Samson<\/a>","Johanna Lepeule","Remy Drouilhet","<a href='http://lpnc.univ-grenoble-alpes.fr/Rafael-Laboissiere?lang=fr' target='_blank'>Rafael Laboissière<\/a>","Maya Guéguen","<a href='https://www-ljk.imag.fr/membres/Laurence.Viry/' target='_blank'>Laurence Viry<\/a>","Franck Corset","<a href='https://www.linkedin.com/in/sentausa/' target='_blank'>Erwin Sentausa<\/a>","Annette Casagrande","Alan Parker","Sandeep Shaw","Charlotte Maugard","<a href='https://sites.google.com/site/simonbarthelme/' target='_blank'>Simon Barthelmé<\/a>","<a href='xavier.science' target='_blank'>Xavier Laviron<\/a>","Sophie Kuegler","Louise O'Connor","Laurence Viry","Emie Seyve","<a href='http://mistis.inrialpes.fr/people/jbdurand/' target='_blank'>Jean-Baptiste Durand<\/a>","Fatima Fofana","Nathan Lemonnier","Karina Ashurbekova","Onelda Bardho","Vasilii Feofanov","Oriane Moyne","<a href='https://iboulangeat.github.io/' target='_blank'>Isabelle Boulangeat<\/a>","Matthieu Rolland","<a href='https://diraclhl.github.io/' target='_blank'>Hongliang Lü<\/a>","<a href='https://github.com/Kersauson' target='_blank'>Colin Kerouanton<\/a>","Johannes Menzel","Adel El-Ouali","<a href='https://github.com/aushaff/' target='_blank'>Austin Haffenden<\/a>","<a href='https://www.barelysignificant.com' target='_blank'>Ladislas Nalborczyk<\/a>","Romain Guibert","Isabelle Joncour","Ian Hough","<a href='-' target='_blank'>Marios Barlas<\/a>"],["TIMC-IMAG","TIMC-IMAG","TIMC-IMAG","TIMC-IMAG","TIMC-IMAG","IAB","Inria","LECA","EKCHUGA","GIPSA-lab","INRIA-MISTIS","PACTE-CNRS-UGA","INSERM","GIPSA-lab","Grenoble INP","GIPSA-lab","LPNC","CEA","LJK-INRIA","CEA","LJK","INSERM","LJK","LPNC","LECA","LJK/AIRSEA","LJK - UGA","CEA/BIG","Pacte",null,null,"TIMC-IMAG","GIPSA-lab","LECA","Pacte","LECA","LJK","INSERM","LJK","Inria","IAB - PH","Inria-Gipsa",null,"UGA","TIMC-IMAG","IRSTEA","IAB","LJK-INRIA","LECA","Schneider Electric","Schneider Electric","Schneider Electric","LPNC-CNRS","Ensimag","IPAG","IAB","STMicroelectronics"],["Human genetics","Cancer epigenetics","Population genetics","Population genetics","Data Science/Pop Gen","multi-omics analysis","Bayesian statistics","NGS/Biodiversity","Biostats/kiné","Biomedical Engineering","statistics","Geomatic, GIS","Statistics/Epidemiology","Graph signal processing","statistics/genetics","Voice","Behavioral Neurosciences",null,"Mixture models","Bioanalysys","Statistics","Environmental epidemiology","Statistics","Behavioral Neurosciences","Biodiversity","Sensibility Analysis, HPC","Statistics & Prob.","Bacterial genomics","Social Sciences","Physical chemistry","Financial Analytics","Data mining on health","Statistics","Ecology","Big Data","Ecology",null,"Statistics","Computational statistics","Data Science","Data Science","Statistic","Data Science","Statistical Learning","Metabolomics, clinic","Ecology","Longitudinal cohort data","Statistical learning","Human mobility","Energy, Power","Energy, Power","Energy, Power","Experimental Psychology","Data Science","Astronomy","Geography/Environmental epidemiology","CMOS Image Sensors"],["global, rcpp, r-bigmemory","global, clustering, data visualisation, ggplot2","global, ggplot2, dataframe, emacs, orgmode","shiny, rcpp, ggplot2","global","global, statistics, distributed-computing, rmarkdown, Shiny","global, markdown, knitr, RStudio",null,"global, ggplot2",null,null,null,"mice, DSA, enet, parallel computation","global, igraph, waveslim, brainwaver","abc, LEA, tess3r",null,"Shiny","global, shiny, bioconductor","global, rcpp, visualization, shiny, iteration","bioconductor, global","global, statistics, markdown",null,"global, rcpp","global, lme4","global","global, rcpp, parallel",null,"global, bioinformatics, pca, ggplot2, bioconductor","data analysis",null,null,"global","global, rcpp, image processing, bayes","global,ggplot2,vim,markdown",null,null,"global, parallel",null,"global, notebook, object-oriented programming",null,"global, clustering, network-analysis, machine-learning, data-visualization",null,null,"global, ggplot2","multivariate, multiblock, MixOmics, xcms LC-MS data (pre)processing","gis, ecology, bayesian","global, lme4, tidyr, ggplot2",null,"dbscan, spatial analysis",null,null,null,null,"global, caret, XGBoost",null,"global, data.table, geospatial, parallel","global,ggplot2,imager,spdep, big data, distributed computing, spark, parallel, officer"],["admin","admin","member","member","referent","referent","member","referent","member","referent","member","member","member","member","member","member","member","member","referent","member","member","member","member","member","referent","member","member","member","member","member","member","member","member","member","member","member","member","member","member","member","member","member","member","member","member","member","member","member","member","member","member","member","member","member","member","member","member"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Name<\/th>\n      <th>Institution<\/th>\n      <th>Field<\/th>\n      <th>Keywords<\/th>\n      <th>Status<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
-<p><strong>Status:</strong></p>
+<div id="htmlwidget-801ce64a74261cd9f52a" style="width:100%;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-801ce64a74261cd9f52a">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"setView":[[35.86289,139.60755],15,[]],"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false,"minZoom":2,"maxZoom":19,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addAwesomeMarkers","args":[35.86289,139.60755,{"icon":"android-locate","markerColor":"red","iconColor":"white","spin":false,"squareMarker":false,"iconRotate":0,"font":"monospace","prefix":"ion"},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"VJ74+3X",null,null,null,"VJ74+3X",{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[35.86289,35.86289],"lng":[139.60755,139.60755]}},"evals":[],"jsHooks":{"render":[{"code":"function(el, x, data) {\n  return (\n      function(el, x) {\n        var myMap = this;\n        myMap.on(\"click\", function(e) {\n          alert(\"Latitude: \" + e.latlng.lat + \"\\nLongitude: \" + e.latlng.lng)\n        })\n      }).call(this.getMap(), el, x, data);\n}","data":null}]}}</script>
+<div id="メンバー-members" class="section level3">
+<h3>メンバー (Members)</h3>
+<div id="htmlwidget-308eb88d234c02a1d638" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-308eb88d234c02a1d638">{"x":{"filter":"none","data":[["堤田 成政"],["Narumasa Tsutsumida"],["Assoc. Prof."],["地理情報科学(GISci), 地理情報システム(GIS), リモートセンシング(Remote Sensing), 空間モデリング(Spatial modeling), ジオデータサイエンス(Geo Data Science)"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>名前<\/th>\n      <th>Name<\/th>\n      <th>Grade<\/th>\n      <th>Keywords<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<p><br></p>
+</div>
+<div id="所属-affiliation" class="section level3">
+<h3>所属 (Affiliation)</h3>
 <ul>
-<li>‘admin’ refers to administrators of the website and the mailing list,</li>
-<li>‘referent’ refers to dedicated contact persons within institutions,</li>
-<li>‘member’ refers to all other members of the community.</li>
+<li><a href="http://www.ics.saitama-u.ac.jp">埼玉大学大学院理工学研究科数理電子情報部門情報領域</a></li>
+<li><a href="http://www.ics.saitama-u.ac.jp/en/">Department of Information and Computer Sciences, Graduate School of Science and Engineering, Saitama University, Japan</a></li>
 </ul>
 <p><br></p>
-<div id="how-to-be-added" class="section level3">
-<h3>How to be added?</h3>
-<p>Please fill the <a href="https://docs.google.com/spreadsheets/d/1qdG7PPlRCAU8L6Hhq1D2zT0q9LWDUzBfq7mIzz_6Dm8/edit?usp=sharing">google doc</a> (<strong>follow the guidelines!!</strong>) and wait for an admin to upload your data to the actual list of members.</p>
+<!---
+Please fill the [google doc](https://docs.google.com/spreadsheets/d/1qdG7PPlRCAU8L6Hhq1D2zT0q9LWDUzBfq7mIzz_6Dm8/edit?usp=sharing) (**follow the guidelines!!**) and wait for an admin to upload your data to the actual list of members.
+--->
+</div>
+<div id="住所address" class="section level3">
+<h3>住所(Address)</h3>
+<ul>
+<li>〒338-8570 さいたま市桜区下大久保255 埼玉大学　理工学研究科 総合研究棟1号館</li>
+<li>255 Shimo-Okubo, Sakura ward, Saitama city, Saitama, Room 707, Research Building No.1, Department of Information and Computer sciences, Graduate school of Science &amp; Engineering, Saitama University, Japan, 338-8570</li>
+</ul>
 </div>
 </div>
 
@@ -400,7 +416,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -408,6 +424,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
