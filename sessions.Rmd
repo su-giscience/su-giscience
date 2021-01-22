@@ -2,15 +2,15 @@
 title: "Working sessions"
 ---
 
-Next session: **Using UGA’s Ciment servers, January 14th, 2021 at 5PM on Zoom**. 
+Next session: **Git with R for beginners, January 28th 2021 at 5PM on Zoom**. 
 
-<!-- Registration link and ZOOM link will be posted here before December 5th. -->
+Registration link and ZOOM link will be posted soon.
 
-Registration to the event [here](https://www.eventbrite.com/e/using-grenoble-university-computing-servers-with-r-tickets-135986361869).
+<!-- Registration to the event [here](https://www.eventbrite.com/e/using-grenoble-university-computing-servers-with-r-tickets-135986361869).
 
 Link to Zoom [here](https://univ-grenoble-alpes-fr.zoom.us/j/94572905155?pwd=L0FNM3lyOVR2bzVCRW1jQlo5WWFtdz09).
 
-Attendance is totally free but registration is mandatory and is on a first come first serve basis.
+Attendance is totally free but registration is mandatory and is on a first come first serve basis.  -->
 
 You can subscribe to our emailing list on the following link: [r-in-grenoble emailing list](https://listes.univ-grenoble-alpes.fr/sympa/subscribe/r-in-grenoble?previous_action=info).
 
@@ -195,7 +195,7 @@ div(
 
 #### 2020 - 2021
 
-- Using UGA servers with R: [GRICAD slides](https://bouttiep.gricad-pages.univ-grenoble-alpes.fr/slides/20210114_group-r.html)
+- Using UGA servers with R: [GRICAD slides](https://bouttiep.gricad-pages.univ-grenoble-alpes.fr/slides/20210114_group-r.html), [Servers with R slides](presentation/RinGrenoble_RandCIMENT_20210114_GUEGUEN.pdf), [video](https://www.youtube.com/watch?v=Nido4_bZ3SE)
 
 - Alternatives to Rstudio: [slides](presentation/rstudio_alternatives.pdf), [video](https://youtu.be/UzjCy6cyRiI)
 
