@@ -1,5 +1,5 @@
 # Make your website with R Markdown in minutes
-
+ 
 This is a template (and tutorial) for creating your website with R Markdown in minutes.
 
 The official document from RStudio can be found [here](http://rmarkdown.rstudio.com/rmarkdown_websites.html).
