@@ -4,8 +4,6 @@ editor_options:
   chunk_output_type: console
 ---
 
-## Where are we?
-
 ```{r package, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 
@@ -16,6 +14,63 @@ library(DT)
 library(gt)
 library(tidyverse)
 ```
+
+```{r input members}
+# create a table
+
+members <- data.frame(
+  Grade = c("PI"),
+  `名前` = c("堤田 成政"),
+  Name = c("Narumasa Tsutsumida"),
+  #Keywords = c("地理情報科学(GISci), 地理情報システム(GIS), リモートセンシング(Remote Sensing), 空間モデリング(Spatial modeling), ジオデータサイエンス(Geo Data Science)"),
+  link = c("https://narutstsmd.wordpress.com")
+)
+
+```
+
+<br>
+
+### メンバー (Members)
+```{r gt name list datatable, eval=F}
+# display table
+datatable(select(members, c(名前, NameE, Grade, link)), colnames = c("名前", "Name", "Grade","link"),
+              rownames = FALSE, escape = FALSE)
+```
+
+<br>
+
+```{r display name list datatable}
+# display table
+members %>% 
+    mutate(
+        link = map(link, ~ htmltools::a(href = .x, "website")),
+        link = map(link, ~ gt::html(as.character(.x)))) %>%
+    #gt(.,rowname_col = "Grade")
+  gt()
+```
+
+<br>
+
+### 所属 (Affiliation)
+
+- [埼玉大学大学院理工学研究科数理電子情報部門情報領域](http://www.ics.saitama-u.ac.jp)
+- [Department of Information and Computer Sciences, Graduate School of Science and Engineering, Saitama University, Japan](http://www.ics.saitama-u.ac.jp/en/)
+
+
+<br>
+
+<!---
+Please fill the [google doc](https://docs.google.com/spreadsheets/d/1qdG7PPlRCAU8L6Hhq1D2zT0q9LWDUzBfq7mIzz_6Dm8/edit?usp=sharing) (**follow the guidelines!!**) and wait for an admin to upload your data to the actual list of members.
+--->
+
+### 住所(Address)
+
+- 〒338-8570 さいたま市桜区下大久保255 埼玉大学　理工学研究科 総合研究棟1号館704・707
+- 255 Shimo-Okubo, Sakura ward, Saitama city, Saitama, Room 704・707, Research Building No.1, Department of Information and Computer sciences, Graduate school of Science & Engineering, Saitama University,  Japan, 338-8570
+
+
+## Where are we?
+
 
 
 ```{r leaflet map, message=FALSE}
@@ -38,54 +93,8 @@ suppressWarnings(
 )
 ```
 
-```{r input members}
-# create a table
+<br>  
 
-members <- data.frame(
-  `名前` = c("堤田 成政"),
-  Name = c("Narumasa Tsutsumida"),
-  Grade = c("Assoc. Prof."),
-  Keywords = c("地理情報科学(GISci), 地理情報システム(GIS), リモートセンシング(Remote Sensing), 空間モデリング(Spatial modeling), ジオデータサイエンス(Geo Data Science)"),
-  link = c("https://narutstsmd.wordpress.com")
-)
-
-```
-
-<br>
-
-### メンバー (Members)
-```{r gt name list datatable, eval=F}
-# display table
-datatable(select(members, c(名前, NameE, Grade, Keywords, link)), colnames = c("名前", "Name", "Grade", "Keywords","link"),
-              rownames = FALSE, escape = FALSE)
-```
-
-<br>
-
-```{r display name list datatable}
-# display table
-members %>% 
-    mutate(
-        link = map(link, ~ htmltools::a(href = .x, "website")),
-        link = map(link, ~ gt::html(as.character(.x)))) %>%
-    gt(.,rowname_col = "Grade")
-```
-
-<br>
-
-### 所属 (Affiliation)
-
-- [埼玉大学大学院理工学研究科数理電子情報部門情報領域](http://www.ics.saitama-u.ac.jp)
-- [Department of Information and Computer Sciences, Graduate School of Science and Engineering, Saitama University, Japan](http://www.ics.saitama-u.ac.jp/en/)
-
-
-<br>
-
-<!---
-Please fill the [google doc](https://docs.google.com/spreadsheets/d/1qdG7PPlRCAU8L6Hhq1D2zT0q9LWDUzBfq7mIzz_6Dm8/edit?usp=sharing) (**follow the guidelines!!**) and wait for an admin to upload your data to the actual list of members.
---->
-
-### 住所(Address)
-
-- 〒338-8570 さいたま市桜区下大久保255 埼玉大学　理工学研究科 総合研究棟1号館
-- 255 Shimo-Okubo, Sakura ward, Saitama city, Saitama, Room 707, Research Building No.1, Department of Information and Computer sciences, Graduate school of Science & Engineering, Saitama University,  Japan, 338-8570
+### Coordinates
+- (139.60755, 35.86289)
+- VJ74+3X

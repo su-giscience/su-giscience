@@ -1,33 +1,30 @@
-name: "R in Grenoble"                                  # CHANGE HERE 
+name: "SU GIScience"                                  # CHANGE HERE 
 output_dir: "."
 navbar:
-  title: "R in Grenoble"    
+  title: "SU GIScience"   
   left:
-    - text: "Orga"
+    - text: "Overview"
       icon: fa-sitemap
-      href: orga.html
-    - text: "Calendar"
-      icon: fa-calendar
-      href: calendar.html
-    - text: "Sessions"
-      icon: fa-calendar
-      href: sessions.html  
+      href: overview.html
     - text: "Members"
       icon: fa-user 
       href: members.html
-    - text: "Blog"
-      icon: fa-rss
-      href: https://r-in-grenoble.github.io/blog/    # CHANGE HERE 
+    - text: "CoC"
+      icon: fa-book
+      href: CoC.html  
+    - text: "Join"
+      icon: fa-rocket
+      href: join.html 
+    - text: "Inquiry"
+      icon: fa-question-circle
+      href: https://forms.gle/zbVbZEyiwkjwhMAx6
   right:
-    - icon: fa-envelope-o
-      href: mailto:matthieu.rolland@univ-grenoble-alpes.fr                      # CHANGE HERE 
-    - icon: fa-twitter
-      href: https://twitter.com/hashtag/rusersgrenoble?src=hash
-    - icon: fa-github
-      href: https://github.com/r-in-grenoble/r-in-grenoble.github.io         # CHANGE HERE 
-    - icon: fa-youtube
-      href: https://www.youtube.com/channel/UCA2w7SQxsYH0NKGS8vmAqbg
+    - icon: ion-social-twitter
+      href: https://twitter.com/GisciSu
+    - icon: ion-social-github
+      href: https://github.com/su-giscieice-lab       
 output:
   html_document:
     theme: cosmo
     highlight: textmate
+    css: styles.css
