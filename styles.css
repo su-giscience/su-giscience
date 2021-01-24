@@ -1,8 +1,34 @@
+
 html,body        {height:100%;}
 .wrapper         {width:100%;height:100%;margin:0 auto;background:#CCC}
 .h_iframe        {position:relative;}
 .h_iframe .ratio {display:block;width:100%;height:auto;}
 .h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
+
+
+img {
+  opacity: .9;
+  transition: opacity .5s ease-in-out;
+}
+img:hover {
+  opacity: 1;
+}
+
+
+body {
+    background-color: #F7F2E8;
+    color: #212F3C;
+}
+/*
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    background-color: #212F3C;
+    color: white;
+
+  }
+}
+*/
+
 
 h1.title {
   font-size: xx-large;

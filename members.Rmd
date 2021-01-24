@@ -50,9 +50,11 @@ members %>%
   gt()
 ```
 
-### 堤田　成政
-### Narumasa Tsutsumida
+**堤田　成政**  
+**Narumasa Tsutsumida**  
 PI, 准教授  
+PI, Associate Professor  
+
 [National Geographic Fellow](https://www.nationalgeographic.org/find-explorers/narumasa-tsutsumida)  
 [OSGeo Charter member](https://wiki.osgeo.org/wiki/User:Naru)  
 
@@ -67,8 +69,8 @@ PI, 准教授
 ## 所属
 ## Affiliation
 
-- [埼玉大学大学院理工学研究科数理電子情報部門情報領域](http://www.ics.saitama-u.ac.jp)
-- [Department of Information and Computer Sciences, Graduate School of Science and Engineering, Saitama University, Japan](http://www.ics.saitama-u.ac.jp/en/)
+[埼玉大学大学院理工学研究科数理電子情報部門情報領域](http://www.ics.saitama-u.ac.jp)  
+[Department of Information and Computer Sciences, Graduate School of Science and Engineering, Saitama University, Japan](http://www.ics.saitama-u.ac.jp/en/)
 
 
 <br>
@@ -77,8 +79,8 @@ PI, 准教授
 ## 住所
 ## Address
 
-- 〒338-8570 さいたま市桜区下大久保255 埼玉大学　理工学研究科 総合研究棟1号館704・707
-- 255 Shimo-Okubo, Sakura ward, Saitama city, Saitama, Room 704・707, Research Building No.1, Department of Information and Computer sciences, Graduate school of Science & Engineering, Saitama University,  Japan, 338-8570
+〒338-8570 さいたま市桜区下大久保255 埼玉大学　理工学研究科 総合研究棟1号館704・707  
+255 Shimo-Okubo, Sakura ward, Saitama city, Saitama, Room 704・707, Research Building No.1, Department of Information and Computer sciences, Graduate school of Science & Engineering, Saitama University,  Japan, 338-8570
 
 
 # Where are we?
@@ -88,10 +90,10 @@ PI, 准教授
 ```{r leaflet map, message=FALSE}
 # display map
 suppressWarnings(
-  leaflet(sp::SpatialPoints(matrix(c(139.60755, 35.86289),nrow = 1)) , width = "100%") %>% 
-    setView(lng = 139.60755, lat = 35.86289, zoom = 15) %>% 
+  leaflet(sp::SpatialPoints(matrix(c(139.6075469061112, 35.86271761195589),nrow = 1)) , width = "100%") %>% 
+    setView(lng = 139.6075469061112, lat = 35.86271761195589, zoom = 15) %>% 
     addTiles(options = providerTileOptions(minZoom = 2, maxZoom = 19)) %>%
-    addAwesomeMarkers(lng = 139.60755, lat = 35.86289, 
+    addAwesomeMarkers(lng = 139.6075469061112, lat = 35.86271761195589, 
                       popup = "VJ74+3X",
                       label = "VJ74+3X",
                       icon = makeAwesomeIcon("android-locate", library = "ion", markerColor = "red"))  %>%
@@ -110,3 +112,13 @@ suppressWarnings(
 ## Coordinates
 - (139.60755, 35.86289)
 - VJ74+3X
+
+<br>
+
+## Location link
+- [Google maps](https://goo.gl/maps/n8XZ7kf1R8eR4GHk7)
+
+- [Mapion](https://www.mapion.co.jp/m2/35.86271761195589,139.6075469061112,18)
+
+- [Yahoo](https://yahoo.jp/WqUb6x)
+
