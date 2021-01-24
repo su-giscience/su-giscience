@@ -10,45 +10,13 @@ knitr::opts_chunk$set(echo = FALSE)
 library(dplyr)
 library(sp)
 library(leaflet)
-library(DT)
-library(gt)
-library(tidyverse)
 ```
 
-```{r input members}
-# create a table
-
-members <- data.frame(
-  Grade = c("PI"),
-  `名前` = c("堤田 成政"),
-  Name = c("Narumasa Tsutsumida"),
-  #Keywords = c("地理情報科学(GISci), 地理情報システム(GIS), リモートセンシング(Remote Sensing), 空間モデリング(Spatial modeling), ジオデータサイエンス(Geo Data Science)"),
-  link = c("https://narutstsmd.wordpress.com")
-)
-
-```
 
 <br>
 
 ## メンバー
 ##  Members
-```{r gt name list datatable, eval=F}
-# display table
-datatable(select(members, c(名前, NameE, Grade, link)), colnames = c("名前", "Name", "Grade","link"),
-              rownames = FALSE, escape = FALSE)
-```
-
-<br>
-
-```{r display name list datatable, eval=F}
-# display table
-members %>% 
-    mutate(
-        link = map(link, ~ htmltools::a(href = .x, "website")),
-        link = map(link, ~ gt::html(as.character(.x)))) %>%
-    #gt(.,rowname_col = "Grade")
-  gt()
-```
 
 **堤田　成政**  
 **Narumasa Tsutsumida**  

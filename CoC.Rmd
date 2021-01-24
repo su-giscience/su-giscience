@@ -24,3 +24,21 @@ title: "行動規範"
 - コミュニティへ貢献します。 
 研究室内だけでなく、国内外のコミュニティへのコミットを期待します。  
 
+<br>
+
+Our goal is to contribute to international academic research and technical communities. 
+To achieve this goal, we, the members, are committed to the following items.  
+
+- Respecting differences based on gender, religion, nationality, and other personal attributes, and striving to foster an environment where such diversity can be used as a strength.  
+
+- We will not confine ourselves to the narrow community of our laboratory, but will actively seek to interact with other research groups in Japan and abroad.  
+
+- All members of the laboratory are researchers, even if they are students. 
+We will be aware of our roles as researchers, and place importance on mutual review to prevent misconduct (deprivation, falsification of results, fabrication, plagiarism, etc.).  
+
+- We will strive to contribute to the academic research community both in Japan and abroad by presenting the achievements of our researches at conferences and publish papers that our members spend their time working on to make it academically valuable.
+
+- We will support each individual's problems and issues as a team and we do not abandon them. It is an advantage to work as a team to compensate for each individual's shortcomings.  
+
+- We will commit to the community, not only to the lab, but also to related research groups and engineering communities.  
+

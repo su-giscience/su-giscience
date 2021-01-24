@@ -7,7 +7,12 @@ title: "研究室概要"
 <br>
 
 地理情報科学研究室では環境や社会の空間現象を地理情報により観測・分析・モデル化し，理解するための手法・方法論を探求します。 
-当研究室では現実の地理空間上の課題に対して下図のようなサイクルを通じてインフォームド・ディシジョンのための科学的知見を提供します。 
+当研究室では現実の地理空間上の課題に対して下図のようなサイクルを通じてインフォームド・ディシジョンのための科学的知見を提供します。  
+
+Our laboratory explores methods and approaches for observing, analyzing, modeling, and understanding spatial phenomena in the environment and society using geographic information. 
+We provide scientific knowledges for informed decision making on real geospatial issues through the following cycle. 
+
+
 
 
 
@@ -15,11 +20,19 @@ title: "研究室概要"
 
 ![図．地理空間上の課題解決に向けた、計算機科学的なアプローチ](images/process.png)
 
+Figure. A geocomputational approach to solving geospatial problems.
+
+<br>
 <br>
 
 当研究室ではオープンサイエンスを推進します。 
 オープンデータの利活用、Free Open Source Software for GeoSpatial (FOSS4G) へのコミット、発表論文のソースコードの公開を積極的に進めます。 
 これらの活動はOSGeo, National Geographicなど国際団体の活動の一環として推進します。  
+
+We promote open science. 
+We will actively promote the use of open data, commit to the Free Open Source Software for GeoSpatial (FOSS4G), and release the source code of published papers. 
+These activities will be promoted as part of the activities of international organizations such as OSGeo and National Geographic.  
+
 
 <br>
 
@@ -31,11 +44,16 @@ title: "研究室概要"
 ## 土地被覆土地利用観測・モデリング 
 ## Land Cover Land Use (LCLU) Monitoring and Modeling
 
-土地被覆土地利用のモニタリングおよび適切な管理は，SDGs の目標15「陸の豊かさも守ろう」の達成，目標 13「気候変動に具体的な対策を」に向けた気候変動予測モデルの高精度化，IPBES が進める生態系サービス評価，気候変動適応法に関連する種々の環境評価， 地域循環共生圏の構築など，陸域環境の理解や，様々な国内外の環境政策策定に不可欠な重要課題です。 
-2018 年に発行された [IPBES](https://www.ipbes.net)の [レポート](https://reporterre.net/IMG/pdf/sols-ipbes_re_sume_pour_les_de_cideurs-mars_2018.pdf)によると，2050年にはおよそ90%の土地被覆が人為的に改変されると指摘しています。 
+土地被覆土地利用のモニタリングおよび適切な管理は，SDGs の目標15「陸の豊かさも守ろう」の達成，目標 13「気候変動に具体的な対策を」に向けた気候変動予測モデルの高精度化，IPBES が進める生態系サービス評価，パリ協定の達成に向けた炭素循環評価など，陸域環境の理解や，様々な国内外の環境政策策定に不可欠な重要課題です。 
+2018 年に発行された IPBESのレポートによると，2050年にはおよそ90%の土地被覆が人為的に改変されると指摘しています。 
 LCLUの研究はリモートセンシング技術の発達により1990年代あたりから活発化しています。 
 近年では主要なリモートセンシングデータのオープンデータ化により現在では飛躍的に詳細化，高精度化が進んでいます。 
 LCLU研究は多岐に渡りますが，LULC分類図の作成や土地被覆土地利用変化（LCLUC）の把握に限定すると，LCLU定義，分類精度，定義内不確実性，に関する課題があります（Foody, 2002）。  これらの研究課題に地理情報科学の観点から取り組んでいます。  
+
+Monitoring and proper management of land cover and land use (LCLU) is an important issue for understanding the terrestrial environment and formulating various national and international environmental policies, such as achieving SDG target 13 and 15, ecosystem service assessment promoted by IPBES, and carbon cycle assessments toward the achievement of the Paris agreement. 
+According to the [IPBES](https://www.ipbes.net) [report](https://reporterre.net/IMG/pdf/sols-ipbes_re_sume_pour_les_de_cideurs-mars_2018. pdf) published in 2018 noted that approximately 90% of land cover will be anthropogenically altered by 2050. 
+LCLU research has been active since the 1990s with the development of remote sensing technology, and in recent years, major remote sensing data have been made available as open data, resulting in dramatic improvements in detail and accuracy. 
+LCLU research has been conducted in a wide range of fields, but there are issues related to the definition of LCLU, classification accuracy, and uncertainty in the definition, if we limit it to the LULC classification mapping and the understanding of land cover land use change (LCLUC) (Foody, 2002).  We are addressing these research issues from the perspective of geographic information science.  
 
 <br>
 
@@ -55,13 +73,20 @@ LCLU研究は多岐に渡りますが，LULC分類図の作成や土地被覆土
 <br>
 
 ## 空間分析・モデリング
-## spatial analysis and modeling
+## Spatial analysis and modeling
 
-通常の統計モデリングや機械学習手法によるデータ分析・モデリングを地理空間データに適用してしまうと空間的な特性（空間的従属性・空間的不均一性）を考慮できないという課題があります。　
-空間的従属性は「全てのものは他の全てのものと関連するが，近いものほど強く関連し合う」という地理学の第一法則とも知られています(Tobler, 1970)。 
-また地理的不均一性は「地理空間上の事象の空間的な偏りや地域ごとに特性が異なる性質」として地理学の第二法則といわれたりもします(Goodchild, 2004)。 
+通常の統計モデリングや機械学習手法によるデータ分析・モデリングを地理空間データに適用してしまうと空間的な特性（空間的従属性・空間的不均一性）を考慮できないという課題があります。
+空間的従属性は「全てのものは他の全てのものと関連するが，近いものほど強く関連し合う」という地理学の第一法則とも知られています（Tobler, 1970）。 
+また地理的不均一性は「地理空間上の事象の空間的な偏りや地域ごとに特性が異なる性質」として地理学の第二法則といわれたりもします（Goodchild, 2004）。 
 当研究室ではそれぞれに対処した空間分析・モデリング手法の開発に取り組みます。 
-特に地理的不均一性に関しては地理的加重（Geographcally Weighted, GW）モデル（Gollini et al., 2015; Lu et al., 2014）に着目しており，主たる国際的な研究開発グループと連携して関連の新しいモデルやシステムを提案しています。  
+特に地理的不均一性の対応に関しては地理的加重（Geographcally Weighted, GW）モデル（Gollini et al., 2015; Lu et al., 2014）に着目しており，主たる国際的な研究開発グループと連携して関連の新しいモデルやシステムを提案しています。  
+
+
+When data analysis and modeling using aspatial statistical modeling and machine learning methods are applied to geospatial data, there is a problem that spatial characteristics (spatial dependency and spatial heterogeneity) is not considered. 
+Spatial dependency is also known as the first law of geography, "everything is related to everything else, but near things are more related than distant things" (Tobler, 1970). 
+Geographical heterogeneity is often referred as the second law of geography, which states that "expectations vary across the Earth’s surface, with the important consequence that the results of any analysis depend explicitly on the bounds of the analysis." (Goodchild, 2004). 
+In our laboratory, we are working on the development of spatial analysis and modeling methods that address each of these issues. 
+In particular, for geographic heterogeneity, we focus on the Geographcally Weighted (GW) model (Gollini et al., 2015; Lu et al., 2014), and propose related new models and systems in collaboration with major domestic and international research and development groups.  
 
 <br>
 
@@ -94,6 +119,25 @@ LCLU研究は多岐に渡りますが，LULC分類図の作成や土地被覆土
 - 位置情報システム（Location Information System, LIS）の開発
   
 - その他，地理情報科学的なトピック全般
+  
+
+<br>
+
+- Development of new techniques for understanding LCLU by combining street-level photos and satellite images
+  
+- Phenological analyses from the perspective of LULC
+  
+- Development of data processing technologies using unmanned aircraft systems
+  
+- Development of spatial statistical modeling methods in the framework of Bayesian statistics and its application to case studies
+  
+- Development of sparse modeling methods considering spatial effects
+  
+- Establishment and contribution to the fields of Geo Data Science (GDS) and GeoAI
+  
+- Development of Location Information System (LIS)
+  
+- Other general geographic information science topics
 
 
 
@@ -103,5 +147,5 @@ LCLU研究は多岐に渡りますが，LULC分類図の作成や土地被覆土
 - IPBES (2018) Summary for policymakers of the thematic assessment of land degradation and restoration, https://reporterre.net/IMG/pdf/sols-ipbes_re_sume_pour_les_de_cideurs-mars_2018.pdf
 - Foody G. (2002) Status of land cover classification accuracy assessment, Remote Sensing of Environment, 80(1), 185-201, https://doi.org/10.1016/S0034-4257(01)00295-4.
 - Tobler, W.R. (1970) A computer movie simulating urban growth in the Detroit region. Economic Geography, 46, 234–240, https://doi.org/10.2307/143141
-- Goodchild, M.F. (2004) The validity and usefulness of laws in geographic information science and geography. Annals of the Association of American Geographers, 94(2), 300–303, https://doi.org/10.1111/j.1467-8306.2004.09402008.x
+- Goodchild, M.F. (2004) GIScience, Geography, Form, and Process, Annals of the Association of American Geographers, 94(4), 709-714,  https://doi.org/10.1111/j.1467-8306.2004.00424.x
 
