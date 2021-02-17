@@ -22,7 +22,7 @@ navbar:
     - icon: ion-social-twitter
       href: https://twitter.com/GisciSu
     - icon: ion-social-github
-      href: https://github.com/su-giscieice-lab       
+      href: https://github.com/su-giscience       
 output:
   html_document:
     theme: cosmo
