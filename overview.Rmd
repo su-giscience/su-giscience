@@ -48,10 +48,11 @@ These activities will be promoted as part of the activities of international org
 2018 年に発行された IPBESのレポートによると，2050年にはおよそ90%の土地被覆が人為的に改変されると指摘しています。 
 LCLUの研究はリモートセンシング技術の発達により1990年代あたりから活発化しています。 
 近年では主要なリモートセンシングデータのオープンデータ化により現在では飛躍的に詳細化，高精度化が進んでいます。 
-LCLU研究は多岐に渡りますが，LULC分類図の作成や土地被覆土地利用変化（LCLUC）の把握に限定すると，LCLU定義，分類精度，定義内不確実性，に関する課題があります（Foody, 2002）。  これらの研究課題に地理情報科学の観点から取り組んでいます。  
+LCLU研究は多岐に渡りますが，LULC分類図の作成や土地被覆土地利用変化（LCLUC）の把握に限定すると，LCLU定義，分類精度，定義内不確実性，に関する課題があります（Foody, 2002）。 
+これらの研究課題に地理情報科学の観点から取り組んでいます。  
 
 Monitoring and proper management of land cover and land use (LCLU) is an important issue for understanding the terrestrial environment and formulating various national and international environmental policies, such as achieving SDG target 13 and 15, ecosystem service assessment promoted by IPBES, and carbon cycle assessments toward the achievement of the Paris agreement. 
-According to the [IPBES](https://www.ipbes.net) [report](https://reporterre.net/IMG/pdf/sols-ipbes_re_sume_pour_les_de_cideurs-mars_2018. pdf) published in 2018 noted that approximately 90% of land cover will be anthropogenically altered by 2050. 
+According to the IPBES report published in 2018 noted that approximately 90% of land cover will be anthropogenically altered by 2050. 
 LCLU research has been active since the 1990s with the development of remote sensing technology, and in recent years, major remote sensing data have been made available as open data, resulting in dramatic improvements in detail and accuracy. 
 LCLU research has been conducted in a wide range of fields, but there are issues related to the definition of LCLU, classification accuracy, and uncertainty in the definition, if we limit it to the LULC classification mapping and the understanding of land cover land use change (LCLUC) (Foody, 2002).  We are addressing these research issues from the perspective of geographic information science.  
 
