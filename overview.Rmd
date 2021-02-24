@@ -64,9 +64,9 @@ LCLU research has been conducted in a wide range of fields, but there are issues
 - Zhao J. and Tsutsumida N. (2020) Mapping Fragmented Impervious Surface Areas Overlooked by Global Land-Cover Products in the Liping County, Guizhou Province, China, Remote Sensing, 12(9), 1527, https://doi.org/10.3390/rs12091527
 - Tsutsumida N., Nagai S., Rodríguez-Veiga P., Katagi J., Nasahara K., Tadono T. (2019) Mapping spatial accuracy of the forest type classification in JAXA’s high-resolution land use and land cover map, ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, IV-3/W1, 57-63, https://doi.org/10.5194/isprs-annals-IV-3-W1-57-2019.
 - Tsutsumida N., Rodríguez-Veiga P., Harris P., Balzter H., Comber A. (2019) Investigating Spatial Error Structures in Continuous Raster Data, International Journal of Applied Earth Observation and Geoinformation, 74, 259-268, https://doi.org/10.1016/j.jag.2018.09.020
-- Comber A., Harris P. and Tsutsumida N. (2016). Improving land cover classification using input variables derived from a geographically weighted principal components analysis. ISPRS Journal of Photogrammetry and Remote Sensing, 119, 347-360, https://doi: 10.1016/j.isprsjprs.2016.06.014 
+- Comber A., Harris P. and Tsutsumida N. (2016). Improving land cover classification using input variables derived from a geographically weighted principal components analysis. ISPRS Journal of Photogrammetry and Remote Sensing, 119, 347-360, https://doi:10.1016/j.isprsjprs.2016.06.014 
 - Tsutsumida N., Comber A., Barrett K., Saizen I., Rustiadi E. (2016) Sub-Pixel classification of MODIS EVI for annual mappings of impervious surface areas, Remote Sensing, 8(2), 143, https://doi:10.3390/rs8020143.
-- Tsutsumida N. and Comber A.J.  (2015) Measures of spatio-temporal accuracy for time series land cover data, International Journal of Applied Earth Observation and Geoinformation, 41, 46-55, https://doi: 10.1016/j.jag.2015.04.018 
+- Tsutsumida N. and Comber A.J.  (2015) Measures of spatio-temporal accuracy for time series land cover data, International Journal of Applied Earth Observation and Geoinformation, 41, 46-55, https://doi:10.1016/j.jag.2015.04.018 
 - Tsutsumida N., Saizen I., Matsuoka M., and Ishii R. (2015) Addressing urban expansion using feature-oriented spatial data in a peripheral area of Ulaanbaatar, Mongolia. Habitat International, 47, 196-204, https://doi: 10.1016/j.habitatint.2015.01.024
 - Tsutsumida N., Saizen I., Matsuoka M., and Ishii R. (2013) Land Cover Change Detection in Ulaanbaatar Using the Breaks for Additive Seasonal and Trend Method, Land,2(4), 534-549,  https://doi.org/10.3390/land2040534
 
@@ -95,7 +95,7 @@ In particular, for geographic heterogeneity, we focus on the Geographcally Weigh
 ### related papers
 
 - Tsutsumida, N, Harris, P., Comber, A. (2017) The application of a geographically weighted principal component analysis for exploring twenty-three years of goat population change across Mongolia. Annals of the American Association of Geographers, 107(5), 1060–1074, https://doi.org/10.1080/24694452.2017.1309968 
-- Tsutsumida, N., Percival, J. (2020) CRAN - Package GWpcor. <https://cran.r-project.org/web/packages/GWpcor/index. html>.
+- Tsutsumida, N., Percival, J. (2020) CRAN - Package GWpcor. <https://cran.r-project.org/web/packages/GWpcor/index.html>.
 - Tsutsumida, N., Percival, J., Murakami, D., Yoshida, T., Nakaya, T. (2019) Interactive mapping for geographically weighted correlation in big census data. Abstracts of the ICA, 1, 372, https://doi.org/10.5194/ica-abs-1-372-2019
 
 

@@ -2,7 +2,7 @@
 title: "About our team"
 editor_options:
   chunk_output_type: console
-leafletmap: true
+leafletmap: yes
 always_allow_html: yes
 ---
 
