@@ -12,6 +12,8 @@ output:
 <br>
 
 ### Updates
+- 29 Sep. 2021. [Murakami et al.](https://escholarship.org/uc/item/8kg664zg), [Yoshida et al.](https://escholarship.org/uc/item/62s7n79k)をGIScience2021にて発表しました。
+- 28 Sep. 2021. Kato and Tsutsumidaをsilvilaserにて発表しました。
 - 21 Sep. 2021. Act-xに採択されました。
 - 18 Sep. 2021. 科学者の芽(HiGEPS)にて高校生向けの講義を担当しました。
 - 15 Sep. 2021. [Nagai et al.](https://www.frontiersin.org/articles/10.3389/ffgc.2021.659910/abstract)がFrontiers in Forests and Global Changeにアクセプトされました。
