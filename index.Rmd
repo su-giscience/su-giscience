@@ -12,6 +12,7 @@ output:
 <br>
 
 ### Updates
+- 17 Dec. 2021. AGU Fall meeting 2021で発表を行いました（Tsutsumida et al.）。
 - 31 Oct. 2021. 第30回地理情報システム学会研究発表大会で４件の関連研究を発表しました（堤田ら、村上ら、吉田ら、Thongrueang et al.）。
 - 1 Oct. 2021. 10月29日に日本写真測量学会関西支部にて「土地被覆分類データの空間精度・空間誤差」を[講演](http://www.jsprs-w.org)します。
 - 29 Sep. 2021. [Murakami et al.](https://escholarship.org/uc/item/8kg664zg), [Yoshida et al.](https://escholarship.org/uc/item/62s7n79k)をGIScience2021にて発表しました。
