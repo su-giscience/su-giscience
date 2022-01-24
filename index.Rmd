@@ -12,6 +12,7 @@ output:
 <br>
 
 ### Updates
+- 24 Jan. 2022.  春日部女子高校で出前講義を行いました。
 - 22 Jan. 2022. bioRxiv でpreprint [Mapping cherry blossoms from geotagged street-level photos](https://doi.org/10.1101/2022.01.18.476550)を発表しました。 学部学生の卒業論文の成果をまとめたものです。
 - 18 Jan. 2022. Discover Sustainability で[Assessing the potential repercussions of the COVID‑19 pandemic on global SDG attainment](https://link.springer.com/article/10.1007/s43621-021-00067-2)を発表しました。ロックダウンの影響をSDGs達成に向けてどのような影響を及ぼすのか、を包括的に分析しました。
 - 17 Jan. 2022. GIS -理論と応用- にて「再現可能性を重視したオンラインでのジオコンピュテーション教育」を発表しました。
