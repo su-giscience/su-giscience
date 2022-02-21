@@ -1,5 +1,5 @@
 ---
-title: "Publications"
+title: "Publications (2021~)"
 ---
 
 # Thesis
@@ -12,43 +12,43 @@ title: "Publications"
 
 # Journal papers 
 ## peer-review
-- Doi H., Osawa T., Tsutsumida N. (2022) Assessing the potential repercussions of the COVID-19 pandemic on global SDG attainment, Discover Sustainability 3, 2. https://doi.org/10.1007/s43621-021-00067-2.
-- Nagai S., Maruya Y., Saito T.M., Tsutsumida N. (2021) Usefulness of Social Sensing Using Text Mining of Tweets for Detection of Autumn Phenology, Frontiers in Forests and Global Change, 4, 149, https://doi.org/10.3389/ffgc.2021.659910.
-- 堤田成政，吉田崇紘，村上大輔，中谷友樹（2021）地理的加重法の研究動向と今後の展望，GIS-理論と応用-, 29(1), 11-21. [[postprint](./share/202104GISA_GWreview_postprint.pdf)]
-- Tran T.A., Venkatesh R., Nguyen V. L., Saizen I., Tsutsumida N. (2021) A GIS-based Approach for Flood Vulnerability Assessment in Hoa Vang District, Danang City, Vietnam, IOP Conference Series: Earth and Environmental Science, 652(1) 012003.
-- Dida J., Tiburan C., Tsutsumida N., Saizen I. (2021) Carbon Stock Estimation of Selected Watersheds in Laguna, Philippines Using InVEST, Philippine Journal of Science, 150 (2): 501-513
-- Rustiadi E., Pravitasari A.E., Setiawan Y., Mulya S.P., Pribadi D.O., Tsutsumida N.  (2021) Impact of Continuous Jakarta Megacity Urban Expansion on the Formation of the Jakarta-Bandung Conurbation over the Rice Farm Regions, Cities, 111, 103000, https://doi.org/10.1016/j.cities.2020.103000
+- Doi H., Osawa T., <u>Tsutsumida N.</u> (2022) Assessing the potential repercussions of the COVID-19 pandemic on global SDG attainment, Discover Sustainability 3, 2. https://doi.org/10.1007/s43621-021-00067-2.
+- Nagai S., Maruya Y., Saito T.M., <u>Tsutsumida N.</u> (2021) Usefulness of Social Sensing Using Text Mining of Tweets for Detection of Autumn Phenology, Frontiers in Forests and Global Change, 4, 149, https://doi.org/10.3389/ffgc.2021.659910.
+- <u>堤田成政</u>，吉田崇紘，村上大輔，中谷友樹（2021）地理的加重法の研究動向と今後の展望，GIS-理論と応用-, 29(1), 11-21. [[postprint](./share/202104GISA_GWreview_postprint.pdf)]
+- Tran T.A., Venkatesh R., Nguyen V. L., Saizen I., <u>Tsutsumida N.</u> (2021) A GIS-based Approach for Flood Vulnerability Assessment in Hoa Vang District, Danang City, Vietnam, IOP Conference Series: Earth and Environmental Science, 652(1) 012003.
+- Dida J., Tiburan C., <u>Tsutsumida N.</u>, Saizen I. (2021) Carbon Stock Estimation of Selected Watersheds in Laguna, Philippines Using InVEST, Philippine Journal of Science, 150 (2): 501-513
+- Rustiadi E., Pravitasari A.E., Setiawan Y., Mulya S.P., Pribadi D.O., <u>Tsutsumida N.</u>  (2021) Impact of Continuous Jakarta Megacity Urban Expansion on the Formation of the Jakarta-Bandung Conurbation over the Rice Farm Regions, Cities, 111, 103000, https://doi.org/10.1016/j.cities.2020.103000
 
 ## non peer-review
-- Funada S. and Tsutsumida N. (2022)  Mapping cherry blossoms from geotagged street-level photos, bioRxiv, https://doi.org/10.1101/2022.01.18.476550
-- 堤田成政（2021）再現可能性を重視したオンラインでのジオコンピュテーション教育， GIS-理論と応用．[[postprint](./share/202111GISedu_postprint.pdf)]
+- <u>Funada S.</u> and <u>Tsutsumida N.</u> (2022)  Mapping cherry blossoms from geotagged street-level photos, bioRxiv, https://doi.org/10.1101/2022.01.18.476550
+- <u>堤田成政</u>（2021）再現可能性を重視したオンラインでのジオコンピュテーション教育， GIS-理論と応用．[[postprint](./share/202111GISedu_postprint.pdf)]
 
 # Conference proceedings 
 ## peer-review
-- Murakami D., Tsutsumida N., Yoshida T., Nakaya T., Lu B. and Harris P. Stable geographically weighted Poisson regression for count data, submitted to GIScience 2021, https://doi.org/10.25436/E2X59B.
-- Yoshida T., Murakami D., Seya H., Tsutsumida N., and Nakaya T. Geographically weighted regression for compositional data: An application to the U.S. household income compositions, GIScience 2021, https://doi.org/10.25436/E2G599.
-- Kato A. and Tsutsumida N. Deep learning with 3D laser data to identify tree species, SilviLaser 2021.
+- Murakami D., <u>Tsutsumida N.</u>, Yoshida T., Nakaya T., Lu B. and Harris P. Stable geographically weighted Poisson regression for count data, submitted to GIScience 2021, https://doi.org/10.25436/E2X59B.
+- Yoshida T., Murakami D., Seya H., <u>Tsutsumida N.</u>, and Nakaya T. Geographically weighted regression for compositional data: An application to the U.S. household income compositions, GIScience 2021, https://doi.org/10.25436/E2G599.
+- Kato A. and <u>Tsutsumida N.</u> Deep learning with 3D laser data to identify tree species, SilviLaser 2021.
 
 ## non peer-review
 - 村上大輔 , 堤田 成政, 吉田 崇紘, 中谷 友樹. 疎なカウントデータのための地理的加重ポアソン回帰の安定化・高速化, 地理情報システム学会第30回学術研究発表大会，2021．
 - 堤田 成政, 村上大輔 , 吉田 崇紘, 中谷 友樹. カーネルの重みをスパース推定する新たな地理加重回帰の提案, 地理情報システム学会第30回学術研究発表大会，2021．
-- Thongrueang N., Nakaya T., Tsutsumida N. The Impact of COVID-19 Outbreak on Air Quality in Thailand, 地理情報システム学会第30回学術研究発表大会，2021．
+- Thongrueang N., Nakaya T., <u>Tsutsumida N.</u> The Impact of COVID-19 Outbreak on Air Quality in Thailand, 地理情報システム学会第30回学術研究発表大会，2021．
 - 吉田 崇紘, 村上大輔 , 瀬谷創,  堤田 成政, 中谷 友樹. 定数和制約と誤差相関を考慮した組成データのための地理的加重回帰, 地理情報システム学会第30回学術研究発表大会，2021．
 
 # Others including presentations
 ## invited
-- 堤田 成政. 土地被覆分類データの空間精度・空間誤差, 写真測量学会関西支部第109回テクニカルセミナー／空間情報話題交換会 (招待).
-- 堤田成政．地理的加重モデルの開発と空間データ解析，ROIS-DS 成果報告会，2021年2月．  
+- 堤田 成政. 土地被覆分類データの空間精度・空間誤差, 写真測量学会関西支部第109回テクニカルセミナー／空間情報話題交換会.
+- <u>堤田成政</u>．地理的加重モデルの開発と空間データ解析，ROIS-DS 成果報告会，2021年2月．  
 
 ## others
-- Tsutsumida N., Zhao J., Nasahara K. and Tadono T. Estimating Land Cover from Geo-tagged Street-level Photos, AGU Fall meeting 2021 (poster).
+- <u>Tsutsumida N.</u>, Zhao J., Nasahara K. and Tadono T. Estimating Land Cover from Geo-tagged Street-level Photos, AGU Fall meeting 2021 (poster).
 - 村上大輔 , 堤田 成政, 吉田 崇紘, 中谷 友樹. 疎なカウントデータのための地理的加重ポアソン回帰の安定化・高速化, 地理情報システム学会第30回学術研究発表大会．
 - 堤田 成政, 村上大輔 , 吉田 崇紘, 中谷 友樹. カーネルの重みをスパース推定する新たな地理加重回帰の提案, 地理情報システム学会第30回学術研究発表大会．
-- Thongrueang N., Nakaya T., Tsutsumida N. The Impact of COVID-19 Outbreak on Air Quality in Thailand, 地理情報システム学会第30回学術研究発表大会．
+- Thongrueang N., Nakaya T., <u>Tsutsumida N.</u> The Impact of COVID-19 Outbreak on Air Quality in Thailand, 地理情報システム学会第30回学術研究発表大会．
 - 吉田 崇紘, 村上大輔 , 瀬谷創,  堤田 成政, 中谷 友樹. 定数和制約と誤差相関を考慮した組成データのための地理的加重回帰,  地理情報システム学会第30回学術研究発表大会．	
-- Miura T., Nagai S., Tsutsumida N., Yamamoto Y. Himawari-8 AHI NDVI Temporal Signature Variability of Broadleaf Deciduous Forests Along Temperature, Elevation, and Latitudinal Gradients in Northern Japan. JpGU 2021.
-- 堤田成政．1982 年以降の土地被覆変動解析，第23回 環境リモートセンシングシンポジウム，千葉大学，2021年2月18日．
-- Yoshida T., Murakami D., Seya H., Tsutsumida N., Nakaya T. Geographically weighted regression for compositional data, Data Science Workshop, Center for Data Science and Service Research, Tohoku University, January 2021.
+- Miura T., Nagai S., <u>Tsutsumida N.</u>, Yamamoto Y. Himawari-8 AHI NDVI Temporal Signature Variability of Broadleaf Deciduous Forests Along Temperature, Elevation, and Latitudinal Gradients in Northern Japan. JpGU 2021.
+- <u>堤田成政</u>．1982 年以降の土地被覆変動解析，第23回 環境リモートセンシングシンポジウム，千葉大学，2021年2月18日．
+- Yoshida T., Murakami D., Seya H., <u>Tsutsumida N.</u>, Nakaya T. Geographically weighted regression for compositional data, Data Science Workshop, Center for Data Science and Service Research, Tohoku University, January 2021.
 
 <br>
   

@@ -9,8 +9,11 @@ navbar:
     - text: "Members"
       icon: fa-user 
       href: members.html
+    - text: "Publication"
+      icon: fa-book 
+      href: publications.html  
     - text: "CoC"
-      icon: fa-book
+      icon: fa-file
       href: CoC.html  
     - text: "Join"
       icon: fa-rocket
