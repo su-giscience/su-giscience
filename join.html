@@ -13,13 +13,22 @@
 
 <title>参加希望者へ</title>
 
-<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -37,11 +46,6 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -54,32 +58,6 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
 
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
@@ -91,10 +69,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -111,40 +85,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -172,7 +119,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -184,7 +131,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -195,10 +142,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -210,7 +170,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -288,35 +247,42 @@ $(document).ready(function () {
       <ul class="nav navbar-nav">
         <li>
   <a href="overview.html">
-    <span class="fas fa-sitemap"></span>
+    <span class="fa fa-sitemap"></span>
      
     Overview
   </a>
 </li>
 <li>
   <a href="members.html">
-    <span class="fas fa-user"></span>
+    <span class="fa fa-user"></span>
      
     Members
   </a>
 </li>
 <li>
+  <a href="publications.html">
+    <span class="fa fa-book"></span>
+     
+    Publication
+  </a>
+</li>
+<li>
   <a href="CoC.html">
-    <span class="fas fa-book"></span>
+    <span class="fa fa-file"></span>
      
     CoC
   </a>
 </li>
 <li>
   <a href="join.html">
-    <span class="fas fa-rocket"></span>
+    <span class="fa fa-rocket"></span>
      
     Join
   </a>
 </li>
 <li>
   <a href="https://forms.gle/zbVbZEyiwkjwhMAx6">
-    <span class="fas fa-question-circle"></span>
+    <span class="fa fa-question-circle"></span>
      
     Inquiry
   </a>
@@ -340,7 +306,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -363,8 +329,8 @@ $(document).ready(function () {
 </div>
 <div id="to-third-grade-undergraduate-students-in-the-department-of-information-and-computer-sciene-saitama-university" class="section level2">
 <h2>To third grade undergraduate students in the department of Information and Computer Sciene, Saitama University</h2>
-<p>2021年1月に開設した研究室ですのでみなさんが１期生です。 新たな環境で１からチームを作っていきたい方をお待ちしています。 コロナ禍で直接集まって議論したり食事会をしたりといった旧社会的な活動は当面難しそうです。 しかし情報工学科の学生は現在の状況に上手く適応し、授業や演習を実施しているはずです。 当研究室でもWith/Postコロナ社会の新たな働き方を模索します。</p>
-<p>Our laboratory was established in January 2021, so you will be our first students. We are looking forward to those who want to build a team from scratch in a new environment. At this moment, it would be difficult for us to have old-social activities such as face-to-face group discussions and dinner parties due to the pandemic of COVID-19. However, students in our Department capable of adapting quite well to the current situation and have successfully carried out classes and exercises. Our team will also explore new ways of working in the With/Post COVID-19 society.</p>
+<p>2021年1月に開設した研究室ですので、新たな環境で１からチームを作っていきたい方、自発的に研究に取り組める方をお待ちしています。 コロナ禍で直接集まって議論したり食事会をしたりといった旧社会的な活動は当面難しそうです。 しかし情報工学科の学生は現在の状況に上手く適応し、授業や演習を実施しているはずです。 当研究室でもWith/Postコロナ社会の新たな働き方を模索します。</p>
+<p>Our laboratory was established in January 2021. We are looking forward to those who want to build a team from scratch in a new environment. At this moment, it would be difficult for us to have old-social activities such as face-to-face group discussions and dinner parties due to the pandemic of COVID-19. However, students in our Department capable of adapting quite well to the current situation and have successfully carried out classes and exercises. Our team will also explore new ways of working in the With/Post COVID-19 society.</p>
 <p><br></p>
 </div>
 <div id="博士前期後期課程にて進学希望の方へ" class="section level2">
@@ -393,8 +359,8 @@ Those who wish to become research students need to have a preliminary interview 
 <div id="plans-for-supervision" class="section level2">
 <h2>Plans for supervision</h2>
 <p>地理情報を扱い研究を進めるにあたりプログラミングスキルは必須です。 なかでもR、Python、Javascript（頻度順）を多用します。 ちなみにこのHPもRで書いています。 配属された学部生は、これらのツールでの地理情報データ処理を配属後にみんなで学習していきます。 博士前期・後期課程進学希望者は入学前にある程度のスキルを有していることを必須とします。</p>
-<p>研究テーマはそれぞれの興味を尊重し、ディスカッションを通じて固めていきます。 想定されるおおまかなトピックは研究室概要のページを眺めてみてください。 研究の世界では、若い学生の柔軟な発想が驚くべき研究テーマに結びつくこともあります。 また研究上は、教員と学生という縦の関係ではなく、研究者同士のフラットな関係を目指しましょう。<br />
-当研究室にて大学院への進学を希望する学生へは３年間、もしくは６年間の時間をかけて取り組むべきテーマ設定をともに考えます。 博士前期課程以上の学生は国際会議での発表や査読付き英語論文の発表を目指します。 その他の学生は地理情報科学の一連の研究プロセスを体験してもらい社会に役立つスキルを包括的に学んでもらいます。進捗次第では国内学会での発表や査読付き論文の発表を目指します。 いずれにせよ、地理情報をもちいて環境や社会の課題解決に向けた研究に取り組みます。</p>
+<p>研究テーマはそれぞれの興味を尊重し、ディスカッションを通じて固めていきます。 想定されるおおまかなトピックは研究室概要やpublicationsのページを眺めてみてください。 研究の世界では、若い学生の柔軟な発想が驚くべき研究テーマに結びつくこともあります。 また研究上は、教員と学生という縦の関係ではなく、研究者同士のフラットな関係を目指しましょう。<br />
+当研究室にて大学院への進学を希望する学生へは３年間、もしくは６年間の時間をかけて取り組むべきテーマ設定をともに考えます。 博士前期課程以上の学生は国際会議での発表や査読付き英語論文の発表を目指します。 その他の学生は地理情報科学の一連の研究プロセスを体験してもらい社会に役立つスキルを包括的に学んでもらいます。 進捗次第では国内学会での発表や査読付き論文の発表を目指します。 いずれにせよ、地理情報をもちいて環境や社会の課題解決に向けた研究に取り組みます。</p>
 <p>Programming skills are essential to deal with geographic information for research. We use R, Python, and Javascript a lot (This website is also written in R). The undergraduates assigned to our lab will learn how to process geographic information data using these tools together. Students who wish to enter the Master’s and Doctoral programs are required to have some skills prior to the program.</p>
 <p>The research theme will be determined through discussions, with fully consideration of each student’s interest. Please find potential topics at the overview page. The flexible ideas from students are sometimes worth to lead to surprising research topics. As we regard students as researchers, we expect to build a flat relationship between researchers, rather than a vertical relationship between the PI and students for research activities. For students who wish to go on to graduate school in our laboratory, we will carefully set up their themes to work on over a period of three or six years. Students in the Master’s program and above are expected to present their work at international conferences and publish refereed papers in English. Other students will experience a series of workflow in geographic information science and learn comprehensive skills useful for your future careers. Depending on their progress, they will aim to present their work at domestic conferences or publish refereed papers. In any case, students will engage in research that uses geographic information to solve environmental and social problems.</p>
 <p><br></p>
@@ -435,7 +401,7 @@ We want members who appreciate individuality in terms of gender, race, age, etc.
 We believe that research is not a task that should be pursued by each individual. The laboratory exists to support each other by accumulating knowledge through sharing and discussing the results progresses. This attitude should be worth not only for laboratory, but also for academic societies, off-campus research groups, OSS activities, and international organizations.</p></li>
 <li><p><u> <em>ポジティブ思考ができる人</em></u><br />
 <u> <em>those who has potitive minds</em></u><br />
-人間誰しも波がありますが、研究者と仕事しているときだけはできる限りポジティブ思考になりましょう。 なお、研究に批判は必要不可欠ですが、「批判＝人格否定」ではありません。「批判＝思いやり」です。そして「無批判＝無関心」です。<br />
+人間誰しも波がありますが、研究者と仕事しているときだけはできる限りポジティブ思考になりましょう。 なお、研究に批判は必要不可欠ですが、「批判＝人格否定」ではありません。 「批判＝思いやり」です。そして「無批判＝無関心」です。<br />
 We should try to think as positively as you can when you are working with researchers. Although criticism is essential in research, it does not mean that criticism is a denial of your personality. “Criticism = compassion”, and “non-criticism = indifference”.</p></li>
 </ul>
 <p><br></p>
@@ -487,7 +453,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

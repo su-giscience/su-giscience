@@ -11,13 +11,12 @@ output: html_document
 # To students
 ## 配属希望の３年生へ
 ## To third grade undergraduate students in the department of Information and Computer Sciene, Saitama University
-2021年1月に開設した研究室ですのでみなさんが１期生です。 
-新たな環境で１からチームを作っていきたい方をお待ちしています。 
+2021年1月に開設した研究室ですので、新たな環境で１からチームを作っていきたい方、自発的に研究に取り組める方をお待ちしています。 
 コロナ禍で直接集まって議論したり食事会をしたりといった旧社会的な活動は当面難しそうです。 
 しかし情報工学科の学生は現在の状況に上手く適応し、授業や演習を実施しているはずです。 
 当研究室でもWith/Postコロナ社会の新たな働き方を模索します。  
   
-Our laboratory was established in January 2021, so you will be our first students. 
+Our laboratory was established in January 2021. 
 We are looking forward to those who want to build a team from scratch in a new environment. 
 At this moment, it would be difficult for us to have old-social activities such as face-to-face group discussions and dinner parties due to the pandemic of COVID-19. 
 However, students in our Department capable of adapting quite well to the current situation and have successfully carried out classes and exercises. 
@@ -69,12 +68,13 @@ Please  contact us via the Inquiry page.
 博士前期・後期課程進学希望者は入学前にある程度のスキルを有していることを必須とします。  
   
 研究テーマはそれぞれの興味を尊重し、ディスカッションを通じて固めていきます。 
-想定されるおおまかなトピックは研究室概要のページを眺めてみてください。 
+想定されるおおまかなトピックは研究室概要やpublicationsのページを眺めてみてください。 
 研究の世界では、若い学生の柔軟な発想が驚くべき研究テーマに結びつくこともあります。 
 また研究上は、教員と学生という縦の関係ではなく、研究者同士のフラットな関係を目指しましょう。  
 当研究室にて大学院への進学を希望する学生へは３年間、もしくは６年間の時間をかけて取り組むべきテーマ設定をともに考えます。 
 博士前期課程以上の学生は国際会議での発表や査読付き英語論文の発表を目指します。 
-その他の学生は地理情報科学の一連の研究プロセスを体験してもらい社会に役立つスキルを包括的に学んでもらいます。進捗次第では国内学会での発表や査読付き論文の発表を目指します。 
+その他の学生は地理情報科学の一連の研究プロセスを体験してもらい社会に役立つスキルを包括的に学んでもらいます。 
+進捗次第では国内学会での発表や査読付き論文の発表を目指します。 
 いずれにせよ、地理情報をもちいて環境や社会の課題解決に向けた研究に取り組みます。  
 
 Programming skills are essential to deal with geographic information for research. 
@@ -146,7 +146,8 @@ This attitude should be worth not only for laboratory, but also for academic soc
 - <u> _ポジティブ思考ができる人_</u>   
   <u> _those who has potitive minds_</u>   
 人間誰しも波がありますが、研究者と仕事しているときだけはできる限りポジティブ思考になりましょう。 
-なお、研究に批判は必要不可欠ですが、「批判＝人格否定」ではありません。「批判＝思いやり」です。そして「無批判＝無関心」です。   
+なお、研究に批判は必要不可欠ですが、「批判＝人格否定」ではありません。 
+「批判＝思いやり」です。そして「無批判＝無関心」です。   
 We should try to think as positively as you can when you are working with researchers. 
 Although criticism is essential in research, it does not mean that criticism is a denial of your personality. 
 "Criticism = compassion", and "non-criticism = indifference".   
