@@ -41,6 +41,7 @@ title: "Publications (2021~)"
 - <u>堤田成政</u>．地理的加重モデルの開発と空間データ解析，ROIS-DS 成果報告会，2021年2月．  
 
 ## others
+- <u>舟田宗弥</u>，<u>堤田成政</u>. ⾞載カメラ画像を⽤いた桜開花マッピング，第69回日本生態学会大会, 3月15日（オンライン），（ポスター）.
 - <u>Tsutsumida N.</u>, Zhao J., Nasahara K. and Tadono T. Estimating Land Cover from Geo-tagged Street-level Photos, AGU Fall meeting 2021 (poster).
 - 村上大輔 , 堤田 成政, 吉田 崇紘, 中谷 友樹. 疎なカウントデータのための地理的加重ポアソン回帰の安定化・高速化, 地理情報システム学会第30回学術研究発表大会．
 - 堤田 成政, 村上大輔 , 吉田 崇紘, 中谷 友樹. カーネルの重みをスパース推定する新たな地理加重回帰の提案, 地理情報システム学会第30回学術研究発表大会．
