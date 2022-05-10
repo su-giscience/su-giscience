@@ -12,8 +12,10 @@ output:
 <br>
 
 ### Updates
+- 10 May 2022. Proposed two presentations have been accepted in COSIT2022.
+- 6 May 2022. [new publication] Percival, Tsutsumida, Murakami, Yoshida, and Nakaya (2022) gwpcorMapper: an interactive mapping tool for exploring geographically weighted correlation and partial correlation in high-dimensional geospatial datasets has been accepted in Journal of Geovisualization and Spatial Analysis. The [preprint](https://arxiv.org/abs/2101.03491) is now available in Arxiv.
 - 22 Apr. 2022. [new publication] Tsutsumida, Shin, and Miura (2022) [Evaluation of Land Surface Phenology for Autumn Leaf Color Change Based on Citizen Reports across Japan](https://www.mdpi.com/2072-4292/14/9/2017/htm) has been published in Remote Sensing.
-- 5 Apr. 2022. Two presentations are planned on IGARSS2022.
+- 5 Apr. 2022. Two presentations have been accepted in IGARSS2022.
 - 1 Apr. 2022. Two postgraduate students are joined.
 - 17Mar. 2022. Discussions on Ecological studies by open science and citizen science approaches was held on ESJ69. 
 - 15 Mar. 2022. A poster was presented on ESJ69 (Funada and Tsutsumida, 2022). 
