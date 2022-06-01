@@ -12,7 +12,7 @@ title: "Publications (2021~)"
 
 # Journal papers 
 ## peer-review
-- Percival J.E.H.,  <u> Tsutsumida N.</u>, Murakami D., Yoshida T., and Nakaya T. (2022) gwpcorMapper: an interactive mapping tool for exploring geographically weighted correlation and partial correlation in high-dimensional geospatial datasets has been accepted in Journal of Geovisualization and Spatial Analysis, accepted. [preprint](https://arxiv.org/abs/2101.03491)
+- Percival J.E.H., <u> Tsutsumida N.</u>, Murakami D., Yoshida T., and Nakaya T. (2022) gwpcorMapper: an interactive mapping tool for exploring geographically weighted correlation and partial correlation in high-dimensional geospatial datasets has been accepted in Journal of Geovisualization and Spatial Analysis, 6, 17. https://doi.org/10.1007/s41651-022-00111-3
 - <u>Tsutsumida N.</u>, Shin N., and Miura T. (2022) Evaluation of Land Surface Phenology for Autumn Leaf Color Change Based on Citizen Reports across Japan, Remote Sensing, 14(9), 2017. https://doi.org/10.3390/rs14092017
 - Doi H., Osawa T., <u>Tsutsumida N.</u> (2022) Assessing the potential repercussions of the COVID-19 pandemic on global SDG attainment, Discover Sustainability 3, 2. https://doi.org/10.1007/s43621-021-00067-2.
 - Nagai S., Maruya Y., Saito T.M., <u>Tsutsumida N.</u> (2021) Usefulness of Social Sensing Using Text Mining of Tweets for Detection of Autumn Phenology, Frontiers in Forests and Global Change, 4, 149, https://doi.org/10.3389/ffgc.2021.659910.
