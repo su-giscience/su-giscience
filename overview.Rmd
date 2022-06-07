@@ -78,16 +78,16 @@ LCLU research has been conducted in a wide range of fields, but there are issues
 
 通常の統計モデリングや機械学習手法によるデータ分析・モデリングを地理空間データに適用してしまうと空間的な特性（空間的従属性・空間的不均一性）を考慮できないという課題があります。
 空間的従属性は「全てのものは他の全てのものと関連するが，近いものほど強く関連し合う」という地理学の第一法則とも知られています（Tobler, 1970）。 
-また地理的不均一性は「地理空間上の事象の空間的な偏りや地域ごとに特性が異なる性質」として地理学の第二法則といわれたりもします（Goodchild, 2004）。 
+また空間的不均一性は「地理空間上の事象の空間的な偏りや地域ごとに特性が異なる性質」として地理学の第二法則といわれたりもします（Goodchild, 2004）。 
 当研究室ではそれぞれに対処した空間分析・モデリング手法の開発に取り組みます。 
-特に地理的不均一性の対応に関しては地理的加重（Geographcally Weighted, GW）モデル（Gollini et al., 2015; Lu et al., 2014）に着目しており，主たる国際的な研究開発グループと連携して関連の新しいモデルやシステムを提案しています。  
+特に空間的不均一性の対応に関しては地理的加重（Geographcally Weighted, GW）モデル（Gollini et al., 2015; Lu et al., 2014）に着目しており，主たる国際的な研究開発グループと連携して関連の新しいモデルやシステムを提案しています。  
 
 
 When data analysis and modeling using aspatial statistical modeling and machine learning methods are applied to geospatial data, there is a problem that spatial characteristics (spatial dependency and spatial heterogeneity) is not considered. 
 Spatial dependency is also known as the first law of geography, "everything is related to everything else, but near things are more related than distant things" (Tobler, 1970). 
-Geographical heterogeneity is often referred as the second law of geography, which states that "expectations vary across the Earth’s surface, with the important consequence that the results of any analysis depend explicitly on the bounds of the analysis." (Goodchild, 2004). 
+Spatial heterogeneity is often referred as the second law of geography, which states that "expectations vary across the Earth’s surface, with the important consequence that the results of any analysis depend explicitly on the bounds of the analysis." (Goodchild, 2004). 
 In our laboratory, we are working on the development of spatial analysis and modeling methods that address each of these issues. 
-In particular, for geographic heterogeneity, we focus on the Geographcally Weighted (GW) model (Gollini et al., 2015; Lu et al., 2014), and propose related new models and systems in collaboration with major domestic and international research and development groups.  
+In particular, for spatial heterogeneity, we focus on the Geographically Weighted (GW) model (Gollini et al., 2015; Lu et al., 2014), and propose related new models and systems in collaboration with major domestic and international research and development groups.  
 
 <br>
 
