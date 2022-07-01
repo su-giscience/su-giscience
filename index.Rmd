@@ -12,6 +12,7 @@ output:
 <br>
 
 ### Updates
+- 30 June 2022. The ROIS-DS project: Geospatial modeling focusing on spatial unit and spatial scale has been extended. 
 - 10 May 2022. Proposed two presentations have been accepted in COSIT2022.
 - 6 May 2022. [new publication] Percival, Tsutsumida, Murakami, Yoshida, and Nakaya (2022) [gwpcorMapper: an interactive mapping tool for exploring geographically weighted correlation and partial correlation in high-dimensional geospatial datasets](https://link.springer.com/article/10.1007/s41651-022-00111-3) has been accepted in Journal of Geovisualization and Spatial Analysis. The R package, [gwpcormapper](https://cran.r-project.org/web/packages/gwpcormapper/index.html), is available on CRAN.
 - 22 Apr. 2022. [new publication] Tsutsumida, Shin, and Miura (2022) [Evaluation of Land Surface Phenology for Autumn Leaf Color Change Based on Citizen Reports across Japan](https://www.mdpi.com/2072-4292/14/9/2017/htm) has been published in Remote Sensing.
