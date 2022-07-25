@@ -12,6 +12,7 @@ title: "Publications (2021~)"
 
 # Journal papers 
 ## peer-review
+- Shin N., Kotani A., Tei S., <u> Tsutsumida N.</u> (2022) Monitoring of cherry flowering phenology with Google Trends. PLoS ONE 17(7): e0271648. https://doi.org/10.1371/journal.pone.0271648.
 - Percival J.E.H., <u> Tsutsumida N.</u>, Murakami D., Yoshida T., and Nakaya T. (2022) gwpcorMapper: an interactive mapping tool for exploring geographically weighted correlation and partial correlation in high-dimensional geospatial datasets has been accepted in Journal of Geovisualization and Spatial Analysis, 6, 17. https://doi.org/10.1007/s41651-022-00111-3
 - <u>Tsutsumida N.</u>, Shin N., and Miura T. (2022) Evaluation of Land Surface Phenology for Autumn Leaf Color Change Based on Citizen Reports across Japan, Remote Sensing, 14(9), 2017. https://doi.org/10.3390/rs14092017
 - Doi H., Osawa T., <u>Tsutsumida N.</u> (2022) Assessing the potential repercussions of the COVID-19 pandemic on global SDG attainment, Discover Sustainability 3, 2. https://doi.org/10.1007/s43621-021-00067-2.
@@ -27,10 +28,10 @@ title: "Publications (2021~)"
 
 # Conference proceedings 
 ## peer-review
+- <u>Tsutsumida N.</u>, Zhao J., Nasahara K., and Tadono T. Land cover classification from street-level photos, IGARSS2022, 17-22 July 2022, KL, Malaysia. 
+- <u>Funada S.</u> and <u> Tsutsumida N.</u> (2022)  Mapping cherry blossoms from geotagged street-level photos, IGARSS2022, 17-22 July 2022, KL, Malaysia. 
 - <u>Tsutsumida N.</u>, Murakami D., Yoshida T., Nakaya T., Lu B., Harris P. and Comber A. A comparison of Geographically Weighted Principal Components Analysis methodologies, COSIT 2022, accepted.
 - Murakami D., <u>Tsutsumida N.</u>, Yoshida T., Nakaya T.,Large-scale spatial prediction by scalable geographically weighted regression: Comparative study, COSIT2022, accepted.
-- <u>Tsutsumida N.</u>, Zhao J., Nasahara K., Tadono T. Land cover classification from street-level photos, IGARSS 2022, accepted.
-- <u>Funada S.</u> and <u>Tsutsumida N.</u> Mapping cherry blossoms from geotagged street-level photos, IGARSS 2022, accepted.
 - Murakami D., <u>Tsutsumida N.</u>, Yoshida T., Nakaya T., Lu B. and Harris P. Stable geographically weighted Poisson regression for count data, submitted to GIScience 2021, https://doi.org/10.25436/E2X59B.
 - Yoshida T., Murakami D., Seya H., <u>Tsutsumida N.</u>, and Nakaya T. Geographically weighted regression for compositional data: An application to the U.S. household income compositions, GIScience 2021, https://doi.org/10.25436/E2G599.
 - Kato A. and <u>Tsutsumida N.</u> Deep learning with 3D laser data to identify tree species, SilviLaser 2021.
@@ -41,7 +42,7 @@ title: "Publications (2021~)"
 - Thongrueang N., Nakaya T., <u>Tsutsumida N.</u> The Impact of COVID-19 Outbreak on Air Quality in Thailand, 地理情報システム学会第30回学術研究発表大会，2021．
 - 吉田 崇紘, 村上大輔 , 瀬谷創,  堤田 成政, 中谷 友樹. 定数和制約と誤差相関を考慮した組成データのための地理的加重回帰, 地理情報システム学会第30回学術研究発表大会，2021．
 
-# Others including presentations
+# Others including presentations (without proceedings)
 ## invited
 - 堤田 成政. 土地被覆分類データの空間精度・空間誤差, 写真測量学会関西支部第109回テクニカルセミナー／空間情報話題交換会.
 - <u>堤田成政</u>．地理的加重モデルの開発と空間データ解析，ROIS-DS 成果報告会，2021年2月．  
@@ -49,10 +50,6 @@ title: "Publications (2021~)"
 ## others
 - <u>舟田宗弥</u>，<u>堤田成政</u>. ⾞載カメラ画像を⽤いた桜開花マッピング，第69回日本生態学会大会, 3月15日（オンライン），（ポスター）.
 - <u>Tsutsumida N.</u>, Zhao J., Nasahara K. and Tadono T. Estimating Land Cover from Geo-tagged Street-level Photos, AGU Fall meeting 2021 (poster).
-- 村上大輔 , 堤田 成政, 吉田 崇紘, 中谷 友樹. 疎なカウントデータのための地理的加重ポアソン回帰の安定化・高速化, 地理情報システム学会第30回学術研究発表大会．
-- 堤田 成政, 村上大輔 , 吉田 崇紘, 中谷 友樹. カーネルの重みをスパース推定する新たな地理加重回帰の提案, 地理情報システム学会第30回学術研究発表大会．
-- Thongrueang N., Nakaya T., <u>Tsutsumida N.</u> The Impact of COVID-19 Outbreak on Air Quality in Thailand, 地理情報システム学会第30回学術研究発表大会．
-- 吉田 崇紘, 村上大輔 , 瀬谷創,  堤田 成政, 中谷 友樹. 定数和制約と誤差相関を考慮した組成データのための地理的加重回帰,  地理情報システム学会第30回学術研究発表大会．	
 - Miura T., Nagai S., <u>Tsutsumida N.</u>, Yamamoto Y. Himawari-8 AHI NDVI Temporal Signature Variability of Broadleaf Deciduous Forests Along Temperature, Elevation, and Latitudinal Gradients in Northern Japan. JpGU 2021.
 - <u>堤田成政</u>．1982 年以降の土地被覆変動解析，第23回 環境リモートセンシングシンポジウム，千葉大学，2021年2月18日．
 - Yoshida T., Murakami D., Seya H., <u>Tsutsumida N.</u>, Nakaya T. Geographically weighted regression for compositional data, Data Science Workshop, Center for Data Science and Service Research, Tohoku University, January 2021.
