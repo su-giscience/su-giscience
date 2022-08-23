@@ -12,6 +12,8 @@ output:
 <br>
 
 ### Updates
+- 23 Aug. 2022 [new publication] Two conference papers are out. Tsutsumida N. et al (2022) A Comparison of Geographically Weighted Principal Components Analysis Methodologies;
+Murakami et al. (2022) Large-Scale Spatial Prediction by Scalable Geographically Weighted Regression: Comparative Study. We will have preseentations at COSIT2022 in 5-9 Sep.
 - 22 Aug. 2022 [new publication] Tsutsumida N. (2022) Spatial interpolation by a geographically weighted method at ESTRELA No. 341 (in Japanese)
 - 21 July. 2022. [new publication] Shin et al., (2022) [Monitoring of cherry flowering phenology with Google Trends](https://doi.org/10.1371/journal.pone.0271648), PLoS ONE 17(7): e0271648.
 - 21 July. 2022. Two presentations have been done in IGARSS2022: Funada and Tsutsumida. Mapping cherry blossoms from geotagged street-level photos (poster); Tsutsumida N., Zhao J., Nasahara K., and Tadono T. Land cover classification from street-level photos.
