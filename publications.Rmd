@@ -28,7 +28,7 @@ title: "Publications (2021~)"
 
 # Conference proceedings 
 ## peer-review
-- <u>Tsutsumida N.</u>, Murakami D., Yoshida T., Nakaya T., Binbin L., Harris P., and Comber L. (2022) A Comparison of Geographically Weighted Principal Components Analysis Methodologies, 15th International Conference on Spatial Information Theory (COSIT 2022), https://doi.org/10.4230/LIPIcs.COSIT.2022.21
+- <u>Tsutsumida N.</u>, Murakami D., Yoshida T., Nakaya T., Binbin L., Harris P., and Comber A. (2022) A Comparison of Geographically Weighted Principal Components Analysis Methodologies, 15th International Conference on Spatial Information Theory (COSIT 2022), https://doi.org/10.4230/LIPIcs.COSIT.2022.21
 - Murakami D., <u>Tsutsumida N.</u>, Yoshida T., and Nakaya T. (2022) Large-Scale Spatial Prediction by Scalable Geographically Weighted Regression: Comparative Study, 15th International Conference on Spatial Information Theory (COSIT 2022), https://doi.org/10.4230/LIPIcs.COSIT.2022.12
 - <u>Tsutsumida N.</u>, Zhao J., Nasahara K., and Tadono T. Land cover classification from street-level photos, IGARSS2022, 17-22 July 2022, KL, Malaysia. 
 - <u>Funada S.</u> and <u> Tsutsumida N.</u> (2022)  Mapping cherry blossoms from geotagged street-level photos, IGARSS2022, 17-22 July 2022, KL, Malaysia. 
