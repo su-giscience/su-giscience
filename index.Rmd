@@ -12,6 +12,8 @@ output:
 <br>
 
 ### Updates
+- 5 Oct. 2022 We had a poster presentation at Geo for Good 2022 at Google (virtual event).
+Tsutsumida N. and Mochizuki R. (2022) Uncertain Vegetation Trends by Index Selections.
 - 23 Aug. 2022 [new publication] Three conference papers are out.  
 Tsutsumida N. et al (2022) A Comparison of Geographically Weighted Principal Components Analysis Methodologies;  
 Murakami et al. (2022) Large-Scale Spatial Prediction by Scalable Geographically Weighted Regression: Comparative Study;   

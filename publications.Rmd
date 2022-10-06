@@ -48,11 +48,12 @@ title: "Publications (2021~)"
 
 # Others including presentations (without proceedings)
 ## invited
-- <u>堤田 成政</u>. 地理的加重方による空間内挿， ESTRELA No. 341, 2022.
+- <u>堤田 成政</u>. 地理的加重法による空間内挿， ESTRELA No. 341, 2022.
 - <u>堤田 成政</u>. 土地被覆分類データの空間精度・空間誤差, 写真測量学会関西支部第109回テクニカルセミナー／空間情報話題交換会.
 - <u>堤田成政</u>．地理的加重モデルの開発と空間データ解析，ROIS-DS 成果報告会，2021年2月．  
 
 ## others
+- <u> Tsutsumida N. </u> and <u>Mochizuki R. </u> (2022) Uncertain Vegetation Trends by Index Selections, 2022 Geo for Good Summit at Google (poster).
 - <u>舟田宗弥</u>，<u>堤田成政</u>. ⾞載カメラ画像を⽤いた桜開花マッピング，第69回日本生態学会大会, 3月15日（オンライン），（ポスター）.
 - <u>Tsutsumida N.</u>, Zhao J., Nasahara K. and Tadono T. Estimating Land Cover from Geo-tagged Street-level Photos, AGU Fall meeting 2021 (poster).
 - Miura T., Nagai S., <u>Tsutsumida N.</u>, Yamamoto Y. Himawari-8 AHI NDVI Temporal Signature Variability of Broadleaf Deciduous Forests Along Temperature, Elevation, and Latitudinal Gradients in Northern Japan. JpGU 2021.
