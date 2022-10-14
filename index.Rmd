@@ -11,6 +11,11 @@ output:
 
 <br>
 
+### Upcoming events
+- 21 Oct. 2022 [National Geographic session at Science Agora](https://www.jst.go.jp/sis/scienceagora/2022/online/21-a14.html)
+- 29-30 Oct. 2022 GISA conference at Okinawa
+- 18 Nov. 2022 CSIS DAYS at UTokyo
+
 ### Updates
 - 5 Oct. 2022 We had a poster presentation at Geo for Good 2022 at Google (virtual event).
 Tsutsumida N. and Mochizuki R. (2022) Uncertain Vegetation Trends by Index Selections.
