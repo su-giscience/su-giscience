@@ -10,11 +10,13 @@ output:
 ## 地理情報科学研究室
 
 <br>
-
+<!---
 ### Upcoming events
-- 18 Nov. 2022 CSIS DAYS at UTokyo
+--->
 
 ### Updates
+- 18 Nov. 2022 We had a pitch at CSIS DAYS 2022 organized by UTokyo and got a presentation award!  
+堤田成政, Joseph Percival, 吉田崇紘, 村上大輔, 中谷友樹. 探索的空間データ解析のためのインタラクティブ空間相関マッピング,CSIS DAYS2022, オンライン. 
 - 29 Oct. 2022 We had an oral presentation (in Japanese) at GISA conference about the analysis of multi-dimensional composite index from multivariate spatial data.  
 堤田成政, 村上大輔, 吉田崇紘, 中谷友樹（2022） 多変量地理空間データからの総合指標作成手法の比較, 第31回 地理情報システム学会 学術研究発表大会
 - 21 Oct. 2022 The presentation and panel discussion at the National Geographic session in Science Agora.  
