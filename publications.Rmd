@@ -12,6 +12,7 @@ title: "Publications (2021~)"
 
 # Journal papers 
 ## peer-review
+- Ohata S., Osawa T., Sato N., <u>Tsutsumida N.</u> (2022) Large, concealed islands in the urban sea: Scattered surrounding green space enhances the quality of grassland habitats in urban parks, Tokyo, Urban Ecosystems, https://doi.org/10.1007/s11252-022-01311-x
 - Tran T.A., Saizen I., <u>Tsutsumida N.</u>, Venkatesh R., Le N.H., Nguyen V.A., Nguyen V.L., Thi T.N., Truong P.M. (2022) Flood vulnerability assessment at the local scale using remote sensing and GIS techniques: a case study in Da Nang City, Vietnam,Journal of Water and Climate Change, 13 (9): 3217–3238. https://doi.org/10.2166/wcc.2022.029
 - Shin N., Kotani A., Tei S., <u> Tsutsumida N.</u> (2022) Monitoring of cherry flowering phenology with Google Trends. PLoS ONE 17(7): e0271648. https://doi.org/10.1371/journal.pone.0271648.
 - Percival J.E.H., <u> Tsutsumida N.</u>, Murakami D., Yoshida T., and Nakaya T. (2022) gwpcorMapper: an interactive mapping tool for exploring geographically weighted correlation and partial correlation in high-dimensional geospatial datasets, Journal of Geovisualization and Spatial Analysis, 6, 17. https://doi.org/10.1007/s41651-022-00111-3
