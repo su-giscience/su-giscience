@@ -23,7 +23,7 @@ library(leaflet)
 **堤田　成政**  
 **Narumasa Tsutsumida**  
 PI, 准教授  
-PI, Associate Professor  
+PI, Associate Professor 
 
 [National Geographic Fellow](https://www.nationalgeographic.org/find-explorers/narumasa-tsutsumida)  
 [OSGeo Charter member](https://wiki.osgeo.org/wiki/User:Naru)  
@@ -59,7 +59,8 @@ PI, Associate Professor
 [埼玉大学大学院理工学研究科数理電子情報部門情報領域](http://www.ics.saitama-u.ac.jp)  
 [Department of Information and Computer Sciences, Graduate School of Science and Engineering, Saitama University, Japan](http://www.ics.saitama-u.ac.jp/en/)
 
-
+[埼玉大学レジリエント社会研究センター](http://iirs.saitama-u.ac.jp/) 兼任  
+[International Institute for Resillient Society, Saitama University](http://iirs.saitama-u.ac.jp/en/index.html)
 <br>
 
 
