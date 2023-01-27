@@ -12,15 +12,9 @@ output: html_document
 ## 配属希望の３年生へ
 ## To third grade undergraduate students in the department of Information and Computer Sciene, Saitama University
 2021年1月に開設した研究室ですので、新たな環境で１からチームを作っていきたい方、自発的に研究に取り組める方をお待ちしています。 
-コロナ禍で直接集まって議論したり食事会をしたりといった旧社会的な活動は当面難しそうです。 
-しかし情報工学科の学生は現在の状況に上手く適応し、授業や演習を実施しているはずです。 
-当研究室でもWith/Postコロナ社会の新たな働き方を模索します。  
-  
+
 Our laboratory was established in January 2021. 
 We are looking forward to those who want to build a team from scratch in a new environment. 
-At this moment, it would be difficult for us to have old-social activities such as face-to-face group discussions and dinner parties due to the pandemic of COVID-19. 
-However, students in our Department capable of adapting quite well to the current situation and have successfully carried out classes and exercises. 
-Our team will also explore new ways of working in the With/Post COVID-19 society.
 
 <br>
 
@@ -31,14 +25,14 @@ Our team will also explore new ways of working in the With/Post COVID-19 society
 そのため情報工学を学んだ学生以外でも興味があれば受け入れ可能です。
 また、博士号取得を目指す社会人の進学希望者も歓迎します。 
 受験に関する詳しい情報は[こちら](http://www.ics.saitama-u.ac.jp/exam/in/)を御覧ください。 
-進学希望者は試験を受験する前に受け入れ教員との事前の面談が必要です。 
+進学希望者は試験を受験する前に受け入れ教員との事前の面談および研究計画書の提出が必要です。 
 Inquiryページより問い合わせください。  
 
 We value diversity and welcome students with various kinds of expertise. 
 Therefore, even students who have not studied information and computer science can be accepted if they are interested. 
 We also welcome engineers and analysts working on a company, who wish to pursue a doctoral degree. 
 For more information about the examination, please visit [here](http://www.ics.saitama-u.ac.jp/exam/in/). 
-Applicants are required to have a preliminary interview with the PI before taking the examination. 
+Applicants are required to submit your research proposal and to have a preliminary interview with the PI before taking the examination. 
 Please contact us via the Inquiry page.  
 
 
@@ -48,13 +42,13 @@ Please contact us via the Inquiry page.
 ## To potential research students
 博士前期・後期課程に進学希望者に対して研究生としての受け入れが可能です。 
 [こちら](http://www.saitama-u.ac.jp/rikogaku/admission/exam/research_student.html)を御覧ください。  
-研究生希望者は申請前に受け入れ教員との事前の面談が必要です。 
+研究生希望者は申請前に受け入れ教員との事前の面談および研究計画書の提出が必要です。 
 Inquiryページより問い合わせください。  
 
 For those who wish to enter the Master's or Doctoral course, we can accept them as research students. 
 Please refer to [here](http://www.saitama-u.ac.jp/rikogaku/admission/exam/research_student.html).  
-Those who wish to become research students need to have a preliminary interview with the PI before the applocation. 
-Please  contact us via the Inquiry page.
+Those who wish to become research students need to submit your research proposal and to have a preliminary interview with the PI before the applocation. 
+Please contact us via the Inquiry page.
 
 <br>
 
