@@ -18,7 +18,6 @@ title: "行動規範"
 メンバーが時間をかけて取り組む研究の成果を発表することで学術的に価値あるものとし、国内外の学術研究コミュニティーへの貢献に努めます。 
   
 - 研究室というコミュニティとして個々人の問題や課題をサポートします。 
-研究室のメンバーはいかなる場合であっても仲間であり見捨てる存在ではありません。 
 それぞれの短所を補うことはチームとしてのアドバンテージです。 
   
 - コミュニティへ貢献します。 
@@ -38,7 +37,7 @@ We will be aware of our roles as researchers, and place importance on mutual rev
 
 - We will strive to contribute to the academic research community both in Japan and abroad by presenting the achievements of our researches at conferences and publish papers that our members spend their time working on to make it academically valuable.
 
-- We will support each individual's problems and issues as a team and we do not abandon them. It is an advantage to work as a team to compensate for each individual's shortcomings.  
+- We will support each individual's problems and issues as a team. It is an advantage to work as a team to compensate for each individual's shortcomings.  
 
 - We will commit to the community, not only to the lab, but also to related research groups and engineering communities.  
 

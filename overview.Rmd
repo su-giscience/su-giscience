@@ -93,11 +93,11 @@ In particular, for spatial heterogeneity, we focus on the Geographically Weighte
 
 ### 関連論文　
 ### related papers
-
 - Tsutsumida, N, Harris, P., Comber, A. (2017) The application of a geographically weighted principal component analysis for exploring twenty-three years of goat population change across Mongolia. Annals of the American Association of Geographers, 107(5), 1060–1074, https://doi.org/10.1080/24694452.2017.1309968 
 - Tsutsumida, N., Percival, J. (2020) CRAN - Package GWpcor. <https://cran.r-project.org/web/packages/GWpcor/index.html>.
 - Tsutsumida, N., Percival, J., Murakami, D., Yoshida, T., Nakaya, T. (2019) Interactive mapping for geographically weighted correlation in big census data. Abstracts of the ICA, 1, 372, https://doi.org/10.5194/ica-abs-1-372-2019
-
+- <u>堤田成政</u>，吉田崇紘，村上大輔，中谷友樹（2021）地理的加重法の研究動向と今後の展望，GIS-理論と応用-, 29(1), 11-21.
+- Percival J.E.H., <u> Tsutsumida N.</u>, Murakami D., Yoshida T., and Nakaya T. (2022) gwpcorMapper: an interactive mapping tool for exploring geographically weighted correlation and partial correlation in high-dimensional geospatial datasets, Journal of Geovisualization and Spatial Analysis, 6, 17. https://doi.org/10.1007/s41651-022-00111-3
 
 <br>
 <br>
@@ -109,11 +109,11 @@ In particular, for spatial heterogeneity, we focus on the Geographically Weighte
   
 - LULCの視点からみたフェノロジー研究
   
-- 無人航空機システムによる観測データ処理技術の開発
+- ソーシャルセンシングデータによる環境観測
+
+- 深層学習による多種の観測データの統合技術の開発
   
-- ベイズ統計学の枠組みによる空間統計モデリング手法の開発と事例適用
-  
-- 空間効果を考慮したスパースモデリング手法の開発
+- 地理的加重法の枠組みによる空間統計モデリング手法の開発と事例適用
   
 - ジオデータサイエンス(Geo Data Science, GDS)・GeoAI分野の確立・貢献
   
@@ -127,12 +127,12 @@ In particular, for spatial heterogeneity, we focus on the Geographically Weighte
 - Development of new techniques for understanding LCLU by combining street-level photos and satellite images
   
 - Phenological analyses from the perspective of LULC
+
+- Environmental monitoring by socially sensed images
   
-- Development of data processing technologies using unmanned aircraft systems
+- Development of deep-learning based data fusion technologies from different satellite data
   
-- Development of spatial statistical modeling methods in the framework of Bayesian statistics and its application to case studies
-  
-- Development of sparse modeling methods considering spatial effects
+- Development of spatial statistical modeling methods in the framework of geographically weighted models and its application to case studies
   
 - Establishment and contribution to the fields of Geo Data Science (GDS) and GeoAI
   
