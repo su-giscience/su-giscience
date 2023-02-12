@@ -13,7 +13,7 @@
 
 <title>研究室概要</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -60,6 +60,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -84,6 +85,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -141,11 +145,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -174,8 +182,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -183,16 +191,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -236,7 +237,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -318,17 +319,32 @@ $(document).ready(function () {
 <div id="overview" class="section level1">
 <h1>Overview</h1>
 <p><br></p>
-<p>地理情報科学研究室では環境や社会の空間現象を地理情報により観測・分析・モデル化し，理解するための手法・方法論を探求します。 当研究室では現実の地理空間上の課題に対して下図のようなサイクルを通じてインフォームド・ディシジョンのための科学的知見を提供します。</p>
-<p>Our laboratory explores methods and approaches for observing, analyzing, modeling, and understanding spatial phenomena in the environment and society using geographic information. We provide scientific knowledges for informed decision making on real geospatial issues through the following cycle.</p>
+<p>地理情報科学研究室では環境や社会の空間現象を地理情報により観測・分析・モデル化し，理解するための手法・方法論を探求します。
+当研究室では現実の地理空間上の課題に対して下図のようなサイクルを通じてインフォームド・ディシジョンのための科学的知見を提供します。</p>
+<p>Our laboratory explores methods and approaches for observing,
+analyzing, modeling, and understanding spatial phenomena in the
+environment and society using geographic information. We provide
+scientific knowledges for informed decision making on real geospatial
+issues through the following cycle.</p>
 <p><br></p>
 <div class="figure">
 <img src="images/process.png" alt="" />
-<p class="caption">図．地理空間上の課題解決に向けた、計算機科学的なアプローチ</p>
+<p
+class="caption">図．地理空間上の課題解決に向けた、計算機科学的なアプローチ</p>
 </div>
-<p>Figure. A geocomputational approach to solving geospatial problems.</p>
+<p>Figure. A geocomputational approach to solving geospatial
+problems.</p>
 <p><br> <br></p>
-<p>当研究室ではオープンサイエンスを推進します。 オープンデータの利活用、Free Open Source Software for GeoSpatial (FOSS4G) へのコミット、発表論文のソースコードの公開を積極的に進めます。 これらの活動はOSGeo, National Geographicなど国際団体の活動の一環として推進します。</p>
-<p>We promote open science. We will actively promote the use of open data, commit to the Free Open Source Software for GeoSpatial (FOSS4G), and release the source code of published papers. These activities will be promoted as part of the activities of international organizations such as OSGeo and National Geographic.</p>
+<p>当研究室ではオープンサイエンスを推進します。
+オープンデータの利活用、Free Open Source Software for GeoSpatial
+(FOSS4G) へのコミット、発表論文のソースコードの公開を積極的に進めます。
+これらの活動はOSGeo, National
+Geographicなど国際団体の活動の一環として推進します。</p>
+<p>We promote open science. We will actively promote the use of open
+data, commit to the Free Open Source Software for GeoSpatial (FOSS4G),
+and release the source code of published papers. These activities will
+be promoted as part of the activities of international organizations
+such as OSGeo and National Geographic.</p>
 <p><br></p>
 </div>
 <div id="現在の研究トピック" class="section level1">
@@ -340,10 +356,36 @@ $(document).ready(function () {
 <div id="土地被覆土地利用観測モデリング" class="section level2">
 <h2>土地被覆土地利用観測・モデリング</h2>
 </div>
-<div id="land-cover-land-use-lclu-monitoring-and-modeling" class="section level2">
+<div id="land-cover-land-use-lclu-monitoring-and-modeling"
+class="section level2">
 <h2>Land Cover Land Use (LCLU) Monitoring and Modeling</h2>
-<p>土地被覆土地利用のモニタリングおよび適切な管理は，SDGs の目標15「陸の豊かさも守ろう」の達成，目標 13「気候変動に具体的な対策を」に向けた気候変動予測モデルの高精度化，IPBES が進める生態系サービス評価，パリ協定の達成に向けた炭素循環評価など，陸域環境の理解や，様々な国内外の環境政策策定に不可欠な重要課題です。 2018 年に発行された IPBESのレポートによると，2050年にはおよそ90%の土地被覆が人為的に改変されると指摘しています。 LCLUの研究はリモートセンシング技術の発達により1990年代あたりから活発化しています。 近年では主要なリモートセンシングデータのオープンデータ化により現在では飛躍的に詳細化，高精度化が進んでいます。 LCLU研究は多岐に渡りますが，LULC分類図の作成や土地被覆土地利用変化（LCLUC）の把握に限定すると，LCLU定義，分類精度，定義内不確実性，に関する課題があります（Foody, 2002）。 これらの研究課題に地理情報科学の観点から取り組んでいます。</p>
-<p>Monitoring and proper management of land cover and land use (LCLU) is an important issue for understanding the terrestrial environment and formulating various national and international environmental policies, such as achieving SDG target 13 and 15, ecosystem service assessment promoted by IPBES, and carbon cycle assessments toward the achievement of the Paris agreement. According to the IPBES report published in 2018 noted that approximately 90% of land cover will be anthropogenically altered by 2050. LCLU research has been active since the 1990s with the development of remote sensing technology, and in recent years, major remote sensing data have been made available as open data, resulting in dramatic improvements in detail and accuracy. LCLU research has been conducted in a wide range of fields, but there are issues related to the definition of LCLU, classification accuracy, and uncertainty in the definition, if we limit it to the LULC classification mapping and the understanding of land cover land use change (LCLUC) (Foody, 2002). We are addressing these research issues from the perspective of geographic information science.</p>
+<p>土地被覆土地利用のモニタリングおよび適切な管理は，SDGs
+の目標15「陸の豊かさも守ろう」の達成，目標
+13「気候変動に具体的な対策を」に向けた気候変動予測モデルの高精度化，IPBES
+が進める生態系サービス評価，パリ協定の達成に向けた炭素循環評価など，陸域環境の理解や，様々な国内外の環境政策策定に不可欠な重要課題です。
+2018 年に発行された
+IPBESのレポートによると，2050年にはおよそ90%の土地被覆が人為的に改変されると指摘しています。
+LCLUの研究はリモートセンシング技術の発達により1990年代あたりから活発化しています。
+近年では主要なリモートセンシングデータのオープンデータ化により現在では飛躍的に詳細化，高精度化が進んでいます。
+LCLU研究は多岐に渡りますが，LULC分類図の作成や土地被覆土地利用変化（LCLUC）の把握に限定すると，LCLU定義，分類精度，定義内不確実性，に関する課題があります（Foody,
+2002）。 これらの研究課題に地理情報科学の観点から取り組んでいます。</p>
+<p>Monitoring and proper management of land cover and land use (LCLU) is
+an important issue for understanding the terrestrial environment and
+formulating various national and international environmental policies,
+such as achieving SDG target 13 and 15, ecosystem service assessment
+promoted by IPBES, and carbon cycle assessments toward the achievement
+of the Paris agreement. According to the IPBES report published in 2018
+noted that approximately 90% of land cover will be anthropogenically
+altered by 2050. LCLU research has been active since the 1990s with the
+development of remote sensing technology, and in recent years, major
+remote sensing data have been made available as open data, resulting in
+dramatic improvements in detail and accuracy. LCLU research has been
+conducted in a wide range of fields, but there are issues related to the
+definition of LCLU, classification accuracy, and uncertainty in the
+definition, if we limit it to the LULC classification mapping and the
+understanding of land cover land use change (LCLUC) (Foody, 2002). We
+are addressing these research issues from the perspective of geographic
+information science.</p>
 <p><br></p>
 <div id="関連論文" class="section level3">
 <h3>関連論文　</h3>
@@ -351,14 +393,49 @@ $(document).ready(function () {
 <div id="related-papers" class="section level3">
 <h3>Related papers</h3>
 <ul>
-<li>Zhao J. and Tsutsumida N. (2020) Mapping Fragmented Impervious Surface Areas Overlooked by Global Land-Cover Products in the Liping County, Guizhou Province, China, Remote Sensing, 12(9), 1527, <a href="https://doi.org/10.3390/rs12091527" class="uri">https://doi.org/10.3390/rs12091527</a></li>
-<li>Tsutsumida N., Nagai S., Rodríguez-Veiga P., Katagi J., Nasahara K., Tadono T. (2019) Mapping spatial accuracy of the forest type classification in JAXA’s high-resolution land use and land cover map, ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, IV-3/W1, 57-63, <a href="https://doi.org/10.5194/isprs-annals-IV-3-W1-57-2019" class="uri">https://doi.org/10.5194/isprs-annals-IV-3-W1-57-2019</a>.</li>
-<li>Tsutsumida N., Rodríguez-Veiga P., Harris P., Balzter H., Comber A. (2019) Investigating Spatial Error Structures in Continuous Raster Data, International Journal of Applied Earth Observation and Geoinformation, 74, 259-268, <a href="https://doi.org/10.1016/j.jag.2018.09.020" class="uri">https://doi.org/10.1016/j.jag.2018.09.020</a></li>
-<li>Comber A., Harris P. and Tsutsumida N. (2016). Improving land cover classification using input variables derived from a geographically weighted principal components analysis. ISPRS Journal of Photogrammetry and Remote Sensing, 119, 347-360, <a href="https://doi:10.1016/j.isprsjprs.2016.06.014" class="uri">https://doi:10.1016/j.isprsjprs.2016.06.014</a></li>
-<li>Tsutsumida N., Comber A., Barrett K., Saizen I., Rustiadi E. (2016) Sub-Pixel classification of MODIS EVI for annual mappings of impervious surface areas, Remote Sensing, 8(2), 143, <a href="https://doi:10.3390/rs8020143" class="uri">https://doi:10.3390/rs8020143</a>.</li>
-<li>Tsutsumida N. and Comber A.J. (2015) Measures of spatio-temporal accuracy for time series land cover data, International Journal of Applied Earth Observation and Geoinformation, 41, 46-55, <a href="https://doi:10.1016/j.jag.2015.04.018" class="uri">https://doi:10.1016/j.jag.2015.04.018</a></li>
-<li>Tsutsumida N., Saizen I., Matsuoka M., and Ishii R. (2015) Addressing urban expansion using feature-oriented spatial data in a peripheral area of Ulaanbaatar, Mongolia. Habitat International, 47, 196-204, <a href="https://doi" class="uri">https://doi</a>: 10.1016/j.habitatint.2015.01.024</li>
-<li>Tsutsumida N., Saizen I., Matsuoka M., and Ishii R. (2013) Land Cover Change Detection in Ulaanbaatar Using the Breaks for Additive Seasonal and Trend Method, Land,2(4), 534-549, <a href="https://doi.org/10.3390/land2040534" class="uri">https://doi.org/10.3390/land2040534</a></li>
+<li>Zhao J. and Tsutsumida N. (2020) Mapping Fragmented Impervious
+Surface Areas Overlooked by Global Land-Cover Products in the Liping
+County, Guizhou Province, China, Remote Sensing, 12(9), 1527, <a
+href="https://doi.org/10.3390/rs12091527"
+class="uri">https://doi.org/10.3390/rs12091527</a></li>
+<li>Tsutsumida N., Nagai S., Rodríguez-Veiga P., Katagi J., Nasahara K.,
+Tadono T. (2019) Mapping spatial accuracy of the forest type
+classification in JAXA’s high-resolution land use and land cover map,
+ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial
+Information Sciences, IV-3/W1, 57-63, <a
+href="https://doi.org/10.5194/isprs-annals-IV-3-W1-57-2019"
+class="uri">https://doi.org/10.5194/isprs-annals-IV-3-W1-57-2019</a>.</li>
+<li>Tsutsumida N., Rodríguez-Veiga P., Harris P., Balzter H., Comber A.
+(2019) Investigating Spatial Error Structures in Continuous Raster Data,
+International Journal of Applied Earth Observation and Geoinformation,
+74, 259-268, <a href="https://doi.org/10.1016/j.jag.2018.09.020"
+class="uri">https://doi.org/10.1016/j.jag.2018.09.020</a></li>
+<li>Comber A., Harris P. and Tsutsumida N. (2016). Improving land cover
+classification using input variables derived from a geographically
+weighted principal components analysis. ISPRS Journal of Photogrammetry
+and Remote Sensing, 119, 347-360, <a
+href="https://doi:10.1016/j.isprsjprs.2016.06.014"
+class="uri">https://doi:10.1016/j.isprsjprs.2016.06.014</a></li>
+<li>Tsutsumida N., Comber A., Barrett K., Saizen I., Rustiadi E. (2016)
+Sub-Pixel classification of MODIS EVI for annual mappings of impervious
+surface areas, Remote Sensing, 8(2), 143, <a
+href="https://doi:10.3390/rs8020143"
+class="uri">https://doi:10.3390/rs8020143</a>.</li>
+<li>Tsutsumida N. and Comber A.J. (2015) Measures of spatio-temporal
+accuracy for time series land cover data, International Journal of
+Applied Earth Observation and Geoinformation, 41, 46-55, <a
+href="https://doi:10.1016/j.jag.2015.04.018"
+class="uri">https://doi:10.1016/j.jag.2015.04.018</a></li>
+<li>Tsutsumida N., Saizen I., Matsuoka M., and Ishii R. (2015)
+Addressing urban expansion using feature-oriented spatial data in a
+peripheral area of Ulaanbaatar, Mongolia. Habitat International, 47,
+196-204, <a href="https://doi" class="uri">https://doi</a>:
+10.1016/j.habitatint.2015.01.024</li>
+<li>Tsutsumida N., Saizen I., Matsuoka M., and Ishii R. (2013) Land
+Cover Change Detection in Ulaanbaatar Using the Breaks for Additive
+Seasonal and Trend Method, Land,2(4), 534-549, <a
+href="https://doi.org/10.3390/land2040534"
+class="uri">https://doi.org/10.3390/land2040534</a></li>
 </ul>
 <p><br> <br></p>
 </div>
@@ -368,8 +445,31 @@ $(document).ready(function () {
 </div>
 <div id="spatial-analysis-and-modeling" class="section level2">
 <h2>Spatial analysis and modeling</h2>
-<p>通常の統計モデリングや機械学習手法によるデータ分析・モデリングを地理空間データに適用してしまうと空間的な特性（空間的従属性・空間的不均一性）を考慮できないという課題があります。 空間的従属性は「全てのものは他の全てのものと関連するが，近いものほど強く関連し合う」という地理学の第一法則とも知られています（Tobler, 1970）。 また空間的不均一性は「地理空間上の事象の空間的な偏りや地域ごとに特性が異なる性質」として地理学の第二法則といわれたりもします（Goodchild, 2004）。 当研究室ではそれぞれに対処した空間分析・モデリング手法の開発に取り組みます。 特に空間的不均一性の対応に関しては地理的加重（Geographcally Weighted, GW）モデル（Gollini et al., 2015; Lu et al., 2014）に着目しており，主たる国際的な研究開発グループと連携して関連の新しいモデルやシステムを提案しています。</p>
-<p>When data analysis and modeling using aspatial statistical modeling and machine learning methods are applied to geospatial data, there is a problem that spatial characteristics (spatial dependency and spatial heterogeneity) is not considered. Spatial dependency is also known as the first law of geography, “everything is related to everything else, but near things are more related than distant things” (Tobler, 1970). Spatial heterogeneity is often referred as the second law of geography, which states that “expectations vary across the Earth’s surface, with the important consequence that the results of any analysis depend explicitly on the bounds of the analysis.” (Goodchild, 2004). In our laboratory, we are working on the development of spatial analysis and modeling methods that address each of these issues. In particular, for spatial heterogeneity, we focus on the Geographically Weighted (GW) model (Gollini et al., 2015; Lu et al., 2014), and propose related new models and systems in collaboration with major domestic and international research and development groups.</p>
+<p>通常の統計モデリングや機械学習手法によるデータ分析・モデリングを地理空間データに適用してしまうと空間的な特性（空間的従属性・空間的不均一性）を考慮できないという課題があります。
+空間的従属性は「全てのものは他の全てのものと関連するが，近いものほど強く関連し合う」という地理学の第一法則とも知られています（Tobler,
+1970）。
+また空間的不均一性は「地理空間上の事象の空間的な偏りや地域ごとに特性が異なる性質」として地理学の第二法則といわれたりもします（Goodchild,
+2004）。
+当研究室ではそれぞれに対処した空間分析・モデリング手法の開発に取り組みます。
+特に空間的不均一性の対応に関しては地理的加重（Geographcally Weighted,
+GW）モデル（Gollini et al., 2015; Lu et al.,
+2014）に着目しており，主たる国際的な研究開発グループと連携して関連の新しいモデルやシステムを提案しています。</p>
+<p>When data analysis and modeling using aspatial statistical modeling
+and machine learning methods are applied to geospatial data, there is a
+problem that spatial characteristics (spatial dependency and spatial
+heterogeneity) is not considered. Spatial dependency is also known as
+the first law of geography, “everything is related to everything else,
+but near things are more related than distant things” (Tobler, 1970).
+Spatial heterogeneity is often referred as the second law of geography,
+which states that “expectations vary across the Earth’s surface, with
+the important consequence that the results of any analysis depend
+explicitly on the bounds of the analysis.” (Goodchild, 2004). In our
+laboratory, we are working on the development of spatial analysis and
+modeling methods that address each of these issues. In particular, for
+spatial heterogeneity, we focus on the Geographically Weighted (GW)
+model (Gollini et al., 2015; Lu et al., 2014), and propose related new
+models and systems in collaboration with major domestic and
+international research and development groups.</p>
 <p><br></p>
 <div id="関連論文-1" class="section level3">
 <h3>関連論文　</h3>
@@ -377,13 +477,34 @@ $(document).ready(function () {
 <div id="related-papers-1" class="section level3">
 <h3>related papers</h3>
 <ul>
-<li>Tsutsumida, N, Harris, P., Comber, A. (2017) The application of a geographically weighted principal component analysis for exploring twenty-three years of goat population change across Mongolia. Annals of the American Association of Geographers, 107(5), 1060–1074, <a href="https://doi.org/10.1080/24694452.2017.1309968" class="uri">https://doi.org/10.1080/24694452.2017.1309968</a></li>
-<li>Tsutsumida, N., Percival, J. (2020) CRAN - Package GWpcor. <a href="https://cran.r-project.org/web/packages/GWpcor/index.html" class="uri">https://cran.r-project.org/web/packages/GWpcor/index.html</a>.</li>
-<li>Tsutsumida, N., Percival, J., Murakami, D., Yoshida, T., Nakaya, T. (2019) Interactive mapping for geographically weighted correlation in big census data. Abstracts of the ICA, 1, 372, <a href="https://doi.org/10.5194/ica-abs-1-372-2019" class="uri">https://doi.org/10.5194/ica-abs-1-372-2019</a></li>
+<li>Tsutsumida, N, Harris, P., Comber, A. (2017) The application of a
+geographically weighted principal component analysis for exploring
+twenty-three years of goat population change across Mongolia. Annals of
+the American Association of Geographers, 107(5), 1060–1074, <a
+href="https://doi.org/10.1080/24694452.2017.1309968"
+class="uri">https://doi.org/10.1080/24694452.2017.1309968</a></li>
+<li>Tsutsumida, N., Percival, J. (2020) CRAN - Package GWpcor. <a
+href="https://cran.r-project.org/web/packages/GWpcor/index.html"
+class="uri">https://cran.r-project.org/web/packages/GWpcor/index.html</a>.</li>
+<li>Tsutsumida, N., Percival, J., Murakami, D., Yoshida, T., Nakaya, T.
+(2019) Interactive mapping for geographically weighted correlation in
+big census data. Abstracts of the ICA, 1, 372, <a
+href="https://doi.org/10.5194/ica-abs-1-372-2019"
+class="uri">https://doi.org/10.5194/ica-abs-1-372-2019</a></li>
+<li><u>堤田成政</u>，吉田崇紘，村上大輔，中谷友樹（2021）地理的加重法の研究動向と今後の展望，GIS-理論と応用-,
+29(1), 11-21.</li>
+<li>Percival J.E.H., <u> Tsutsumida N.</u>, Murakami D., Yoshida T., and
+Nakaya T. (2022) gwpcorMapper: an interactive mapping tool for exploring
+geographically weighted correlation and partial correlation in
+high-dimensional geospatial datasets, Journal of Geovisualization and
+Spatial Analysis, 6, 17. <a
+href="https://doi.org/10.1007/s41651-022-00111-3"
+class="uri">https://doi.org/10.1007/s41651-022-00111-3</a></li>
 </ul>
 <p><br> <br></p>
 </div>
-<div id="今後取り組みたい取り組むべき研究トピック" class="section level3">
+<div id="今後取り組みたい取り組むべき研究トピック"
+class="section level3">
 <h3>今後取り組みたい・取り組むべき研究トピック</h3>
 </div>
 <div id="potential-research-topics" class="section level3">
@@ -391,21 +512,28 @@ $(document).ready(function () {
 <ul>
 <li><p>地上連続写真と衛星画像を組み合わせた新たなLCLU把握のための技術開発</p></li>
 <li><p>LULCの視点からみたフェノロジー研究</p></li>
-<li><p>無人航空機システムによる観測データ処理技術の開発</p></li>
-<li><p>ベイズ統計学の枠組みによる空間統計モデリング手法の開発と事例適用</p></li>
-<li><p>空間効果を考慮したスパースモデリング手法の開発</p></li>
-<li><p>ジオデータサイエンス(Geo Data Science, GDS)・GeoAI分野の確立・貢献</p></li>
-<li><p>位置情報システム（Location Information System, LIS）の開発</p></li>
+<li><p>ソーシャルセンシングデータによる環境観測</p></li>
+<li><p>深層学習による多種の観測データの統合技術の開発</p></li>
+<li><p>地理的加重法の枠組みによる空間統計モデリング手法の開発と事例適用</p></li>
+<li><p>ジオデータサイエンス(Geo Data Science,
+GDS)・GeoAI分野の確立・貢献</p></li>
+<li><p>位置情報システム（Location Information System,
+LIS）の開発</p></li>
 <li><p>その他，地理情報科学的なトピック全般</p></li>
 </ul>
 <p><br></p>
 <ul>
-<li><p>Development of new techniques for understanding LCLU by combining street-level photos and satellite images</p></li>
+<li><p>Development of new techniques for understanding LCLU by combining
+street-level photos and satellite images</p></li>
 <li><p>Phenological analyses from the perspective of LULC</p></li>
-<li><p>Development of data processing technologies using unmanned aircraft systems</p></li>
-<li><p>Development of spatial statistical modeling methods in the framework of Bayesian statistics and its application to case studies</p></li>
-<li><p>Development of sparse modeling methods considering spatial effects</p></li>
-<li><p>Establishment and contribution to the fields of Geo Data Science (GDS) and GeoAI</p></li>
+<li><p>Environmental monitoring by socially sensed images</p></li>
+<li><p>Development of deep-learning based data fusion technologies from
+different satellite data</p></li>
+<li><p>Development of spatial statistical modeling methods in the
+framework of geographically weighted models and its application to case
+studies</p></li>
+<li><p>Establishment and contribution to the fields of Geo Data Science
+(GDS) and GeoAI</p></li>
 <li><p>Development of Location Information System (LIS)</p></li>
 <li><p>Other general geographic information science topics</p></li>
 </ul>
@@ -414,10 +542,22 @@ $(document).ready(function () {
 <div id="references" class="section level3">
 <h3>References</h3>
 <ul>
-<li>IPBES (2018) Summary for policymakers of the thematic assessment of land degradation and restoration, <a href="https://reporterre.net/IMG/pdf/sols-ipbes_re_sume_pour_les_de_cideurs-mars_2018.pdf" class="uri">https://reporterre.net/IMG/pdf/sols-ipbes_re_sume_pour_les_de_cideurs-mars_2018.pdf</a></li>
-<li>Foody G. (2002) Status of land cover classification accuracy assessment, Remote Sensing of Environment, 80(1), 185-201, <a href="https://doi.org/10.1016/S0034-4257(01)00295-4" class="uri">https://doi.org/10.1016/S0034-4257(01)00295-4</a>.</li>
-<li>Tobler, W.R. (1970) A computer movie simulating urban growth in the Detroit region. Economic Geography, 46, 234–240, <a href="https://doi.org/10.2307/143141" class="uri">https://doi.org/10.2307/143141</a></li>
-<li>Goodchild, M.F. (2004) GIScience, Geography, Form, and Process, Annals of the Association of American Geographers, 94(4), 709-714, <a href="https://doi.org/10.1111/j.1467-8306.2004.00424.x" class="uri">https://doi.org/10.1111/j.1467-8306.2004.00424.x</a></li>
+<li>IPBES (2018) Summary for policymakers of the thematic assessment of
+land degradation and restoration, <a
+href="https://reporterre.net/IMG/pdf/sols-ipbes_re_sume_pour_les_de_cideurs-mars_2018.pdf"
+class="uri">https://reporterre.net/IMG/pdf/sols-ipbes_re_sume_pour_les_de_cideurs-mars_2018.pdf</a></li>
+<li>Foody G. (2002) Status of land cover classification accuracy
+assessment, Remote Sensing of Environment, 80(1), 185-201, <a
+href="https://doi.org/10.1016/S0034-4257(01)00295-4"
+class="uri">https://doi.org/10.1016/S0034-4257(01)00295-4</a>.</li>
+<li>Tobler, W.R. (1970) A computer movie simulating urban growth in the
+Detroit region. Economic Geography, 46, 234–240, <a
+href="https://doi.org/10.2307/143141"
+class="uri">https://doi.org/10.2307/143141</a></li>
+<li>Goodchild, M.F. (2004) GIScience, Geography, Form, and Process,
+Annals of the Association of American Geographers, 94(4), 709-714, <a
+href="https://doi.org/10.1111/j.1467-8306.2004.00424.x"
+class="uri">https://doi.org/10.1111/j.1467-8306.2004.00424.x</a></li>
 </ul>
 </div>
 </div>

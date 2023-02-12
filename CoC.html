@@ -13,7 +13,7 @@
 
 <title>行動規範</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -60,6 +60,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -84,6 +85,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -141,11 +145,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -174,8 +182,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -183,16 +191,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -236,7 +237,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -317,24 +318,44 @@ $(document).ready(function () {
 
 <div id="code-of-conduct" class="section level1">
 <h1>Code of Conduct</h1>
-<p>当研究室では多様性を重視し、国際的な学術研究・技術コミュニティへの貢献を目標としています。 その目標に向けて、我々メンバーは下記の項目にコミットします。</p>
+<p>当研究室では多様性を重視し、国際的な学術研究・技術コミュニティへの貢献を目標としています。
+その目標に向けて、我々メンバーは下記の項目にコミットします。</p>
 <ul>
 <li><p>性別、宗教、国籍その他個人的属性に基づく差異を尊重し、それらの多様性を強みとするための環境醸成に努めます。</p></li>
 <li><p>研究室という狭いコミュニティに閉じこもることなく、積極的に国内外の他研究グループのとの交流を図ります。</p></li>
-<li><p>研究室に所属するメンバーはたとえ学生であっても研究者です。 研究者としての自覚をもち、不正（剥奪や結果や改竄、捏造、盗用など）を実施しないように相互レビューを重視します。</p></li>
-<li><p>研究者として、またチームとして学会発表、論文発表を目指します。 メンバーが時間をかけて取り組む研究の成果を発表することで学術的に価値あるものとし、国内外の学術研究コミュニティーへの貢献に努めます。</p></li>
-<li><p>研究室というコミュニティとして個々人の問題や課題をサポートします。 研究室のメンバーはいかなる場合であっても仲間であり見捨てる存在ではありません。 それぞれの短所を補うことはチームとしてのアドバンテージです。</p></li>
-<li><p>コミュニティへ貢献します。 研究室内だけでなく、国内外のコミュニティへのコミットを期待します。</p></li>
+<li><p>研究室に所属するメンバーはたとえ学生であっても研究者です。
+研究者としての自覚をもち、不正（剥奪や結果や改竄、捏造、盗用など）を実施しないように相互レビューを重視します。</p></li>
+<li><p>研究者として、またチームとして学会発表、論文発表を目指します。
+メンバーが時間をかけて取り組む研究の成果を発表することで学術的に価値あるものとし、国内外の学術研究コミュニティーへの貢献に努めます。</p></li>
+<li><p>研究室というコミュニティとして個々人の問題や課題をサポートします。
+それぞれの短所を補うことはチームとしてのアドバンテージです。</p></li>
+<li><p>コミュニティへ貢献します。
+研究室内だけでなく、国内外のコミュニティへのコミットを期待します。</p></li>
 </ul>
 <p><br></p>
-<p>Our goal is to contribute to international academic research and technical communities. To achieve this goal, we, the members, are committed to the following items.</p>
+<p>Our goal is to contribute to international academic research and
+technical communities. To achieve this goal, we, the members, are
+committed to the following items.</p>
 <ul>
-<li><p>Respecting differences based on gender, religion, nationality, and other personal attributes, and striving to foster an environment where such diversity can be used as a strength.</p></li>
-<li><p>We will not confine ourselves to the narrow community of our laboratory, but will actively seek to interact with other research groups in Japan and abroad.</p></li>
-<li><p>All members of the laboratory are researchers, even if they are students. We will be aware of our roles as researchers, and place importance on mutual review to prevent misconduct (deprivation, falsification of results, fabrication, plagiarism, etc.).</p></li>
-<li><p>We will strive to contribute to the academic research community both in Japan and abroad by presenting the achievements of our researches at conferences and publish papers that our members spend their time working on to make it academically valuable.</p></li>
-<li><p>We will support each individual’s problems and issues as a team and we do not abandon them. It is an advantage to work as a team to compensate for each individual’s shortcomings.</p></li>
-<li><p>We will commit to the community, not only to the lab, but also to related research groups and engineering communities.</p></li>
+<li><p>Respecting differences based on gender, religion, nationality,
+and other personal attributes, and striving to foster an environment
+where such diversity can be used as a strength.</p></li>
+<li><p>We will not confine ourselves to the narrow community of our
+laboratory, but will actively seek to interact with other research
+groups in Japan and abroad.</p></li>
+<li><p>All members of the laboratory are researchers, even if they are
+students. We will be aware of our roles as researchers, and place
+importance on mutual review to prevent misconduct (deprivation,
+falsification of results, fabrication, plagiarism, etc.).</p></li>
+<li><p>We will strive to contribute to the academic research community
+both in Japan and abroad by presenting the achievements of our
+researches at conferences and publish papers that our members spend
+their time working on to make it academically valuable.</p></li>
+<li><p>We will support each individual’s problems and issues as a team.
+It is an advantage to work as a team to compensate for each individual’s
+shortcomings.</p></li>
+<li><p>We will commit to the community, not only to the lab, but also to
+related research groups and engineering communities.</p></li>
 </ul>
 </div>
 
