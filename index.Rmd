@@ -15,46 +15,49 @@ output:
 --->
 
 ### Updates
+- 28 Feb. 2023 [new publication] A paper is out in Sustainability!  
+Thongrueang, N., Tsutsumida, N., Nakaya, T. (2023) The Impact of Changes in Anthropogenic Activity Caused by COVID-19 Lockdown on Reducing Nitrogen Dioxide Levels in Thailand Using Nighttime Light Intensity. Sustainability, 15, 4296.
+
 - 22 Feb. 2023  [new publication] A paper is out in Frontiers in Forests and Global Change!  
 N. Shin et al., (2023) Perspective: Improving the accuracy of plant phenology observations and land-cover and land-use detection by optical satellite remote-sensing in the Asian tropics, Front. For. Glob. Chang.
-- 1st Dec. 2022 [new publication] A paper is out in Urban Ecosystems!   
-Ohata S., Osawa T., Sato N., Tsutsumida N. (2022) Large, concealed islands in the urban sea: Scattered surrounding green space enhances the quality of grassland habitats in urban parks, Tokyo, Urban Ecosystems.
-- 18 Nov. 2022 We had a pitch at CSIS DAYS 2022 organized by UTokyo and got a presentation award!  
-堤田成政, Joseph Percival, 吉田崇紘, 村上大輔, 中谷友樹. 探索的空間データ解析のためのインタラクティブ空間相関マッピング,CSIS DAYS2022, オンライン. 
-- 29 Oct. 2022 We had an oral presentation (in Japanese) at GISA conference about the analysis of multi-dimensional composite index from multivariate spatial data.  
-堤田成政, 村上大輔, 吉田崇紘, 中谷友樹（2022） 多変量地理空間データからの総合指標作成手法の比較, 第31回 地理情報システム学会 学術研究発表大会
-- 21 Oct. 2022 The presentation and panel discussion at the National Geographic session in Science Agora.  
-Tsutsumida N. (2022) Social Sensing: An important research resource.
-- 5 Oct. 2022 We had a poster presentation at Geo for Good 2022 at Google (virtual event).  
-Tsutsumida N. and Mochizuki R. (2022) Uncertain Vegetation Trends by Index Selections.
-- 23 Aug. 2022 [new publication] Three conference papers are out.  
-Tsutsumida N. et al (2022) A Comparison of Geographically Weighted Principal Components Analysis Methodologies;  
-Murakami et al. (2022) Large-Scale Spatial Prediction by Scalable Geographically Weighted Regression: Comparative Study;   
-Comber A. et al (2022) Geographically Varying Coefficient Regression: GWR-Exit and GAM-On?.  
-We will have preseentations at COSIT2022 in 5-9 Sep.
-- 22 Aug. 2022 [new publication] Tsutsumida N. (2022) Spatial interpolation by a geographically weighted method at ESTRELA No. 341 (in Japanese)
-- 21 July. 2022. [new publication] Shin et al., (2022) [Monitoring of cherry flowering phenology with Google Trends](https://doi.org/10.1371/journal.pone.0271648), PLoS ONE 17(7): e0271648.
-- 21 July. 2022. Two presentations have been done in IGARSS2022: Funada and Tsutsumida. Mapping cherry blossoms from geotagged street-level photos (poster); Tsutsumida N., Zhao J., Nasahara K., and Tadono T. Land cover classification from street-level photos.
-
-- 30 June 2022. The ROIS-DS project: Geospatial modeling focusing on spatial unit and spatial scale has been extended. 
-- 10 May 2022. Proposed two presentations have been accepted in COSIT2022.
-- 6 May 2022. [new publication] Percival, Tsutsumida, Murakami, Yoshida, and Nakaya (2022) [gwpcorMapper: an interactive mapping tool for exploring geographically weighted correlation and partial correlation in high-dimensional geospatial datasets](https://link.springer.com/article/10.1007/s41651-022-00111-3) has been accepted in Journal of Geovisualization and Spatial Analysis. The R package, [gwpcormapper](https://cran.r-project.org/web/packages/gwpcormapper/index.html), is available on CRAN.
-- 22 Apr. 2022. [new publication] Tsutsumida, Shin, and Miura (2022) [Evaluation of Land Surface Phenology for Autumn Leaf Color Change Based on Citizen Reports across Japan](https://www.mdpi.com/2072-4292/14/9/2017/htm) has been published in Remote Sensing.
-- 5 Apr. 2022. Two presentations have been accepted in IGARSS2022.
-- 1 Apr. 2022. Two postgraduate students are joined.
-- 17Mar. 2022. Discussions on Ecological studies by open science and citizen science approaches was held on ESJ69. 
-- 15 Mar. 2022. A poster was presented on ESJ69 (Funada and Tsutsumida, 2022). 
-- 11 Mar. 2022. 'Integration of multiscale and multiangle remote sensing data' was presented on act-x annual meeting. 
-- 8 Mar. 2022.  5 undergrad students have been joined.
-- 24 Jan. 2022. A lecture was delivered at Kasukabe Girls' senior high school. 
-- 22 Jan. 2022. [new publication] A preprint [Mapping cherry blossoms from geotagged street-level photos](https://doi.org/10.1101/2022.01.18.476550) is appeared at bioRxiv. 
-- 18 Jan. 2022. [new publication] Doi, Osawa, and Tsutsumida (2022) [Assessing the potential repercussions of the COVID‑19 pandemic on global SDG attainment](https://link.springer.com/article/10.1007/s43621-021-00067-2) in Discover Sustainability. We demonstrated comprehensive analyses of the impact of lockdown toward SDG's achievement.  
-- 17 Jan. 2022. [new publication] Tsutsumida (2022) Teaching reproducible Geocomputation Online, Theory and Application of GIS.  
 
 <br> 
 
 <details>
   <summary>Archives</summary>
+  - 1st Dec. 2022 [new publication] A paper is out in Urban Ecosystems!   
+Ohata S., Osawa T., Sato N., Tsutsumida N. (2022) Large, concealed islands in the urban sea: Scattered surrounding green space enhances the quality of grassland habitats in urban parks, Tokyo, Urban Ecosystems.
+  - 18 Nov. 2022 We had a pitch at CSIS DAYS 2022 organized by UTokyo and got a presentation award!  
+  堤田成政, Joseph Percival, 吉田崇紘, 村上大輔, 中谷友樹. 探索的空間データ解析のためのインタラクティブ空間相関マッピング,CSIS DAYS2022, オンライン. 
+  - 29 Oct. 2022 We had an oral presentation (in Japanese) at GISA conference about the analysis of multi-dimensional composite index from multivariate spatial data.  
+  堤田成政, 村上大輔, 吉田崇紘, 中谷友樹（2022） 多変量地理空間データからの総合指標作成手法の比較, 第31回 地理情報システム学会 学術研究発表大会
+  - 21 Oct. 2022 The presentation and panel discussion at the National Geographic session in Science Agora.  
+  Tsutsumida N. (2022) Social Sensing: An important research resource.
+  - 5 Oct. 2022 We had a poster presentation at Geo for Good 2022 at Google (virtual event).  
+  Tsutsumida N. and Mochizuki R. (2022) Uncertain Vegetation Trends by Index Selections.
+  - 23 Aug. 2022 [new publication] Three conference papers are out.  
+  Tsutsumida N. et al (2022) A Comparison of Geographically Weighted Principal Components Analysis Methodologies;  
+  Murakami et al. (2022) Large-Scale Spatial Prediction by Scalable Geographically Weighted Regression: Comparative Study;   
+  Comber A. et al (2022) Geographically Varying Coefficient Regression: GWR-Exit and GAM-On?.  
+  We will have preseentations at COSIT2022 in 5-9 Sep.
+  - 22 Aug. 2022 [new publication] Tsutsumida N. (2022) Spatial interpolation by a geographically weighted method at ESTRELA No. 341 (in Japanese)
+  - 21 July. 2022. [new publication] Shin et al., (2022) [Monitoring of cherry flowering phenology with Google Trends](https://doi.org/10.1371/journal.pone.0271648), PLoS ONE 17(7): e0271648.
+  - 21 July. 2022. Two presentations have been done in IGARSS2022: Funada and Tsutsumida. Mapping cherry blossoms from geotagged street-level photos (poster); Tsutsumida N., Zhao J., Nasahara K., and Tadono T. Land cover classification from street-level photos.
+  
+  - 30 June 2022. The ROIS-DS project: Geospatial modeling focusing on spatial unit and spatial scale has been extended. 
+  - 10 May 2022. Proposed two presentations have been accepted in COSIT2022.
+  - 6 May 2022. [new publication] Percival, Tsutsumida, Murakami, Yoshida, and Nakaya (2022) [gwpcorMapper: an interactive mapping tool for exploring geographically weighted correlation and partial correlation in high-dimensional geospatial datasets](https://link.springer.com/article/10.1007/s41651-022-00111-3) has been accepted in Journal of Geovisualization and Spatial Analysis. The R package, [gwpcormapper](https://cran.r-project.org/web/packages/gwpcormapper/index.html), is available on CRAN.
+  - 22 Apr. 2022. [new publication] Tsutsumida, Shin, and Miura (2022) [Evaluation of Land Surface Phenology for Autumn Leaf Color Change Based on Citizen Reports across Japan](https://www.mdpi.com/2072-4292/14/9/2017/htm) has been published in Remote Sensing.
+  - 5 Apr. 2022. Two presentations have been accepted in IGARSS2022.
+  - 1 Apr. 2022. Two postgraduate students are joined.
+  - 17Mar. 2022. Discussions on Ecological studies by open science and citizen science approaches was held on ESJ69. 
+  - 15 Mar. 2022. A poster was presented on ESJ69 (Funada and Tsutsumida, 2022). 
+  - 11 Mar. 2022. 'Integration of multiscale and multiangle remote sensing data' was presented on act-x annual meeting. 
+  - 8 Mar. 2022.  5 undergrad students have been joined.
+  - 24 Jan. 2022. A lecture was delivered at Kasukabe Girls' senior high school. 
+  - 22 Jan. 2022. [new publication] A preprint [Mapping cherry blossoms from geotagged street-level photos](https://doi.org/10.1101/2022.01.18.476550) is appeared at bioRxiv. 
+  - 18 Jan. 2022. [new publication] Doi, Osawa, and Tsutsumida (2022) [Assessing the potential repercussions of the COVID‑19 pandemic on global SDG attainment](https://link.springer.com/article/10.1007/s43621-021-00067-2) in Discover Sustainability. We demonstrated comprehensive analyses of the impact of lockdown toward SDG's achievement.  
+  - 17 Jan. 2022. [new publication] Tsutsumida (2022) Teaching reproducible Geocomputation Online, Theory and Application of GIS. 
   - 17 Dec. 2021. AGU Fall meeting 2021で発表を行いました（Tsutsumida et al.）。
   - 31 Oct. 2021. 第30回地理情報システム学会研究発表大会で４件の関連研究を発表しました（堤田ら、村上ら、吉田ら、Thongrueang et al.）。
   - 1 Oct. 2021. 10月29日に日本写真測量学会関西支部にて「土地被覆分類データの空間精度・空間誤差」を[講演](http://www.jsprs-w.org)します。
