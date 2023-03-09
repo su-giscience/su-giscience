@@ -15,6 +15,7 @@ output:
 --->
 
 ### Updates
+- 9 Mar. 2023. Five new undergrad students join our lab!
 - 28 Feb. 2023 [new publication] A paper is out in Sustainability!  
 Thongrueang, N., Tsutsumida, N., Nakaya, T. (2023) The Impact of Changes in Anthropogenic Activity Caused by COVID-19 Lockdown on Reducing Nitrogen Dioxide Levels in Thailand Using Nighttime Light Intensity. Sustainability, 15, 4296.
 
