@@ -19,6 +19,7 @@ title: "Publications (2021~)"
 
 # Journal papers 
 ## peer-review
+- Osawa, T., <u>Tsutsumida, N.</u>, Iijima, H. et al. Prediction of the visit and occupy of the sika deer (Cervus nippon) during the summer season using a virtual ecological approach (2023) Sci Rep 13, 4007, https://doi.org/10.1038/s41598-023-31269-5. 
 - Thongrueang, N., <u>Tsutsumida, N.</u>, Nakaya, T. (2023) The Impact of Changes in Anthropogenic Activity Caused by COVID-19 Lockdown on Reducing Nitrogen Dioxide Levels in Thailand Using Nighttime Light Intensity. Sustainability, 15, 4296. https://doi.org/10.3390/su15054296
 - Shin N., Katsumata C., Miura T., <u>Tsutsumida N.</u>, Ichie T., Kotani A., Nakagawa M., Khoon K.L., Kobayashi H., Kumagai T., Tei S., Pungga R.A.S., Yamada T., Kameda A., Yanagisawa M., Nasahara K., Muraoka H., Ichii K., Tokumoto Y. (2023) Perspective: Improving the accuracy of plant phenology observations and land-cover and land-use detection by optical satellite remote-sensing in the Asian tropics, Front. For. Glob. Chang., vol. 6, Feb. 2023, doi: 10.3389/ffgc.2023.1106723.
 - Ohata S., Osawa T., Sato N., <u>Tsutsumida N.</u> (2022) Large, concealed islands in the urban sea: Scattered surrounding green space enhances the quality of grassland habitats in urban parks, Tokyo, Urban Ecosystems, https://doi.org/10.1007/s11252-022-01311-x

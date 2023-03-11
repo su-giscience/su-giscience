@@ -15,10 +15,12 @@ output:
 --->
 
 ### Updates
+- 10 Mar. 2023. [new publication] A paper is out in Scientific Reports!  
+Osawa, T., Tsutsumida, N., Iijima, H. et al. Prediction of the visit and occupy of the sika deer (Cervus nippon) during the summer season using a virtual ecological approach (2023) Sci Rep 13, 4007. https://doi.org/10.1038/s41598-023-31269-5. 
+
 - 9 Mar. 2023. Five new undergrad students join our lab!
 - 28 Feb. 2023 [new publication] A paper is out in Sustainability!  
-Thongrueang, N., Tsutsumida, N., Nakaya, T. (2023) The Impact of Changes in Anthropogenic Activity Caused by COVID-19 Lockdown on Reducing Nitrogen Dioxide Levels in Thailand Using Nighttime Light Intensity. Sustainability, 15, 4296.
-
+Thongrueang, N., Tsutsumida, N., Nakaya, T. (2023) The Impact of Changes in Anthropogenic Activity Caused by COVID-19 Lockdown on Reducing Nitrogen Dioxide Levels in Thailand Using Nighttime Light Intensity. Sustainability, 15, 4296.  
 - 22 Feb. 2023  [new publication] A paper is out in Frontiers in Forests and Global Change!  
 N. Shin et al., (2023) Perspective: Improving the accuracy of plant phenology observations and land-cover and land-use detection by optical satellite remote-sensing in the Asian tropics, Front. For. Glob. Chang.
 
