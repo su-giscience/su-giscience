@@ -13,6 +13,8 @@ output:
 
 ### Upcoming events
 - 11. Apr. 2023. We organize [a special lecture](https://www.saitama-u.ac.jp/seminar_archives/2023-0331-1933-9.html) by prof. Lex Comber (Univ. of Leeds). Register [here](https://bit.ly/LexComberSULecture)
+- 25 May 2023. Poster presentation at JpGU H-TT16 session: 1kmメッシュ別滞在人口データを用いたコロナ禍における都市人口の時空間分析
+- 16-21 Jul. 2023. Three poster presentations at IGARSS 2023.
 
 
 ### Updates
