@@ -12,10 +12,10 @@ output:
 <br>
 
 ### Upcoming events
-- 25 May 2023. Poster presentation at JpGU H-TT16 session: 1kmメッシュ別滞在人口データを用いたコロナ禍における都市人口の時空間分析
 - 16-21 Jul. 2023. Three poster presentations at IGARSS 2023.
 
 ### Updates
+- 25 May 2023. Huang, a grad student, had a poster presentation at JpGU.
 - 17 May. 2023 [new publication] A paper is out in IJGIS!   
 Murakami D., Tsutsumida N., Yoshida T., Nakaya T., Lu B., Harris P. (2023) A linearization for stable and fast geographically weighted Poisson regression, International Journal of Geographical Information Science, https://doi.org/10.1080/13658816.2023.2209811
 - 11 Apr. 2023. We organized [a special lecture](https://www.saitama-u.ac.jp/seminar_archives/2023-0331-1933-9.html) by prof. Lex Comber (Univ. of Leeds).
