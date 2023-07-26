@@ -12,9 +12,11 @@ output:
 <br>
 
 ### Upcoming events
-- 16-21 Jul. 2023. One oral and two poster presentations at IGARSS 2023.
+- Four presentations are planned at GISA conference in 28-29 Oct 2023.
 
 ### Updates
+- 25 Jul. 2023. A new proposal is accepted for real-time disaster monitoring.
+- 16-21 Jul. 2023. We delivered one oral and two poster presentations at IGARSS 2023.
 - 14 Jun. 2023. A preprint paper is out!  
 Doi H., Osawa T., Tsutsumida N. The role of large language models in ecology and biodiversity conservation: Opportunities and Challenges, Authorea. June 12, 2023.
 - 25 May 2023. Huang, a grad student, had a poster presentation at JpGU.

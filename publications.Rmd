@@ -42,6 +42,9 @@ title: "Publications (2021~)"
 
 # Conference proceedings 
 ## peer-review
+- Adhikari R., <u>Tsutsumida N.</u>, Bhardwaj A., An index-based flood mapping using stokes parameters of multi-temporal SAR images: 2019 Hagibis flood event of Ibaraki, Japan,IGARSS 2023 - 2023 IEEE International Geoscience and Remote Sensing Symposium proceedings, 2023, 7194-7197.
+- <u>Tsutsumida N.</u>, Nasahara K., Tadono T., Birch T., Erickson T., 10-meter resolution land cover classification mapping using sentinel-2 and dynamic world,IGARSS 2023 - 2023 IEEE International Geoscience and Remote Sensing Symposium proceedings, 2023, 2954-2957.
+- <u>Tsutsumida N.</u>, Kato A., Osawa T., Doi H., Mapping forest vertical structure attributes with gedi, sentinel-1, and Sentinel-2, IGARSS 2023 - 2023 IEEE International Geoscience and Remote Sensing Symposium proceedings, 2023, 538-541.
 - <u>Tsutsumida N.</u>, Murakami D., Yoshida T., Nakaya T., Binbin L., Harris P., and Comber A. (2022) A Comparison of Geographically Weighted Principal Components Analysis Methodologies, 15th International Conference on Spatial Information Theory (COSIT 2022), https://doi.org/10.4230/LIPIcs.COSIT.2022.21
 - Murakami D., <u>Tsutsumida N.</u>, Yoshida T., and Nakaya T. (2022) Large-Scale Spatial Prediction by Scalable Geographically Weighted Regression: Comparative Study, 15th International Conference on Spatial Information Theory (COSIT 2022), https://doi.org/10.4230/LIPIcs.COSIT.2022.12
 - Comber A., Harris P., Murakami D., <u>Tsutsumida N.</u>, Brunsdon C. Geographically Varying Coefficient Regression: GWR-Exit and GAM-On?, 15th International Conference on Spatial Information Theory (COSIT 2022), https://doi.org/10.4230/LIPIcs.COSIT.2022.13
