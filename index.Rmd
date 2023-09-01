@@ -13,6 +13,8 @@ output:
 
 ### Upcoming events
 - Four presentations are planned at GISA conference in 28-29 Oct 2023.
+- Two presentations are planned at AGU conference in 11-16 Dec 2023.
+
 
 ### Updates
 - 25 Jul. 2023. A new proposal is accepted for real-time disaster monitoring.
