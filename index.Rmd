@@ -17,6 +17,7 @@ output:
 
 
 ### Updates
+- 26 Sep. 2023. One phd student has joined our group!
 - 25 Jul. 2023. A new proposal is accepted for real-time disaster monitoring.
 - 16-21 Jul. 2023. We delivered one oral and two poster presentations at IGARSS 2023.
 - 14 Jun. 2023. A preprint paper is out!  
