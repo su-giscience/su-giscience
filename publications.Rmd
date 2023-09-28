@@ -19,6 +19,7 @@ title: "Publications (2021~)"
 
 # Journal papers 
 ## peer-review
+- <u>Tsutsumida N.</u> and <u>Funada S.</u> (2023) Mapping cherry blossom phenology using a semi-automatic observation system with street level photos, Ecological Informatics, 102314. https://doi.org/10.1016/j.ecoinf.2023.102314
 - Murakami D., <u>Tsutsumida N.</u>, Yoshida T., Nakaya T., Lu B., Harris P. (2023) A linearization for stable and fast geographically weighted Poisson regression, International Journal of Geographical Information Science, https://doi.org/10.1080/13658816.2023.2209811
 - Osawa, T., <u>Tsutsumida, N.</u>, Iijima, H., Okabe K. (2023) Prediction of the visit and occupy of the sika deer (Cervus nippon) during the summer season using a virtual ecological approach, Sci Rep 13, 4007, https://doi.org/10.1038/s41598-023-31269-5. 
 - Thongrueang, N., <u>Tsutsumida, N.</u>, Nakaya, T. (2023) The Impact of Changes in Anthropogenic Activity Caused by COVID-19 Lockdown on Reducing Nitrogen Dioxide Levels in Thailand Using Nighttime Light Intensity. Sustainability, 15, 4296. https://doi.org/10.3390/su15054296
