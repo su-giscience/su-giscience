@@ -19,6 +19,7 @@ title: "Publications (2021~)"
 
 # Journal papers 
 ## peer-review
+- Comber A. and <u>Tsutsumida N.</u> (2023) Geographically weighted accuracy for hard and soft land cover classifications: 5 approaches with coded illustrations, International Journal of Remote Sensing, 6233-625, https://doi.org/10.1080/01431161.2023.2264503.
 - <u>Tsutsumida N.</u> and <u>Funada S.</u> (2023) Mapping cherry blossom phenology using a semi-automatic observation system with street level photos, Ecological Informatics, 102314. https://doi.org/10.1016/j.ecoinf.2023.102314
 - Murakami D., <u>Tsutsumida N.</u>, Yoshida T., Nakaya T., Lu B., Harris P. (2023) A linearization for stable and fast geographically weighted Poisson regression, International Journal of Geographical Information Science, https://doi.org/10.1080/13658816.2023.2209811
 - Osawa, T., <u>Tsutsumida, N.</u>, Iijima, H., Okabe K. (2023) Prediction of the visit and occupy of the sika deer (Cervus nippon) during the summer season using a virtual ecological approach, Sci Rep 13, 4007, https://doi.org/10.1038/s41598-023-31269-5. 
