@@ -21,7 +21,8 @@ output:
 Comber A. and Tsutsumida N. (2023) Geographically weighted accuracy for hard and soft land cover classifications: 5 approaches with coded illustrations, International Journal of Remote Sensing, 6233-625, https://doi.org/10.1080/01431161.2023.2264503.
 
 - 28 Sep. 2023. Our new paper is out!  
-Tsutsumida N. and Funada S. (2023) Mapping cherry blossom phenology using a semi-automatic observation system with street level photos, Ecological Informatics, 102314. https://doi.org/10.1016/j.ecoinf.2023.102314
+Tsutsumida N. and Funada S. (2023) Mapping cherry blossom phenology using a semi-automatic observation system with street level photos, Ecological Informatics, 102314. https://doi.org/10.1016/j.ecoinf.2023.102314, 
+[プレスリリース](https://www.saitama-u.ac.jp/topics_archives/2023-1006-1614-9.html)
 - 26 Sep. 2023. One phd student has joined our group!
 - 25 Jul. 2023. A new proposal is accepted for real-time disaster monitoring.
 - 16-21 Jul. 2023. We delivered one oral and two poster presentations at IGARSS 2023.
