@@ -17,7 +17,7 @@ output:
 
 
 ### Updates
-- 17 Oct. 2023. Our new paper is out! This is one of the achivements of BRIDGE program.
+- 17 Oct. 2023. Our new paper is out! This is one of the achievements of BRIDGE program.
 Comber A. and Tsutsumida N. (2023) Geographically weighted accuracy for hard and soft land cover classifications: 5 approaches with coded illustrations, International Journal of Remote Sensing, 6233-625, https://doi.org/10.1080/01431161.2023.2264503.
 
 - 28 Sep. 2023. Our new paper is out!  
