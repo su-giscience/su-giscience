@@ -59,6 +59,11 @@ title: "Publications (2021~)"
 - Kato A. and <u>Tsutsumida N.</u> Deep learning with 3D laser data to identify tree species, SilviLaser 2021.
 
 ## non peer-review
+- <u>黄晨安</u>、<u>堤田 成政</u>. 1kmメッシュ別滞在人口データを用いた時系列パターン分類手法の開発, , 第32回地理情報システム学会 学術研究発表大会, 2023. (**大会優秀発表賞**) https://confit.atlas.jp/guide/event-img/gisa2023/F2-01/public/pdf?type=in
+- <u>堤田成政</u>, 村上大輔, 吉田崇紘, 中谷友樹. 総合指標作成のためのSpatially Hierarchical Benefit of the Doubt (SH-BoD)の提案, 第32回地理情報システム学会 学術研究発表大会, 2023. 
+https://confit.atlas.jp/guide/event-img/gisa2023/F8-03/public/pdf?type=in
+- 村上大輔 , <u>堤田 成政</u>, 吉田 崇紘, 中谷 友樹. Sub-model aggregationによる地理的加重回帰の安定化・高速化, 第32回地理情報システム学会 学術研究発表大会, 2023. 
+https://confit.atlas.jp/guide/event-img/gisa2023/F8-04/public/pdf?type=in
 - <u>堤田成政</u>, 村上大輔, 吉田崇紘, 中谷友樹, 多変量地理空間データからの総合指標作成手法の比較, 第31回地理情報システム学会 学術研究発表大会, 2022.
 - 村上大輔 , <u>堤田 成政</u>, 吉田 崇紘, 中谷 友樹. 疎なカウントデータのための地理的加重ポアソン回帰の安定化・高速化, 第30回地理情報システム学会学術研究発表大会，2021．
 - <u>堤田 成政</u>, 村上大輔 , 吉田 崇紘, 中谷 友樹. カーネルの重みをスパース推定する新たな地理加重回帰の提案, 第30回地理情報システム学会学術研究発表大会，2021．
@@ -67,13 +72,15 @@ title: "Publications (2021~)"
 
 # Others including presentations (without proceedings)
 ## invited
+- <u>堤田 成政</u>. 大学・大学院でのジオデータサイエンス教育の実践，第32回地理情報システム学会 学術研究発表大会 教育委員会企画ミニシンポジウム「教育におけるデータサイエンスと地理情報：実践と課題」, 2023.
 - <u> Tsutsumida N </u>. Social Sensing: An important research resource, National Geographic session in Science Agora, 2022.
 - <u>堤田 成政</u>. 地理的加重法による空間内挿， ESTRELA No. 341, 2022.
 - <u>堤田 成政</u>. 土地被覆分類データの空間精度・空間誤差, 写真測量学会関西支部第109回テクニカルセミナー／空間情報話題交換会.
 - <u>堤田成政</u>．地理的加重モデルの開発と空間データ解析，ROIS-DS 成果報告会，2021年2月．  
 
 ## others
-- <u>黄 晨安</u>, <u> 堤田成政</u>.  1kmメッシュ別滞在人口データを用いたコロナ禍における都市人口の時空間分析, JpGU2023, 2023. (poster)
+- <u>渋谷南帆</u>, <u> 堤田成政</u>. パノプティックシーングラフによる土地被覆オブジェクト間の関係性抽出，第32回地理情報システム学会 学術研究発表大会 学生フリーテーマ発表会 成果発表セッション, 2023.
+- <u>黄晨安</u>, <u> 堤田成政</u>.  1 kmメッシュ別滞在人口データを用いたコロナ禍における都市人口の時空間分析, JpGU2023, 2023. (poster)
 - Miura T., Shin N., Yamamoto Y., <u>Tsutsumida N.</u>, Ichii K. Detecting Snow Contamination in Advanced
 Himawari Imager NDVI Time Series Data for
 Improved Autumn Phenology Characterization, JpGU2023, 2023. 
