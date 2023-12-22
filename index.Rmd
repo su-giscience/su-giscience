@@ -12,10 +12,11 @@ output:
 <br>
 
 ### Upcoming events
-- Two presentations are planned at AGU conference in 11-16 Dec 2023.
+- Two presentations are planned at ESJ in 16-21 Mar 2024.
 
 
 ### Updates
+- 11-15 Dec. 2023. We successfuly presented two posters at AGU 2023.
 - 29 Oct. 2023. We successfully delivered four presentations at the GISA conference. Huang, a graduate student, received the presentation award! M2黄さんが第32回地理情報システム学会 学術研究発表大会にて大会優秀発表賞を受賞しました🎉
 - 17 Oct. 2023. Our new paper is out! This is one of the achievements of BRIDGE program.
 Comber A. and Tsutsumida N. (2023) Geographically weighted accuracy for hard and soft land cover classifications: 5 approaches with coded illustrations, International Journal of Remote Sensing, 6233-625, https://doi.org/10.1080/01431161.2023.2264503.
