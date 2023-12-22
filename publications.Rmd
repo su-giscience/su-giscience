@@ -79,8 +79,8 @@ https://confit.atlas.jp/guide/event-img/gisa2023/F8-04/public/pdf?type=in
 - <u>堤田成政</u>．地理的加重モデルの開発と空間データ解析，ROIS-DS 成果報告会，2021年2月．  
 
 ## others
-- <u> Tsutsumida N. </u>, Nasahara K., Tadono T. Enhancing Land Cover Classification Mapping with Dynamic World and Decision Fusion, AGU 2023, 11 Dec, 2023. (Highlighted poster)
-- Miura T., Yamamoto Y., Nagai S., <u> Tsutsumda N. </u>, Ichii K. Snow detection in Himawari-8 Advanced Himawari Imager NDVI for improved autumn phenology monitoring, AGU 2023, 12 Dec, 2023. (poster)
+- <u> Tsutsumida N. </u>, Nasahara K., Tadono T. Enhancing Land Cover Classification Mapping with Dynamic World and Decision Fusion, AGU Annual Meeting 2023, 11 Dec, 2023. (Highlighted poster)
+- Miura T., Yamamoto Y., Nagai S., <u> Tsutsumda N. </u>, Ichii K. Snow detection in Himawari-8 Advanced Himawari Imager NDVI for improved autumn phenology monitoring, AGU Annual Meeting 2023, 12 Dec, 2023. (poster)
 - <u>渋谷南帆</u>, <u> 堤田成政</u>. パノプティックシーングラフによる土地被覆オブジェクト間の関係性抽出，第32回地理情報システム学会 学術研究発表大会 学生フリーテーマ発表会 成果発表セッション, 2023.
 - <u>黄晨安</u>, <u> 堤田成政</u>.  1 kmメッシュ別滞在人口データを用いたコロナ禍における都市人口の時空間分析, JpGU2023, 2023. (poster)
 - Miura T., Shin N., Yamamoto Y., <u>Tsutsumida N.</u>, Ichii K. Detecting Snow Contamination in Advanced
