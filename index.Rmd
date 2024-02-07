@@ -16,6 +16,9 @@ output:
 
 
 ### Updates
+- 7 Feb. 2024. A new papaer is out!
+Shin, N., Saitoh, T. M., Tsutsumida, N. (2024) Retrieval of cherry flowering phenology on Flickr and YouTube: a case study along the Tarumi railway, Gifu, Japan. Frontiers in Sustainable Tourism, https://doi.org/3.10.3389/frsut.2024.1280685.
+
 - 11-15 Dec. 2023. We successfuly presented two posters at AGU 2023.
 - 29 Oct. 2023. We successfully delivered four presentations at the GISA conference. Huang, a graduate student, received the presentation award! M2黄さんが第32回地理情報システム学会 学術研究発表大会にて大会優秀発表賞を受賞しました🎉
 - 17 Oct. 2023. Our new paper is out! This is one of the achievements of BRIDGE program.
