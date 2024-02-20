@@ -3,7 +3,19 @@ title: "Publications (2021~)"
 ---
 
 # Thesis
+## Msc thesis
+### FY2023
+- パノプティックセグメンテーションを用いたリモートセ ンシング画像の土地被覆分類の検討
+- Whale Optimization Algorithm を活用した時系列データク ラスタリング手法の提案
+
 ## Bsc thesis
+### FY2023
+- 迅速な洪水浸水域推定のためのマルチリモートセンシングデータを活用した深層学習手法の提案
+- リモートセンシングを用いた森林の下層植生マッピング
+- ソーシャルメディアデータを用いた準リアルタイムの洪水発生確率マッピング手法の開発
+- 衛星観測データを用いた都市化検出手法の性能評価
+- YOLOv8 と Mapillary を用いた樹種分類アルゴリズムの検討
+
 ### FY2022
 - 地理的加重ポアソン回帰による交通事故の空間分析
 - Foliage height diversity (FHD)の地図化の試み
@@ -80,6 +92,8 @@ https://confit.atlas.jp/guide/event-img/gisa2023/F8-04/public/pdf?type=in
 - <u>堤田成政</u>．地理的加重モデルの開発と空間データ解析，ROIS-DS 成果報告会，2021年2月．  
 
 ## others
+- 加藤顕, 青柳寛太郎, 若林日菜, 早川裕弌, 蝦名益仁, <u>堤田成政 </u>, 笠井美青, 小倉拓郎. 3 次元レーザーによる森林内空間の把握, 第26回CEReS環境リモートセンシングシンポジウム, 2024 (oral).
+- <u> Nifat Sultana </u>, and <u> Narumasa Tsutsumida </u>. Utilizing geostationary satellite data for ultra-short-term forecasting of solar irradiance by a multivariate Long-Short-Term Memory Recurrent Neural Network, The 26th CEReS Environmental Remote Sensing Symposium, 15 Feb. 2024 (poster).
 - <u> Tsutsumida N. </u>, Nasahara K., Tadono T. Enhancing Land Cover Classification Mapping with Dynamic World and Decision Fusion, AGU Annual Meeting 2023, 11 Dec, 2023. (Highlighted poster)
 - Miura T., Yamamoto Y., Nagai S., <u> Tsutsumda N. </u>, Ichii K. Snow detection in Himawari-8 Advanced Himawari Imager NDVI for improved autumn phenology monitoring, AGU Annual Meeting 2023, 12 Dec, 2023. (poster)
 - <u>渋谷南帆</u>, <u> 堤田成政</u>. パノプティックシーングラフによる土地被覆オブジェクト間の関係性抽出，第32回地理情報システム学会 学術研究発表大会 学生フリーテーマ発表会 成果発表セッション, 2023.

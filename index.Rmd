@@ -16,6 +16,8 @@ output:
 
 
 ### Updates
+- 15 Feb. 2024. Two presentations at CEReS symposium, Chiba University.
+
 - 7 Feb. 2024. A new papaer is out!
 Shin, N., Saitoh, T. M., Tsutsumida, N. (2024) Retrieval of cherry flowering phenology on Flickr and YouTube: a case study along the Tarumi railway, Gifu, Japan. Frontiers in Sustainable Tourism, https://doi.org/3.10.3389/frsut.2024.1280685.
 
