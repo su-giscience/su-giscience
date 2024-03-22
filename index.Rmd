@@ -12,10 +12,12 @@ output:
 <br>
 
 ### Upcoming events
-- Two presentations are planned at ESJ in 16-21 Mar 2024.
+- Two presentations are planned at IGARSS2024 in July 2024.
 
 
 ### Updates
+- 20 Mar. 2024. Two presentations are planned at ESJ.
+
 - 15 Feb. 2024. Two presentations at CEReS symposium, Chiba University.
 
 - 7 Feb. 2024. A new papaer is out!
