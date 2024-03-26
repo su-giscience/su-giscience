@@ -32,7 +32,7 @@ title: "Publications (2021~)"
 # Journal papers 
 ## peer-review
 - <u>Tsutsumida, N.</u>, Zhao, J., <u>Shibuya, N.</u>, Nasahara, K., Tadono, T. (2024) Investigating the use of deep learning models for land cover classification from street-level imagery, Ecological Research, accepted.
-- Shin, N., Saitoh, T. M., <u>Tsutsumida, N.</u> (2024) Retrieval of cherry flowering phenology on Flickr and YouTube: a case study along the Tarumi railway, Gifu, Japan. Frontiers in Sustainable Tourism, https://doi.org/3.10.3389/frsut.2024.1280685.
+- Shin, N., Saitoh, T. M., <u>Tsutsumida, N.</u> (2024) Retrieval of cherry flowering phenology on Flickr and YouTube: a case study along the Tarumi railway, Gifu, Japan. Frontiers in Sustainable Tourism, https://doi.org/10.3389/frsut.2024.1280685.
 - Comber A. and <u>Tsutsumida N.</u> (2023) Geographically weighted accuracy for hard and soft land cover classifications: 5 approaches with coded illustrations, International Journal of Remote Sensing, 6233-625, https://doi.org/10.1080/01431161.2023.2264503.
 - <u>Tsutsumida N.</u> and <u>Funada S.</u> (2023) Mapping cherry blossom phenology using a semi-automatic observation system with street level photos, Ecological Informatics, 102314. https://doi.org/10.1016/j.ecoinf.2023.102314
 - Murakami D., <u>Tsutsumida N.</u>, Yoshida T., Nakaya T., Lu B., Harris P. (2023) A linearization for stable and fast geographically weighted Poisson regression, International Journal of Geographical Information Science, https://doi.org/10.1080/13658816.2023.2209811
