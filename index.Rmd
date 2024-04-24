@@ -16,11 +16,14 @@ output:
 - Two student presentations are planned at JpGU in May.
 
 ### Updates
+- 24 Apr. 2024. A new paper has been published at Ecological Research!
+Tsutsumida, N., Zhao, J., Shibuya, N., Nasahara, K., Tadono, T., (2024) Investigating the use of deep learning models for land cover classification from street-level imagery. Ecol. Res.  https://doi.org/10.1111/1440-1703.12470
+
 - 20 Mar. 2024. Two presentations are planned at ESJ.
 
 - 15 Feb. 2024. Two presentations at CEReS symposium, Chiba University.
 
-- 7 Feb. 2024. A new papaer is out!
+- 7 Feb. 2024. A new paper is out!
 Shin, N., Saitoh, T. M., Tsutsumida, N. (2024) Retrieval of cherry flowering phenology on Flickr and YouTube: a case study along the Tarumi railway, Gifu, Japan. Frontiers in Sustainable Tourism, https://doi.org/3.10.3389/frsut.2024.1280685.
 
 
