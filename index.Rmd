@@ -12,14 +12,16 @@ output:
 <br>
 
 ### Upcoming events
+- One presentation is planned at ForestSat in Sep. 2024.
 - Two presentations are planned at IGARSS2024 in July 2024.
-- Two student presentations are planned at JpGU in May.
 
 ### Updates
+- 30 May. 2024. Two students were sucessfully presented at JpGU.
+
 - 24 Apr. 2024. A new paper has been published in Ecological Research!
 Tsutsumida, N., Zhao, J., Shibuya, N., Nasahara, K., Tadono, T., (2024) Investigating the use of deep learning models for land cover classification from street-level imagery. Ecol. Res.  https://doi.org/10.1111/1440-1703.12470
 
-- 20 Mar. 2024. Two presentations are planned at ESJ.
+- 20 Mar. 2024. One presentation was conducted at ESJ.
 
 - 15 Feb. 2024. Two presentations at CEReS symposium, Chiba University.
 
