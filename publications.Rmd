@@ -58,6 +58,8 @@ title: "Publications (2021~)"
 
 # Conference proceedings 
 ## peer-review
+- <u> Tsutsumida N.</u>, <u>Sultana N.</u>, <u>Chenan H.</u>, Potential application of bayesian changepoint detection for near-real-time flood monitoring, IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing Symposium proceedings, 2024, 4303-4305.
+- <u>Sultana N.</u>, <u>Tsutsumida N.</u> Combining machine learning with physics-based mathematical models for near-real-time clear-sky irradiance prediction from geostationary satellite imagery, IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing Symposium proceedings, 2024, 8497-8502.
 - Adhikari R., <u>Tsutsumida N.</u>, Bhardwaj A., An index-based flood mapping using stokes parameters of multi-temporal SAR images: 2019 Hagibis flood event of Ibaraki, Japan,IGARSS 2023 - 2023 IEEE International Geoscience and Remote Sensing Symposium proceedings, 2023, 7194-7197.
 - <u>Tsutsumida N.</u>, Nasahara K., Tadono T., Birch T., Erickson T., 10-meter resolution land cover classification mapping using sentinel-2 and dynamic world,IGARSS 2023 - 2023 IEEE International Geoscience and Remote Sensing Symposium proceedings, 2023, 2954-2957.
 - <u>Tsutsumida N.</u>, Kato A., Osawa T., Doi H., Mapping forest vertical structure attributes with gedi, sentinel-1, and Sentinel-2, IGARSS 2023 - 2023 IEEE International Geoscience and Remote Sensing Symposium proceedings, 2023, 538-541.
