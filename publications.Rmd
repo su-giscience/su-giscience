@@ -52,6 +52,7 @@ title: "Publications (2021~)"
 - Rustiadi E., Pravitasari A.E., Setiawan Y., Mulya S.P., Pribadi D.O., <u>Tsutsumida N.</u>  (2021) Impact of Continuous Jakarta Megacity Urban Expansion on the Formation of the Jakarta-Bandung Conurbation over the Rice Farm Regions, Cities, 111, 103000, https://doi.org/10.1016/j.cities.2020.103000
 
 ## non peer-review
+- <u>Chenan H.</u> and <u>Tsutsumida N.</u> (2024) A Scalable k-Medoids Clustering via Whale Optimization Algorithm. Arxiv, https://arxiv.org/abs/2408.16993.
 - Doi H., Osawa T., <u>Tsutsumida N.</u> (2023) The role of large language models in ecology and biodiversity conservation: Opportunities and Challenges. Authorea. June 12, 2023. https://doi.org/10.22541/au.168657324.49460085/v1
 - <u>Funada S.</u> and <u>Tsutsumida N.</u> (2022)  Mapping cherry blossoms from geotagged street-level photos, bioRxiv, https://doi.org/10.1101/2022.01.18.476550
 - <u>堤田成政</u>（2021）再現可能性を重視したオンラインでのジオコンピュテーション教育， GIS-理論と応用．[[postprint](./share/202111GISedu_postprint.pdf)]
@@ -117,6 +118,9 @@ Improved Autumn Phenology Characterization, JpGU2023, 2023.
 - Miura T., Nagai S., <u>Tsutsumida N.</u>, Yamamoto Y. Himawari-8 AHI NDVI Temporal Signature Variability of Broadleaf Deciduous Forests Along Temperature, Elevation, and Latitudinal Gradients in Northern Japan. JpGU 2021, 2021.
 - <u>堤田成政</u>．1982 年以降の土地被覆変動解析，第23回 環境リモートセンシングシンポジウム，千葉大学，2021年2月18日．
 - Yoshida T., Murakami D., Seya H., <u>Tsutsumida N.</u>, Nakaya T. Geographically weighted regression for compositional data, Data Science Workshop, Center for Data Science and Service Research, Tohoku University, 2021.
+
+# Software
+- <u>Chenan H.</u> and <u>Tsutsumida N.</u> WOAkMedoids: Whale Optimization Algorithm for K-Medoids Clustering, https://cran.r-project.org/web/packages/WOAkMedoids/index.html
 
 <br>
   
