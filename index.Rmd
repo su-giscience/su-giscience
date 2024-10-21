@@ -12,8 +12,10 @@ output:
 <br>
 
 ### Upcoming events
-- Three presenataions are planned at GISA 2024.
+- Three presentaions are planned at GISA 2024.
 - Three presentations are planned at UT CSIS day 2024.
+- 11/12に開催される[防災DX研究会](https://www.saitama-u.ac.jp/research/topics/archives/20241112_BSDX.html)で講演します。    
+- 11/5に開催される[第25回埼玉大学産学交流会テクノカフェ](https://www.saitama-u.ac.jp/research/topics/archives/techno2024.html)で事例発表を行います。
 
 ### Updates
 - 10 Sep. 2024. A presentation was at ForestSAT 2024 about the monitoring of Forest vertical structure.
