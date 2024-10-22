@@ -12,8 +12,9 @@ output:
 <br>
 
 ### Upcoming events
-- Three presentaions are planned at GISA 2024.
-- Three presentations are planned at UT CSIS day 2024.
+- AGU＠ワシントンDCで３件の研究発表を行います．
+- 地理情報システム学会大会＠宇治で３件の研究発表を行います.
+- 東大空間情報科学センターのCSIS days 2024で３件の研究発表を行います．
 - 11/12に開催される[防災DX研究会](https://www.saitama-u.ac.jp/research/topics/archives/20241112_BSDX.html)で講演します。    
 - 11/5に開催される[第25回埼玉大学産学交流会テクノカフェ](https://www.saitama-u.ac.jp/research/topics/archives/techno2024.html)で事例発表を行います。
 
