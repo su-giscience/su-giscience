@@ -77,6 +77,10 @@ title: "Publications (2021~)"
 - Kato A. and <u>Tsutsumida N.</u> Deep learning with 3D laser data to identify tree species, SilviLaser 2021.
 
 ## non peer-review
+- <u>堤田成政</u>, 吉田崇紘, 村上大輔, 中谷友樹. 土地被覆ソフト分類における空間誤差評価手法の提案,  第33回地理情報システム学会 学術研究発表大会予稿集.
+- 村上大輔, 吉田崇紘, <u>堤田成政</u>,  中谷友樹. 高速で柔軟な非ガウス時空間可変パラメータモデルとRへの実装, 第33回地理情報システム学会 学術研究発表大会予稿集.
+- 吉田崇紘, 村上大輔, <u>堤田成政</u>. 空間予測のためのモラン固有ベクトルに基づく空間組成回帰モデル, 第33回地理情報システム学会 学術研究発表大会予稿集.
+
 - <u>黄晨安</u>、<u>堤田 成政</u>. 1kmメッシュ別滞在人口データを用いた時系列パターン分類手法の開発, , 第32回地理情報システム学会 学術研究発表大会, 2023. (**大会優秀発表賞**) https://confit.atlas.jp/guide/event-img/gisa2023/F2-01/public/pdf?type=in
 - <u>堤田成政</u>, 村上大輔, 吉田崇紘, 中谷友樹. 総合指標作成のためのSpatially Hierarchical Benefit of the Doubt (SH-BoD)の提案, 第32回地理情報システム学会 学術研究発表大会, 2023. 
 https://confit.atlas.jp/guide/event-img/gisa2023/F8-03/public/pdf?type=in
@@ -99,6 +103,9 @@ https://confit.atlas.jp/guide/event-img/gisa2023/F8-04/public/pdf?type=in
 - <u>堤田成政</u>．地理的加重モデルの開発と空間データ解析，ROIS-DS 成果報告会，2021年2月．  
 
 ## others
+- <u>堤田成政</u>, 吉田崇紘, 村上大輔, 中谷友樹. 土地被覆ソフト分類における空間誤差評価手法の提案,  第33回地理情報システム学会 学術研究発表大会.
+- 村上大輔, 吉田崇紘, <u>堤田成政</u>,  中谷友樹. 高速で柔軟な非ガウス時空間可変パラメータモデルとRへの実装, 第33回地理情報システム学会 学術研究発表大会.
+- 吉田崇紘, 村上大輔, <u>堤田成政</u>. 空間予測のためのモラン固有ベクトルに基づく空間組成回帰モデル, 第33回地理情報システム学会 学術研究発表大会.
 - <u>Tanaka T.</u> and <u>Tsutsumida N.</u> (2024) A Self-Supervised Learning framework for Rapid Estimation of Flood Inundation Area Using Multi-Source Remote Sensing Data, Japan Geoscience Union Meeting 2024, 26-31 May, Chiba, Japan.
 - <u>Sultana Nima N.</u> and <u>Tsutsumida N.</u> (2024) A machine learning approach for reliable near-real-time prediction of solar irradiance from geostationary satellite imagery, Japan Geoscience Union Meeting 2024, 26-31 May, Chiba, Japan.
 - <u>堤田成政 </u>. ソーシャルセンシングによる桜開花フェノロジー, 第71回日本生態学会大会, 2024 (オンライン) 

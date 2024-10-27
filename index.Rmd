@@ -12,13 +12,13 @@ output:
 <br>
 
 ### Upcoming events
-- AGU＠ワシントンDCで３件の研究発表を行います．
-- 地理情報システム学会大会＠宇治で３件の研究発表を行います.
-- 東大空間情報科学センターのCSIS days 2024で３件の研究発表を行います．
+- AGU＠ワシントンDCで3件の研究発表を行います．
+- 東大空間情報科学センターのCSIS days 2024で3件の研究発表を行います．
 - 11/12に開催される[防災DX研究会](https://www.saitama-u.ac.jp/research/topics/archives/20241112_BSDX.html)で講演します。    
 - 11/5に開催される[第25回埼玉大学産学交流会テクノカフェ](https://www.saitama-u.ac.jp/research/topics/archives/techno2024.html)で事例発表を行います。
 
 ### Updates
+- 25 Oct. 2024. 地理情報システム学会大会で3件の研究発表を行いました。
 - 10 Sep. 2024. A presentation was at ForestSAT 2024 about the monitoring of Forest vertical structure.
 - 22-23 Aug. 2024 大学見本市で出展しました。多くの方にブースに足を運んでいただきありがとうございます！
 - 2 Sep. 2024. 修士修了生黄さんの修士研究の成果としてR package '[WOAkMedoids](https://cran.r-project.org/web/packages/WOAkMedoids/index.html)' をR CRANにて公開しました！またArxivにて[preprint](https://arxiv.org/abs/2408.16993)を発表しました！
