@@ -105,11 +105,14 @@ https://confit.atlas.jp/guide/event-img/gisa2023/F8-04/public/pdf?type=in
 - <u>堤田成政</u>．地理的加重モデルの開発と空間データ解析，ROIS-DS 成果報告会，2021年2月．  
 
 ## others
-- <u>堤田成政</u>, 吉田崇紘, 村上大輔, 中谷友樹. 土地被覆ソフト分類における空間誤差評価手法の提案,  第33回地理情報システム学会 学術研究発表大会.
-- 村上大輔, 吉田崇紘, <u>堤田成政</u>,  中谷友樹. 高速で柔軟な非ガウス時空間可変パラメータモデルとRへの実装, 第33回地理情報システム学会 学術研究発表大会.
-- 吉田崇紘, 村上大輔, <u>堤田成政</u>. 空間予測のためのモラン固有ベクトルに基づく空間組成回帰モデル, 第33回地理情報システム学会 学術研究発表大会.
-- <u>Tanaka T.</u> and <u>Tsutsumida N.</u> (2024) A Self-Supervised Learning framework for Rapid Estimation of Flood Inundation Area Using Multi-Source Remote Sensing Data, Japan Geoscience Union Meeting 2024, 26-31 May, Chiba, Japan.
-- <u>Sultana Nima N.</u> and <u>Tsutsumida N.</u> (2024) A machine learning approach for reliable near-real-time prediction of solar irradiance from geostationary satellite imagery, Japan Geoscience Union Meeting 2024, 26-31 May, Chiba, Japan.
+- <u>村上 拓</u>,<u>堤田 成政</u>,吉田 崇紘．埼玉県さいたま市における建物ごとのCO2排出量の推定, CSIS DAYS2024, 2024.
+- <u>張 園苡</u>, <u>堤田 成政</u>. 日本におけるウミネコの生息地分布の将来予測, CSIS DAYS2024, 2024.
+- <u>田中智大</u>,<u>堤田成政</u>.  SAR・マルチスペクトル衛星観測データの融合モデルによる洪水浸水域推定手法の提案, CSIS DAYS2024, 2024.
+- <u>堤田成政</u>, 吉田崇紘, 村上大輔, 中谷友樹.  土地被覆ソフト分類における空間誤差評価手法の提案,  第33回地理情報システム学会 学術研究発表大会, 2024.
+- 村上大輔, 吉田崇紘, <u>堤田成政</u>,  中谷友樹. 高速で柔軟な非ガウス時空間可変パラメータモデルとRへの実装, 第33回地理情報システム学会 学術研究発表大会, 2024.
+- 吉田崇紘, 村上大輔, <u>堤田成政</u>.  空間予測のためのモラン固有ベクトルに基づく空間組成回帰モデル, 第33回地理情報システム学会 学術研究発表大会, 2024.
+- <u>Tanaka T.</u> and <u>Tsutsumida N.</u> A Self-Supervised Learning framework for Rapid Estimation of Flood Inundation Area Using Multi-Source Remote Sensing Data, Japan Geoscience Union Meeting 2024, 26-31 May, Chiba, Japan, 2024.
+- <u>Sultana Nima N.</u> and <u>Tsutsumida N.</u> A machine learning approach for reliable near-real-time prediction of solar irradiance from geostationary satellite imagery, Japan Geoscience Union Meeting 2024, 26-31 May, Chiba, Japan, 2024.
 - <u>堤田成政 </u>. ソーシャルセンシングによる桜開花フェノロジー, 第71回日本生態学会大会, 2024 (オンライン) 
 - 加藤顕,鈴木智, 早川裕弌, 中田 敏是, <u>堤田成政 </u>, 笠井美青. ドローンレーザーを用いた森林内空隙解析, 第71回日本生態学会大会, 2024 (オンライン) 
 - 加藤顕, 青柳寛太郎, 若林日菜, 早川裕弌, 蝦名益仁, <u>堤田成政 </u>, 笠井美青, 小倉拓郎. 3 次元レーザーによる森林内空間の把握, 第26回CEReS環境リモートセンシングシンポジウム, 2024 (oral).
