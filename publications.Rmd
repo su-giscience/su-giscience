@@ -105,6 +105,10 @@ https://confit.atlas.jp/guide/event-img/gisa2023/F8-04/public/pdf?type=in
 - <u>堤田成政</u>．地理的加重モデルの開発と空間データ解析，ROIS-DS 成果報告会，2021年2月．  
 
 ## others
+- <u> Tanaka T. </u> and <u> Tsutsumida N. </u> Enhanced Flood Mapping Using Combined SAR and Multi-Spectral Sensor Data with a Transformer-Based Dual Encoders Model, AGU2024, USA, 2024.
+- <u> Tsutsumida N. </u> Utilizing Socially Sensed Images for Monitoring Local Landscapes, AGU2024, USA, 2024.
+- <u> Tsutsumida N. </u>, Yoshida T., Murakami D., Nakaya T. Comber A. Spatial Analysis of Errors in Fractional Land Cover Classification, AGU2024, USA, 2024.
+
 - <u>村上 拓</u>,<u>堤田 成政</u>,吉田 崇紘．埼玉県さいたま市における建物ごとのCO2排出量の推定, CSIS DAYS2024, 2024.
 - <u>張 園苡</u>, <u>堤田 成政</u>. 日本におけるウミネコの生息地分布の将来予測, CSIS DAYS2024, 2024.
 - <u>田中智大</u>,<u>堤田成政</u>.  SAR・マルチスペクトル衛星観測データの融合モデルによる洪水浸水域推定手法の提案, CSIS DAYS2024, 2024.
