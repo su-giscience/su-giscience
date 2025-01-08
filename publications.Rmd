@@ -31,6 +31,7 @@ title: "Publications (2021~)"
 
 # Journal papers 
 ## peer-review
+- Comber A., Harris P., Murakami D., Nakaya T., <u>Tsutsumida N. </u>, Yoshida T., Brunsdon C. (2024) Encapsulating spatially varying relationships with a generalized additive model, ISPRS International Journal of Geo-Information, 13, 459. https://doi.org/10.3390/ijgi13120459
 - <u>Tsutsumida, N.</u>, Zhao, J., <u>Shibuya, N.</u>, Nasahara, K., Tadono, T. (2024) Investigating the use of deep learning models for land cover classification from street-level imagery, Ecological Research. https://doi.org/10.1111/1440-1703.12470
 - Shin, N., Saitoh, T. M., <u>Tsutsumida, N.</u> (2024) Retrieval of cherry flowering phenology on Flickr and YouTube: a case study along the Tarumi railway, Gifu, Japan. Frontiers in Sustainable Tourism, https://doi.org/10.3389/frsut.2024.1280685.
 - Comber A. and <u>Tsutsumida N.</u> (2023) Geographically weighted accuracy for hard and soft land cover classifications: 5 approaches with coded illustrations, International Journal of Remote Sensing, 44(19), 6233–6257, https://doi.org/10.1080/01431161.2023.2264503.
