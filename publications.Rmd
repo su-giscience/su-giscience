@@ -107,7 +107,8 @@ https://confit.atlas.jp/guide/event-img/gisa2023/F8-04/public/pdf?type=in
 
 ## others
 - <u>堤田成政</u>.  衛星Lidarフットプリントの位置補正手法の開発, 第27回CEReS環境リモートセンシングシンポジウム, 2025.
-- <u> Tanaka T. </u> and <u> Tsutsumida N. </u> Enhanced Flood Mapping Using Combined SAR and Multi-Spectral Sensor Data with a Transformer-Based Dual Encoders Model, AGU2024, USA, 2024.
+- Miura T., Yamamoto Y., Shin N., <u> Tsutsumida N.</u>, and Ichii K. Reduction of Snow Contamination in Himawari-8/-9 AHI NDVI for Imoroved Phenology Monitoring, 第27回CEReS環境リモートセンシングシンポジウム, 2025.
+- <u> Tanaka T. </u> and <u> Tsutsumida N.</u> Enhanced Flood Mapping Using Combined SAR and Multi-Spectral Sensor Data with a Transformer-Based Dual Encoders Model, AGU2024, USA, 2024.
 - <u> Tsutsumida N. </u> Utilizing Socially Sensed Images for Monitoring Local Landscapes, AGU2024, USA, 2024.
 - <u> Tsutsumida N. </u>, Yoshida T., Murakami D., Nakaya T. Comber A. Spatial Analysis of Errors in Fractional Land Cover Classification, AGU2024, USA, 2024.
 
