@@ -78,9 +78,9 @@ title: "Publications (2021~)"
 - Kato A. and <u>Tsutsumida N.</u> Deep learning with 3D laser data to identify tree species, SilviLaser 2021.
 
 ## non peer-review
-- <u>堤田成政</u>, 吉田崇紘, 村上大輔, 中谷友樹. 土地被覆ソフト分類における空間誤差評価手法の提案,  第33回地理情報システム学会 学術研究発表大会予稿集.
-- 村上大輔, 吉田崇紘, <u>堤田成政</u>,  中谷友樹. 高速で柔軟な非ガウス時空間可変パラメータモデルとRへの実装, 第33回地理情報システム学会 学術研究発表大会予稿集.
-- 吉田崇紘, 村上大輔, <u>堤田成政</u>. 空間予測のためのモラン固有ベクトルに基づく空間組成回帰モデル, 第33回地理情報システム学会 学術研究発表大会予稿集.
+- <u>堤田成政</u>, 吉田崇紘, 村上大輔, 中谷友樹. 土地被覆ソフト分類における空間誤差評価手法の提案,  第33回地理情報システム学会 学術研究発表大会予稿集, 2024.
+- 村上大輔, 吉田崇紘, <u>堤田成政</u>,  中谷友樹. 高速で柔軟な非ガウス時空間可変パラメータモデルとRへの実装, 第33回地理情報システム学会 学術研究発表大会予稿集, 2024.
+- 吉田崇紘, 村上大輔, <u>堤田成政</u>. 空間予測のためのモラン固有ベクトルに基づく空間組成回帰モデル, 第33回地理情報システム学会 学術研究発表大会予稿集, 2024.
 - <u>Tsutsumida N. </u>, Kato A., Osawa T., Doi H. Mapping of Forest Structural Patterns by GEDI, Sentinel-1 and 2, ForestSAT, NZ, 2024.
 - <u>黄晨安</u>、<u>堤田 成政</u>. 1kmメッシュ別滞在人口データを用いた時系列パターン分類手法の開発, , 第32回地理情報システム学会 学術研究発表大会, 2023. (**大会優秀発表賞**) https://confit.atlas.jp/guide/event-img/gisa2023/F2-01/public/pdf?type=in
 - <u>堤田成政</u>, 村上大輔, 吉田崇紘, 中谷友樹. 総合指標作成のためのSpatially Hierarchical Benefit of the Doubt (SH-BoD)の提案, 第32回地理情報システム学会 学術研究発表大会, 2023. 
@@ -106,6 +106,7 @@ https://confit.atlas.jp/guide/event-img/gisa2023/F8-04/public/pdf?type=in
 - <u>堤田成政</u>．地理的加重モデルの開発と空間データ解析，ROIS-DS 成果報告会，2021年2月．  
 
 ## others
+- <u>堤田成政</u>.  衛星Lidarフットプリントの位置補正手法の開発, 第27回CEReS環境リモートセンシングシンポジウム, 2025.
 - <u> Tanaka T. </u> and <u> Tsutsumida N. </u> Enhanced Flood Mapping Using Combined SAR and Multi-Spectral Sensor Data with a Transformer-Based Dual Encoders Model, AGU2024, USA, 2024.
 - <u> Tsutsumida N. </u> Utilizing Socially Sensed Images for Monitoring Local Landscapes, AGU2024, USA, 2024.
 - <u> Tsutsumida N. </u>, Yoshida T., Murakami D., Nakaya T. Comber A. Spatial Analysis of Errors in Fractional Land Cover Classification, AGU2024, USA, 2024.
