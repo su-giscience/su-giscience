@@ -115,6 +115,8 @@ https://confit.atlas.jp/guide/event-img/gisa2023/F8-04/public/pdf?type=in
 - <u>堤田成政</u>．地理的加重モデルの開発と空間データ解析，ROIS-DS 成果報告会，2021年2月．  
 
 ## others
+- <u> Tsutsumida N. </u> Adjustment of Satellite LiDAR Footprint Location Using Genetic Algorithm, ISRSE40, 2025
+-  <u> Tsutsumida N. </u> and Percival J. Advancing Street-Level Image Management by landlensdb, ISRSE40, 2025.
 - <u>堤田成政</u>.  衛星Lidarフットプリントの位置補正手法の開発, 第27回CEReS環境リモートセンシングシンポジウム, 2025.
 - Miura T., Yamamoto Y., Shin N., <u> Tsutsumida N.</u>, and Ichii K. Reduction of Snow Contamination in Himawari-8/-9 AHI NDVI for Imoroved Phenology Monitoring, 第27回CEReS環境リモートセンシングシンポジウム, 2025.
 - <u> Tanaka T. </u> and <u> Tsutsumida N.</u> Enhanced Flood Mapping Using Combined SAR and Multi-Spectral Sensor Data with a Transformer-Based Dual Encoders Model, AGU2024, USA, 2024.

@@ -12,9 +12,10 @@ output:
 <br>
 
 ### Upcoming events
-- ISRSE40 (UK)で2件の研究発表を行います。
 
 ### Updates
+- 新４年生４名が配属になりました。
+- ISRSE40 (UK)で2件の研究発表を行いました。
 - 衛星Lidarの位置補正アルゴリズム [salpa](https://github.com/naru-T/salpa) を公開しました 
 - Street-level imageryのデータ管理パッケージ [landlensdb](https://github.com/landlensdb/landlensdb)を公開しました。
 - 千葉大学第27回CEReS環境リモートセンシングシンポジウムで発表しました。
