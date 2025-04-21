@@ -28,7 +28,7 @@ PI, Associate Professor
 [National Geographic Fellow](https://www.nationalgeographic.org/find-explorers/narumasa-tsutsumida)  
 [OSGeo Charter member](https://wiki.osgeo.org/wiki/User:Naru)  
 
-- [研究者総覧](http://s-read.saitama-u.ac.jp/researchers/pages/researcher/spZMMhAo)
+- [研究者総覧](https://rdb.eva.saitama-u.ac.jp/search/detail.html?systemId=d61e81f69fb252e1520e17560c007669)
 - [Google Scholar](https://scholar.google.co.jp/citations?user=_Hw3vQQAAAAJ)
 - [ORCID](https://orcid.org/0000-0002-6333-0301)
 - [English HP](https://narutstsmd.wordpress.com)    
