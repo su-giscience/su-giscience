@@ -14,6 +14,7 @@ output:
 ### Upcoming events
 
 ### Updates
+- [International Journal of Remote Sensing](https://doi.org/10.1080/01431161.2025.2496529)で論文が公開されました。
 - 新４年生４名が配属になりました。
 - ISRSE40 (UK)で2件の研究発表を行いました。
 - 衛星Lidarの位置補正アルゴリズム [salpa](https://github.com/naru-T/salpa) を公開しました 
