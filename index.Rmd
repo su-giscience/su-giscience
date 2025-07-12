@@ -14,6 +14,7 @@ output:
 ### Upcoming events
 
 ### Updates
+- [Remote Sensing](https://www.mdpi.com/2072-4292/17/14/2402)で修士課程村上さんの卒業論文の成果が公開されました🎉
 - [International Journal of Remote Sensing](https://doi.org/10.1080/01431161.2025.2496529)で論文が公開されました。
 - 新４年生４名が配属になりました。
 - ISRSE40 (UK)で2件の研究発表を行いました。
