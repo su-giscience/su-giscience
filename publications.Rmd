@@ -65,6 +65,8 @@ title: "Publications (2021~)"
 - Rustiadi E., Pravitasari A.E., Setiawan Y., Mulya S.P., Pribadi D.O., <u>Tsutsumida N.</u>  (2021) Impact of Continuous Jakarta Megacity Urban Expansion on the Formation of the Jakarta-Bandung Conurbation over the Rice Farm Regions, Cities, 111, 103000, https://doi.org/10.1016/j.cities.2020.103000
 
 ## non peer-review
+
+- <u> Tanaka T. </u> and <u>Tsutsumida N.</u> (2024) Sensor-Adaptive Flood Mapping with Pre-trained Multi-Modal Transformers across SAR and Multispectral Modalities, Arxiv, https://arxiv.org/abs/2509.23035
 - <u>Tsutsumida N.</u> and Kato A. (2024) A Bayesian Inference Approach for Reducing Inter-Investigator Variability in Sampling-Based Land Cover Classification, Arxiv, https://arxiv.org/abs/2403.15720
 - <u>Chenan H.</u> and <u>Tsutsumida N.</u> (2024) A Scalable k-Medoids Clustering via Whale Optimization Algorithm. Arxiv, https://arxiv.org/abs/2408.16993
 - Doi H., Osawa T., <u>Tsutsumida N.</u> (2023) The role of large language models in ecology and biodiversity conservation: Opportunities and Challenges. Authorea. June 12, 2023. https://doi.org/10.22541/au.168657324.49460085/v1
