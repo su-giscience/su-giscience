@@ -14,13 +14,14 @@ output:
 ### Upcoming events
 
 ### Updates
+- [IEEE Transactions on Geoscience and Remote Sensing](https://doi.org/10.1109/TGRS.2025.3620907)で論文が公開されました。
 - Arxivにて[preprint](https://arxiv.org/abs/2509.23035)を発表しました！
 - [Applied Energy](https://doi.org/10.1016/j.apenergy.2025.126631)で博士後期課程Sultanaさんのレビュー論文が採択されました🎉
 - [Remote Sensing](https://www.mdpi.com/2072-4292/17/14/2402)で修士課程村上さんの卒業論文の成果が公開されました🎉
 - [International Journal of Remote Sensing](https://doi.org/10.1080/01431161.2025.2496529)で論文が公開されました。
 - 新４年生４名が配属になりました。
 - ISRSE40 (UK)で2件の研究発表を行いました。
-- 衛星Lidarの位置補正アルゴリズム [salpa](https://github.com/naru-T/salpa) を公開しました 
+- 衛星Lidarの位置補正アルゴリズム [salpa](https://github.com/naru-T/salpa) を公開しました。 
 - Street-level imageryのデータ管理パッケージ [landlensdb](https://github.com/landlensdb/landlensdb)を公開しました。
 - 千葉大学第27回CEReS環境リモートセンシングシンポジウムで発表しました。
 - 日本リモートセンシング学会誌で論文が受理されました。
