@@ -14,6 +14,7 @@ output:
 ### Upcoming events
 
 ### Updates
+- 10/25 アーバンデータチャレンジ 2025 中間シンポジウムで基調講演を実施しました。
 - [IEEE Transactions on Geoscience and Remote Sensing](https://doi.org/10.1109/TGRS.2025.3620907)で論文が公開されました。
 - Arxivにて[preprint](https://arxiv.org/abs/2509.23035)を発表しました！
 - [Applied Energy](https://doi.org/10.1016/j.apenergy.2025.126631)で博士後期課程Sultanaさんのレビュー論文が採択されました🎉
