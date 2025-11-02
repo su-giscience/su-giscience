@@ -12,8 +12,11 @@ output:
 <br>
 
 ### Upcoming events
+- CSIS DAYS2025にて2件の学生発表を行います。
+- AGU25にて4件の発表を行います。
 
 ### Updates
+- 11/2 地理情報システム学会でM2村上さんが口頭発表・ポスター発表を行いました。
 - 10/25 アーバンデータチャレンジ 2025 中間シンポジウムで基調講演を実施しました。
 - [IEEE Transactions on Geoscience and Remote Sensing](https://doi.org/10.1109/TGRS.2025.3620907)で論文が公開されました。
 - Arxivにて[preprint](https://arxiv.org/abs/2509.23035)を発表しました！

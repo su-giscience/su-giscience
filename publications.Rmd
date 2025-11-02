@@ -39,7 +39,7 @@ title: "Publications (2021~)"
 
 # Journal papers 
 ## peer-review
-- <u>Tsutsumida, N.</u>, <u>Tanaka, T.</u> & <u>Sultana, N.</u> (2025) Automated flood detection from sentinel-1 GRD time series using Bayesian analysis for change point problems. IEEE Transactions on Geoscience and Remote Sensing. https://doi.org/10.1109/TGRS.2025.3620907
+- <u>Tsutsumida, N.</u>, <u>Tanaka, T.</u> & <u>Sultana, N.</u> (2025) Automated flood detection from sentinel-1 GRD time series using Bayesian analysis for change point problems. IEEE Transactions on Geoscience and Remote Sensing,63, 1-13.  https://doi.org/10.1109/TGRS.2025.3620907
 - <u>Sultana N.</u> and <u>Tsutsumida N.</u> (2025) A review on data-driven methods for solar energy forecasting, Applied Energy, 400, 126631. https://doi.org/10.1016/j.apenergy.2025.126631
 - <u>Murakami T.</u> and <u>Tsutsumida N.</u> (2025) Comparative Global Assessment and Optimization of LandTrendr, CCDC, and BFAST Algorithms for Enhanced Urban Land Cover Change Detection Using Landsat Time Series, Remote Sensing, 17, 2402. https://doi.org/10.3390/rs17142402.
 - <u>Tsutsumida N.</u> and Kato A. (2025) A bayesian inference approach for reducing inter-investigator variability in sampling-based land cover classification, International Journal of Remote Sensing, 1–24. https://doi.org/10.1080/01431161.2025.2496529 
@@ -93,6 +93,7 @@ title: "Publications (2021~)"
 - Kato A. and <u>Tsutsumida N.</u> Deep learning with 3D laser data to identify tree species, SilviLaser 2021.
 
 ## non peer-review
+- <u>村上 拓</u>，<u>堤田成政</u>. 埼玉県さいたま市における建物レベルのCO2排出量推定,  第34回地理情報システム学会 学術研究発表大会予稿集, 2025.
 - <u>堤田成政</u>, 吉田崇紘, 村上大輔, 中谷友樹. 土地被覆ソフト分類における空間誤差評価手法の提案,  第33回地理情報システム学会 学術研究発表大会予稿集, 2024.
 - 村上大輔, 吉田崇紘, <u>堤田成政</u>,  中谷友樹. 高速で柔軟な非ガウス時空間可変パラメータモデルとRへの実装, 第33回地理情報システム学会 学術研究発表大会予稿集, 2024.
 - 吉田崇紘, 村上大輔, <u>堤田成政</u>. 空間予測のためのモラン固有ベクトルに基づく空間組成回帰モデル, 第33回地理情報システム学会 学術研究発表大会予稿集, 2024.
@@ -122,6 +123,7 @@ https://confit.atlas.jp/guide/event-img/gisa2023/F8-04/public/pdf?type=in
 - <u>堤田成政</u>．地理的加重モデルの開発と空間データ解析，ROIS-DS 成果報告会，2021年2月．  
 
 ## others
+- 村上 大輔, 吉田 崇紘, <u>堤田 成政</u>, 中谷 友樹. 局所回帰の段階的合成に基づく空間過程モデル：住宅地価分析への応用, 第34回地理情報システム学会学術研究発表大会, 2025.
 - <u> Tsutsumida N. </u> Adjustment of Satellite LiDAR Footprint Location Using Genetic Algorithm, ISRSE40, 2025
 -  <u> Tsutsumida N. </u> and Percival J. Advancing Street-Level Image Management by landlensdb, ISRSE40, 2025.
 - <u>堤田成政</u>.  衛星Lidarフットプリントの位置補正手法の開発, 第27回CEReS環境リモートセンシングシンポジウム, 2025.

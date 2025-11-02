@@ -25,6 +25,7 @@ library(leaflet)
 PI, 准教授  
 PI, Associate Professor 
 
+
 [National Geographic Fellow](https://www.nationalgeographic.org/find-explorers/narumasa-tsutsumida)  
 [OSGeo Charter member](https://wiki.osgeo.org/wiki/User:Naru)  
 
@@ -37,7 +38,10 @@ PI, Associate Professor
 <br>
 <br>  
 
-事務補佐員 1名
+Postdoctoral researcher  
+- **Spencer Sibanda**  
+
+事務補佐員 1名  
 One administrative staff
 
 
@@ -55,7 +59,9 @@ Five undergraduate students
 
 - B4  4名
 
+One research student
 
+- 研究生　1名
 
 <br>
 
