@@ -67,8 +67,8 @@ title: "Publications (2021~)"
 
 ## non peer-review
 
-- <u> Tanaka T. </u> and <u>Tsutsumida N.</u> (2024) Sensor-Adaptive Flood Mapping with Pre-trained Multi-Modal Transformers across SAR and Multispectral Modalities, Arxiv, https://arxiv.org/abs/2509.23035
-- <u>Tsutsumida N.</u> and Kato A. (2024) A Bayesian Inference Approach for Reducing Inter-Investigator Variability in Sampling-Based Land Cover Classification, Arxiv, https://arxiv.org/abs/2403.15720
+- <u> Tanaka T. </u> and <u>Tsutsumida N.</u> (2025) Sensor-Adaptive Flood Mapping with Pre-trained Multi-Modal Transformers across SAR and Multispectral Modalities, Arxiv, https://arxiv.org/abs/2509.23035
+- <u>Tsutsumida N.</u> and Kato A. (2025) A Bayesian Inference Approach for Reducing Inter-Investigator Variability in Sampling-Based Land Cover Classification, Arxiv, https://arxiv.org/abs/2403.15720
 - <u>Chenan H.</u> and <u>Tsutsumida N.</u> (2024) A Scalable k-Medoids Clustering via Whale Optimization Algorithm. Arxiv, https://arxiv.org/abs/2408.16993
 - Doi H., Osawa T., <u>Tsutsumida N.</u> (2023) The role of large language models in ecology and biodiversity conservation: Opportunities and Challenges. Authorea. June 12, 2023. https://doi.org/10.22541/au.168657324.49460085/v1
 - <u>Funada S.</u> and <u>Tsutsumida N.</u> (2022)  Mapping cherry blossoms from geotagged street-level photos, bioRxiv, https://doi.org/10.1101/2022.01.18.476550
