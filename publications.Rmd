@@ -132,6 +132,7 @@ Bayesian change point analysis, AGU annual meeting 2025, USA, 2025.
 - <u> Tsutsumida N. </u> and Kato A. Reducing Investigator Variability with Bayesian Land Cover Classification, AGU annual meeting 2025, USA, 2025.
 - Kato A., Yamada S., Nakaji T., <u>Tsutsumida</u>, Sawada Y., Suzuki S., Nakata T. and Noda R., Forest structure assessment through in-forest drone flight with a compact LiDAR system for satellite laser, AGU annual meeting 2025, USA, 2025.
 - Percival J., Jarvis O., Pascual A., Johnson M., <u>Tsutsumida N. </u>, Reiche J., Perroy R.L., and Rodriguez-Puerta F.Seeing through the big trees: GEDI-based detection of strawberry guava invasion in Hawaiʻi,  AGU annual meeting 2025, USA, 2025.
+- 河野蓮太. Sentinel-2 データと CNN-RF による北海道の水稲収穫量予測モデルの開発, 第 22 回環境情報科学ポスターセッション, 東京, 2025.
 - 村上 大輔, 吉田 崇紘, <u>堤田 成政</u>, 中谷 友樹. 局所回帰の段階的合成に基づく空間過程モデル：住宅地価分析への応用, 第34回地理情報システム学会学術研究発表大会, 2025.
 - <u> Tsutsumida N. </u> Adjustment of Satellite LiDAR Footprint Location Using Genetic Algorithm, ISRSE40, 2025
 -  <u> Tsutsumida N. </u> and Percival J. Advancing Street-Level Image Management by landlensdb, ISRSE40, 2025.
@@ -140,7 +141,6 @@ Bayesian change point analysis, AGU annual meeting 2025, USA, 2025.
 - <u> Tanaka T. </u> and <u> Tsutsumida N.</u> Enhanced Flood Mapping Using Combined SAR and Multi-Spectral Sensor Data with a Transformer-Based Dual Encoders Model, AGU2024, USA, 2024.
 - <u> Tsutsumida N. </u> Utilizing Socially Sensed Images for Monitoring Local Landscapes, AGU2024, USA, 2024.
 - <u> Tsutsumida N. </u>, Yoshida T., Murakami D., Nakaya T. Comber A. Spatial Analysis of Errors in Fractional Land Cover Classification, AGU2024, USA, 2024.
-
 - <u>村上 拓</u>,<u>堤田 成政</u>,吉田 崇紘．埼玉県さいたま市における建物ごとのCO2排出量の推定, CSIS DAYS2024, 2024.
 - <u>張 園苡</u>, <u>堤田 成政</u>. 日本におけるウミネコの生息地分布の将来予測, CSIS DAYS2024, 2024.
 - <u>田中智大</u>,<u>堤田成政</u>.  SAR・マルチスペクトル衛星観測データの融合モデルによる洪水浸水域推定手法の提案, CSIS DAYS2024, 2024.
