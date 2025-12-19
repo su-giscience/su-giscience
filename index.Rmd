@@ -13,9 +13,9 @@ output:
 
 ### Upcoming events
 
-- AGU25にて4件の発表を行います。
-
 ### Updates
+- AGU25にて4件の発表を行いました。
+- [Scientific Reports](http://doi.org/10.1038/s41598-025-27462-3)で論文が公開されました！
 - [Array](https://doi.org/10.1016/j.array.2025.100599)で論文が公開されました！
 - Arxivにて[preprint](https://doi.org/10.48550/arXiv.2511.17600)を発表しました！
 - CSIS DAYS2025にてM2村上、加藤の学生発表を行いました。

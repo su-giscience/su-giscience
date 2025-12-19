@@ -39,6 +39,7 @@ title: "Publications (2021~)"
 
 # Journal papers 
 ## peer-review
+- Rodríguez-Veiga, P., Carreiras, J.M.B., Quegan, S., Heiskanen, J., Pellikka, P., Adhikari, H., Araza, A., Herold, M., Cartus, O., Smallman, T.L., Williams, M., Nwobi, C.J., <u>Tsutsumida, N.</u>, Ryan, C.M., Brade, T., Acil, N., Balzter, H. (2025) Loss of tropical moist broadleaf forest has turned Africa’s forests from a carbon sink into a source. Scientific Reports, 15, 41744, http://doi.org/10.1038/s41598-025-27462-3
 - <u>Chenan, H.</u>, <u>Tsutsumida, N.,</u> (2025) A scalable k-medoids clustering via whale optimization algorithm, Array, 28, 100599, https://doi.org/10.1016/j.array.2025.100599.
 - <u>Tsutsumida, N.</u>, <u>Tanaka, T.</u> and <u>Sultana, N.</u> (2025) Automated flood detection from sentinel-1 GRD time series using Bayesian analysis for change point problems. IEEE Transactions on Geoscience and Remote Sensing,63, 1-13.  https://doi.org/10.1109/TGRS.2025.3620907
 - <u>Sultana N.</u> and <u>Tsutsumida N.</u> (2025) A review on data-driven methods for solar energy forecasting, Applied Energy, 400, 126631. https://doi.org/10.1016/j.apenergy.2025.126631
@@ -126,6 +127,11 @@ https://confit.atlas.jp/guide/event-img/gisa2023/F8-04/public/pdf?type=in
 - <u>堤田成政</u>．地理的加重モデルの開発と空間データ解析，ROIS-DS 成果報告会，2021年2月．  
 
 ## others
+- <u> Tsutsumida N. </u> Operational flood inundation detection from Sentinel-1 GRD time series using
+Bayesian change point analysis, AGU annual meeting 2025, USA, 2025.
+- <u> Tsutsumida N. </u> and Kato A. Reducing Investigator Variability with Bayesian Land Cover Classification, AGU annual meeting 2025, USA, 2025.
+- Kato A., Yamada S., Nakaji T., <u>Tsutsumida</u>, Sawada Y., Suzuki S., Nakata T. and Noda R., Forest structure assessment through in-forest drone flight with a compact LiDAR system for satellite laser, AGU annual meeting 2025, USA, 2025.
+- Percival J., Jarvis O., Pascual A., Johnson M., <u>Tsutsumida N. </u>, Reiche J., Perroy R.L., and Rodriguez-Puerta F.Seeing through the big trees: GEDI-based detection of strawberry guava invasion in Hawaiʻi,  AGU annual meeting 2025, USA, 2025.
 - 村上 大輔, 吉田 崇紘, <u>堤田 成政</u>, 中谷 友樹. 局所回帰の段階的合成に基づく空間過程モデル：住宅地価分析への応用, 第34回地理情報システム学会学術研究発表大会, 2025.
 - <u> Tsutsumida N. </u> Adjustment of Satellite LiDAR Footprint Location Using Genetic Algorithm, ISRSE40, 2025
 -  <u> Tsutsumida N. </u> and Percival J. Advancing Street-Level Image Management by landlensdb, ISRSE40, 2025.
